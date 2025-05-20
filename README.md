@@ -60,7 +60,7 @@ You don't need to do all these things, but they may help extend the life of your
     * [Look to comma's #hw-unofficial channel for some suggestions.](https://discord.com/channels/469524606043160576/534139378772082749)
 * SSH in and backup the contents of `/persist/comma/id_rsa`.
   * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers.
-* Do not used magnetic cable adapters. Use purpose-built magnetic or quick release mounts as OBD-C is far more sensitive to pins connecting to the wrong thing than USB-C.
+* Do not use magnetic cable adapters. Use purpose-built magnetic or quick release mounts as OBD-C is far more sensitive to pins connecting to the wrong thing than USB-C.
 
 ## Common to all comma three family devices
 
