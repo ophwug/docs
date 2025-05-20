@@ -2,7 +2,7 @@
 
 The [comma.ai Discord][cdiscord] isn't really a good place to store _answers_ or guidance to questions about repairing and maintaining the hardware.
 Discord's search is terrible, and the content inside of it isn't accessible to search engines.
-This is an attempt to document some of the common issues and fixes that were discussed in the Discord.
+This is an attempt to document some of the common issues and fixes that were discussed in the Discord onto the public internet so that they can be found by search engines.
 
 This may also include links to other non-comma.ai Discords as well.
 
@@ -15,6 +15,8 @@ This is not an official document and is not endorsed by comma.ai.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
+- [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
