@@ -26,6 +26,7 @@ This is not an official document and is not endorsed by comma.ai.
     - [The Screen Doesn't Work Case](#the-screen-doesnt-work-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
+    - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -118,6 +119,8 @@ Symptoms:
 
 https://mr-one.cn/?post=25
 
+NOTE: If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
+
 ## comma three (C3)
 
 Released: 2021-07-31
@@ -153,6 +156,17 @@ Clean the board and remove corrosion.
 Examples:
 
 * [sparra215's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359585271041233077)
+
+### The Screen Colors Are Really Off Case
+
+Symptoms:
+
+* The screen has been replaced
+* The colors are off. Too blue.
+
+Take a look at this thread: https://discord.com/channels/469524606043160576/1354453342000255199
+
+There are numerous `color_cal` files you can install onto your C3 to fix the colors.
 
 ## comma threex (C3X)
 
