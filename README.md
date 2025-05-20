@@ -108,7 +108,7 @@ Symptoms:
 
 * Device does not power on when connected
 * Device does not stay on
-* The self-resetting fuse's resistance is high. (e.g. 43 ohms)
+* The self-resetting fuse's resistance is stuck high. (e.g. 43 ohms)
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
@@ -125,14 +125,11 @@ https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12
 * S12: MF-NSML350/12
 * V12: MF-NSML380/12
 
-Alternative:
-
-Shunt it. However, this requires changes to the Panda to work. Look, just go buy the damn fuse.
-
 Examples:
 
 * [katsu's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1368055272488308797)
 * [idnot's C3](https://discord.com/channels/469524606043160576/871838269405556736/1372254806449848412)
+* [Le Potatos's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1374310506088628235) - Alternatively shunted it. Note that this C3 might also have other issues such as a broken fan, necessitating shunting the fuse.
 
 ### The Screen Doesn't Work or is Dying Case
 
