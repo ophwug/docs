@@ -19,7 +19,7 @@ This is not an official document and is not endorsed by comma.ai.
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
-    - [It Doesn't Boot Case](#it-doesnt-boot-case)
+    - [Build Error On Boot Case](#build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
     - [The Blown Fuse Case](#the-blown-fuse-case)
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
@@ -74,7 +74,7 @@ On a long enough timeline, all devices will fail.
 
 The comma three family is the third generation of comma's hardware, and it is the first generation to be designed from the ground up by comma.ai.
 
-### It Doesn't Boot Case
+### Build Error On Boot Case
 
 Symptoms:
 
@@ -240,7 +240,7 @@ Symptoms:
 
 * Camera Malfunction Message with specific camera noted.
 
-Replace the malfunctioning camera with a new one. Make sure it matches the other cameras's type e.g. OS04C10 or AR0231. You may be able to find a broken C3 to salvage the camera from. 
+Replace the malfunctioning camera with a new one. Make sure it matches the other cameras's type e.g. OS04C10 or AR0231. You may be able to find a broken C3 to salvage the camera from.
 
 Note: This is not possible or very hard to do on a C3X as the cameras are soldered onto the main board. Hence, why this case is only in the C3 section.
 
