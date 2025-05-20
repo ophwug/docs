@@ -15,8 +15,6 @@ This is not an official document and is not endorsed by comma.ai.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
-- [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
