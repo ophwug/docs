@@ -15,17 +15,21 @@ This is not an official document and is not endorsed by comma.ai.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Discords of Note](#discords-of-note)
-- [General Notes](#general-notes)
-- [Preventative and Recommended Measures](#preventative-and-recommended-measures)
-- [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
-  - [The OS is Messed Up Case](#the-os-is-messed-up-case)
-  - [The Blown Fuse Case](#the-blown-fuse-case)
-- [comma three (C3)](#comma-three-c3)
-  - [The Swampy No Panda Case](#the-swampy-no-panda-case)
-- [comma threex (C3X)](#comma-threex-c3x)
-  - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
-  - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
+- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
+- [Table of Contents](#table-of-contents)
+  - [Discords of Note](#discords-of-note)
+  - [General Notes](#general-notes)
+  - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
+  - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
+    - [The OS is Messed Up Case](#the-os-is-messed-up-case)
+    - [The Blown Fuse Case](#the-blown-fuse-case)
+    - [The Screen Doesn't Work Case](#the-screen-doesnt-work-case)
+  - [comma three (C3)](#comma-three-c3)
+    - [The Swampy No Panda Case](#the-swampy-no-panda-case)
+  - [comma threex (C3X)](#comma-threex-c3x)
+    - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
+    - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
+- [References:](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -77,8 +81,6 @@ https://mr-one.cn/?post=24
 
 Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
-
-
 ### The Blown Fuse Case
 
 Symptoms:
@@ -106,6 +108,15 @@ Examples:
 
 * [katsu's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1368055272488308797)
 * [idnot's C3](https://discord.com/channels/469524606043160576/871838269405556736/1372254806449848412)
+
+### The Screen Doesn't Work Case
+
+Symptoms:
+
+* `openpilot` still engages
+* The screen does not turn on
+
+https://mr-one.cn/?post=25
 
 ## comma three (C3)
 
@@ -190,5 +201,11 @@ Was it possible that the SOM might not be seated properly?
 Examples:
 
 * [ceem0money's C3X](https://discord.com/channels/469524606043160576/1263672324973138033/1370771997188952116)
+
+
+# References:
+
+* https://mr-one.cn/?post=24
+* https://mr-one.cn/?post=25
 
 [cdiscord]: https://discord.comma.ai/
