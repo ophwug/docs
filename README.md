@@ -15,6 +15,8 @@ This is not an official document and is not endorsed by comma.ai.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
+- [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -179,6 +181,8 @@ The comma three is comma's first device designed from the ground up that isn't b
 It was relatively expensive. It was the first with three cameras.
 
 Variants of the comma three may include no SSD but 32GB of onboard System on Module storage, 256GB of NVME SSD storage, or 1TB of NVME SSD storage.
+
+The only OEM SSD supported is the [Samsung 980 Non-Pro SSD](https://www.amazon.com/Technology-Intelligent-Turbowrite-MZ-V8V1T0B-AM/dp/B08V83JZH4?th=1). Other SSDs may not work or have other weird unsupported issues; embedded devices are much more picky about SSDs than a desktop or laptop.
 
 Variations:
 
