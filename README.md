@@ -11,6 +11,7 @@ This may also include links to other non-comma.ai Discords as well.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Other Discords](#other-discords)
 - [C3](#c3)
   - [Common Issues](#common-issues)
   - [Fixes](#fixes)
