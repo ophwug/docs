@@ -29,6 +29,7 @@ This is not an official document and is not endorsed by comma.ai.
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
     - [The Burned MOSFET Case](#the-burned-mosfet-case)
     - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
+    - [NVMe drive not mounted](#nvme-drive-not-mounted)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -247,6 +248,20 @@ Note: This is not possible or very hard to do on a C3X as the cameras are solder
 Examples:
 
 * [sparra's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359555578606780608)
+
+### NVMe drive not mounted
+
+Symptoms:
+
+* Red error message saying the NVMe drive is not mounted.
+
+![Image](https://github.com/user-attachments/assets/17e62a61-4591-499c-9084-87fe75720980)
+
+Reseat the NVMe drive and clean the connectors with appropriate electronic contact cleaning solution.
+
+Examples:
+
+* [mikejake's C3](https://discord.com/channels/469524606043160576/871838269405556736/1194379197712441364)
 
 ## comma threex (C3X)
 
