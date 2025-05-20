@@ -146,6 +146,7 @@ One reference: https://mr-one.cn/?post=25
 
 * If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
 * Comma does not sell replacement screens for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
+* You may want to check out [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case) as well.
 
 ### Fan Death Case
 
