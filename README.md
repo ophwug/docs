@@ -15,8 +15,6 @@ This is not an official document and is not endorsed by comma.ai.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
-- [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -30,6 +28,7 @@ This is not an official document and is not endorsed by comma.ai.
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
     - [The Burned MOSFET Case](#the-burned-mosfet-case)
+    - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -234,6 +233,20 @@ Replace burned MOSFET with a new one.
 Examples:
 
 * [An Brazillian Acquaintance of Ale Sato's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359678982207045672)
+
+### The Camera Malfunction Case (C3)
+
+Symptoms:
+
+* Camera Malfunction Message with specific camera noted.
+
+Replace the malfunctioning camera with a new one. Make sure it matches the other cameras's type e.g. OS04C10 or AR0231. You may be able to find a broken C3 to salvage the camera from. 
+
+Note: This is not possible or very hard to do on a C3X as the cameras are soldered onto the main board. Hence, why this case is only in the C3 section.
+
+Examples:
+
+* [sparra's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359555578606780608)
 
 ## comma threex (C3X)
 
