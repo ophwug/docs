@@ -23,6 +23,7 @@ This is not an official document and is not endorsed by comma.ai.
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
     - [The Blown Fuse Case](#the-blown-fuse-case)
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
+    - [Fan Death Case](#fan-death-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -145,6 +146,27 @@ One reference: https://mr-one.cn/?post=25
 * If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
 * Comma does not sell replacement screens for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
 
+### Fan Death Case
+
+Symptoms:
+
+* The device overheats
+* The fan makes horrible noises
+* The fan does not spin
+
+Not the Korean kind of fan death.
+
+Comma unfortunately does not sell replacement fans. Users have been replacing them with various fans to differing success. OEM part unknown.
+
+Examples:
+
+* [redmapleleaf's C3, Noctua](https://discord.com/channels/469524606043160576/871838269405556736/1328667993047040010)
+* [Pandus's C3, Scavenged ZOTAC fan](https://discord.com/channels/469524606043160576/871838269405556736/1364305247723589734)
+
+Reference:
+
+* https://discord.com/channels/469524606043160576/871838269405556736/1350189845758218417
+
 ## comma three (C3)
 
 Released: 2021-07-31
@@ -203,7 +225,7 @@ Symptoms:
 
 <img width="403" alt="Image" src="https://github.com/user-attachments/assets/d2b22aaa-6be4-45a0-900d-fe59ba6cb919" />
 
-Replace burned MOSFET with a new one. 
+Replace burned MOSFET with a new one.
 
 Examples:
 
