@@ -152,6 +152,8 @@ Symptoms:
 
 Device was in extremely humid conditions and corrosion formed on the Panda's MCU.
 
+![Image](https://github.com/user-attachments/assets/41717469-bcf0-4eec-88c1-a0da962cc76f)
+
 Clean the board and remove corrosion.
 
 Examples:
@@ -162,12 +164,12 @@ Examples:
 
 Symptoms:
 
-* The screen has been replaced
+* The screen has been replaced from factory.
 * The colors are off. Too blue.
 
 Take a look at this thread: https://discord.com/channels/469524606043160576/1354453342000255199
 
-There are numerous `color_cal` files you can install onto your C3 to fix the colors.
+There are numerous `color_cal` files you can install onto your C3 to fix the colors. You may also have success just trying a few different ones if you don't have an official comma.ai screen replacement.
 
 ## comma threex (C3X)
 
