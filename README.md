@@ -54,7 +54,7 @@ You must join the server with an invite linked for links to channels to work.
 
 You don't need to do all these things, but they may help extend the life of your device or preserve access.
 
-The comma devices are not invincible. They follow the bathtub curve of failure.
+The comma devices are not invincible. They follow the bathtub curve of failure, just like humans.
 
 ![Bathtub](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Bathtub_curve.svg/960px-Bathtub_curve.svg.png)
 
