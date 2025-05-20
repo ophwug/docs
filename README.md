@@ -26,6 +26,7 @@ This is not an official document and is not endorsed by comma.ai.
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
+    - [The Burned MOSFET Case](#the-burned-mosfet-case)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -192,6 +193,21 @@ Symptoms:
 Take a look at this thread: https://discord.com/channels/469524606043160576/1354453342000255199
 
 There are numerous `color_cal` files you can install onto your C3 to fix the colors. You may also have success just trying a few different ones if you don't have an official comma.ai screen replacement.
+
+### The Burned MOSFET Case
+
+Symptoms:
+
+* The screen does not power on after being replaced.
+* A burned MOSFET is visible on the board.
+
+<img width="403" alt="Image" src="https://github.com/user-attachments/assets/d2b22aaa-6be4-45a0-900d-fe59ba6cb919" />
+
+Replace burned MOSFET with a new one. 
+
+Examples:
+
+* [An Brazillian Acquaintance of Ale Sato's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359678982207045672)
 
 ## comma threex (C3X)
 
