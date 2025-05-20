@@ -21,9 +21,10 @@ This is not an official document and is not endorsed by comma.ai.
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
+    - [It Doesn't Boot Case](#it-doesnt-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
     - [The Blown Fuse Case](#the-blown-fuse-case)
-    - [The Screen Doesn't Work Case](#the-screen-doesnt-work-case)
+    - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -53,22 +54,36 @@ You must join the server with an invite linked for links to channels to work.
 
 You don't need to do all these things, but they may help extend the life of your device or preserve access.
 
+The comma devices are not invincible. They follow the bathtub curve of failure.
+
+![Bathtub](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Bathtub_curve.svg/960px-Bathtub_curve.svg.png)
+
+On a long enough timeline, all devices will fail.
+
 * Have a way remove the device from the car when not in use or in high heat.
   * Unfortunately, the stock comma hardware is not designed to be removed as it is meant to be a permanent installation. Removing the device often may cause damage to the OBD-C (USB-like) cable in particular.
   * Use a magnetic or quick-remove mount.
     * These will help preserve the integrity of the cables and connectors.
     * [Look to comma's #hw-unofficial channel for some suggestions.](https://discord.com/channels/469524606043160576/534139378772082749)
 * SSH in and backup the contents of `/persist/comma/id_rsa`.
-  * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers.
+  * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers.**
 * Do not use magnetic cable adapters. Use purpose-built magnetic or quick release mounts as OBD-C is far more sensitive to pins connecting to the wrong thing than USB-C.
 
 ## Common to all comma three family devices
 
 The comma three family is the third generation of comma's hardware, and it is the first generation to be designed from the ground up by comma.ai.
 
-### The OS is Messed Up Case
+### It Doesn't Boot Case
 
-**DO THIS FIRST BEFORE ANYTHING ELSE. RULE OUT SOFTWARE.**
+Symptoms:
+
+* You get some sort of build error on boot.
+
+![Image](https://github.com/user-attachments/assets/6bd09b68-c379-4451-802b-05ad57fcf9bb)
+
+This can happen on comma's branches or forks. Try resetting by tapping the screen madly on boot and selecting "Reset". Reinstall openpilot.
+
+### The OS is Messed Up Case
 
 Symptoms:
 
@@ -77,7 +92,7 @@ Symptoms:
 
 Reflash with https://flash.comma.ai/.
 
-https://flash.comma.ai may not work sometimes. In that case, try using this alternative from Mr. One, a C3 clone maker:
+https://flash.comma.ai may not work sometimes. In that case, try using this Windows-specific and Qualcomm software alternative from Mr. One, a C3 clone maker:
 
 https://mr-one.cn/?post=24
 
@@ -106,21 +121,30 @@ https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12
 * S12: MF-NSML350/12
 * V12: MF-NSML380/12
 
+Alternative:
+
+Shunt it. However, this requires changes to the Panda to work. Look, just go buy the damn fuse.
+
 Examples:
 
 * [katsu's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1368055272488308797)
 * [idnot's C3](https://discord.com/channels/469524606043160576/871838269405556736/1372254806449848412)
 
-### The Screen Doesn't Work Case
+### The Screen Doesn't Work or is Dying Case
 
 Symptoms:
 
 * `openpilot` still engages
 * The screen does not turn on
 
-https://mr-one.cn/?post=25
+![Image](https://github.com/user-attachments/assets/91e0bcc8-f625-4640-8aeb-2a227f18d523)
 
-NOTE: If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
+Replace the Screen.
+
+One reference: https://mr-one.cn/?post=25
+
+* If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
+* Comma does not sell replacement screens for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
 
 ## comma three (C3)
 
