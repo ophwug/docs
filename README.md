@@ -268,20 +268,23 @@ Examples:
 
 Released: 2023-10-12
 
-https://blog.comma.ai/comma-three-press-release/
+https://blog.comma.ai/comma3X/
 
-The comma threex is comma's first major hardware revision of the comma three. It has gone through a major cost reduction and is now cheaper to manufacture.
+The comma 3X is comma's first major hardware revision of the comma three. It has gone through a major cost reduction and is now cheaper to manufacture.
 
 * Cameras are no longer on separate boards but are now soldered onto the main board.
 * The NVMe SSD has been removed in favor of 128GB of onboard storage.
 * Speakers have been overhauled to be two speakers.
 * It is significantly lighter.
 * It uses a mount that's smaller than the comma three's mount.
-* A Red Panda is now included with the device, which now includes built-in CAN-FD support.
+* A Red Panda is now included with the device, which now includes built-in CAN-FD support. Unlike the Red Panda, it is also a "no chiplet" design.
+* Camera changed to OX03C10
 
 Variations:
 
-* ?
+* Real-Time-Clock removed and not populated, to be filled in by GPS.
+* comma switched from [off-the-shelf Thundercomm D845 SOM](https://www.thundercomm.com/product/d845-som/) to their [in-house custom LightningHard SOM.](https://fcc.report/FCC-ID/2BFC6-LIGHTNINGH)
+
 
 ### The No Panda on C3X Case (Software)
 
