@@ -25,7 +25,7 @@ This is not an official document and is not endorsed by comma.ai.
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
     - [The Blown Fuse Case](#the-blown-fuse-case)
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
-    - [Fan Death Case](#fan-death-case)
+    - [The Fan Death Case](#the-fan-death-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -148,7 +148,7 @@ One reference: https://mr-one.cn/?post=25
 * Comma does not sell replacement screens for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
 * You may want to check out [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case) as well.
 
-### Fan Death Case
+### The Fan Death Case
 
 Symptoms:
 
@@ -156,9 +156,9 @@ Symptoms:
 * The fan makes horrible noises
 * The fan does not spin
 
-Not the Korean kind of fan death.
+Not the Korean kind of fan death!
 
-Comma unfortunately does not sell replacement fans. Users have been replacing them with various fans to differing success. OEM part unknown.
+Comma unfortunately does not sell replacement fans by themselves. Users have been replacing them with various fans to differing success. OEM part may be from ADDA, not sure if off the shelf.
 
 Examples:
 
@@ -168,6 +168,7 @@ Examples:
 Reference:
 
 * https://discord.com/channels/469524606043160576/871838269405556736/1350189845758218417
+* comma: https://discord.com/channels/469524606043160576/871838269405556736/1374440250486554644
 
 ## comma three (C3)
 
