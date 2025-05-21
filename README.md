@@ -145,6 +145,11 @@ Symptoms:
 
 * `openpilot` still engages
 * The screen does not turn on
+* purple splotches on the screen
+
+Non-Symptoms:
+
+* Screen tearing - [This is a currently a software issue.](https://github.com/commaai/openpilot/issues?q=is%3Aissue%20state%3Aopen%20tearing)
 
 ![Image](https://github.com/user-attachments/assets/91e0bcc8-f625-4640-8aeb-2a227f18d523)
 
