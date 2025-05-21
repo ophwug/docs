@@ -20,6 +20,7 @@ This is not an official document and is not endorsed by comma.ai.
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
+  - [Common to all comma devices](#common-to-all-comma-devices)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [Build Error On Boot Case](#build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
@@ -72,6 +73,15 @@ On a long enough timeline, all devices will fail.
 * SSH in and backup the contents of `/persist/comma/id_rsa`.
   * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers.**
 * Do not use magnetic cable adapters. Use purpose-built magnetic or quick release mounts as OBD-C is far more sensitive to pins connecting to the wrong thing than USB-C.
+
+## Common to all comma devices
+
+comma.ai keeps public documentation of some of their hardware at https://github.com/commaai/hardware/ .
+
+A non-exhaustive list of stuff there:
+
+* Pinouts for harnesses
+* 3D STLs for mounts
 
 ## Common to all comma three family devices
 
