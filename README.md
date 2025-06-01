@@ -126,6 +126,8 @@ It is located near the ODB-C port and next to the SOM. In the image below, it is
 
 To fix this issue, you will need to replace the blown self-resetting fuse with a new one.
 
+There may also be other fuses like this, not just that circled red one. It should have the same markings.
+
 Two known variants of the fuse exist:
 
 https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12
