@@ -43,7 +43,7 @@ This is not an official document and is not endorsed by comma.ai.
 There may be links to Discord conversations.
 You must join the server with an invite linked for links to channels to work.
 
-* [comma.ai Discord (If unmarked and a link to Discord, it will be this))](https://discord.comma.ai/)
+* [comma.ai Discord (If unmarked and a link to Discord, it will be this)](https://discord.comma.ai/)
   * [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736)
 * [openpilot enthusiasts Discord (OPC), a degenerate community offshoot Discord](https://discord.gg/rRB7eDKccy)
 
