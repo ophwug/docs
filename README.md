@@ -250,7 +250,7 @@ Replace burned MOSFET with a new one.
 
 Examples:
 
-* [An Brazillian Acquaintance of Ale Sato's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359678982207045672)
+* [A Brazilian acquaintance of Ale Sato's C3.](https://discord.com/channels/469524606043160576/871838269405556736/1359678982207045672)
 
 ### The Camera Malfunction Case (C3)
 
