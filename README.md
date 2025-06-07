@@ -117,7 +117,7 @@ Symptoms:
 
 * Device does not power on when connected
 * Device does not stay on
-* The self-resetting fuse's resistance is stuck high. (e.g. 43 ohms)
+* The self-resetting fuse's resistance is stuck high. (e.g. 43 ohms, when it should be about 0.02 at most from the datasheet) 
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
