@@ -19,6 +19,7 @@ This is not an official document and is not endorsed by comma.ai.
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
   - [Common to all comma devices](#common-to-all-comma-devices)
+    - [Reverse Engineered Community Clones and Alternative Hardware Documentation](#reverse-engineered-community-clones-and-alternative-hardware-documentation)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [Build Error On Boot Case](#build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
@@ -81,6 +82,14 @@ A non-exhaustive list of stuff there:
 
 * Pinouts for harnesses
 * 3D STLs for mounts
+
+### Reverse Engineered Community Clones and Alternative Hardware Documentation
+
+This is not official documentation but they may be close enough for reference.
+
+* https://github.com/lukasloetkolben/OpenpilotHardware
+  * [Harness Box v1](https://github.com/lukasloetkolben/OpenpilotHardware/tree/main/HarnessBox)
+  * And more!
 
 ## Common to all comma three family devices
 
