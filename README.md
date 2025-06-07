@@ -15,6 +15,8 @@ This is not an official document and is not endorsed by comma.ai.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
+  - [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -117,7 +119,7 @@ Symptoms:
 
 * Device does not power on when connected
 * Device does not stay on
-* The self-resetting fuse's resistance is stuck high. (e.g. 43 ohms, when it should be about 0.02 at most from the datasheet) 
+* The self-resetting fuse's resistance is stuck high. (e.g. 43 ohms, when it should be about 0.02 at most from the datasheet(s))
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
@@ -129,12 +131,15 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 
 There may also be other fuses like this, not just that circled red one. It should have the same markings.
 
-Two known variants of the fuse exist:
+Known variants of the fuse exist:
 
 https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12
 
+https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-resettable-pptc-devices/surface-mount-polyswitch-resettable-pptc-devices/low-rho-smd/1206l350-12sl
+
 * S12: MF-NSML350/12
 * V12: MF-NSML380/12
+* CT: 1206L350/12SL
 
 Examples:
 
