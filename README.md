@@ -82,6 +82,7 @@ A non-exhaustive list of stuff there:
 
 * Pinouts for harnesses
 * 3D STLs for mounts
+* The schematic for harness box v3.
 
 ### Reverse Engineered Community Clones and Alternative Hardware Documentation
 
