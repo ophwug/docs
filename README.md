@@ -320,7 +320,7 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
 
 Evolutions:
 
-* Real-Time-Clock removed and not populated, to be filled in by GPS.
+* Real-Time-Clock removed and not populated, to be filled in by GPS soon after boots.
 * comma switched from [off-the-shelf Thundercomm D845 SOM](https://www.thundercomm.com/product/d845-som/) to their [in-house custom LightningHard SOM.](https://fcc.report/FCC-ID/2BFC6-LIGHTNINGH)
 
 
