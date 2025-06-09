@@ -82,7 +82,8 @@ A non-exhaustive list of stuff there:
 
 * Pinouts for harnesses
 * 3D STLs for mounts
-* The schematic for harness box v3.
+  * 3X: https://github.com/commaai/hardware/tree/master/comma_3X/mount 
+* [The schematic for harness box v3.](https://github.com/commaai/hardware/blob/master/harness/v3/Harness_Box.pdf)
 
 ### Reverse Engineered Community Clones and Alternative Hardware Documentation
 
