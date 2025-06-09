@@ -15,10 +15,13 @@ This is not an official document and is not endorsed by comma.ai. However, it is
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
+  - [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
   - [Common to all comma devices](#common-to-all-comma-devices)
+    - [Official Hardware Documentation](#official-hardware-documentation)
     - [Reverse Engineered Community Clones and Alternative Hardware Documentation](#reverse-engineered-community-clones-and-alternative-hardware-documentation)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [Build Error On Boot Case](#build-error-on-boot-case)
@@ -77,13 +80,15 @@ On a long enough timeline, all devices will fail.
 
 ## Common to all comma devices
 
+### Official Hardware Documentation
+
 comma.ai keeps public documentation of some of their hardware at https://github.com/commaai/hardware/ .
 
 A non-exhaustive list of stuff there:
 
 * Pinouts for harnesses
 * 3D STLs for mounts
-  * 3X: https://github.com/commaai/hardware/tree/master/comma_3X/mount 
+  * 3X: https://github.com/commaai/hardware/tree/master/comma_3X/mount
 * [The schematic for harness box v3.](https://github.com/commaai/hardware/blob/master/harness/v3/Harness_Box.pdf)
 
 ### Reverse Engineered Community Clones and Alternative Hardware Documentation
