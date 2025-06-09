@@ -59,6 +59,7 @@ You must join the server with an invite linked for links to channels to work.
 * A lot of the information in this document is based on user experience and may not be accurate.
 * Always install stock or comma openpilot first to make sure the issue is not software related as a base.
 * Mobile Repair and Video Game hardware repair shops may be able to help with hardware repairs.
+* Power down the device for 30 minutes before assessing if the issue is persistent.
 * Even if you plan to contract out the repair, you should own a multimeter. They're so handy not just for this but also other home improvement and domestic projects.
 
 ## Preventative and Recommended Measures
