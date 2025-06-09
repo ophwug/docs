@@ -8,7 +8,7 @@ This may also include links to other non-comma.ai Discords as well.
 
 The format of this document is of a case-by-case basis. Please feel free to add your own cases, pull requests, and solutions.
 
-This is not an official document and is not endorsed by comma.ai.
+This is not an official document and is not endorsed by comma.ai. However, it is supported by users and readers like you so please do feel free to make suggestions and submit pull requests!
 
 ## Table of Contents
 
