@@ -140,6 +140,22 @@ Symptoms:
 * Device does not stay on
 * The self-resetting fuse's resistance is stuck high. (e.g. 43 ohms, when it should be about 0.02 at most from the datasheet(s))
 
+> [!TIP]
+> **Measuring Fuse Resistance with a Multimeter**
+>
+> For those new to using a multimeter, here's how to check a fuse:
+>
+> 1.  **Set your multimeter:** Turn the dial to the resistance setting (often marked with the Omega symbol: Ω). Start with the lowest resistance range if your multimeter isn't auto-ranging.
+> 2.  **Measure lead resistance:** Before testing the fuse, touch the tips of your multimeter probes firmly together. The multimeter should display a very low resistance value (e.g., 0.1-0.5 Ω). This is the internal resistance of your multimeter and leads. Note this value down.
+> 3.  **Isolate the fuse:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage.
+> 4.  **Measure the fuse:** Touch one probe to each end of the fuse.
+> 5.  **Interpret the reading:**
+>     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2.
+>     *   **Blown Fuse:** The multimeter will show a very high resistance, often "OL" (Over Limit), "Open," or "∞" (infinity), indicating the fuse's internal wire is broken.
+>
+> Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
+>
+
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
 It is located near the ODB-C port and next to the SOM. In the image below, it is circled in red.
