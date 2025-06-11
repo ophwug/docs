@@ -94,6 +94,7 @@ A non-exhaustive list of stuff there:
 * 3D STLs for mounts
   * 3X: https://github.com/commaai/hardware/tree/master/comma_3X/mount
 * [The schematic for harness box v3.](https://github.com/commaai/hardware/blob/master/harness/v3/Harness_Box.pdf)
+  * Solid State Relays
 
 ### Reverse Engineered Community Clones and Alternative Hardware Documentation
 
@@ -101,6 +102,7 @@ This is not official documentation but they may be close enough for reference.
 
 * https://github.com/lukasloetkolben/OpenpilotHardware
   * [Harness Box v1](https://github.com/lukasloetkolben/OpenpilotHardware/tree/main/HarnessBox)
+    *  Physical Relays
   * And more!
 
 ## Common to all comma three family devices
