@@ -237,14 +237,14 @@ https://blog.comma.ai/comma-three-press-release/
 The comma three is comma's first device designed from the ground up that isn't based upon a hacked-up cell phone.
 It was relatively expensive. It was the first with three cameras.
 
-Variants of the comma three may include no SSD but 32GB of onboard System on Module storage, 256GB of NVME SSD storage, or 1TB of NVME SSD storage.
+Variants of the comma three may include no SSD but 32GB of onboard eMMC System on Module storage, 256GB of NVME SSD storage, or 1TB of NVME SSD storage.
 
 The only OEM SSD supported is the [Samsung 980 Non-Pro SSD](https://www.amazon.com/Technology-Intelligent-Turbowrite-MZ-V8V1T0B-AM/dp/B08V83JZH4?th=1). Other SSDs may not work or have other weird unsupported issues; embedded devices are much more picky about SSDs than a desktop or laptop.
 
 Evolutions:
 
 * Early C3 had dedicated u-blox GPS module
-* 32GB of onboard storage with no SSDs were introduced later
+* 32GB of onboard eMMC storage with no SSDs were introduced later
 * Panda was changed from an internal USB connection to a SPI connection
 * Cameras were changed from AR0231 to OS04C10
 
@@ -329,7 +329,7 @@ https://blog.comma.ai/comma3X/
 The comma 3X is comma's first major hardware revision of the comma three. It has gone through a major cost reduction and is now cheaper to manufacture.
 
 * Cameras are no longer on separate boards but are now soldered onto the main board.
-* The NVMe SSD has been removed in favor of 128GB of onboard storage.
+* The NVMe SSD has been removed in favor of 128GB of onboard eMMC storage.
 * Speakers have been overhauled to be two speakers.
 * It is significantly lighter.
 * It uses a mount that's smaller than the comma three's mount.
