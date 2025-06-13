@@ -59,7 +59,7 @@ You must join the server with an invite linked for links to channels to work.
 * If it is out of warranty, the rough cost to repair from comma has generally been reported to be $500. Of course, your quote may vary.
 * A lot of the information in this document is based on user experience and may not be accurate.
 * Always install stock or comma openpilot first to make sure the issue is not software related as a base.
-* Mobile Repair and Video Game hardware repair shops may be able to help with hardware repairs.
+* Mobile Repair, Video Game hardware repair shops, and PCB electronics repair places may be able to help with hardware repairs. Your mileage may vary and to be honest, the devices aren't common but with specific instructions, they might be amenable.
 * Unplug and power down the device for 30 minutes before assessing if the issue is persistent.
 * Even if you plan to contract out the repair, you should own a multimeter. They're so handy not just for this but also other home improvement and domestic projects.
 * If you're disassembling something yourself, make sure to have a good clean workspace to keep track of all parts you take apart and to be able to put everything back together without missing pieces. This may mean screw mats and small containers. 
