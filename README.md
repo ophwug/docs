@@ -62,6 +62,7 @@ You must join the server with an invite linked for links to channels to work.
 * Mobile Repair and Video Game hardware repair shops may be able to help with hardware repairs.
 * Unplug and power down the device for 30 minutes before assessing if the issue is persistent.
 * Even if you plan to contract out the repair, you should own a multimeter. They're so handy not just for this but also other home improvement and domestic projects.
+* If you're disassembling something yourself, make sure to have a good clean workspace to keep track of all parts you take apart and to be able to put everything back together without missing pieces. This may mean screw mats and small containers. 
 
 ## Preventative and Recommended Measures
 
