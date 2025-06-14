@@ -141,7 +141,7 @@ Symptoms:
 
 * Device does not power on when connected
 * Device does not stay on
-* The self-resetting fuse's resistance is stuck high. (e.g. 43 ohms, when it should be about 0.02 at most from the datasheet(s))
+* The self-resetting fuse's resistance is stuck high. (e.g. 0.5-43 ohms, when it should be about 0.02 at most from the datasheet(s))
 
 > [!TIP]
 > **Measuring Fuse Resistance with a Multimeter**
