@@ -62,7 +62,7 @@ You must join the server with an invite linked for links to channels to work.
 * Mobile Repair, Video Game hardware repair shops, and PCB electronics repair places may be able to help with hardware repairs. Your mileage may vary and to be honest, the devices aren't common but with specific instructions, they might be amenable.
 * Unplug and power down the device for 30 minutes before assessing if the issue is persistent.
 * Even if you plan to contract out the repair, you should own a multimeter. They're so handy not just for this but also other home improvement and domestic projects.
-* If you're disassembling something yourself, make sure to have a good clean workspace to keep track of all parts you take apart and to be able to put everything back together without missing pieces. This may mean screw mats and small containers. 
+* If you're disassembling something yourself, make sure to have a good clean workspace to keep track of all parts you take apart and to be able to put everything back together without missing pieces. This may mean screw mats and small containers.
 
 ## Preventative and Recommended Measures
 
@@ -186,7 +186,7 @@ Examples:
 * [Le Potatos's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1374310506088628235) - Alternatively shunted it. Note that this C3 might also have other issues such as a broken fan, necessitating shunting the fuse.
 * [Nabeel's C3](https://discord.com/channels/469524606043160576/871838269405556736/1382502275460890755) - Also possibly caused by a broken ODB-C cable.
 * [wferr's C3](https://discord.com/channels/469524606043160576/871838269405556736/1383249237739049080)
-
+  
 ### The Screen Doesn't Work or is Dying Case
 
 Symptoms:
