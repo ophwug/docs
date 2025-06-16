@@ -56,7 +56,7 @@ You must join the server with an invite linked for links to channels to work.
 ## General Notes
 
 * If your device is under warranty, [you should contact comma.ai first.](https://comma.ai/support)
-* If it is out of warranty, the rough cost to repair from comma has generally been reported to be $500. Of course, your quote may vary.
+* If it is out of warranty, the rough cost to repair from comma [has generally been reported to be $500](https://comma.ai/shop/comma-3x-out-of-warranty-repair). Of course, your quote may vary.
 * A lot of the information in this document is based on user experience and may not be accurate.
 * Always install stock or comma openpilot first to make sure the issue is not software related as a base.
 * Mobile Repair, Video Game hardware repair shops, and PCB electronics repair places may be able to help with hardware repairs. Your mileage may vary and to be honest, the devices aren't common but with specific instructions, they might be amenable.
