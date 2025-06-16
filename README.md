@@ -142,6 +142,7 @@ Symptoms:
 * Device does not power on when connected
 * Device does not stay on
 * The self-resetting fuse's resistance is stuck high. (e.g. 0.5-43 ohms, when it should be about 0.02 at most from the datasheet(s))
+* There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 
 > [!TIP]
 > **Measuring Fuse Resistance with a Multimeter**
@@ -158,7 +159,7 @@ Symptoms:
 >
 > Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
 >
-> Note: These instructions may not cover all fuse issues, such as those that might fail only if temperature is applied or under load.
+> Note: These instructions may not cover all fuse issues, such as those that might fail only if temperature is elevated or under load.
 > Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced techniques.
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
@@ -167,11 +168,13 @@ It is located near the ODB-C port and next to the SOM. In the image below, it is
 
 ![Fuse](https://github.com/user-attachments/assets/9639cd26-faea-419a-b088-f8183c5b0a4f)
 
+Resolution:
+
 To fix this issue, you will need to replace the blown self-resetting fuse with a new one.
 
-There may also be other fuses like this, not just that circled red one. It should have the same markings.
+There may also be other fuses like this nearby, not just that circled red one. It should have the same markings.
 
-Known variants of the fuse exist:
+Known variants of the fuse to exist:
 
 https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12
 
