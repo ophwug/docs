@@ -160,7 +160,7 @@ Symptoms:
 > Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
 >
 > Note: These instructions may not cover all fuse issues, such as those that might fail only if temperature is elevated or under load.
-> Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced techniques.
+> Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced and more dangerous techniques.
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
