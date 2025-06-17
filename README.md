@@ -46,12 +46,15 @@ Also, please do report if the remedies work or don't work.
 
 ## Discords of Note
 
-There may be links to Discord conversations.
+There will be links to Discord conversations.
+
 You must join the server with an invite linked for links to channels to work.
 
 * [comma.ai Discord (If unmarked and a link to Discord, it will be this)](https://discord.comma.ai/)
   * [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736)
 * [openpilot enthusiasts Discord (OPC), a degenerate community offshoot Discord](https://discord.gg/rRB7eDKccy)
+
+This document is generally discussed here and there in [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736). However, you're welcome to just make and discuss in the [GitHub issues](https://github.com/ophwug/docs/issues) of this repository too. 
 
 ## General Notes
 
