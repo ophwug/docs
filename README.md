@@ -17,6 +17,8 @@ Also, please do report if the remedies work or don't work.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
+  - [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -127,6 +129,7 @@ OBD-C is a comma.ai standard that uses a USB-C cable between the comma harness b
   * "CAN Bus Error"
   * "CAN Bus Disconnected"
 * Bad Fuse (See [The Blown Fuse Case](#the-blown-fuse-case) for more details)
+* Power issues are usually **not** a Bad OBD-C Cable Case, as the cable has 4 pairs of redundant pairs of wires for power and ground. While of course some pairs could be broken, that cable can probably still be considered relatively good and usable. If the device is not powering on though, it is likely a blown fuse.
 
 ![Image](https://github.com/user-attachments/assets/405dae81-8af7-4d77-bb90-08535a72d878)
 
