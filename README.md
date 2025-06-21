@@ -302,6 +302,8 @@ Not the Korean kind of fan death!
 
 Comma unfortunately does not sell replacement fans by themselves. Users have been replacing them with various fans to differing success. OEM part may be from ADDA, not sure if off the shelf.
 
+Mr. One sells a replacement fan for the C3 at https://oneclone.net/product/c3-heatsink-replacement-parts/
+
 **Examples**:
 
 * [redmapleleaf's C3, Noctua](https://discord.com/channels/469524606043160576/871838269405556736/1328667993047040010)
