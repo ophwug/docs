@@ -27,6 +27,7 @@ Also, please do report if the remedies work or don't work.
     - [Reverse Engineered Community Clones and Alternative Hardware Documentation](#reverse-engineered-community-clones-and-alternative-hardware-documentation)
   - [Common to all comma devices](#common-to-all-comma-devices)
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
+  - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [Build Error On Boot Case](#build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
@@ -169,6 +170,14 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * https://www.youtube.com/watch?v=2NPTUW2f6Os
 * [0pointjd's C3](https://discord.com/channels/469524606043160576/524592892627517450/1330161284049535036)
 
+
+## Common to all comma two family devices
+
+> [!NOTE]
+> If you're starting out in this community, you should get a comma three or similar device as the communities around openpilot have moved on to the comma three family of devices for ongoing, current support, and development.
+
+> [!NOTE]
+> Unfortunately, this section needs to be written. If you have any cases that you would like to add, please do so in a pull request or issue.
 
 ## Common to all comma three family devices
 
