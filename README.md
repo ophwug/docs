@@ -141,7 +141,7 @@ Note that Nabeel's case only manifested itself when the cable is moving a bit an
 
 OBD-C Cable Pinout: https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf
 
-Nearly all pins are expected to be connected. There is not much redundancy in the OBD-C cable, so if it is partially damaged, the device will not work properly. The lines are rather small and thin.
+Nearly all pins are expected to be connected. There is not much redundancy for data lines in the OBD-C cable, so if it is partially damaged, the device will not work properly. The lines are also rather small and thin.
 
 Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the warnings on it to never plug it into a real device):
 
