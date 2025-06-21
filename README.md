@@ -154,7 +154,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * Vendors:
     * https://comma.ai/shop/obd-c-cable
     * https://oneclone.net/product/obd-c-cable-for-c3/
-  * If you can't find a replacement ODB-C cable, but need one in a pinch very quickly you can use a USB 3.1 Gen 2 cable or higher (Thunderbolt 3 or 4) as a subsistute. These can be found at big box stores or online.
+  * If you can't find a replacement ODB-C cable, but need one in a pinch very quickly you can use a USB 3.1 Gen 2 cable or higher (Thunderbolt 3 or 4) as a substitute. These can be found at big box stores or online.
 * If your installation of the ODB-C cable is pinched, use a USB 3.1 Gen 2 extension cable so it can be routed in a way that is not pinched under the cover.
   * https://amzn.to/4n7BZ8V
     * This one has variants
