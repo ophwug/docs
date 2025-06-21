@@ -214,7 +214,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
 * Device does not power on when connected
 * Device does not stay on
-* The self-resetting fuse's resistance is stuck high. (e.g. 0.5-43 ohms, when it should be about 0.02 at most from the datasheet(s))
+* The self-resetting fuse's resistance is stuck high. (e.g. 0.5-43 ohms, when it should be about 0.02 ohms at most from the datasheet(s))
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 
 > [!TIP]
