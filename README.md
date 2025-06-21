@@ -127,6 +127,7 @@ ODB-C is a comma.ai standard that uses a USB-C cable between the comma harness b
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
   * "CAN Bus Error"
+  * "CAN Bus Disconnected"
 * Bad Fuse (See [The Blown Fuse Case](#the-blown-fuse-case) for more details)
 
 ![Image](https://github.com/user-attachments/assets/405dae81-8af7-4d77-bb90-08535a72d878)
@@ -135,7 +136,7 @@ Check the ODB-C cable for visible and invisible damage.
 
 https://www.youtube.com/watch?v=2NPTUW2f6Os , courtesy of Nabeel.
 
-Note that this case only manifested itself when the cable is moving a bit and in a vehicle, that is very common.
+Note that Nabeel's case only manifested itself when the cable is moving a bit and in a vehicle, that is very common.
 
 ODB-C Cable Pinout: https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf
 
