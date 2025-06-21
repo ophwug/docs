@@ -17,14 +17,13 @@ Also, please do report if the remedies work or don't work.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
-  - [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
-  - [Common to all comma devices](#common-to-all-comma-devices)
+  - [Hardware Documentation](#hardware-documentation)
     - [Official Hardware Documentation](#official-hardware-documentation)
     - [Reverse Engineered Community Clones and Alternative Hardware Documentation](#reverse-engineered-community-clones-and-alternative-hardware-documentation)
+  - [Common to all comma devices](#common-to-all-comma-devices)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [Build Error On Boot Case](#build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
@@ -79,15 +78,17 @@ The comma devices are not invincible. They follow the [bathtub curve of failure]
 On a long enough timeline, all devices will fail.
 
 * Have a way remove the device from the car when not in use or in high heat.
-  * Unfortunately, the stock comma hardware is not designed to be removed as it is meant to be a permanent installation. Removing the device may cause wear to the OBD-C (USB-like) cable in particular.
-  * Use a magnetic or quick-remove mount.
+  * Stock comma hardware is not designed to be removed often as it is meant to be a permanent installation. Removing the device may cause wear to the OBD-C (USB-like) cable in particular.
+  * Use a magnetic or quick-remove mount if you want to remove the device often.
     * These will help preserve the integrity of the cables and connectors.
     * [Look to comma's #hw-unofficial channel for some suggestions.](https://discord.com/channels/469524606043160576/534139378772082749)
 * SSH in and backup the contents of `/persist/comma/id_rsa`.
-  * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers and [comma connect](https://connect.comma.ai). comma will never replace it for you if it is lost.**
+  * https://spektor56.github.io/OpenpilotToolkit/ is an easy tool to do this.
+  * More manual steps can be found at https://github.com/commaai/openpilot/wiki/SSH but the UI seems to shift around a lot. The broad strokes are the same.
+  * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers and [comma connect](https://connect.comma.ai). comma will never replace the license file for you if it is lost.**
 * Do not use magnetic cable adapters. Use purpose-built magnetic or quick release mounts as OBD-C is far more sensitive to pins connecting to the wrong thing than USB-C.
 
-## Common to all comma devices
+## Hardware Documentation
 
 ### Official Hardware Documentation
 
@@ -109,6 +110,8 @@ This is not official documentation but they may be close enough for reference.
   * [Harness Box v1](https://github.com/lukasloetkolben/OpenpilotHardware/tree/main/HarnessBox)
     *  Physical Relays
   * And more!
+
+## Common to all comma devices
 
 ## Common to all comma three family devices
 
