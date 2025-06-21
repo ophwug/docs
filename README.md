@@ -288,6 +288,7 @@ One reference: https://mr-one.cn/?post=25
 
 * comma.ai: https://comma.ai/shop/comma-device-screen
 * Mr. One: https://oneclone.net/product/kidney-beans-organic/
+* Way too cheap? Find/use any panel that is for the "Huawei Mate 10 Pro". Quality will vary.
 
 ### The Fan Death Case
 
