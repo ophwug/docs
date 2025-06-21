@@ -54,7 +54,7 @@ You must join the server with an invite linked for links to channels to work.
   * [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736)
 * [openpilot enthusiasts Discord (OPC), a degenerate community offshoot Discord](https://discord.gg/rRB7eDKccy)
 
-This document is generally discussed here and there in [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736). However, you're welcome to just make and discuss in the [GitHub issues](https://github.com/ophwug/docs/issues) of this repository too. 
+This document is generally discussed here and there in [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736). However, you're welcome to just make and discuss in the [GitHub issues](https://github.com/ophwug/docs/issues) of this repository too.
 
 ## General Notes
 
@@ -116,7 +116,7 @@ The comma three family is the third generation of comma's hardware, and it is th
 
 ### Build Error On Boot Case
 
-Symptoms:
+**Symptoms**:
 
 * You get some sort of build error on boot.
 
@@ -126,7 +126,7 @@ This can happen on comma's branches or forks. Try resetting by tapping the scree
 
 ### The OS is Messed Up Case
 
-Symptoms:
+**Symptoms**:
 
 * The device does not seem to or gets stuck for whatever reason.
 * Tapping the screen madly on boot and selecting "Reset" does not get the device back to factory state.
@@ -141,7 +141,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
 ### The Blown Fuse Case
 
-Symptoms:
+**Symptoms**:
 
 * Device does not power on when connected
 * Device does not stay on
@@ -172,13 +172,13 @@ It is located near the ODB-C port and next to the SOM. In the image below, it is
 
 ![Fuse](https://github.com/user-attachments/assets/9639cd26-faea-419a-b088-f8183c5b0a4f)
 
-Resolution:
+**Resolution**:
 
 To fix this issue, you will need to replace the blown self-resetting fuse with a new one.
 
 There may also be other fuses like this nearby, not just that circled red one. It should have the same markings.
 
-Known variants of the fuse to exist:
+**Known variants of the fuse to exist**:
 
 https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12
 
@@ -188,7 +188,7 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-rese
 * V12: MF-NSML380/12
 * CT: 1206L350/12SL
 
-Examples:
+**Examples**:
 
 * [katsu's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1368055272488308797)
 * [idnot's C3](https://discord.com/channels/469524606043160576/871838269405556736/1372254806449848412)
@@ -203,13 +203,13 @@ Examples:
 
 ### The Screen Doesn't Work or is Dying Case
 
-Symptoms:
+**Symptoms**:
 
 * `openpilot` still engages
 * The screen does not turn on
 * purple splotches on the screen
 
-Non-Symptoms:
+**Non-Symptoms**:
 
 * Screen tearing - [This is a currently a software issue.](https://github.com/commaai/openpilot/issues?q=is%3Aissue%20state%3Aopen%20tearing)
 
@@ -223,13 +223,13 @@ One reference: https://mr-one.cn/?post=25
 * Comma does not sell replacement screens for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
 * You may want to check out [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case) as well.
 
-Vendors:
+**Vendors**:
 
 * comma.ai: https://comma.ai/shop/comma-device-screen
 
 ### The Fan Death Case
 
-Symptoms:
+**Symptoms**:
 
 * The device overheats
 * The fan makes horrible noises
@@ -239,12 +239,12 @@ Not the Korean kind of fan death!
 
 Comma unfortunately does not sell replacement fans by themselves. Users have been replacing them with various fans to differing success. OEM part may be from ADDA, not sure if off the shelf.
 
-Examples:
+**Examples**:
 
 * [redmapleleaf's C3, Noctua](https://discord.com/channels/469524606043160576/871838269405556736/1328667993047040010)
 * [Pandus's C3, Scavenged ZOTAC fan](https://discord.com/channels/469524606043160576/871838269405556736/1364305247723589734)
 
-Reference:
+**Reference**:
 
 * https://discord.com/channels/469524606043160576/871838269405556736/1350189845758218417
 * comma: https://discord.com/channels/469524606043160576/871838269405556736/1374440250486554644
@@ -264,7 +264,7 @@ Variants of the comma three may include no SSD but 32GB of onboard eMMC System o
 
 The only OEM SSD supported is the [Samsung 980 Non-Pro SSD](https://www.amazon.com/Technology-Intelligent-Turbowrite-MZ-V8V1T0B-AM/dp/B08V83JZH4?th=1). Other SSDs may not work or have other weird unsupported issues; embedded devices are much more picky about SSDs than a desktop or laptop.
 
-Evolutions:
+**Evolutions**:
 
 * Early C3 had dedicated u-blox GPS module
 * 32GB of onboard eMMC storage with no SSDs were introduced later
@@ -275,7 +275,7 @@ The dates and times of these changes are not well documented, but they are known
 
 ### The Swampy No Panda Case
 
-Symptoms:
+**Symptoms**:
 
 * No Panda
 
@@ -285,13 +285,13 @@ Device was in extremely humid conditions and corrosion formed on the Panda's MCU
 
 Clean the board and remove corrosion.
 
-Examples:
+**Examples**:
 
 * [sparra215's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359585271041233077)
 
 ### The Screen Colors Are Really Off Case
 
-Symptoms:
+**Symptoms**:
 
 * The screen has been replaced from factory.
 * The colors are off. Too blue.
@@ -302,7 +302,7 @@ There are numerous `color_cal` files you can install onto your C3 to fix the col
 
 ### The Burned MOSFET Case
 
-Symptoms:
+**Symptoms**:
 
 * The screen does not power on after being replaced.
 * A burned MOSFET is visible on the board.
@@ -311,13 +311,13 @@ Symptoms:
 
 Replace burned MOSFET with a new one.
 
-Examples:
+**Examples**:
 
 * [A Brazilian acquaintance of Ale Sato's C3.](https://discord.com/channels/469524606043160576/871838269405556736/1359678982207045672)
 
 ### The Camera Malfunction Case (C3)
 
-Symptoms:
+**Symptoms**:
 
 * Camera Malfunction Message with specific camera noted.
 
@@ -325,13 +325,13 @@ Replace the malfunctioning camera with a new one. Make sure it matches the other
 
 Note: This is not possible or very hard to do on a C3X as the cameras are soldered onto the main board. Hence, why this case is only in the C3 section.
 
-Examples:
+**Examples**:
 
 * [sparra's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359555578606780608)
 
 ### NVMe drive not mounted
 
-Symptoms:
+**Symptoms**:
 
 * Red error message saying the NVMe drive is not mounted.
 
@@ -339,7 +339,7 @@ Symptoms:
 
 Reseat the NVMe drive and clean the connectors with appropriate electronic contact cleaning solution.
 
-Examples:
+**Examples**:
 
 * [mikejake's C3](https://discord.com/channels/469524606043160576/871838269405556736/1194379197712441364)
 
@@ -359,7 +359,7 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
 * A Red Panda is now included with the device, which now includes built-in CAN-FD support. Unlike the Red Panda, it is also a "no chiplet" design.
 * Camera changed to OX03C10
 
-Evolutions:
+**Evolutions**:
 
 * Real-Time-Clock removed and not populated, to be filled in by GPS soon after boots.
 * comma switched from [off-the-shelf Thundercomm D845 SOM](https://www.thundercomm.com/product/d845-som/) to their [in-house custom LightningHard SOM.](https://fcc.report/FCC-ID/2BFC6-LIGHTNINGH)
@@ -367,7 +367,7 @@ Evolutions:
 
 ### The No Panda on C3X Case (Software)
 
-Symptoms:
+**Symptoms**:
 
 * No Panda
 
@@ -375,13 +375,13 @@ Run through https://github.com/commaai/openpilot/issues/33016
 
 Note: Use the `nightly` branch of openpilot. `master-ci` is not available anymore.
 
-Examples:
+**Examples**:
 
 * [Ed Moore's C3X](https://discord.com/channels/469524606043160576/1263672324973138033/1270345888950124671)
 
 ### The No Panda on C3X Case (Hardware)
 
-Symptoms:
+**Symptoms**:
 
 * No Panda
 * The software solution at https://github.com/commaai/openpilot/issues/33016 did not work after 10 attempts.
@@ -390,7 +390,7 @@ Remove the SOM and reseat it.
 
 Was it possible that the SOM might not be seated properly?
 
-Examples:
+**Examples**:
 
 * [ceem0money's C3X](https://discord.com/channels/469524606043160576/1263672324973138033/1370771997188952116)
 
