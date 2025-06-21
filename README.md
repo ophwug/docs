@@ -58,12 +58,12 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
 
 ## General Notes
 
-* If your device is under warranty, [you should contact comma.ai first.](https://comma.ai/support)
-* If a C3X is out of warranty, the rough cost to repair from comma [has generally been reported to be $500](https://comma.ai/shop/comma-3x-out-of-warranty-repair). Of course, your quote may vary.
-* [They do not repair C3 anymore. They only offer a trade-in program for C3 to get a C3X for $750.](https://comma.ai/shop/comma-3x-trade-in)
+* If your device is under warranty, [you should contact comma.ai support first.](https://comma.ai/support)
+* If your C3X is out of warranty, the rough cost to repair from comma [is $500](https://comma.ai/shop/comma-3x-out-of-warranty-repair).
+* [They do not repair the C3 anymore. They only offer a trade-in program for C3 to get a C3X for $750.](https://comma.ai/shop/comma-3x-trade-in)
 * A lot of the information in this document is based on user experience and may not be accurate.
-* Always install stock or comma openpilot first to make sure the issue is not software related as a base.
-* Mobile Repair, Video Game hardware repair shops, and PCB electronics repair places may be able to help with hardware repairs. Your mileage may vary and to be honest, the devices aren't common but with specific instructions, they might be amenable.
+* Always install stock or comma openpilot first to make sure the issue is not software related as a starting point.
+* Mobile Repair, Video Game hardware repair shops, PCB electronics repair places, and other similar operations may be able to help with hardware repairs. Your mileage may vary and to be honest, these devices aren't common but with specific instructions, they might be amenable to helping you out.
 * Unplug and power down the device for 30 minutes before assessing if the issue is persistent.
 * Even if you plan to contract out the repair, you should own a multimeter. They're so handy not just for this but also other home improvement and domestic projects.
 * If you're disassembling something yourself, make sure to have a good clean workspace to keep track of all parts you take apart and to be able to put everything back together without missing pieces. This may mean screw mats and small containers.
