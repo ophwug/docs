@@ -124,6 +124,8 @@ ODB-C is a comma.ai standard that uses a USB-C cable between the comma harness b
 
 * The device does not power on.
 * The device has intermittent power issues.
+* The device does not go into "on-road" mode. It is stuck at the home screen.
+  * The IGN line isn't making its way through the ODB-C cable properly.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
   * "CAN Bus Error"
