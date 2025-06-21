@@ -17,8 +17,6 @@ Also, please do report if the remedies work or don't work.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
-  - [Table of Contents](#table-of-contents)
   - [Discords of Note](#discords-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -26,7 +24,7 @@ Also, please do report if the remedies work or don't work.
     - [Official Hardware Documentation](#official-hardware-documentation)
     - [Reverse Engineered Community Clones and Alternative Hardware Documentation](#reverse-engineered-community-clones-and-alternative-hardware-documentation)
   - [Common to all comma devices](#common-to-all-comma-devices)
-    - [The Bad ODB-C Cable Case](#the-bad-odb-c-cable-case)
+    - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [Build Error On Boot Case](#build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
@@ -116,14 +114,14 @@ This is not official documentation but they may be close enough for reference.
 
 ## Common to all comma devices
 
-### The Bad ODB-C Cable Case
+### The Bad OBD-C Cable Case
 
-ODB-C is a comma.ai standard that uses a USB-C cable between the comma harness box and the comma device.
+OBD-C is a comma.ai standard that uses a USB-C cable between the comma harness box and the comma device.
 
 **Symptoms**:
 
 * The device does not go into "on-road" mode. It is stuck at the home screen.
-  * The IGN line isn't making its way through the ODB-C cable properly.
+  * The IGN line isn't making its way through the OBD-C cable properly.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
   * "CAN Bus Error"
@@ -132,15 +130,15 @@ ODB-C is a comma.ai standard that uses a USB-C cable between the comma harness b
 
 ![Image](https://github.com/user-attachments/assets/405dae81-8af7-4d77-bb90-08535a72d878)
 
-Check the ODB-C cable for visible and invisible damage.
+Check the OBD-C cable for visible and invisible damage.
 
 https://www.youtube.com/watch?v=2NPTUW2f6Os , courtesy of Nabeel.
 
 Note that Nabeel's case only manifested itself when the cable is moving a bit and in a vehicle, that is very common.
 
-ODB-C Cable Pinout: https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf
+OBD-C Cable Pinout: https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf
 
-Nearly all pins are expected to be connected. There is not much redundancy in the ODB-C cable, so if it is partially damaged, the device will not work properly. The lines are rather small and thin.
+Nearly all pins are expected to be connected. There is not much redundancy in the OBD-C cable, so if it is partially damaged, the device will not work properly. The lines are rather small and thin.
 
 Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the warnings on it to never plug it into a real device):
 
@@ -149,18 +147,18 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 
 **Resolution**:
 
-* A quick and dirty solution is to flip the ODB-C cable. This might not be permanent, but it may help you get the device working again.
-* If the ODB-C cable is damaged, replace it with a new one. The ODB-C cable used for comma three devices is unique with a long angled neck. For best fit and to not obstruct the cameras, you should use a cable that is specifically designed for the comma three devices.
+* A quick and dirty solution is to flip the OBD-C cable. This might not be permanent, but it may help you get the device working again.
+* If the OBD-C cable is damaged, replace it with a new one. The OBD-C cable used for comma three devices is unique with a long angled neck. For best fit and to not obstruct the cameras, you should use a cable that is specifically designed for the comma three devices.
   * Vendors:
     * https://comma.ai/shop/obd-c-cable
     * https://oneclone.net/product/obd-c-cable-for-c3/
-  * If you can't find a replacement ODB-C cable, but need one in a pinch very quickly you can use a USB 3.1 Gen 2 cable or higher (Thunderbolt 3 or 4) as a substitute. These can be found at big box stores or online.
-* If your installation of the ODB-C cable is pinched, use a USB 3.1 Gen 2 extension cable so it can be routed in a way that is not pinched under the cover.
+  * If you can't find a replacement OBD-C cable, but need one in a pinch very quickly you can use a USB 3.1 Gen 2 cable or higher (Thunderbolt 3 or 4) as a substitute. These can be found at big box stores or online.
+* If your installation of the OBD-C cable is pinched, use a USB 3.1 Gen 2 extension cable so it can be routed in a way that is not pinched under the cover.
   * https://amzn.to/4n7BZ8V
     * This one has variants
   * https://amzn.to/3ZI82lR
     * This one has an on-off switch!
-* If you are removing the device often, consider using a magnetic or quick-release mount to minimize the mechanical wear of the ODB-C cabling.
+* If you are removing the device often, consider using a magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cabling.
 
 **Examples**:
 
