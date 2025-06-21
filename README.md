@@ -223,6 +223,10 @@ One reference: https://mr-one.cn/?post=25
 * Comma does not sell replacement screens for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
 * You may want to check out [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case) as well.
 
+Vendors:
+
+* comma.ai: https://comma.ai/shop/comma-device-screen
+
 ### The Fan Death Case
 
 Symptoms:
