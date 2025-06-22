@@ -177,7 +177,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 ## Common to all comma two family devices
 
 > [!NOTE]
-> If you're starting out in this community, you should get a comma three or similar device as the communities around openpilot have moved on to the comma three family of devices for ongoing, current support, and development.
+> If you're starting out in this community, you should get a comma three or similar device as the communities around openpilot have moved on to the comma three family of devices for ongoing support and current development.
 
 > [!NOTE]
 > Unfortunately, this section needs to be written. If you have any cases that you would like to add, please do so in a pull request or issue.
