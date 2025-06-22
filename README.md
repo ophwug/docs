@@ -398,6 +398,10 @@ Replace the System-On-Module (SOM) with a new one.
 
 Flash it.
 
+**Examples**:
+
+* todo
+
 **Vendor**:
 
 * comma.ai: They do not sell their SOMs.
