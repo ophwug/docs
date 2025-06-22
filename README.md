@@ -303,7 +303,7 @@ Replace the Screen.
 
 Konik.ai has a screen replacement guide for their devices which should be similar for the C3X: https://www.youtube.com/watch?v=ieyz4pxaHxU
 
-The high level instruction is still the same for any device, not even just the C3/C3X. You unscrew everything and try to make sure you don't damage the cables. 
+The high level instruction is still the same for any device, not even just the C3/C3X. You unscrew everything and try to make sure you don't damage the cables.
 
 * If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
 * Comma.ai does not sell replacement screens _with case_ for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
@@ -317,6 +317,7 @@ The high level instruction is still the same for any device, not even just the C
 * Mr. One: https://oneclone.net/product/kidney-beans-organic/
 * Konik.ai: https://konik.ai/shop/a1-amoled-screen/
 * Find/use any panel that is for the "Huawei Mate 10 Pro". Quality will vary.
+  * You can fill in the unused camera cutout with nail polish.
 
 ### The Fan Death Case
 
