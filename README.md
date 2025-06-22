@@ -86,6 +86,7 @@ On a long enough timeline, all devices will fail.
   * Use a magnetic or quick-remove mount if you want to remove the device often.
     * These will help preserve the integrity of the cables and connectors.
     * [Look to comma's #hw-unofficial channel for some suggestions.](https://discord.com/channels/469524606043160576/534139378772082749)
+* When removing the device, be careful with the OBD-C cable. In addition to being physically careful with it, hiding it, including the tip from the sun's damaging rays will also help prolong its life.
 * SSH in and backup the contents of `/persist/comma/id_rsa`.
   * https://spektor56.github.io/OpenpilotToolkit/ is an easy tool to do this.
   * More manual steps can be found at https://github.com/commaai/openpilot/wiki/SSH but the UI seems to shift around a lot. The broad strokes are the same.
