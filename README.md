@@ -37,6 +37,7 @@ Also, please do report if the remedies work or don't work.
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
     - [The Fan Death Case](#the-fan-death-case)
     - [The Poor GPS Signal Case](#the-poor-gps-signal-case)
+    - [The Bad or Dead SOM Case](#the-bad-or-dead-som-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -376,6 +377,33 @@ There are multiple solutions to this problem.
 * [Nabeel's C3](https://discord.com/channels/469524606043160576/871838269405556736/1383159801365790932)
   * "I discovered why GPS wasn't working in my C3 after my repair… This… was sitting on my desk... That's the cable that connects the GPS module to the main board."
 
+### The Bad or Dead SOM Case
+
+> [!WARNING]
+> This section is a WIP and in construction
+
+**Symptoms**:
+
+* The device does not boot.
+* The device does not power on.
+* The fuses are good. (See [The Blown Fuse Case](#the-blown-fuse-case) for more details.)
+* Over serial, the device TODO: fill in with examples of bad boot messages
+
+**Resolution**:
+
+> [!NOTE]
+> Fill in with instructions on how to extract keys from the old SOM.
+
+Replace the System-On-Module (SOM) with a new one.
+
+Flash it.
+
+**Vendor**:
+
+* comma.ai: They do not sell their SOMs.
+* Mr. One: https://oneclone.net/product/thundercomm-d845-som-4gb64/
+* konik.ai: https://konik.ai/shop/thundercomm-d845-som-4gb64/
+  * There is an option for an 8GB version but it is not necessary for openpilot.
 
 ## comma three (C3)
 
