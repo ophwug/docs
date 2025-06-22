@@ -34,6 +34,7 @@ Also, please do report if the remedies work or don't work.
     - [The Blown Fuse Case](#the-blown-fuse-case)
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
     - [The Fan Death Case](#the-fan-death-case)
+    - [The Poor GPS Signal Case](#the-poor-gps-signal-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -325,6 +326,35 @@ Mr. One sells a replacement fan with heatsink for the C3 at https://oneclone.net
 
 * https://discord.com/channels/469524606043160576/871838269405556736/1350189845758218417
 * comma: https://discord.com/channels/469524606043160576/871838269405556736/1374440250486554644
+
+### The Poor GPS Signal Case
+
+**Symptoms**:
+
+* The device has an alert about poor GPS signal
+* The device seems to not be able to locate itself well on [comma connect](https://connect.comma.ai)
+* Environmental Conditions:
+  * A magnetic mount is used.
+  * The car's windshield is heated.
+
+**Resolution**:
+
+There are multiple solutions to this problem.
+
+* Newer openpilot does not care about GPS being an alertable requirement. https://github.com/commaai/openpilot/pull/35585
+  * Update to a codebase that has this change.
+  * This will still result in wonky behavior on connect but it will not cause an ongoing alert.
+* Hardware issues:
+  * Check the GPS antenna connections internally.
+  * Make sure the GPS module has power connections.
+* Heated windshields can cause issues with GPS reception.
+  * It has not been explored, but there are GPS repeaters that can be used to help with this. Please report if you have success with this.
+
+**Examples**:
+
+* [Nabeel's C3](https://discord.com/channels/469524606043160576/871838269405556736/1383159801365790932)
+  * "I discovered why GPS wasn't working in my C3 after my repair… This… was sitting on my desk... That's the cable that connects the GPS module to the main board."
+
 
 ## comma three (C3)
 
