@@ -244,13 +244,7 @@ It is located near the ODB-C port and next to the SOM. In the image below, it is
 
 ![Fuse](https://github.com/user-attachments/assets/9639cd26-faea-419a-b088-f8183c5b0a4f)
 
-**Resolution**:
-
-To fix this issue, you will need to replace the blown self-resetting fuse with a new one.
-
-There may also be other fuses like this nearby, not just that circled red one. It should have the same markings.
-
-**Known variants of the fuse to exist**:
+Known variants of the fuse to exist:
 
 https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12
 
@@ -259,6 +253,12 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-rese
 * S12: MF-NSML350/12
 * V12: MF-NSML380/12
 * CT: 1206L350/12SL
+
+There may also be other fuses like this nearby, not just that circled red one. It should have the same markings.
+
+**Resolution**:
+
+To fix this issue, you will need to replace the blown self-resetting fuse with a new one.
 
 **Examples**:
 
@@ -274,6 +274,10 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-rese
   * ["My C3 was acting un-stable, when checking the fuse (just above the ODB USB-C in your picture) it wasn't until after I let the fuse "warm up" that i got a reading of 0.8-1 ohm. I also carefully measured the voltage drop across the fuse while the board was running. It wouldn't fully boot up but just idle on a screen that said "press any key to shutdown". The voltage drop was all over, ranging from 0.5-up to 2.5v which means the resistance of the fuse was changing."](https://discord.com/channels/469524606043160576/871838269405556736/1383803066536431768)
   * ["Having it powered up with out heat sink alone risks over heating. the higher risk is with power going to it one slip and you could do serious damage. It's a tight place to get probes in and with it being right next to the usb port's shield you risk shorting out the power supply. If you did add it I would put a big bold warning on it. The basic concept is to have multi meter in voltage mode, probes on each side of the fuse, when powered the voltage should stay close to 0."](https://discord.com/channels/469524606043160576/871838269405556736/1383848416626479165)
 
+**Vendors**:
+
+Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, or Newark.
+
 ### The Screen Doesn't Work or is Dying Case
 
 **Symptoms**:
@@ -288,12 +292,12 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-rese
 
 ![Image](https://github.com/user-attachments/assets/91e0bcc8-f625-4640-8aeb-2a227f18d523)
 
+**Resolution**:
+
 Replace the Screen.
 
-One reference: https://mr-one.cn/?post=25
-
 * If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
-* Comma does not sell replacement screens for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
+* Comma.ai does not sell replacement screens _with case_ for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
 * The replacement options with the "front case" options don't need mobile repair shop help as it is a glue-less repair experience.
 * Without "front case", "can be placed with B7000 glue onto the frame" (quote from Konik.ai).
 * You may want to check out [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case) as well.
@@ -315,14 +319,19 @@ One reference: https://mr-one.cn/?post=25
 
 Not the Korean kind of fan death!
 
-Comma unfortunately does not sell replacement fans by themselves. Users have been replacing them with various fans to differing success. OEM part may be from ADDA, not sure if off the shelf.
+**Resolution**:
 
-Mr. One sells a replacement fan with heatsink for the C3 at https://oneclone.net/product/c3-heatsink-replacement-parts/
+Comma unfortunately does not sell replacement fans by themselves. Users have been replacing them with various fans to differing success. OEM part may be from ADDA, not sure if off the shelf. Mr. One sells a replacement fan with heatsink for the C3.
 
 **Examples**:
 
 * [redmapleleaf's C3, Noctua](https://discord.com/channels/469524606043160576/871838269405556736/1328667993047040010)
 * [Pandus's C3, Scavenged ZOTAC fan](https://discord.com/channels/469524606043160576/871838269405556736/1364305247723589734)
+
+**Vendors**:
+
+* Mr. One: https://oneclone.net/product/c3-heatsink-replacement-parts/
+  * Replacement fan with heatsink for the C3
 
 **Reference**:
 
@@ -392,6 +401,8 @@ Device was in extremely humid conditions and corrosion formed on the Panda's MCU
 
 ![Image](https://github.com/user-attachments/assets/41717469-bcf0-4eec-88c1-a0da962cc76f)
 
+**Resolution**:
+
 Clean the board and remove corrosion.
 
 **Examples**:
@@ -405,6 +416,8 @@ Clean the board and remove corrosion.
 * The screen has been replaced from factory.
 * The colors are off. Too blue.
 
+**Resolution**:
+
 Take a look at this thread: https://discord.com/channels/469524606043160576/1354453342000255199
 
 There are numerous `color_cal` files you can install onto your C3 to fix the colors. You may also have success just trying a few different ones if you don't have an official comma.ai screen replacement.
@@ -417,6 +430,8 @@ There are numerous `color_cal` files you can install onto your C3 to fix the col
 * A burned MOSFET is visible on the board.
 
 <img width="403" alt="Image" src="https://github.com/user-attachments/assets/d2b22aaa-6be4-45a0-900d-fe59ba6cb919" />
+
+**Resolution**:
 
 Replace burned MOSFET with a new one.
 
@@ -455,6 +470,8 @@ Note: This is not possible or very hard to do on a C3X as the cameras are solder
 
 ![Image](https://github.com/user-attachments/assets/17e62a61-4591-499c-9084-87fe75720980)
 
+**Resolution**:
+
 Reseat the NVMe drive and clean the connectors with appropriate electronic contact cleaning solution.
 
 **Examples**:
@@ -489,6 +506,8 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
 
 * No Panda
 
+**Resolution**:
+
 Run through https://github.com/commaai/openpilot/issues/33016
 
 Note: Use the `nightly` branch of openpilot. `master-ci` is not available anymore.
@@ -503,6 +522,8 @@ Note: Use the `nightly` branch of openpilot. `master-ci` is not available anymor
 
 * No Panda
 * The software solution at https://github.com/commaai/openpilot/issues/33016 did not work after 10+ attempts.
+
+**Resolution**:
 
 Remove the SOM and reseat it.
 
