@@ -19,7 +19,7 @@ Also, please do report if the remedies work or don't work.
 
 - [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
   - [Table of Contents](#table-of-contents)
-  - [Discords of Note](#discords-of-note)
+  - [Discords and Discussions of Note](#discords-and-discussions-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
   - [Hardware Documentation](#hardware-documentation)
@@ -48,7 +48,7 @@ Also, please do report if the remedies work or don't work.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Discords of Note
+## Discords and Discussions of Note
 
 There will be links to Discord conversations.
 
