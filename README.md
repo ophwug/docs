@@ -158,9 +158,6 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 
 * A quick and dirty solution is to flip the OBD-C cable. This might not be permanent, but it may help you get the device working again.
 * If the OBD-C cable is damaged, replace it with a new one. The OBD-C cable used for comma three devices is unique with a long angled neck. For best fit and to not obstruct the cameras, you should use a cable that is specifically designed for the comma three devices.
-  * Vendors:
-    * https://comma.ai/shop/obd-c-cable
-    * https://oneclone.net/product/obd-c-cable-for-c3/
   * If you can't find a replacement OBD-C cable, but need one in a pinch very quickly you can use a USB 3.1 Gen 2 cable or higher (Thunderbolt 3 or 4) as a substitute. These can be found at big box stores or online.
 * If your installation of the OBD-C cable is pinched, use a USB 3.1 Gen 2 extension cable so it can be routed in a way that is not pinched under the cover.
   * https://amzn.to/4n7BZ8V
@@ -168,6 +165,12 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * https://amzn.to/3ZI82lR
     * This one has an on-off switch!
 * If you are removing the device often, consider using a magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cabling.
+
+**Vendors**:
+
+* comma.ai: https://comma.ai/shop/obd-c-cable
+* Mr. One: https://oneclone.net/product/obd-c-cable-for-c3/
+* Konik.ai's cables are physically different from comma's and Mr. One's and are specific to their hardware clones.
 
 **Examples**:
 
