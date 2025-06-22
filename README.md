@@ -301,6 +301,8 @@ Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, o
 
 Replace the Screen.
 
+Konik.ai has a screen replacement guide for their devices which should be similar for the C3X: https://www.youtube.com/watch?v=ieyz4pxaHxU
+
 * If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
 * Comma.ai does not sell replacement screens _with case_ for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
 * The replacement options with the "front case" options don't need mobile repair shop help as it is a glue-less repair experience.
