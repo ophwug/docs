@@ -495,7 +495,7 @@ Note: Use the `nightly` branch of openpilot. `master-ci` is not available anymor
 **Symptoms**:
 
 * No Panda
-* The software solution at https://github.com/commaai/openpilot/issues/33016 did not work after 10 attempts.
+* The software solution at https://github.com/commaai/openpilot/issues/33016 did not work after 10+ attempts.
 
 Remove the SOM and reseat it.
 
