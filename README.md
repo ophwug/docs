@@ -130,7 +130,7 @@ OBD-C is a comma.ai standard that uses a USB-C cable between the comma harness b
   * "CAN Bus Error"
   * "CAN Bus Disconnected"
 * Bad Fuse (See [The Blown Fuse Case](#the-blown-fuse-case) for more details)
-* Power issues are usually **not** a Bad OBD-C Cable Case, as the cable has 4 pairs of redundant pairs of wires for power and ground. While of course some pairs could be broken, that cable can probably still be considered relatively good and usable. If the device is not powering on though, it is likely a blown fuse.
+* Power issues are usually **not** a Bad OBD-C Cable Case, as the cable has 4 pairs of redundant pairs of wires for power and ground. While of course some pairs could be broken, that cable can probably still be considered relatively good and usable. If the device is not powering on though, it is likely a [Blown Fuse Case](#the-blown-fuse-case).
 
 ![Image](https://github.com/user-attachments/assets/405dae81-8af7-4d77-bb90-08535a72d878)
 
