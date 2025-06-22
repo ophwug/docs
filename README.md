@@ -434,13 +434,18 @@ Replace burned MOSFET with a new one.
 
 Replace the malfunctioning camera with a new one. Make sure it matches the other cameras's type e.g. OS04C10 or AR0231. You may be able to find a broken C3 to salvage the camera from. If you can't find a specific type, you may need to replace all cameras with the same type.
 
-Mr. One also sells replacement cameras for the C3 at https://oneclone.net/product/c3-cameras/ .
+Some vendors sell replacement cameras for the C3. Make sure to get the right type of camera for your C3. They may only have one type of camera available, so you may need to replace all cameras with the same type.
 
 Note: This is not possible or very hard to do on a C3X as the cameras are soldered onto the main board. Hence, why this case is only in the C3 section.
 
 **Examples**:
 
 * [sparra's C3](https://discord.com/channels/469524606043160576/871838269405556736/1359555578606780608)
+
+**Vendors**:
+
+* Mr. One: https://oneclone.net/product/c3-cameras/
+* Konik.ai: https://konik.ai/shop/c3-cameras/
 
 ### NVMe drive not mounted
 
