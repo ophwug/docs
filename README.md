@@ -282,7 +282,7 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 
 **Vendors**:
 
-Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, or Newark.
+Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, or Newark. Buy a bunch of them as shipping is the real cost.
 
 ### The Screen Doesn't Work or is Dying Case
 
