@@ -312,7 +312,7 @@ The high level instruction is still the same for any device, not even just the C
 
 * If replacing with an official comma.ai screen, make sure you take and archive the picture of the QR code sticker as it has color calibration data on it.
 * Comma.ai does not sell replacement screens _with case_ for the C3. Buy a bare screen from them or a third party and have a mobile repair shop replace the existing screen.
-* The replacement options with the "front case" options don't need mobile repair shop help as it is a glue-less repair experience.
+* The replacement options with the "front case" options don't need mobile repair shop help or similar experience as it is a glue-less repair experience.
 * Without "front case", "can be placed with B7000 glue onto the frame" (quote from Konik.ai).
 * You may want to check out [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case) as well.
 
