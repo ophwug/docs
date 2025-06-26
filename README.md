@@ -298,7 +298,7 @@ Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, o
 
 **Non-Symptoms**:
 
-* Screen tearing - [This is a currently a software issue.](https://github.com/commaai/openpilot/issues?q=is%3Aissue%20state%3Aopen%20tearing) . Please update to the latest comma openpilot or openpilot fork.
+* Screen tearing - [This was/is a software issue that affects openpilot and openpilot forks for a certain period.](https://github.com/commaai/openpilot/issues?q=is%3Aissue%20state%3Aopen%20tearing) . Please update to the latest comma openpilot or openpilot fork.
 
 ![Image](https://github.com/user-attachments/assets/91e0bcc8-f625-4640-8aeb-2a227f18d523)
 
