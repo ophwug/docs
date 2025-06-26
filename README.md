@@ -43,7 +43,7 @@ Also, please do report if the remedies work or don't work.
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
     - [The Burned MOSFET Case](#the-burned-mosfet-case)
     - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
-    - [NVMe drive not mounted](#nvme-drive-not-mounted)
+    - [The NVMe drive not mounted Case](#the-nvme-drive-not-mounted-case)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -508,7 +508,7 @@ Note: This is not possible or very hard to do on a C3X as the cameras are solder
 * Mr. One: https://oneclone.net/product/c3-cameras/
 * Konik.ai: https://konik.ai/shop/c3-cameras/
 
-### NVMe drive not mounted
+### The NVMe drive not mounted Case
 
 **Symptoms**:
 
