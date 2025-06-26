@@ -138,13 +138,16 @@ OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/h
 * The cable has visible damage such as cracking.
 * **Power issues are usually not a Bad OBD-C Cable Case**, as the cable has 4 redundant pairs of lines and wires for power and ground. While of course some pairs could be broken, that cable can probably still be considered relatively good and usable. If the device is not powering on though, it is likely a [Blown Fuse Case](#the-blown-fuse-case).
 
-![Image](https://github.com/user-attachments/assets/405dae81-8af7-4d77-bb90-08535a72d878)
 
-Check the OBD-C cable for visible and invisible damage.
+![PXL_20250625_151254911 MP](https://github.com/user-attachments/assets/362e359f-d6f4-4b57-9d16-7e08e475b7e5)
 
-https://www.youtube.com/watch?v=2NPTUW2f6Os , courtesy of Nabeel.
+Check the OBD-C cable for visible and invisible damage. In the image above, not all required wires are working. The cable otherwise looks fine externally.
 
-Note that Nabeel's case only manifested itself when the cable is moving a bit and in a vehicle, that is very common.
+Here is another demonstration of damage, courtesy of Nabeel : https://www.youtube.com/watch?v=2NPTUW2f6Os . Note that Nabeel's case only manifested itself when the cable is shifted a bit and in a vehicle, that is very common.
+
+![PXL_20250625_062251389](https://github.com/user-attachments/assets/116f6aa9-764d-403f-a573-61fd4d73540b)
+
+This image, from a cable donated by adenta, has a cable that is cracking in the exterior, but all necessary wires are connected. **For diagnosis, you must test with a _simple_ USB-C cable tester.**
 
 OBD-C Cable Pinout: https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf
 
@@ -157,21 +160,22 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 
 **Resolution**:
 
-* A quick and dirty solution is to flip the OBD-C cable. This might not be permanent, but it may help you get the device working again.
-* If the OBD-C cable is damaged, replace it with a new one. The OBD-C cable used for comma three devices is unique with a long angled neck. For best fit and to not obstruct the cameras, you should use a cable that is specifically designed for the comma three devices.
+* A quick and dirty solution is to flip the OBD-C cable. This might not be permanent, but it may help you get the device working again. Of course, depending on what's broken, this may not be sufficient.
+* If the OBD-C cable is damaged, replace it with a new one. The OBD-C cable used for comma three devices is unique with a long angled neck so that the cable is able to plugged into the recessed port of the comma three devices. For best fit and to not obstruct the cameras, you should use a cable that is specifically designed for the comma three devices.
   * If you can't find a replacement OBD-C cable, but need one in a pinch very quickly you can use a USB 3.1 Gen 2 cable or higher (Thunderbolt 3 or 4) as a substitute. These can be found at big box stores or online.
+  * It is possible to get use a set of angled adapters with existing cables: https://amzn.to/3TcV389
 * If your installation of the OBD-C cable is pinched, use a USB 3.1 Gen 2 extension cable so it can be routed in a way that is not pinched under the cover.
   * https://amzn.to/4n7BZ8V
     * This one has variants
   * https://amzn.to/3ZI82lR
     * This one has an on-off switch!
-* If you are removing the device often, consider using a magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cabling.
+* If you are removing the device often, consider using a purpose-built magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cabling. See #hw-unofficial on the [comma.ai Discord](https://discord.comma.ai)
 
 **Vendors**:
 
 * comma.ai: https://comma.ai/shop/obd-c-cable
 * Mr. One: https://oneclone.net/product/obd-c-cable-for-c3/
-* Konik.ai's cables are physically different from comma's and Mr. One's and are specific to their hardware clones.
+* Konik.ai's cables are physically different from comma's and Mr. One's and are specific to their hardware clones which do not have a recessed port.
 
 **Examples**:
 
@@ -186,7 +190,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 > If you're starting out in this community, you should get a comma three or similar device as the communities around openpilot have moved on to the comma three family of devices for ongoing support and current development.
 
 > [!NOTE]
-> Unfortunately, this section needs to be written. If you have any cases that you would like to add, please do so in a pull request or issue.
+> Unfortunately, this section needs to be written. If you have any cases that you would like to add, please do so in a pull request or issue. For now, you'll have to search the #hw-two-eon channel on [comma's Discord](https://discord.comma.ai)
 
 ## Common to all comma three family devices
 
