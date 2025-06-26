@@ -31,7 +31,7 @@ Also, please do report if the remedies work or don't work.
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
-    - [Build Error On Boot Case](#build-error-on-boot-case)
+    - [The Build Error On Boot Case](#the-build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
     - [The Blown Fuse Case](#the-blown-fuse-case)
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
@@ -196,7 +196,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 
 The comma three family is the third generation of comma's hardware, and it is the first generation to be designed from the ground up by comma.ai.
 
-### Build Error On Boot Case
+### The Build Error On Boot Case
 
 **Symptoms**:
 
