@@ -12,7 +12,7 @@ The format of this document is of a case-by-case basis. Please feel free to add 
 
 This is not an official document and is not endorsed by comma.ai. However, it is supported by users and readers like you so please do feel free to make suggestions and submit pull requests!
 
-Also, please do report if the remedies work or don't work.
+Also, please do report back if the remedies work or don't work. Discord, GitHub issues, etc. **This is a living document!**
 
 ## Table of Contents
 
