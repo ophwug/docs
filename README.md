@@ -4,7 +4,7 @@ The [comma.ai Discord][cdiscord] isn't really a good place to store _answers_ or
 Discord's search is terrible, and the content inside of it isn't accessible to search engines.
 This is an attempt to document some of the common issues and fixes that were discussed in the Discord onto the public internet so that they can be found by search engines.
 
-This document is a bit long, you may want to put its contents into your 🤖 AI assistant of choice, such as [ChatGPT](https://chat.openai.com/chat) or [Claude](https://claude.ai/), to ask it questions about the contents of this document.
+This document is a bit long, you may want to put its contents into your 🤖 AI assistant of choice, such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) to ask it questions about the contents of this document.
 
 This may also include links to other non-comma.ai Discords as well.
 
