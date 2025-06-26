@@ -304,7 +304,7 @@ Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, o
 
 **Resolution**:
 
-Replace the Screen.
+First, make sure to try to reseat the connection for the screen. If that does not work, you will need to replace the screen.
 
 Konik.ai has a screen replacement guide for their devices which should be similar for the C3X: https://www.youtube.com/watch?v=ieyz4pxaHxU
 
