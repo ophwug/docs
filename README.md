@@ -129,29 +129,32 @@ OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/h
 **Symptoms**:
 
 * The device does not go into "on-road" mode. It is stuck at the home screen.
-  * The IGN line isn't making its way through the OBD-C cable properly.
+  * According to the [standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf), the IGN line comes out as a combination of SBU1 and SBU2 and one or both isn't making its way through the OBD-C cable properly.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
   * "CAN Bus Error"
   * "CAN Bus Disconnected"
-* Bad Fuse (See [The Blown Fuse Case](#the-blown-fuse-case) for more details)
 * The cable has visible damage such as cracking.
 * **Power issues are usually not a Bad OBD-C Cable Case**, as the cable has 4 redundant pairs of lines and wires for power and ground. While of course some pairs could be broken, that cable can probably still be considered relatively good and usable. If the device is not powering on though, it is likely a [Blown Fuse Case](#the-blown-fuse-case).
+  * Bad Fuse Case may not be related or is coincidental from wear due to this (See [The Blown Fuse Case](#the-blown-fuse-case) for more details)
 
+Check the OBD-C cable for visible and invisible damage. In the image below, `TX2+` (USB) is `CAN2_H` (OBD-C) and is broken. The cable otherwise looks fine externally.
 
 ![PXL_20250625_151254911 MP](https://github.com/user-attachments/assets/362e359f-d6f4-4b57-9d16-7e08e475b7e5)
 
-Check the OBD-C cable for visible and invisible damage. In the image above, not all required wires are working. The cable otherwise looks fine externally.
+Here is a video demonstration of damage, courtesy of Nabeel and note that Nabeel's case only manifested itself when the cable is shifted a bit and in a vehicle, that is very common:
 
-Here is another demonstration of damage, courtesy of Nabeel : https://www.youtube.com/watch?v=2NPTUW2f6Os . Note that Nabeel's case only manifested itself when the cable is shifted a bit and in a vehicle, that is very common.
+https://www.youtube.com/watch?v=2NPTUW2f6Os
+
+This image below, from a cable donated by adenta, has a cable that is cracking in the exterior, but all necessary wires are connected. **For diagnosis, you must test with a _simple_ USB-C cable tester.**
 
 ![PXL_20250625_062251389](https://github.com/user-attachments/assets/116f6aa9-764d-403f-a573-61fd4d73540b)
-
-This image, from a cable donated by adenta, has a cable that is cracking in the exterior, but all necessary wires are connected. **For diagnosis, you must test with a _simple_ USB-C cable tester.**
 
 OBD-C Cable Pinout: https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf
 
 Nearly all pins are expected to be connected. There is not much redundancy for data lines in the OBD-C cable, so if it is partially damaged, the device will not work properly. The lines are also rather small and thin.
+
+Last but not least, if you're using a cable you provide yourself, it must all all wires inside of it. Sometimes people use a cable from their own collection but it does not work which is usually due to this.
 
 Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the warnings on it to never plug it into a real device):
 
@@ -160,7 +163,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 
 **Resolution**:
 
-* A quick and dirty solution is to flip the OBD-C cable. This might not be permanent, but it may help you get the device working again. Of course, depending on what's broken, this may not be sufficient.
+* A quick and dirty solution is to flip the OBD-C cable. This might not be permanent, but it may help you get the device working again. Of course, depending on what is and how it is broken, this may not be sufficient.
 * If the OBD-C cable is damaged, replace it with a new one. The OBD-C cable used for comma three devices is unique with a long angled neck so that the cable is able to plugged into the recessed port of the comma three devices. For best fit and to not obstruct the cameras, you should use a cable that is specifically designed for the comma three devices.
   * If you can't find a replacement OBD-C cable, but need one in a pinch very quickly you can use a USB 3.1 Gen 2 cable or higher (Thunderbolt 3 or 4) as a substitute. These can be found at big box stores or online.
   * It is possible to get use a set of angled adapters with existing cables: https://amzn.to/3TcV389
