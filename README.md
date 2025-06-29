@@ -138,7 +138,7 @@ OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/h
 * **Power issues are usually not a Bad OBD-C Cable Case**, as the cable has 4 redundant pairs of lines and wires for power and ground. While of course some pairs could be broken, that cable can probably still be considered relatively good and usable. If the device is not powering on though, it is likely a [Blown Fuse Case](#the-blown-fuse-case).
   * Bad Fuse Case may not be related or is coincidental from wear due to this (See [The Blown Fuse Case](#the-blown-fuse-case) for more details)
 
-Check the OBD-C cable for visible and invisible damage. In the image below, `TX2+` (USB) is `CAN2_H` (OBD-C) and is broken. The cable otherwise looks fine externally.
+Check the OBD-C cable for visible and invisible damage. In the image below, `TX2+` of USB-C is `CAN2_H` in OBD-C and is broken. The cable otherwise looks fine externally.
 
 ![PXL_20250625_151254911 MP](https://github.com/user-attachments/assets/362e359f-d6f4-4b57-9d16-7e08e475b7e5)
 
