@@ -330,7 +330,7 @@ The high level instruction is still the same for any device, not even just the C
 * Mr. One: https://oneclone.net/product/kidney-beans-organic/
 * Konik.ai: https://konik.ai/shop/a1-amoled-screen/
 * Find/use any panel that is for the "Huawei Mate 10 Pro". Quality will vary.
-  * You can fill in the unused camera cutout with nail polish.
+  * You can fill in the unused camera cutout with nail polish 💅.
 
 ### The Fan Death Case
 
