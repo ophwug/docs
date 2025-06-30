@@ -189,6 +189,8 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 
 ## Common to all comma two family devices
 
+The comma two family is the second generation of comma's hardware, and it is based upon a modified Leeco Le Pro 3 with the battery removed, thermal solution filled in, front camera replaced with IR-filter-less variants and an integrated comma panda PCB providing supporting CAN communication, fan support, and providing supporting hardware/software hacks to trick the phone hardware such as battery emulation and bootkick.
+
 > [!NOTE]
 > If you're starting out in this community, you should get a comma three or similar device as the communities around openpilot have moved on to the comma three family of devices for ongoing support and current development.
 
