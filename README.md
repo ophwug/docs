@@ -152,9 +152,7 @@ This image below, from a cable donated by adenta, has a cable that is cracking i
 
 OBD-C Cable Pinout: https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf
 
-Nearly all pins are expected to be connected. There is not much redundancy for data lines in the OBD-C cable, so if it is partially damaged, the device will not work properly. The lines are also rather small and thin.
-
-Last but not least, if you're using a cable you provide yourself, it must all all wires inside of it. Sometimes people use a cable from their own collection but it does not work which is usually due to this.
+Nearly all pins are expected to be connected. Sometimes people use a cable from their own collection but if it does not work, it is usually due to missing wires/pins. There is not much redundancy for data lines in the OBD-C cable, so if it is partially damaged or incomplete, the comma device will not work properly. The lines are also rather small and thin. USB-C is more tolerant and might even downgrade successfully, OBD-C is and cannot.
 
 Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the warnings on it to never plug it into a real device):
 
