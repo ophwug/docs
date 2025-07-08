@@ -30,6 +30,7 @@ Also, please do report back if the remedies work or don't work. Discord, GitHub 
   - [Common to all comma devices](#common-to-all-comma-devices)
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
+    - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two-case)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [The Build Error On Boot Case](#the-build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
@@ -195,6 +196,18 @@ The comma two family is the second generation of comma's hardware, and it is bas
 
 > [!NOTE]
 > Unfortunately, this section needs to be written. If you have any cases that you would like to add, please do so in a pull request or issue. For now, you'll have to search the #hw-two-eon channel on [comma's Discord](https://discord.comma.ai)
+
+### The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case
+
+![Image](https://github.com/user-attachments/assets/8f1e1e07-e359-421f-b399-5c0a46b61538)
+
+**Symptoms**:
+
+* After setting up Wi-Fi on the comma two device, it fails to connect to the internet and its blocked from proceeding.
+
+**Resolution**:
+
+Follow the instructions at https://github.com/jyoung8607/neos-manual-install.
 
 ## Common to all comma three family devices
 
