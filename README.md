@@ -177,6 +177,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 **Vendors**:
 
 * comma.ai: https://comma.ai/shop/obd-c-cable
+  * [Their long versions of the cables for brands such as Rivian, Ford, and Tesla also use TPU instead nowadays.](https://discord.com/channels/469524606043160576/954493346250887168/1390435764772409495)
 * Mr. One: https://oneclone.net/product/obd-c-cable-for-c3/
 * Konik.ai's cables are physically different from comma's and Mr. One's and are specific to their hardware clones which do not have a recessed port.
 
