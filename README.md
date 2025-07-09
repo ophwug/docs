@@ -138,6 +138,8 @@ OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/h
   * "CAN Bus Error"
   * "CAN Bus Disconnected"
 * The cable has visible damage such as cracking.
+* The cable has invisible damage such as missing wires or broken wires when viewed with a USB-C cable tester.
+  * **You must test with a _simple_ USB-C cable tester for this. No exceptions.**
 * **Power issues are usually not a Bad OBD-C Cable Case**, as the cable has 4 redundant pairs of lines and wires for power and ground. While of course some pairs could be broken, that cable can probably still be considered relatively good and usable. If the device is not powering on though, it is likely a [Blown Fuse Case](#the-blown-fuse-case).
   * Bad Fuse Case may not be related or is coincidental from wear due to this (See [The Blown Fuse Case](#the-blown-fuse-case) for more details)
 * Car fuse is blown. While it's great there are 4 redundant pairs of lines and wires for power and ground, there is a flip side in that there is also an increased chance for these to get shorted. You'll need to use a multimeter with the pads exposed by the tester to check for crossed wires.
