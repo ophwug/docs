@@ -14,7 +14,7 @@ This is not an official document and is not endorsed by comma.ai. However, it is
 
 Also, please do report back if the remedies work or don't work. Discord, GitHub issues, etc. **This is a living document!**
 
-Be aware Amazon links are Amazon Affiliate links. If you buy something through them, I may get a small commission at no extra cost to you. This helps support purchasing some of the supplies and tools to document these cases.
+Be aware Amazon links are Amazon Affiliate links. If you buy something through them, I may get a small commission at no extra cost to you. This helps support purchasing some of the supplies, services, and tools to document these cases.
 
 ## Table of Contents
 
