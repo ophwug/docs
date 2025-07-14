@@ -21,6 +21,8 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
+  - [Table of Contents](#table-of-contents)
   - [Discords and Discussions of Note](#discords-and-discussions-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -255,24 +257,22 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 > [!TIP]
 > **Measuring Fuse Resistance with a Multimeter**
 >
-> **Important:** You can measure the fuse resistance without desoldering or removing it from the board! The fuse can be tested in-circuit for diagnosis.
+> **You do NOT need to desolder the fuse for testing.** This diagnosis can be performed by anyone with basic multimeter skills.
 >
 > For those new to using a multimeter, here's how to check a fuse:
 >
 > 1.  **Set your multimeter:** Turn the dial to the resistance setting (often marked with the Omega symbol: Ω). Start with the lowest resistance range if your multimeter isn't auto-ranging.
 > 2.  **Measure lead resistance:** Before testing the fuse, touch the tips of your multimeter probes firmly together. The multimeter should display a very low resistance value (e.g., 0.1-0.5 Ω). This is the internal resistance of your multimeter and leads. Note this value down.
-> 3.  **Power off the device:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage. You do NOT need to desolder the fuse for testing.
-> 4.  **Measure the fuse in-circuit:** Touch one probe to each end of the fuse while it's still mounted on the board. This diagnosis can be performed by anyone with basic multimeter skills.
+> 3.  **Power off the device:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage.
+> 4.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
 > 5.  **Interpret the reading:**
 >     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2.
 >     *   **Blown Fuse:** The multimeter will show a very high resistance, often "OL" (Over Limit), "Open," or "∞" (infinity), indicating the fuse's internal wire is broken.
 >
 > Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
 >
-> **Note about repair:** While diagnosis is straightforward and can be done by anyone, if you need the fuse replaced, you can seek professional help from mobile repair shops, electronics repair services, or similar operations. You don't have to do the repair yourself.
->
 > Note: These instructions may not cover all fuse issues, such as those that might fail only if temperature is elevated or under load.
-> Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced and more dangerous techniques.
+> Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced and more dangerous techniques. While this diagnosis can be performed by anyone with basic multimeter skills, actual fuse replacement may require professional help.
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
