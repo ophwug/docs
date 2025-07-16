@@ -312,6 +312,11 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 * [dimdom69's CD (OPC)](https://discord.com/channels/771493367246094347/834826173795139584/1388357047522689045)
   * "I measured 2.0 ohms on the bad one, with the new one measuring 0.0 ohms."
   * [Also possibly caused by a broken ODB-C cable?](#the-bad-obd-c-cable-case)
+* [wabash's C3, though the diagnosis and resolution was pretty unclean](https://discord.com/channels/469524606043160576/871838269405556736/1395147642581024789)
+  * Err'd in removing the fuse for measuring, not knowing it is not necessary, and before measuring and instead accidentally melting the fuse.
+  * Not sure if the fuse was actually blown or not.
+  * Still has radar issues, so it is not clear if the fuse was the only issue.
+  * Also has GPS Issues
 
 **Vendors**:
 
