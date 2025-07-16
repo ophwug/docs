@@ -267,7 +267,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 > 4.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
 > 5.  **Interpret the reading:**
 >     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2.
->     *   **Blown Fuse:** The multimeter will show a very high resistance, often "OL" (Over Limit), "Open," or "∞" (infinity), indicating the fuse's internal wire is broken.
+>     *   **Blown Fuse:** The multimeter will show a high resistance (e.g., 0.5-43 Ω) or an open circuit (OL or ∞), indicating the fuse is blown.
 >
 > Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
 >
