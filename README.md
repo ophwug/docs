@@ -31,6 +31,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [Reverse Engineered Community Clones and Alternative Hardware Documentation](#reverse-engineered-community-clones-and-alternative-hardware-documentation)
   - [Common to all comma devices](#common-to-all-comma-devices)
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
+    - [The Bad OBD-C Port Case](#the-bad-obd-c-port-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
     - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two-case)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
@@ -129,6 +130,10 @@ This is not official documentation but they may be close enough for reference.
 
 OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf) that uses a USB-C cable between the comma harness box and the comma device.
 
+**Preventative Measures**:
+
+* Use a magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cable.
+
 **Symptoms**:
 
 * The device does not go into "on-road" mode. It is stuck at the home screen.
@@ -191,6 +196,38 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * https://www.youtube.com/watch?v=2NPTUW2f6Os
 * [0pointjd's C3](https://discord.com/channels/469524606043160576/524592892627517450/1330161284049535036)
 
+### The Bad OBD-C Port Case
+
+This case is much worse than the above and an easy and/or reliable resolution is not really available. It's documented here for completeness. If you've got the skills and have ruled out the OBD-C cable case and/or the harness box not being the issue, you may want to look at this, but I don't blame you if you give up here.
+
+**Preventative Measures**:
+
+* Use a magnetic or quick-release mount to minimize the mechanical wear of the OBD-C port.
+
+**Symptoms**:
+
+The symptoms are in general very similar to the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) but the issue is not with the cable but with the OBD-C port itself.
+
+* The device does not go into "on-road" mode. It is stuck at the home screen.
+* You get random errors in openpilot such as, but not limited to:
+  * "Car Unrecognized"
+  * "CAN Bus Error"
+  * "CAN Bus Disconnected"
+
+**Resolution**:
+
+If you know how, you know how.
+
+[Unfortunately, there seems to be an anecdote about how a reflow only buys a little bit of time.](https://discord.com/channels/469524606043160576/954493346250887168/1302002657937854556)
+
+**Examples**:
+
+Cases seem to be rare and follow ups haven't been said publiclly. If you have a case that you would like to add, please do so in a pull request or issue.
+
+* C2
+  * [defy's c2](https://discord.com/channels/469524606043160576/954493346250887168/1302031683284893840)
+* C3
+  * [minty's c3](https://discord.com/channels/469524606043160576/1121848816870641775/1124891817566023680)
 
 ## Common to all comma two family devices
 
