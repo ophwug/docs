@@ -479,7 +479,7 @@ There are multiple solutions to this problem.
 **Resolution**:
 
 > [!NOTE]
-> Fill in with instructions on how to extract keys from the old SOM.
+> Fill in with instructions on how to extract keys from the old SOM. https://discord.com/channels/469524606043160576/1346999805624320084/1355086750724128929
 
 Replace the System-On-Module (SOM) with a new one.
 
