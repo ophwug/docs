@@ -21,8 +21,6 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
-  - [Table of Contents](#table-of-contents)
   - [Discords and Discussions of Note](#discords-and-discussions-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -520,6 +518,11 @@ The only OEM SSD supported is the [Samsung 980 Non-Pro SSD](https://www.amazon.c
 
 The dates and times of these changes are not well documented, but they are known to exist.
 
+**Resources**:
+
+* https://enjoi.dev/posts/2021-12-20-comma-3-teardown/ - Good general teardown of the comma three in written form.
+* https://www.youtube.com/watch?v=Y3Z4j466CsE - Installing a SSD
+
 ### The Swampy No Panda Case
 
 **Symptoms**:
@@ -606,7 +609,6 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 **Examples**:
 
 * [mikejake's C3](https://discord.com/channels/469524606043160576/871838269405556736/1194379197712441364)
-
 ## comma threex (C3X)
 
 Released: 2023-10-12
