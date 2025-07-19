@@ -130,7 +130,7 @@ This is not official documentation but they may be close enough for reference.
 
 ### The Bad OBD-C Cable Case
 
-OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf) that uses a USB-C cable between the comma harness box and the comma device.
+OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf) that uses a ODB-C cable between the comma harness box and the comma device. comma produces, ships, and sells a ODB-C cable but select and many USB-C cables are electrically and physically compatible and can be used in its place.
 
 **Preventative Measures**:
 
