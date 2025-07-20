@@ -23,8 +23,6 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
-  - [Table of Contents](#table-of-contents)
   - [Discords and Discussions of Note](#discords-and-discussions-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
