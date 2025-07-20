@@ -21,6 +21,8 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
+  - [Table of Contents](#table-of-contents)
   - [Discords and Discussions of Note](#discords-and-discussions-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -522,6 +524,8 @@ The dates and times of these changes are not well documented, but they are known
 
 * https://enjoi.dev/posts/2021-12-20-comma-3-teardown/ - Good general teardown of the comma three in written form.
 * https://www.youtube.com/watch?v=Y3Z4j466CsE - Installing a SSD
+* USB-C/OBD-C port repair teardown part 1: https://www.youtube.com/live/TE757kH3EMM
+* USB-C/OBD-C port repair teardown part 2: https://www.youtube.com/live/gTw_Qq8scqo
 
 ### The Swampy No Panda Case
 
