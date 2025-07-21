@@ -251,8 +251,7 @@ The comma two family is the second generation of comma's hardware, and it is bas
 
 **Resolution**:
 
-Choose one:
-* https://github.com/ophwug/c2-neos-alt-fix-install may work. It is a portable evolution of the older instructions below.
+* Use https://github.com/ophwug/c2-neos-alt-fix-install with your computer.
 * If the above does not work, follow the instructions at https://github.com/jyoung8607/neos-manual-install.
 
 ## Common to all comma three family devices
