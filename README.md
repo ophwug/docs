@@ -268,7 +268,7 @@ Your comma device connects to your vehicle via a [comma.ai harness](#commaai-har
 
 Unfortunately, the harness may go bad, especially on V1 harnesses which use physical relays in the relay box.
 
-Please see the local taxonomy section on the [comma.ai harness](#commaai-harness) for identifying the harness you have.
+Please see [the local taxonomy section on the comma.ai harness](#commaai-harness) for identifying the harness you have.
 
 **Symptoms**:
 
