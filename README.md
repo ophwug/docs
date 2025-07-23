@@ -520,7 +520,7 @@ There are multiple solutions to this problem.
 
 * Newer openpilot does not care about GPS being an alertable requirement. https://github.com/commaai/openpilot/pull/35585
   * Update to a codebase that has this change.
-  * This will still result in wonky behavior on connect but it will not cause an ongoing alert.
+  * This will still result in wonky map behavior recorded in [comma connect](https://connect.comma.ai) but it will not cause an ongoing alert.
 * Hardware issues:
   * Check the GPS antenna connections internally.
   * Make sure the GPS module has power connections.
