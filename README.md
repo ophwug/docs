@@ -612,6 +612,7 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 **Examples**:
 
 * [mikejake's C3](https://discord.com/channels/469524606043160576/871838269405556736/1194379197712441364)
+
 ## comma threex (C3X)
 
 Released: 2023-10-12
