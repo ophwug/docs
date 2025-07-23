@@ -34,7 +34,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
   - [Common to all comma devices](#common-to-all-comma-devices)
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
     - [The Bad OBD-C Port Case](#the-bad-obd-c-port-case)
-  - [The Bad Car Harness Case](#the-bad-car-harness-case)
+    - [The Bad Car Harness Case](#the-bad-car-harness-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
     - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two-case)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
@@ -262,7 +262,7 @@ Cases seem to be rare and follow ups haven't been said publiclly. If you have a 
 * C3
   * [minty's c3](https://discord.com/channels/469524606043160576/1121848816870641775/1124891817566023680)
 
-## The Bad Car Harness Case
+### The Bad Car Harness Case
 
 Your comma device connects to your vehicle via a [comma.ai harness](#commaai-harness) via the OBD-C cable.
 
