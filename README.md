@@ -29,9 +29,12 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
   - [Hardware Documentation](#hardware-documentation)
     - [Official Hardware Documentation](#official-hardware-documentation)
     - [Reverse Engineered Community Clones and Alternative Hardware Documentation](#reverse-engineered-community-clones-and-alternative-hardware-documentation)
+    - [Taxonomy](#taxonomy)
+      - [comma.ai Harness](#commaai-harness)
   - [Common to all comma devices](#common-to-all-comma-devices)
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
     - [The Bad OBD-C Port Case](#the-bad-obd-c-port-case)
+  - [The Bad Car Harness Case](#the-bad-car-harness-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
     - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two-case)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
@@ -125,6 +128,34 @@ This is not official documentation but they may be close enough for reference.
   * [Harness Box v1](https://github.com/lukasloetkolben/OpenpilotHardware/tree/main/HarnessBox)
     *  Physical Relays
   * And more!
+
+### Taxonomy
+
+Just a small incomplete bit of small local documentation on the taxonomy of comma devices, clones, and hardware.
+
+Please refer to their respective documentation for more details.
+
+#### comma.ai Harness
+
+Harness V3 with relay box, harness cable, and comma power:
+
+![Image](https://github.com/user-attachments/assets/e7fc1e9f-071b-46f7-a5db-6964a0fb4522)
+
+Harness V1 with Box that has physical relays (you'll hear clicks under normal operation), the harness cable, and comma power :
+
+![Image](https://github.com/user-attachments/assets/83a7e287-c6bc-43ab-800d-5763098b1645)
+
+![Image](https://github.com/user-attachments/assets/6e630048-13fb-453d-9401-bf75709209c2)
+
+![Image](https://github.com/user-attachments/assets/eab842c7-edaf-4125-b9ab-b55c82579502)
+
+Harness V1 hardware is not compatible with Harness V3 hardware and vice versa. They share the same OBD-C cable and port as an output though.
+
+Visually and physically, the Harness V1 and V3 are very different. The Harness V3 has a molded non-3D printed enclosure, the port connecting to the relay box is smaller and thinner, and it does not use a CAT6 or Ethernet cable to connect to OBD-2 port. V3 is generally smaller.
+
+Note that the vehicle harnesses part after the relay may look very different for certain vehicles, particularly those that intercept at a location other than the camera.
+
+Please see https://github.com/commaai/hardware/ for more details on the harnesses.
 
 ## Common to all comma devices
 
@@ -230,6 +261,44 @@ Cases seem to be rare and follow ups haven't been said publiclly. If you have a 
   * [defy's c2](https://discord.com/channels/469524606043160576/954493346250887168/1302031683284893840)
 * C3
   * [minty's c3](https://discord.com/channels/469524606043160576/1121848816870641775/1124891817566023680)
+
+## The Bad Car Harness Case
+
+Your comma device connects to your vehicle via a [comma.ai harness](#commaai-harness) via the OBD-C cable.
+
+Unfortunately, the harness may go bad, especially on V1 harnesses which use physical relays in the relay box.
+
+Please see the local taxonomy section on the [comma.ai harness](#commaai-harness) for identifying the harness you have.
+
+**Symptoms**:
+
+* The OBD-C cable is known to be good and/or has been recently replaced. In other words, the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) has been ruled out. Please do this first.
+* You get random errors in openpilot such as, but not limited to:
+  * "Car Unrecognized"
+  * "CAN Bus Error"
+  * "CAN Bus Disconnected"
+* You hear unusual noises from the relay box or harness area. Of course, what is "unusual" can vary. Working V1 harnesses will click when the device is powered on and off, but if you hear a constant clicking or buzzing, that is not normal.
+
+**Resolution**:
+
+* Rule out the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case). It is easy and cheap to do.
+* Identify what harness revision you have: V1 or V3.
+* Using a multimeter's continuity test, check your vehicle-specific harness connector's pinout with https://github.com/commaai/hardware/tree/master/harness
+  * If this is bad, repair or replace the [vehicle specific harness connector](https://comma.ai/shop/harness-connector).
+* Harness V1:  After testing that the vehicle specific harness connector is good, the only current real way to test it is to purchase or borrow a [complete car harness](https://comma.ai/shop/car-harness) from comma and swap it out. You can [return](https://shop.comma.ai/a/returns) the new hardware if this is not the issue.
+  * Unfortunately, comma does not sell V1 harness hardware anymore, so you will have to try/buy a complete car harness for this resolution.
+* Harness V3: After testing that the vehicle specific harness connector is good, the only current real way to test it is to purchase or borrow a [new harness relay box](https://comma.ai/shop/harness-box) from comma and swap it out. You can [return](https://shop.comma.ai/a/returns) the new hardware if it is not the issue.
+* Test the new harness with your vehicle.
+* The above steps are a bit on the economical side, and you are welcome to just skip forward and just get a complete car harness from comma and swap it out for testing.
+
+Hopefully that _is_ the issue and it is resolved.
+
+**Examples**:
+
+- [**wakywayne's C3**](https://discord.com/channels/469524606043160576/871838269405556736/1397560030256955533)
+  - Replaced the OBD-C cable too, but the issue persisted until the complete harness was replaced from V1 to V3.
+- [**Yan's C3**](https://github.com/commaai/openpilot/issues/32179#issuecomment-2053766029)
+  - Met up in person to replace and swap hardware. It took a lot of convincing for comma support to replace his relay box under warranty.
 
 ## Common to all comma two family devices
 
