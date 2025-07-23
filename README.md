@@ -272,7 +272,7 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
 
 **Symptoms**:
 
-* The OBD-C cable is known to be good and/or has been recently replaced. In other words, the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) has been ruled out. Please do this first.
+* The OBD-C cable is known to be good and/or has been recently replaced. In other words, [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) has been ruled out. Please do this first.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
   * "CAN Bus Error"
@@ -286,7 +286,7 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
 * Using a multimeter's continuity test, check your vehicle-specific harness connector's pinout with https://github.com/commaai/hardware/tree/master/harness
   * If this is bad, repair or replace the [vehicle specific harness connector](https://comma.ai/shop/harness-connector).
 * Harness V1:  After testing that the vehicle specific harness connector is good, the only current real way to test it is to purchase or borrow a [complete car harness](https://comma.ai/shop/car-harness) from comma and swap it out. You can [return](https://shop.comma.ai/a/returns) the new hardware if this is not the issue.
-  * Unfortunately, comma does not sell V1 harness hardware anymore, so you will have to try/buy a complete car harness for this resolution.
+  * Unfortunately, comma does not sell V1 harness hardware anymore, so you will have to try/buy a complete Harness V3 car harness for this resolution.
 * Harness V3: After testing that the vehicle specific harness connector is good, the only current real way to test it is to purchase or borrow a [new harness relay box](https://comma.ai/shop/harness-box) from comma and swap it out. You can [return](https://shop.comma.ai/a/returns) the new hardware if it is not the issue.
 * Test the new harness with your vehicle.
 * The above steps are a bit on the economical side, and you are welcome to just skip forward and just get a complete car harness from comma and swap it out for testing.
