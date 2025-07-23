@@ -300,7 +300,7 @@ Hopefully that _is_ the issue and it is resolved.
 - [wakywayne's C3](https://discord.com/channels/469524606043160576/871838269405556736/1397560030256955533)
   - Replaced the OBD-C cable too, but the issue persisted until the complete harness was replaced from V1 to V3.
 - [Yan's C3](https://github.com/commaai/openpilot/issues/32179#issuecomment-2053766029)
-  - Met up in person to replace and swap hardware. It took a lot of convincing for comma support to replace his relay box under warranty.
+  - Met up in person to replace and swap hardware. It took a lot of convincing for comma support to replace his relay box under warranty. This was a V1 harness to V1 harness replacement.
 
 ## Common to all comma two family devices
 
