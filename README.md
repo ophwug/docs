@@ -65,7 +65,7 @@ You must join the server with an invite linked for links to channels to work.
   * [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736)
 * [openpilot enthusiasts Discord (OPC), a degenerate community offshoot Discord](https://discord.gg/rRB7eDKccy)
 
-This document is generally discussed here and there in [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736). However, you're welcome to just make and discuss in the [GitHub issues](https://github.com/ophwug/docs/issues) of this repository too.
+This document is generally discussed here and there in [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736). However, you're welcome to just make issues and discuss in the [GitHub issues](https://github.com/ophwug/docs/issues) of this repository too.
 
 ## General Notes
 
