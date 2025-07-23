@@ -231,7 +231,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 
 ### The Bad OBD-C Port Case
 
-This case is much worse than the above and an easy and/or reliable resolution is not really available. It's documented here for completeness. If you've got the skills and have ruled out the OBD-C cable case and/or the harness box not being the issue, you may want to look at this, but I don't blame you if you give up here.
+This case is much worse than the above and an easy and/or reliable resolution is not really available. It's documented here for completeness. If you've got the skills and have ruled out [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) and/or [The Bad Car Harness Case](#the-bad-car-harness-case), you may want to look at this, but I don't blame you if you give up here.
 
 **Preventative Measures**:
 
@@ -241,6 +241,8 @@ This case is much worse than the above and an easy and/or reliable resolution is
 
 The symptoms are in general very similar to the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) but the issue is not with the cable but with the OBD-C port itself.
 
+* The OBD-C port is physically damaged.
+* You've ruled out the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) and [The Bad Car Harness Case](#the-bad-car-harness-case).
 * The device does not go into "on-road" mode. It is stuck at the home screen.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
