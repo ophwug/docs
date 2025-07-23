@@ -151,9 +151,9 @@ Harness V1 with Box that has physical relays (you'll hear clicks under normal op
 
 Harness V1 hardware is not compatible with Harness V3 hardware and vice versa. They share the same OBD-C cable and port as an output though.
 
-Visually and physically, the Harness V1 and V3 are very different. The Harness V3 has a molded non-3D printed enclosure, the port connecting to the relay box is smaller and thinner, and it does not use a CAT6 or Ethernet cable to connect to OBD-2 port. V3 is generally smaller.
+Visually and physically, the Harness V1 and V3 are very different. The Harness V3 relay box has a molded non-3D printed enclosure, the relay box itself is much smaller, the comma power port connecting to the relay box is smaller and thinner, and the comma power portion does not use a CAT6 or Ethernet cable to connect to OBD-2 port. V3 is generally smaller overall.
 
-Note that the vehicle harnesses part after the relay may look very different for certain vehicles, particularly those that intercept at a location other than the camera.
+Note that the vehicle harnesses part after the relay may look very different for certain vehicles from the pretty shots above, particularly those that intercept at a location other than the camera. They are much longer or can even look like a comma power.
 
 Please see https://github.com/commaai/hardware/ for more details on the harnesses.
 
