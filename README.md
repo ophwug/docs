@@ -215,6 +215,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * https://amzn.to/3ZI82lR
     * This one has an on-off switch!
 * If you are removing the device often, consider using a purpose-built magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cabling. See #hw-unofficial on the [comma.ai Discord](https://discord.comma.ai)
+* If the cable is good from testing with a USB-C cable tester, check out [The Bad Car Harness Case](#the-bad-car-harness-case) and [The Bad OBD-C Port Case](#the-bad-obd-c-port-case) as the issue may be with the car harness. 
 
 **Vendors**:
 
