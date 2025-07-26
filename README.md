@@ -269,6 +269,11 @@ Cases seem to be rare and follow ups haven't been said publiclly. If you have a 
 * C3
   * [minty's c3](https://discord.com/channels/469524606043160576/1121848816870641775/1124891817566023680)
 
+**Resources**:
+
+* USB-C/OBD-C port repair teardown part 1: https://www.youtube.com/live/TE757kH3EMM
+* USB-C/OBD-C port repair teardown part 2: https://www.youtube.com/live/gTw_Qq8scqo
+
 ### The Bad Car Harness Case
 
 Your comma device connects to your vehicle via a [comma.ai harness](#commaai-harness) via the OBD-C cable.
@@ -474,6 +479,11 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * Not sure if the fuse was actually blown or not.
   * Still has radar issues, so it is not clear if the fuse was the only issue.
   * Also has GPS Issues
+
+**Resources**:
+
+* USB-C/OBD-C port repair teardown part 1: https://www.youtube.com/live/TE757kH3EMM
+* USB-C/OBD-C port repair teardown part 2: https://www.youtube.com/live/gTw_Qq8scqo
 
 **Vendors**:
 
@@ -731,6 +741,10 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 **Examples**:
 
 * [mikejake's C3](https://discord.com/channels/469524606043160576/871838269405556736/1194379197712441364)
+
+**Resources**:
+
+* https://www.youtube.com/watch?v=Y3Z4j466CsE - Installing a SSD
 
 ## comma threex (C3X)
 
