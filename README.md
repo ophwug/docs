@@ -74,6 +74,7 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
 ## General Notes
 
 * **Always install stock or comma openpilot first to make sure the issue is not software related as a starting point.**
+  * comma.ai support will not help you if you are not running stock or comma openpilot.
   * The comma Discord (outside of #custom-forks) will only support comma openpilot.
   * If you can't install stock or comma openpilot (like for vehicle support reasons), talk in #custom-forks or visit your fork's Discord and discuss the issue.
 * If your device is under warranty, [you should contact comma.ai support first.](https://comma.ai/support)
