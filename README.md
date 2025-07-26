@@ -35,6 +35,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
     - [The Bad OBD-C Port Case](#the-bad-obd-c-port-case)
     - [The Bad Car Harness Case](#the-bad-car-harness-case)
+    - [The Running Too Old Of An OS Case](#the-running-too-old-of-an-os-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
     - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two-case)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
@@ -217,7 +218,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * https://amzn.to/3ZI82lR
     * This one has an on-off switch!
 * If you are removing the device often, consider using a purpose-built magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cabling. See #hw-unofficial on the [comma.ai Discord](https://discord.comma.ai)
-* If the cable is good from testing with a USB-C cable tester, check out [The Bad Car Harness Case](#the-bad-car-harness-case) and [The Bad OBD-C Port Case](#the-bad-obd-c-port-case) as the issue may be with the car harness. 
+* If the cable is good from testing with a USB-C cable tester, check out [The Bad Car Harness Case](#the-bad-car-harness-case) and [The Bad OBD-C Port Case](#the-bad-obd-c-port-case) as the issue may be with the car harness.
 
 **Vendors**:
 
@@ -304,6 +305,49 @@ Hopefully that _is_ the issue and it is resolved.
   - Replaced the OBD-C cable too, but the issue persisted until the complete harness was replaced from V1 to V3.
 - [Yan's C3](https://github.com/commaai/openpilot/issues/32179#issuecomment-2053766029)
   - Met up in person to replace and swap hardware. It took a lot of convincing for comma support to replace his relay box under warranty. This was a V1 harness to V1 harness replacement.
+
+### The Running Too Old Of An OS Case
+
+comma.ai will only support "release", "nightly", and specific WIP branches of comma openpilot on their hardware. And with those branches, only the latest OS is supported.
+
+From time to time, comma.ai will "evolve" the hardware for reliability, supply chain, cost reduction, and other reasons. This means that the hardware may not be compatible with older versions of openpilot and the OS. In advance of this, they will update their OS and their openpilot branches to support the new hardware.
+
+By their nature, forks, old branches, and even YouTube instructions for installing openpilot or its various forks may lag behind the latest OS and openpilot version.
+
+Unfortunately, comma does not provide a way for installation to detect and block installation of an incompatible OS or openpilot version. Their view is that you are an advanced user and should know what you are doing. Also unfortunate is the amount of documentation and instructions that are out there that are not up to date, or can't be up to date, or how accessible YouTube videos are but are still out of date. Oh well, the world is not perfect.
+
+**Symptoms**:
+
+These can be very varied since by its nature, it's very undefined and this is incomplete.
+
+* Run a few minutes, and then the screen will freeze and then the device will reset.
+* The screen is completely visible and a good brightness and other times the brightness is super dark and the screen is barely visible.
+
+**Resolution**:
+
+* Uninstall by tapping the screen madly on boot and selecting "Uninstall".
+* Install the latest comma openpilot.
+* If you must use a fork, see the tip below.
+
+> [!TIP]
+>
+> **Current Known Status of Some Popular Forks**:
+>
+> Last Update: July 2025
+>
+> This is a living document, please check in with their communities for the latest status and if you can, help update this section.
+>
+> * sunnypilot - Do not install `release-c3`, install `staging-c3-new`.
+> * frogpilot - Should be fine. They've backported OS changes to their fork's OS.
+
+* Be mindful of YouTube videos and instructions that are not up to date. It is impossible to update YouTube videos.
+  * If you ended up here from a YouTube video, contact the author of the video and ask them to pin a comment to the top of the video with the latest instructions.
+* Last but not least, for fork users, you need to consult your fork's _written_ documentation. YouTube videos or alternative instructions may not be up to date and may not work with the latest OS or openpilot version.
+
+**Examples**:
+
+* [Magnetar's C3X](https://discord.com/channels/469524606043160576/524592892627517450/1398669054809608345)
+   * "I've already tried to factory reset and reinstalling and everything. It'll work fine for sometimes a few seconds up to about 5 minutes. Then the screen will freeze for a few seconds and I'll get the reboot with the comma symbol "
 
 ## Common to all comma two family devices
 
@@ -741,6 +785,7 @@ Was it possible that the SOM might not be seated properly?
 **Examples**:
 
 * [ceem0money's C3X](https://discord.com/channels/469524606043160576/1263672324973138033/1370771997188952116)
+
 
 
 # References
