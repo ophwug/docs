@@ -361,6 +361,8 @@ You must run an openpilot codebase that installs a compatible OS.
 
 * [Magnetar's C3X](https://discord.com/channels/469524606043160576/524592892627517450/1398669054809608345)
    * "I've already tried to factory reset and reinstalling and everything. It'll work fine for sometimes a few seconds up to about 5 minutes. Then the screen will freeze for a few seconds and I'll get the reboot with the comma symbol "
+ * [/u/Unable-Grape2361's C3X](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comma_3x_recovery_mechanism_after_overheating/)
+   * "Unfortunately, the replacement unit has been plagued by overheating problems that never occurred with the original."
 
 ## Common to all comma two family devices
 
