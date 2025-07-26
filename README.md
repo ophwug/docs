@@ -327,9 +327,15 @@ Unfortunately, comma does not provide a way for installation to detect and block
 These can be very varied since by its nature, it's very undefined and this is incomplete.
 
 * Run a few minutes, and then the screen will freeze and then the device will reset.
+  * e.g. Wi-Fi driver out of date
 * The screen is completely visible and a good brightness and other times the brightness is super dark and the screen is barely visible.
+  * e.g. Sensor driver out of date
+* The device overheats.
+  * e.g. Fan control driver out of date
 
 **Resolution**:
+
+You must run an openpilot codebase that installs a compatible OS.
 
 * Uninstall by tapping the screen madly on boot and selecting "Uninstall".
 * Install the latest comma openpilot.
