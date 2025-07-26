@@ -348,7 +348,7 @@ These can be very varied since by its nature, it's very undefined and this is in
 
 * Be mindful of YouTube videos and instructions that are not up to date. It is impossible to update YouTube videos.
   * If you ended up here from a YouTube video, contact the author of the video and ask them to pin a comment to the top of the video with the latest instructions.
-* Last but not least, for fork users, you need to consult your fork's _written_ documentation. YouTube videos or alternative instructions may not be up to date and may not work with the latest OS or openpilot version.
+* Last but not least, for fork users, you need to consult your fork's _written_ documentation. YouTube videos or alternative instructions may not be up to date and may not work with the latest OS or openpilot version. They may still be a great supplement to the written documentation though.
 
 **Examples**:
 
