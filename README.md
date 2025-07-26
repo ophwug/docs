@@ -326,6 +326,7 @@ Unfortunately, comma does not provide a way for installation to detect and block
 
 These can be very varied since by its nature, it's very undefined and this is incomplete.
 
+* You just got your device "repaired" by comma.ai. They actualy really just ship you a newly constructed device.
 * Run a few minutes, and then the screen will freeze and then the device will reset.
   * e.g. Wi-Fi driver out of date
 * The screen is completely visible and a good brightness and other times the brightness is super dark and the screen is barely visible.
