@@ -141,11 +141,11 @@ Please refer to their respective documentation for more details.
 
 #### comma.ai Harness
 
-Harness V3 with relay box, harness cable, and comma power:
+**Harness V3 with relay box, harness cable, and comma power (Shipping since ~June 2024)**:
 
 ![Image](https://github.com/user-attachments/assets/e7fc1e9f-071b-46f7-a5db-6964a0fb4522)
 
-Harness V1 with Box that has physical relays (you'll hear clicks under normal operation), the harness cable, and comma power :
+**Harness V1 with Box that has physical relays (you'll hear clicks under normal operation), the harness cable, and comma power**:
 
 ![Image](https://github.com/user-attachments/assets/83a7e287-c6bc-43ab-800d-5763098b1645)
 
