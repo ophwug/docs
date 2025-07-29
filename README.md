@@ -55,6 +55,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
+    - [The Wide Camera Malfunction Case (C3X)](#the-wide-camera-malfunction-case-c3x)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -812,7 +813,29 @@ Was it possible that the SOM might not be seated properly?
 
 * [ceem0money's C3X](https://discord.com/channels/469524606043160576/1263672324973138033/1370771997188952116)
 
+### The Wide Camera Malfunction Case (C3X)
 
+**Symptoms**:
+
+* "Camera Malfunction, wideRoadCamera"
+* "Camera Frame Rate Low, Reboot Your Device"
+
+**Resolution**:
+
+Unlike the [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3), this is a very hard to fix issue on the C3X as the cameras are soldered onto the main board.
+
+Your choices are limited and one of them is not great either.
+
+* Reseat the SOM (20% chance of fixing it)
+* [Hack: Disable the use of the wide camera](https://discord.com/channels/469524606043160576/871838269405556736/1399198229861634098)
+  * This definitely cripples something, but it is better than nothing.
+
+**Examples**:
+
+* [prabh123's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1399198229861634098)
+  * [jyoung8607's log analysis](https://discord.com/channels/469524606043160576/871838269405556736/1398377902051164170)
+    * "Took a look at your route. We do get an image from your ecamera, but only intermittently. **If and only if you can replicate this on current upstream openpilot** I would guess the actual image sensor is okay, but I suspect one of the four CSI data transfer lanes is dropping out. Your best option is probably comma's out-of-warranty flat rate repair service. There have been extremely large changes in camera support code recently, and this hypothesis is **not applicable** while running potentially outdated forks."
+  * Opted for and produced the hack to disable the wide camera on sunnypilot to resolve issue. Still works.
 
 # References
 
