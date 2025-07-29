@@ -296,6 +296,7 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
 
 **Resolution**:
 
+* _The below steps are a bit on the economical in hardware side, and you are welcome to just skip forward and just simply get a [complete car harness](https://comma.ai/shop/car-harness) from comma and swap it out for testing if time is of the essence. At worst, you're out the cost of shipping back the hardware (~$10 in US) if it is not the issue._
 * Rule out the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case). It is easy and cheap to do.
 * Identify what harness revision you have: V1 or V3.
 * Using a multimeter's continuity test, check your vehicle-specific harness connector's pinout with https://github.com/commaai/hardware/tree/master/harness
@@ -304,7 +305,6 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
   * Unfortunately, comma does not sell V1 harness hardware anymore, so you will have to try/buy a complete Harness V3 car harness for this resolution.
 * Harness V3: After testing that the vehicle specific harness connector is good, the only current real way to test it is to purchase a [new harness relay box](https://comma.ai/shop/harness-box) from comma and swap it out. You can [return](https://shop.comma.ai/a/returns) the new hardware if it is not the issue.
 * Test the new harness with your vehicle.
-* The above steps are a bit on the economical side, and you are welcome to just skip forward and just simply get a complete car harness from comma and swap it out for testing if time is of the essence.
 
 Hopefully that _is_ the issue and it is resolved.
 
