@@ -109,6 +109,7 @@ On a long enough timeline, all devices will fail.
   * https://spektor56.github.io/OpenpilotToolkit/ is an easy tool to do this.
   * More manual steps can be found at https://github.com/commaai/openpilot/wiki/SSH but the UI seems to shift around a lot. The broad strokes are the same.
   * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers and [comma connect](https://connect.comma.ai). comma will never replace the license file for you if it is lost.**
+  * [Newer versions of comma openpilot require this file for activation to be present in order to activate the self-driving features.](https://github.com/commaai/openpilot/commit/f4b017a75b0ba59bb1540347b101293c3db7364d) Forks can choose to not require this file though.
 * Do not use magnetic cable adapters. Use purpose-built magnetic or quick release mounts as OBD-C is far more sensitive to pins connecting to the wrong thing than USB-C.
 
 ## Hardware Documentation
