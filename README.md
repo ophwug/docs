@@ -319,7 +319,7 @@ Hopefully that _is_ the issue and it is resolved.
 
 ### The Running Too Old Of An OS Case
 
-comma.ai will only support the latest "release", "nightly", and specific WIP branches of comma openpilot on their hardware. And those branches will a recent or newest OS to be installed on the device.
+comma.ai will only support the latest "release", "nightly", and specific WIP branches of comma openpilot on their hardware. And those branches will cause a recent or newest OS to be installed on the device.
 
 From time to time, comma.ai will "evolve" the hardware for reliability, supply chain, cost reduction, and other reasons. This means that the hardware may not be compatible with older versions of openpilot and the OS. In advance of this, they will update their OS and their openpilot branches to support the new hardware.
 
