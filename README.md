@@ -361,6 +361,9 @@ You must run an openpilot codebase that installs a compatible OS.
 
 * Be mindful of YouTube videos and instructions that are not up to date. It is impossible to update YouTube videos.
   * If you ended up here from a YouTube video, contact the author of the video and ask them to pin a comment to the top of the video with the latest instructions.
+  * Videos with this issue:
+    * [Comma 3X OpenPilot & SunnyPilot Install - 2024 Kia EV6 GT
+](https://www.youtube.com/watch?v=YhYEYcfNL5o)
 * Last but not least, for fork users, you need to consult your fork's _written_ documentation. YouTube videos or alternative instructions may not be up to date and may not work with the latest OS or openpilot version. They may still be a great supplement to the written documentation though.
 
 **Examples**:
