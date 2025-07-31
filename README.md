@@ -499,6 +499,8 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * Also has GPS Issues
 * [chaheeto's C3](https://discord.com/channels/469524606043160576/871838269405556736/1400252232544551085)
   * Measured 1 ohms on the fuse, replaced it with a new one, and now it works.
+* * [/u/AlekWishes](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+  * Related to [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case)
 
 **Resources**:
 
@@ -635,7 +637,8 @@ Flash it.
 
 **Examples**:
 
-* todo
+* [/u/AlekWishes](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+  * Related to [The Blown Fuse Case](#the-blown-fuse-case)
 
 **Vendor**:
 
