@@ -497,6 +497,8 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * Not sure if the fuse was actually blown or not.
   * Still has radar issues, so it is not clear if the fuse was the only issue.
   * Also has GPS Issues
+* [chaheeto's C3](https://discord.com/channels/469524606043160576/871838269405556736/1400252232544551085)
+  * Measured 1 ohms on the fuse, replaced it with a new one, and now it works.
 
 **Resources**:
 
