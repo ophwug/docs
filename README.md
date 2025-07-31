@@ -664,7 +664,7 @@ The only OEM SSD supported is the [Samsung 980 Non-Pro SSD](https://www.amazon.c
 * Early C3 had dedicated u-blox GPS module
 * 32GB of onboard eMMC storage with no SSDs were introduced later
 * Panda was changed from an internal USB connection to a SPI connection
-* Cameras were changed from AR0231 to OS04C10
+* Cameras were changed from AR0231 to OS04C10 near the end of the C3's life cycle.
 
 The dates and times of these changes are not well documented, but they are known to exist.
 
