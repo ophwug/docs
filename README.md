@@ -782,7 +782,7 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
 * Speakers have been overhauled to be two speakers.
 * It is significantly lighter.
 * It uses a mount that's smaller than the comma three's mount.
-* A Red Panda is now included with the device, which now includes built-in CAN-FD support. Unlike the Red Panda, it is also a "no chiplet" design.
+* A Red Panda is now included with the device, which now includes built-in CAN-FD support.
 * Camera changed to OX03C10
 
 **Evolutions**:
