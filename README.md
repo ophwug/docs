@@ -852,6 +852,7 @@ Your choices are limited and one of them is not great either.
 * [prabh123's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1399198229861634098)
   * [jyoung8607's log analysis](https://discord.com/channels/469524606043160576/871838269405556736/1398377902051164170)
     * "Took a look at your route. We do get an image from your ecamera, but only intermittently. **If and only if you can replicate this on current upstream openpilot** I would guess the actual image sensor is okay, but I suspect one of the four CSI data transfer lanes is dropping out. Your best option is probably comma's out-of-warranty flat rate repair service. There have been extremely large changes in camera support code recently, and this hypothesis is **not applicable** while running potentially outdated forks."
+  * Reseating the SOM didn't work.
   * Opted for and produced the hack to disable the wide camera on sunnypilot to resolve issue. Still works.
     * "Yeah, I'm not gonna lie. It's the same on the highway. Right turns in roads are worse, but they were never any good anyway. We always use Pause Lateral on turns, so it's all good"
 
