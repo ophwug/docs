@@ -822,7 +822,11 @@ Note: Use the `nightly` branch of openpilot. `master-ci` is not available anymor
 
 **Resolution**:
 
+Have comma openpilot installed.
+
 Remove the SOM and reseat it.
+
+Reboot and wait.
 
 Was it possible that the SOM might not be seated properly?
 
