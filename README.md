@@ -320,6 +320,7 @@ Hopefully that _is_ the issue and it is resolved.
 - [rattail98's C3X](https://discord.com/channels/469524606043160576/524592892627517450/1399544048879927418)
   - Throughly debugged and narrowed it down to just the V3 relay box.
   - [Replaced the V3 relay box, harness, and ODB-C cable from support and it worked.](https://discord.com/channels/469524606043160576/524592892627517450/1403142981489528993)
+  - [eh, maybe not, still WIP. ](https://discord.com/channels/469524606043160576/524592892627517450/1403416357004906701)
 
 ### The Running Too Old Of An OS Case
 
