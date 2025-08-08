@@ -317,6 +317,9 @@ Hopefully that _is_ the issue and it is resolved.
   - Replaced the OBD-C cable too, but the issue persisted until the complete harness was replaced from V1 to V3.
 - [Yan's C3](https://github.com/commaai/openpilot/issues/32179#issuecomment-2053766029)
   - Met up in person to replace and swap hardware. It took a lot of convincing for comma support to replace his relay box under warranty. This was a V1 harness to V1 harness replacement.
+- [rattail98's C3X](https://discord.com/channels/469524606043160576/524592892627517450/1399544048879927418)
+  - Throughly debugged and narrowed it down to just the V3 relay box.
+  - [Replaced the V3 relay box, harness, and ODB-C cable from support and it worked.](https://discord.com/channels/469524606043160576/524592892627517450/1403142981489528993)
 
 ### The Running Too Old Of An OS Case
 
