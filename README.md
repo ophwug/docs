@@ -568,7 +568,7 @@ The high level instruction is still the same for any device, not even just the C
   * They sell with a front case for the C3X. C3 with front case has long been out of stock.
 * Mr. One: https://oneclone.net/product/kidney-beans-organic/
 * Konik.ai: https://konik.ai/shop/a1-amoled-screen/
-* Find/use any panel that is for the "Huawei Mate 10 Pro". Quality will vary.
+* Find/use any panel that is for the "Huawei Mate 10 Pro". Quality will vary. Not all screens will work. AMOLED version are the ones that are known to work. TFT and cheap models may not.
   * You can fill in the unused camera cutout with nail polish 💅.
 
 ### The Fan Death Case
