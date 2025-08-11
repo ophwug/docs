@@ -594,6 +594,7 @@ Comma unfortunately does not sell replacement fans by themselves. Users have bee
 
 * Mr. One: https://oneclone.net/product/c3-heatsink-replacement-parts/
   * Replacement fan with heatsink for the C3
+  * While Mr. One does have a C3XL that is a "clone" of a C3X, it is physically similar to a C3 still and is not compatible for a comma C3X.
 
 **Reference**:
 
