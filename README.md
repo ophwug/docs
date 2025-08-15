@@ -465,6 +465,8 @@ The component we're looking at should be able to self-reset but for whatever rea
 
 It is located near the ODB-C port and next to the SOM. In the image below, it is circled in red.
 
+It may be underneath a heatsink which you will need to remove.
+
 ![Fuse](https://github.com/user-attachments/assets/9639cd26-faea-419a-b088-f8183c5b0a4f)
 
 Known variants of the fuse to exist:
@@ -515,6 +517,11 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * When plugged into car, device started booting but then emitted smoke and blew 3 different car fuses
   * Car became unable to start after the incident
   * **Warning**: This repair isn't for the faint of heart - even experienced users can encounter serious issues
+* [silverwing's C3 😩 (OPC)](https://discord.com/channels/771493367246094347/771501905507123200/1405664424693600346)
+  * Had a huge amount of trouble locating the fuses.
+  * Not much electrical knowledge.
+  * Measured "`0`" resistance on the fuses. Kinda low amount of decimal places TBH.
+  * Gave up and will be sending it to comma for "repair".
 
 **Resources**:
 
