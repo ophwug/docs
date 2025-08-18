@@ -448,7 +448,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 >
 > For those new to using a multimeter, here's how to check a fuse:
 >
-> 1.  **Set your multimeter:** Turn the dial to the resistance setting (often marked with the Omega symbol: Ω). Start with the lowest resistance range if your multimeter isn't auto-ranging.
+> 1.  **Set your multimeter:** Turn the dial to the resistance setting (often marked with the Omega symbol: Ω). **It is critical to select the lowest possible resistance range (e.g., 200 Ω) to measure the small decimal values of a good fuse.** If your multimeter is not auto-ranging and the range is set too high, you may see a reading of "0" even on a good fuse.
 > 2.  **Measure lead resistance:** Before testing the fuse, touch the tips of your multimeter probes firmly together. The multimeter should display a very low resistance value (e.g., 0.1-0.5 Ω). This is the internal resistance of your multimeter and leads. Note this value down.
 > 3.  **Power off the device:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage.
 > 4.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
