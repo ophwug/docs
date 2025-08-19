@@ -565,6 +565,8 @@ Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, o
 
 First, make sure to try to reseat the connection for the screen. If that does not work, you will need to replace the screen.
 
+Inspect the MOSFETs around for any signs of failure. See [The Burned MOSFET Case](#the-burned-mosfet-case).
+
 Konik.ai has a screen replacement guide for their devices which should be similar for the C3X: https://www.youtube.com/watch?v=ieyz4pxaHxU
 
 The high level instruction is still the same for any device, not even just the C3/C3X. You unscrew everything and try to make sure you don't damage the cables.
