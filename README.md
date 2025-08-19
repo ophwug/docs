@@ -522,6 +522,10 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * Not much electrical knowledge.
   * Measured "`0`" resistance on the fuses. Kinda low amount of decimal places TBH.
   * Gave up and will be sending it to comma for "repair".
+* [balsa's C3](https://discord.com/channels/469524606043160576/871838269405556736/1407407484980953321)
+  * [0.2 ohm, 0.8 ohm](https://discord.com/channels/469524606043160576/871838269405556736/1405600027644002407)
+  * [Had some issues flashing](https://discord.com/channels/469524606043160576/871838269405556736/1405659939602432170)
+  * "Mine with the part removed and a bridge put in, its working pretty well now"
 
 **Resources**:
 
