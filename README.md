@@ -586,6 +586,11 @@ The high level instruction is still the same for any device, not even just the C
 * Find/use any panel that is for the "Huawei Mate 10 Pro". Quality will vary. Not all screens will work. AMOLED version are the ones that are known to work. TFT and cheap models may not.
   * You can fill in the unused camera cutout with nail polish 💅.
 
+**Examples**:
+
+* [radko's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1407751155680804914)
+  * "The screen replacement was a breeze. Good job to the HW team who made the sticky tape easily removable and the mark where to bend the ribbon cable was a nice touch 🥰"
+
 ### The Fan Death Case
 
 **Symptoms**:
