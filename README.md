@@ -516,6 +516,8 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * Replaced 3 blown fuses and device worked fine with wall 5V power
   * When plugged into car, device started booting but then emitted smoke and blew 3 different car fuses
   * Car became unable to start after the incident
+  * [Car was repaired by replacing fuses](https://discord.com/channels/469524606043160576/525718620517564446/1403833844762677360)
+  * No longer using the C3.
   * **Warning**: This repair isn't for the faint of heart - even experienced users can encounter serious issues
 * [silverwing's C3 😩 (OPC)](https://discord.com/channels/771493367246094347/771501905507123200/1405664424693600346)
   * Had a huge amount of trouble locating the fuses.
