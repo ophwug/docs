@@ -530,6 +530,13 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * [Had some issues flashing](https://discord.com/channels/469524606043160576/871838269405556736/1405659939602432170)
   * [Shunted with a solder blob](https://discord.com/channels/469524606043160576/871838269405556736/1405600064029720707)
   * "Mine with the part removed and a bridge put in, its working pretty well now"
+* [sidthebear's C3](https://discord.com/channels/469524606043160576/871838269405556736/1407510430305357946)
+  * "So after about 3 years, my c3 has started boot looping. When it's very hot, it will boot get to the traffic screen, then immediately reboot. And this will go on for about 10  to 30 minutes before it will stay turned on."
+  * Measured 18.2 ohms
+  * Could not put back together.
+  * [Tossed it on `#for-sale` for $100](https://discord.com/channels/469524606043160576/1407749221242900604/1407750793049800864)
+  * Replaced with a new C3X
+  * ["Doing a private for sale rather than a trade-in? Just easier. I didn't feel like dealing with the hassle of trying to put it back together again, trying to reload the software to base op, or anything else. Especially not for whatever paltry discount would be offered for it as a trade-in device."](https://discord.com/channels/469524606043160576/1407749221242900604/1407750473544499231)
 
 **Resources**:
 
