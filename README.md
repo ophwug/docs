@@ -422,7 +422,7 @@ This can happen on comma's branches or forks. Try resetting by tapping the scree
 
 **Symptoms**:
 
-* The device does not seem to or gets stuck for whatever reason.
+* The device does not seem to boot or gets stuck for whatever reason.
 * Tapping the screen madly on boot and selecting "Reset" does not get the device back to factory state.
 
 **Resolution**:
