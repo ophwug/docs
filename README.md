@@ -537,6 +537,10 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * [Tossed it on `#for-sale` for $100](https://discord.com/channels/469524606043160576/1407749221242900604/1407750793049800864)
   * Replaced with a new C3X
   * ["Doing a private for sale rather than a trade-in? Just easier. I didn't feel like dealing with the hassle of trying to put it back together again, trying to reload the software to base op, or anything else. Especially not for whatever paltry discount would be offered for it as a trade-in device."](https://discord.com/channels/469524606043160576/1407749221242900604/1407750473544499231)
+* [rifker's C3 (unknown if really was case) ❓](https://discord.com/channels/469524606043160576/871838269405556736/1408153264641413245)
+  * Left in drawer for a year, did not boot again.
+  * Went with comma's repair service, Chase Sapphired Preferred's Extended Warranty approved doing a warranty on the repair.
+  * Was going to measure fuse, but two screws already stripped.
 
 **Resources**:
 
