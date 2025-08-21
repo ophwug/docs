@@ -597,7 +597,7 @@ The high level instruction is still the same for any device, not even just the C
 
 **Examples**:
 
-* [radko's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1407751155680804914)
+* [radko's C3](https://discord.com/channels/469524606043160576/871838269405556736/1407751155680804914)
   * "The screen replacement was a breeze. Good job to the HW team who made the sticky tape easily removable and the mark where to bend the ribbon cable was a nice touch 🥰"
   * "c3 bought November 2022. Screen died due to user error (slid down the dashboard and hit the car's infotainment screen). After a few days the screen completely died. Worked flawlessly prior to being smacked."
   * ["DIY. Heated it with a hair dryer slowly for 2minutes and the  glue let the original screen go quite easily. Re-used the original glue as it was still tacky. Upon inspecting the broken screen I haven't found any cracks, guess it hit the *right* spot and released the organic matter in the OLED behind it. Interestingly the touch panel also had ghost touches but not as frequently to cause reset on boot (running OBD disconnected to save the 12V), in the picture above I managed to reset calibration upon repositioning it."](https://discord.com/channels/469524606043160576/871838269405556736/1407944207108145245)
