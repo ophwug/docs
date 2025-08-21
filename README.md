@@ -351,6 +351,7 @@ These can be very varied since by its nature, it's very undefined and this is in
 You must run an openpilot codebase that installs a compatible OS.
 
 * Uninstall by tapping the screen madly on boot and selecting "Uninstall".
+* If you can't do that, go through [The OS is Messed Up Case](#the-os-is-messed-up-case).
 * Install the latest comma openpilot.
 * If you must use a fork, see the tip below.
 
