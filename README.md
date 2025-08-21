@@ -414,6 +414,8 @@ The comma three family is the third generation of comma's hardware, and it is th
 
 ![Image](https://github.com/user-attachments/assets/6bd09b68-c379-4451-802b-05ad57fcf9bb)
 
+**Resolution**:
+
 This can happen on comma's branches or forks. Try resetting by tapping the screen madly on boot and selecting "Reset". Reinstall openpilot.
 
 ### The OS is Messed Up Case
