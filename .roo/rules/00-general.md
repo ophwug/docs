@@ -1,0 +1,1 @@
+* Use update.sh, don't install doctoc yourself.
