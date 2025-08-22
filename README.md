@@ -44,6 +44,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Blown Fuse Case](#the-blown-fuse-case)
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
     - [The Fan Death Case](#the-fan-death-case)
+    - [The Uncleaned Fan Flux Case](#the-uncleaned-fan-flux-case)
     - [The Poor GPS Signal Case](#the-poor-gps-signal-case)
     - [The Bad or Dead SOM Case](#the-bad-or-dead-som-case)
   - [comma three (C3)](#comma-three-c3)
@@ -640,6 +641,27 @@ Comma unfortunately does not sell replacement fans by themselves. Users have bee
 
 * https://discord.com/channels/469524606043160576/871838269405556736/1350189845758218417
 * comma: https://discord.com/channels/469524606043160576/871838269405556736/1374440250486554644
+
+### The Uncleaned Fan Flux Case
+
+**Symptoms**:
+
+* The fan has inconsistent speed, even when set to a fixed level.
+* The fan's RPM reading is 0 in panda scripts.
+* Disconnecting the fan's blue speed control wire does not cause it to run at maximum speed; it continues to oscillate.
+
+> "flux not cleaned on fan pins of comma three rev I - 08/31/21"
+
+<img width="640" height="360" alt="flux" src="https://github.com/user-attachments/assets/578d4338-2139-426d-b793-740d4f451051" />
+
+**Resolution**:
+
+After cleaning the flux from the fan pins, the fan should operate correctly.
+
+**Examples**:
+
+* [alesatobrazilsp's friend's C3](https://discord.com/channels/469524606043160576/871838269405556736/1408258565726015590 )
+  * [original issue post](https://discord.com/channels/469524606043160576/871838269405556736/1397284881054306364)
 
 ### The Poor GPS Signal Case
 
