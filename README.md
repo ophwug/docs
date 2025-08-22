@@ -626,6 +626,8 @@ Not the Korean kind of fan death!
 
 Comma unfortunately does not sell replacement fans by themselves. Users have been replacing them with various fans to differing success. OEM part may be from ADDA, not sure if off the shelf. Mr. One sells a replacement fan with heatsink for the C3.
 
+See also: [The Uncleaned Fan Flux Case](#the-uncleaned-fan-flux-case)
+
 **Examples**:
 
 * [redmapleleaf's C3, Noctua](https://discord.com/channels/469524606043160576/871838269405556736/1328667993047040010)
@@ -657,6 +659,8 @@ Comma unfortunately does not sell replacement fans by themselves. Users have bee
 **Resolution**:
 
 After cleaning the flux from the fan pins, the fan should operate correctly.
+
+See also: [The Fan Death Case](#the-fan-death-case)
 
 **Examples**:
 
