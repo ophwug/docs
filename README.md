@@ -456,17 +456,19 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 > For those new to using a multimeter, here's how to check a fuse:
 >
 > 1.  **Set your multimeter:** Turn the dial to the resistance setting (often marked with the Omega symbol: Ω). **It is critical to select the lowest possible resistance range (e.g., 200 Ω) to measure the small decimal values of a good fuse.** If your multimeter is not auto-ranging and the range is set too high, you may see a reading of "0" even on a good fuse.
-> 2.  **Measure lead resistance:** Before testing the fuse, touch the tips of your multimeter probes firmly together. The multimeter should display a very low resistance value (e.g., 0.1-0.5 Ω). This is the internal resistance of your multimeter and leads. Note this value down.
+> 2.  **Measure lead resistance:** Before testing the fuse, touch the tips of your multimeter probes firmly together. The multimeter should display a very low resistance value (e.g., 0.1-0.5 Ω). This is the internal resistance of your multimeter and leads. Note this value down.  Most multimeters will beep when you do this.
 > 3.  **Power off the device:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage.
 > 4.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
 > 5.  **Interpret the reading:**
->     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2.
+>     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2. If your multimeter beeped in step 2, it should also beep now.
 >     *   **Blown Fuse:** The multimeter will show a high resistance (e.g., 0.5-43 Ω) or an open circuit (OL or ∞), indicating the fuse is blown.
+>
+> 6.  **Measure the new fuse:** Before disassembling the device and replacing the fuse, measure the new one to make sure it works.
 >
 > Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
 >
 > Note: These instructions may not cover all fuse issues, such as those that might fail only if temperature is elevated or under load.
-> Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced and more dangerous techniques. While this diagnosis can be performed by anyone with basic multimeter skills, actual fuse replacement may require professional help.
+> Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced and more dangerous techniques. While this diagnosis can be performed by anyone with basic multimeter skills, actual fuse replacement may require professional help, but can be done in a couple hours DIY with some electronics experience and the correct tools (see below).
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
@@ -488,9 +490,60 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-rese
 
 There may also be other fuses like this nearby, not just that circled red one. It should have the same markings.
 
+**Required Tools**:
+
+- Multimeter to read resistance
+- 1.3mm and 1.5mm allen bits/keys
+- Soldering iron (with very fine tip) + leaded solder
+- Desoldering wick (with flux)
+- Fine-point tweezers
+- Possibly small cutters if the old fuse doesn't come off easily
+- At least two replacement fuses (for when you destroy the first). See the Vendors section below.
+
+**Disassembly Process**:
+
+> [!TIP]
+> **Take photos at every step!** Before disconnecting anything, take clear photos of how connectors are positioned, where wires are routed, and the overall layout. These reference photos will be invaluable during reassembly to ensure everything goes back exactly where it belongs.
+
+1. **Remove connectors for easier access:** Unplug the GPS antenna U.FL connector, GPS JST connector, fan plug, and the other U.FL connector under the heat sink to completely remove the heat sink. This makes everything much easier to access. They should all re-connect pretty easily.
+
+2. **Handle screws carefully:** Be careful with the 1.3mm hex screws for the GPS mount. Use a bit of pressure to properly seat the screwdriver bit before unscrewing to avoid stripping. Apply firm downward pressure while turning.
+
+3. **Remove heat sink:** Once all connectors are unplugged, the heat sink can be fully removed for better access to the fuse area.
+
+**Fuse Replacement Process**:
+
+> [!WARNING]
+> **Handle replacement fuses carefully:** If using tweezers to seat the fuse, don't push too hard - they crush pretty easily.
+
+1. **Prepare for desoldering:** **Desoldering wick with flux is a must-have tool.** Add a small bit of fresh solder to each side of the old fuse first, then wick it off. This helps with heat transfer and removal.
+
+2. **Remove old fuse:** Even with proper preparation, the old fuse may not come off very easily. In some cases, the top half comes off first, requiring you to carefully scrape the bottom part off with small snips or cutters.
+
+3. **Clean the pads:** Make sure to add a small amount of solder to the pads once the old fuse is completely removed (just enough to tin them, not a blob), and ensure all remnants of the old fuse are gone. This makes soldering the new fuse much easier.
+
+4. **Install new fuse:** Carefully position the new fuse and solder in place. If pressing down on the fuse to hold it in place, be very gentle to avoid crushing it.
+
+**Reassembly Process**:
+
+> [!WARNING]
+> **Critical reassembly steps:** Missing any of these steps will cause mounting issues or overheating.
+
+1. **Don't forget the plastic plate:** There's a plastic plate that goes between the chips and the heat sink. If you forget this, the heat sink will not mount correctly and you'll need to disassemble everything again.
+
+2. **Apply thermal paste:** 
+   - Clean old thermal paste off with a microfiber cloth (**not paper towel!**) and rubbing alcohol
+   - Apply new thermal paste - it's better to use slightly more rather than too little since this device needs all the cooling help it can get
+
+3. **Handle the RF shield carefully:** The RF shield (little metal box connected with foil tape) underneath the GPS mount can be finicky. Be gentle and patient when clipping it back in place. Some clips may need to be slightly re-bent if they've deformed.
+
+4. **Route the U.FL wire correctly:** When reassembling, make sure to run the other U.FL wire (that goes to the PCB mounted to the heat sink) *around* the heat sink, not underneath it. There's a small notch in the plastic plate where it should be routed. If run underneath, the heat sink won't mount properly.
+
+5. **Connect the middle U.FL connector:** This "other U.FL wire" connects to the middle U.FL connector on the board under the heat sink. Look for an arrow marking on the board indicating the correct connector.
+
 **Resolution**:
 
-To fix this issue, you will need to replace the blown self-resetting fuse with a new one.
+To fix this issue, you will need to replace the blown self-resetting fuse with a new one following the detailed procedures above.
 
 **Examples**:
 
@@ -548,6 +601,12 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * Left in drawer for a year, did not boot again.
   * Went with comma's repair service, Chase Sapphired Preferred's Extended Warranty approved doing a warranty on the repair.
   * Was going to measure fuse, but two screws already stripped.
+* [bscholer's C3 (detailed instructions above)](https://discord.com/channels/469524606043160576/871838269405556736/1408908722193039521)
+  * Left mounted to windshield in a hot car for a week, and no longer booted after.
+    * *Note: The device showed the boot logo briefly one time after this, for about a half-second. It still did not function though.*
+  * After replacing fuse, the C3 works perfectly!
+  * Bought extra fuses, DM if you need a couple in the US, happy to mail them for free.
+
 
 **Resources**:
 
