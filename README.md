@@ -174,7 +174,7 @@ Please see https://github.com/commaai/hardware/ for more details on the harnesse
 
 ### The Bad OBD-C Cable Case
 
-OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf) that uses a ODB-C cable between the comma harness box and the comma device. comma produces, ships, and sells a ODB-C cable but select and many USB-C cables are electrically and physically compatible and can be used in its place.
+OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf) that uses a OBD-C cable between the comma harness box and the comma device. comma produces, ships, and sells a OBD-C cable but select and many USB-C cables are electrically and physically compatible and can be used in its place.
 
 **Preventative Measures**:
 
@@ -323,7 +323,7 @@ Hopefully that _is_ the issue and it is resolved.
   - Met up in person to replace and swap hardware. It took a lot of convincing for comma support to replace his relay box under warranty. This was a V1 harness to V1 harness replacement.
 - [rattail98's C3X](https://discord.com/channels/469524606043160576/524592892627517450/1399544048879927418)
   - Throughly debugged and narrowed it down to just the V3 relay box.
-  - [Replaced the V3 relay box, harness, and ODB-C cable from support and it worked.](https://discord.com/channels/469524606043160576/524592892627517450/1403142981489528993)
+  - [Replaced the V3 relay box, harness, and OBD-C cable from support and it worked.](https://discord.com/channels/469524606043160576/524592892627517450/1403142981489528993)
   - [eh, maybe not, still WIP. ](https://discord.com/channels/469524606043160576/524592892627517450/1403416357004906701)
 
 ### The Running Too Old Of An OS Case
@@ -452,7 +452,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
-It is located near the ODB-C port and next to the SOM. In the image below, it is circled in red.
+It is located near the OBD-C port and next to the SOM. In the image below, it is circled in red.
 
 It may be underneath a heatsink which you will need to remove.
 
@@ -553,17 +553,17 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 * [katsu's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1368055272488308797)
 * [idnot's C3](https://discord.com/channels/469524606043160576/871838269405556736/1372254806449848412)
 * [Le Potatos's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1374310506088628235) - Alternatively shunted it. Note that this C3 might also have other issues such as a broken fan, necessitating shunting the fuse.
-* [Nabeel's C3](https://discord.com/channels/469524606043160576/871838269405556736/1382502275460890755) - Also possibly caused by a broken ODB-C cable.
-  * See [The Bad ODB-C Cable Case](#the-bad-odb-c-cable-case) for more details.
+* [Nabeel's C3](https://discord.com/channels/469524606043160576/871838269405556736/1382502275460890755) - Also possibly caused by a broken OBD-C cable.
+  * See [The Bad OBD-C Cable Case](#the-bad-odb-c-cable-case) for more details.
 * [wferr's C3](https://discord.com/channels/469524606043160576/871838269405556736/1383249237739049080)
 * [dazoe's C3 ⚠️](https://discord.com/channels/469524606043160576/871838269405556736/1382566915465150464)
   * NOTE: C3's fuse read normally when powered off but otherwise showed a huge resistance when powered on. It only showed voltage drop when powered on.
   * ⚠️ Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced techniques. Seek more knowledgeable help if you are not comfortable with the following.
-  * ["My C3 was acting un-stable, when checking the fuse (just above the ODB USB-C in your picture) it wasn't until after I let the fuse "warm up" that i got a reading of 0.8-1 ohm. I also carefully measured the voltage drop across the fuse while the board was running. It wouldn't fully boot up but just idle on a screen that said "press any key to shutdown". The voltage drop was all over, ranging from 0.5-up to 2.5v which means the resistance of the fuse was changing."](https://discord.com/channels/469524606043160576/871838269405556736/1383803066536431768)
+  * ["My C3 was acting un-stable, when checking the fuse (just above the OBD USB-C in your picture) it wasn't until after I let the fuse "warm up" that i got a reading of 0.8-1 ohm. I also carefully measured the voltage drop across the fuse while the board was running. It wouldn't fully boot up but just idle on a screen that said "press any key to shutdown". The voltage drop was all over, ranging from 0.5-up to 2.5v which means the resistance of the fuse was changing."](https://discord.com/channels/469524606043160576/871838269405556736/1383803066536431768)
   * ["Having it powered up with out heat sink alone risks over heating. the higher risk is with power going to it one slip and you could do serious damage. It's a tight place to get probes in and with it being right next to the usb port's shield you risk shorting out the power supply. If you did add it I would put a big bold warning on it. The basic concept is to have multi meter in voltage mode, probes on each side of the fuse, when powered the voltage should stay close to 0."](https://discord.com/channels/469524606043160576/871838269405556736/1383848416626479165)
 * [dimdom69's C3X (OPC)](https://discord.com/channels/771493367246094347/834826173795139584/1388357047522689045)
   * "I measured 2.0 ohms on the bad one, with the new one measuring 0.0 ohms."
-  * [Also possibly caused by a broken ODB-C cable?](#the-bad-obd-c-cable-case)
+  * [Also possibly caused by a broken OBD-C cable?](#the-bad-obd-c-cable-case)
 * [wabash's C3, though the diagnosis and resolution was pretty unclean](https://discord.com/channels/469524606043160576/871838269405556736/1395147642581024789)
   * Err'd in removing the fuse for measuring, not knowing it is not necessary, and before measuring and instead accidentally melting the fuse.
   * Not sure if the fuse was actually blown or not.
