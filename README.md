@@ -544,6 +544,15 @@ There may also be other fuses like this nearby, not just that circled red one. I
 
 5. **Connect the middle U.FL connector:** This "other U.FL wire" connects to the middle U.FL connector on the board under the heat sink. Look for an arrow marking on the board indicating the correct connector.
 
+**Additional Photos**:
+
+<img src="https://github.com/user-attachments/assets/ac314868-e601-4ce9-85e6-1e1000711b7f" width="500"/>
+<img src="https://github.com/user-attachments/assets/86a5fea5-8cfe-4c71-87e2-1edee90d0fc8" width="500"/>
+<img src="https://github.com/user-attachments/assets/96b5149a-a7b9-4eed-a89b-f5d98e95c76e" width="500"/>
+<img src="https://github.com/user-attachments/assets/c0726345-812c-4585-89b4-aac84f3a9d93" width="500"/>
+<img src="https://github.com/user-attachments/assets/c1daa5ed-2a0c-436c-98f7-3b52971bc947" width="500"/>
+
+
 **Resolution**:
 
 To fix this issue, you will need to replace the blown self-resetting fuse with a new one following the detailed procedures above.
