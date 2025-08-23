@@ -448,27 +448,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 * With a heat gun applied to the fuses, the resistance gets elevated to bad levels.
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 
-> [!TIP]
-> **Measuring Fuse Resistance with a Multimeter**
->
-> **You do NOT need to desolder the fuse for testing.** This diagnosis can be performed by anyone with basic multimeter skills.
->
-> For those new to using a multimeter, here's how to check a fuse:
->
-> 1.  **Set your multimeter:** Turn the dial to the resistance setting (often marked with the Omega symbol: Ω). **It is critical to select the lowest possible resistance range (e.g., 200 Ω) to measure the small decimal values of a good fuse.** If your multimeter is not auto-ranging and the range is set too high, you may see a reading of "0" even on a good fuse.
-> 2.  **Measure lead resistance:** Before testing the fuse, touch the tips of your multimeter probes firmly together. The multimeter should display a very low resistance value (e.g., 0.1-0.5 Ω). This is the internal resistance of your multimeter and leads. Note this value down.  Most multimeters will beep when you do this.
-> 3.  **Power off the device:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage.
-> 4.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
-> 5.  **Interpret the reading:**
->     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2. If your multimeter beeped in step 2, it should also beep now.
->     *   **Blown Fuse:** The multimeter will show a high resistance (e.g., 0.5-43 Ω) or an open circuit (OL or ∞), indicating the fuse is blown.
->
-> 6.  **Measure the new fuse:** Before disassembling the device and replacing the fuse, measure the new one to make sure it works.
->
-> Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
->
-> Note: These instructions may not cover all fuse issues, such as those that might fail only if temperature is elevated or under load.
-> Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced and more dangerous techniques. While this diagnosis can be performed by anyone with basic multimeter skills, actual fuse replacement may require professional help, but can be done in a couple hours DIY with some electronics experience and the correct tools (see below).
+**Component Information**:
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
@@ -490,8 +470,31 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-rese
 
 There may also be other fuses like this nearby, not just that circled red one. It should have the same markings.
 
-**Required Tools**:
+**Diagnosis**:
 
+> [!TIP]
+> **Measuring Fuse Resistance with a Multimeter**
+>
+> **You do NOT need to desolder the fuse for testing.** This diagnosis can be performed by anyone with basic multimeter skills.
+>
+> For those new to using a multimeter, here's how to check a fuse:
+>
+> 1.  **Set your multimeter:** Turn the dial to the resistance setting (often marked with the Omega symbol: Ω). **It is critical to select the lowest possible resistance range (e.g., 200 Ω) to measure the small decimal values of a good fuse.** If your multimeter is not auto-ranging and the range is set too high, you may see a reading of "0" even on a good fuse.
+> 2.  **Measure lead resistance:** Before testing the fuse, touch the tips of your multimeter probes firmly together. The multimeter should display a very low resistance value (e.g., 0.1-0.5 Ω). This is the internal resistance of your multimeter and leads. Note this value down.  Most multimeters will beep when you do this.
+> 3.  **Power off the device:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage.
+> 4.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
+> 5.  **Interpret the reading:**
+>     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2. If your multimeter beeped in step 2, it should also beep now.
+>     *   **Blown Fuse:** The multimeter will show a high resistance (e.g., 0.5-43 Ω) or an open circuit (OL or ∞), indicating the fuse is blown.
+> 6.  **Measure the new fuse:** Before disassembling the device and replacing the fuse, measure the new one to make sure it works.
+>
+> Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
+>
+> **Advanced Diagnosis Notes:** These instructions may not cover all fuse issues, such as those that might fail only if temperature is elevated or under load. Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced and more dangerous techniques. While this diagnosis can be performed by anyone with basic multimeter skills, actual fuse replacement may require professional help, but can be done in a couple hours DIY with some electronics experience and the correct tools (see below).
+
+**Repair Procedure**:
+
+**Required Tools:**
 - Multimeter to read resistance
 - 1.3mm and 1.5mm allen bits/keys
 - Soldering iron (with very fine tip) + leaded solder
@@ -500,7 +503,7 @@ There may also be other fuses like this nearby, not just that circled red one. I
 - Possibly small cutters if the old fuse doesn't come off easily
 - At least two replacement fuses (for when you destroy the first). See the Vendors section below.
 
-**Disassembly Process**:
+**Step 1: Disassembly**
 
 > [!TIP]
 > **Take photos at every step!** Before disconnecting anything, take clear photos of how connectors are positioned, where wires are routed, and the overall layout. These reference photos will be invaluable during reassembly to ensure everything goes back exactly where it belongs.
@@ -511,7 +514,7 @@ There may also be other fuses like this nearby, not just that circled red one. I
 
 3. **Remove heat sink:** Once all connectors are unplugged, the heat sink can be fully removed for better access to the fuse area.
 
-**Fuse Replacement Process**:
+**Step 2: Fuse Replacement**
 
 > [!WARNING]
 > **Handle replacement fuses carefully:** If using tweezers to seat the fuse, don't push too hard - they crush pretty easily.
@@ -524,7 +527,7 @@ There may also be other fuses like this nearby, not just that circled red one. I
 
 4. **Install new fuse:** Carefully position the new fuse and solder in place. If pressing down on the fuse to hold it in place, be very gentle to avoid crushing it.
 
-**Reassembly Process**:
+**Step 3: Reassembly**
 
 > [!WARNING]
 > **Critical reassembly steps:** Missing any of these steps will cause mounting issues or overheating.
