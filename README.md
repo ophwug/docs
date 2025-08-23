@@ -554,7 +554,7 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 * [idnot's C3](https://discord.com/channels/469524606043160576/871838269405556736/1372254806449848412)
 * [Le Potatos's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1374310506088628235) - Alternatively shunted it. Note that this C3 might also have other issues such as a broken fan, necessitating shunting the fuse.
 * [Nabeel's C3](https://discord.com/channels/469524606043160576/871838269405556736/1382502275460890755) - Also possibly caused by a broken OBD-C cable.
-  * See [The Bad OBD-C Cable Case](#the-bad-odb-c-cable-case) for more details.
+  * See [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) for more details.
 * [wferr's C3](https://discord.com/channels/469524606043160576/871838269405556736/1383249237739049080)
 * [dazoe's C3 ⚠️](https://discord.com/channels/469524606043160576/871838269405556736/1382566915465150464)
   * NOTE: C3's fuse read normally when powered off but otherwise showed a huge resistance when powered on. It only showed voltage drop when powered on.
