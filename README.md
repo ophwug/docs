@@ -89,6 +89,7 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
 * Mobile Repair, Video Game hardware repair shops, PCB electronics repair places, and other similar operations may be able to help with hardware repairs. Your mileage may vary and to be honest, these devices aren't common but with specific instructions, they might be amenable to helping you out.
 * Unplug and power down the device for 30 minutes before assessing if the issue is persistent.
 * Even if you plan to contract out the repair, you should own a multimeter. They're so handy not just for this but also other home improvement and domestic projects.
+* Make sure the issue is not with your vehicle. Disconnect and reconnect all vehicle connectors back to stock to make sure your vehicle is still operating properly.
 * If you're disassembling something yourself, make sure to have a good clean workspace to keep track of all parts you take apart and to be able to put everything back together without missing pieces. This may mean screw mats and small containers.
 
 ## Preventative and Recommended Measures
