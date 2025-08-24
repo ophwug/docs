@@ -534,7 +534,7 @@ There may also be other fuses like this nearby, not just that circled red one. I
 
 1. **Don't forget the plastic plate:** There's a plastic plate that goes between the chips and the heat sink. If you forget this, the heat sink will not mount correctly and you'll need to disassemble everything again.
 
-2. **Apply thermal paste:** 
+2. **Apply thermal paste:**
    - Clean old thermal paste off with a microfiber cloth (**not paper towel!**) and rubbing alcohol
    - Apply new thermal paste - it's better to use slightly more rather than too little since this device needs all the cooling help it can get
 

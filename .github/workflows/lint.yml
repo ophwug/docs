@@ -1,0 +1,15 @@
+name: Lint
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+    - name: Check for ODB
+      run: |
+        if grep -q 'ODB' README.md; then
+          echo "Error: Found 'ODB' in README.md. Please use 'OBD' instead."
+          exit 1
+        fi
