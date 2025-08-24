@@ -619,6 +619,7 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 * [bscholer's C3 (detailed instructions above)](https://discord.com/channels/469524606043160576/871838269405556736/1408908722193039521)
   * Left mounted to windshield in a hot car for a week, and no longer booted after.
     * *Note: The device showed the boot logo briefly one time after this, for about a half-second. It still did not function though.*
+  * Measured 30 ohms for the fuse.
   * After replacing fuse, the C3 works perfectly!
   * Bought extra fuses, DM if you need a couple in the US, happy to mail them for free.
 
