@@ -47,6 +47,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Uncleaned Fan Flux Case](#the-uncleaned-fan-flux-case)
     - [The Poor GPS Signal Case](#the-poor-gps-signal-case)
     - [The Bad or Dead SOM Case](#the-bad-or-dead-som-case)
+    - [The Damaged Ribbon Cable Case](#the-damaged-ribbon-cable-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -801,6 +802,30 @@ Flash it.
 * Mr. One: https://oneclone.net/product/thundercomm-d845-som-4gb64/
 * konik.ai: https://konik.ai/shop/thundercomm-d845-som-4gb64/
   * There is an option for an 8GB version but it is not necessary for openpilot.
+
+### The Damaged Ribbon Cable Case
+
+**Symptoms**:
+
+* "long story short my small brain used way to long a screw to put the ssd in and I heard a crunching sound and this is what I saw"
+
+![IMG_1289](https://github.com/user-attachments/assets/ad788299-3c63-427d-b260-f4b5126e6e23)
+
+**Resolution**:
+
+Replace the damaged ribbon cable.
+
+**Vendors**:
+
+* [DigiKey](https://www.digikey.com/)
+
+**Examples**:
+
+* [xyrx's C3](https://discord.com/channels/469524606043160576/954493346250887168/1406453677891387454)
+  * [Followup in finding the correct or very similar ribbon on DigiKey.](https://discord.com/channels/469524606043160576/871838269405556736/1409000268837683282 )
+  * "I just had to count the pins and measure the length"
+  * Found https://www.digikey.com/en/products/detail/molex/0151660271/3281152
+  * A straight cable like this was probably easy to find.
 
 ## comma three (C3)
 
