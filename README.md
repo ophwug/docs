@@ -457,11 +457,13 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
-It is located near the OBD-C port and next to the SOM. In the image below, it is circled in red.
+It is located near the OBD-C port and next to the SOM. In the image below, it is circled in green.
 
 It may be underneath a heatsink which you will need to remove.
 
-![Fuse](https://github.com/user-attachments/assets/9639cd26-faea-419a-b088-f8183c5b0a4f)
+![Blown Fuse circled](https://github.com/user-attachments/assets/af59106f-57d4-4c3f-b993-2731b1ee6e0d)
+
+[Image courtesy of posterduck.](https://discord.com/channels/469524606043160576/871838269405556736/1408484686044598505)
 
 Known variants of the fuse to exist:
 
@@ -473,7 +475,7 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-rese
 * V12: MF-NSML380/12
 * CT: 1206L350/12SL
 
-There may also be other fuses like this nearby, not just that circled red one. It should have the same markings.
+There may also be other fuses like this nearby, not just that circled green one such as the blue and red ones. You can replace those too if you'll like.
 
 **Diagnosis**:
 
