@@ -651,6 +651,7 @@ Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, o
 * `openpilot` still engages
 * The screen does not turn on
 * purple splotches on the screen
+* Screen burn-in
 
 **Non-Symptoms**:
 
