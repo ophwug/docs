@@ -448,7 +448,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
 * Device does not power on when connected
 * Device does not stay on
-* The self-resetting fuse's resistance is stuck high. (e.g. 0.5-43 ohms, when it should be about 0.02 ohms at most from the datasheet(s))
+* The self-resetting fuse's resistance is stuck high. (e.g. 0.3-43 ohms, when it should be about 0.02 ohms at most from the datasheet(s)). Note that 0.3 ohms is just a value seen in some problematic devices; technically, anything above 0.02 ohms is out of spec.
 * With a heat gun applied to the fuses, the resistance gets elevated to bad levels.
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 
@@ -489,7 +489,7 @@ There may also be other fuses like this nearby, not just that circled red one. I
 > 4.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
 > 5.  **Interpret the reading:**
 >     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2. If your multimeter beeped in step 2, it should also beep now.
->     *   **Blown Fuse:** The multimeter will show a high resistance (e.g., 0.5-43 Ω) or an open circuit (OL or ∞), indicating the fuse is blown.
+>     *   **Blown Fuse:** The multimeter will show a high resistance (e.g., 0.3-43 Ω) or an open circuit (OL or ∞), indicating the fuse is blown.
 > 6.  **Measure the new fuse:** Before disassembling the device and replacing the fuse, measure the new one to make sure it works.
 >
 > Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
