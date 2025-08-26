@@ -450,6 +450,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 * Device does not stay on
 * The self-resetting fuse's resistance is stuck high. (e.g. 0.3-43 ohms, when it should be about 0.02 ohms at most from the datasheet(s)). Note that 0.3 ohms is just a value seen in some problematic devices; technically, anything above 0.02 ohms is out of spec.
 * With a heat gun applied to the fuses, the resistance gets elevated to bad levels.
+* (V1 harness) relay box sounds like a maraca when shaken on failed boot.
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 
 **Component Information**:
