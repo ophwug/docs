@@ -475,7 +475,7 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-rese
 * V12: MF-NSML380/12
 * CT: 1206L350/12SL
 
-There may also be other fuses like this nearby, not just that circled green one such as the blue and red ones. You can replace those too if you'll like.
+There may also be other fuses like this nearby, not just that circled green one such as the blue and red ones. You can replace those too if you'll like but that really only the green one probably needs to be replaced. The rest should probably left as-is though one is welcome to measure those too.
 
 **Diagnosis**:
 
@@ -626,7 +626,7 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * Measured 30 ohms for the fuse.
   * After replacing fuse, the C3 works perfectly!
   * Bought extra fuses, DM if you need a couple in the US, happy to mail them for free.
-
+  * ["Yep, just that one fuse. Didn't test the others, so glad it fixed the problem 😅"](https://discord.com/channels/469524606043160576/871838269405556736/1410054918894784583)
 
 **Resources**:
 
