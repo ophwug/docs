@@ -845,6 +845,8 @@ Released: 2021-07-31
 
 Discontinued: 2023-10-12
 
+comma openpilot support dropped: 2025-08-26
+
 https://blog.comma.ai/comma-three-press-release/
 
 The comma three is comma's first device designed from the ground up that isn't based upon a hacked-up cell phone.
