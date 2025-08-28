@@ -627,6 +627,10 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * After replacing fuse, the C3 works perfectly!
   * Bought extra fuses, DM if you need a couple in the US, happy to mail them for free.
   * ["Yep, just that one fuse. Didn't test the others, so glad it fixed the problem 😅"](https://discord.com/channels/469524606043160576/871838269405556736/1410054918894784583)
+  * Contributed much of the repair guide above!
+* [posterduck's C3](https://discord.com/channels/469524606043160576/871838269405556736/1410462125846958110)
+  * Went through bscholer's guide.
+  * "It lives!"
 
 **Resources**:
 
