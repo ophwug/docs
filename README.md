@@ -480,6 +480,9 @@ There may also be other fuses like this nearby, not just that circled green one 
 
 **Diagnosis**:
 
+> [!WARNING]
+> A visual inspection of the fuse is not sufficient for diagnosis. You must use a multimeter to measure the resistance of the fuse to determine if it is blown.
+
 > [!TIP]
 > **Measuring Fuse Resistance with a Multimeter**
 >
