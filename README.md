@@ -819,6 +819,7 @@ Flash it.
 **Symptoms**:
 
 * "long story short my small brain used way to long a screw to put the ssd in and I heard a crunching sound and this is what I saw"
+* small brain
 
 ![IMG_1289](https://github.com/user-attachments/assets/ad788299-3c63-427d-b260-f4b5126e6e23)
 
