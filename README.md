@@ -635,6 +635,7 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 * [posterduck's C3](https://discord.com/channels/469524606043160576/871838269405556736/1410462125846958110)
   * Went through bscholer's guide.
   * "It lives!"
+  * [Unfortunately, it seems to have fried the fuse again overnight.](https://discord.com/channels/469524606043160576/871838269405556736/1410972090341003274)
 
 **Resources**:
 
