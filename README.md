@@ -632,10 +632,16 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
   * Bought extra fuses, DM if you need a couple in the US, happy to mail them for free.
   * ["Yep, just that one fuse. Didn't test the others, so glad it fixed the problem 😅"](https://discord.com/channels/469524606043160576/871838269405556736/1410054918894784583)
   * Contributed much of the repair guide above!
-* [posterduck's C3](https://discord.com/channels/469524606043160576/871838269405556736/1410462125846958110)
+* [posterduck's C3 ❌](https://discord.com/channels/469524606043160576/871838269405556736/1410462125846958110)
   * Went through bscholer's guide.
   * "It lives!"
   * [Unfortunately, it seems to have fried the fuse again overnight.](https://discord.com/channels/469524606043160576/871838269405556736/1410972090341003274)
+* [thinkpad4by3's C3 ❌](https://discord.com/channels/469524606043160576/871838269405556736/1411598315656839169)
+  * "Ive just replaced all 4 of the PTC fuses with brand new ones and the fault still exists. c3 gives up total control, screen black, alarm on, ACC disengages, etc. the odd part to if I unplug it and replug it back in, the relay automatically opens but the c3 does NOT boot. It won't boot for a while after."
+  * [Mr One: "It seems that there is a problem with your CPU
+"](https://discord.com/channels/469524606043160576/871838269405556736/1411625935547007016)
+  * [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case)
+  * Asked if the resistances are still the same post-repair on the fuses.
 
 **Resources**:
 
