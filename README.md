@@ -568,6 +568,10 @@ There may also be other fuses like this nearby, not just that circled green one 
 
 To fix this issue, you will need to replace the blown self-resetting fuse with a new one following the detailed procedures above.
 
+**Repair Services**:
+
+* [Drago, $99](https://discord.com/channels/469524606043160576/871838269405556736/1411779945860038727)
+
 **Examples**:
 
 * [katsu's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1368055272488308797)
