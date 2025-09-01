@@ -454,7 +454,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 * Blue light in the back may still blink.
 
-**Component Information**:
+**Diagnosis**:
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
@@ -468,17 +468,11 @@ It may be underneath a heatsink which you will need to remove.
 
 Known variants of the fuse to exist:
 
-https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12
-
-https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-resettable-pptc-devices/surface-mount-polyswitch-resettable-pptc-devices/low-rho-smd/1206l350-12sl
-
-* S12: MF-NSML350/12
-* V12: MF-NSML380/12
-* CT: 1206L350/12SL
+* [S12: MF-NSML350/12](https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12)
+* [V12: MF-NSML380/12](https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12)
+* [CT: 1206L350/12SL](https://www.littelfuse.com/products/fuses-overcurrent-protection/polyswitch-resettable-pptc-devices/surface-mount-polyswitch-resettable-pptc-devices/low-rho-smd/1206l350-12sl)
 
 There may also be other fuses like this nearby, not just that circled green one such as the blue and red ones. You can replace those too if you'll like but that really only the green one probably needs to be replaced. The rest should probably left as-is though one is welcome to measure those too.
-
-**Diagnosis**:
 
 > [!WARNING]
 > A visual inspection of the fuse is not sufficient for diagnosis. You must use a multimeter to measure the resistance of the fuse to determine if it is blown.
@@ -503,7 +497,30 @@ There may also be other fuses like this nearby, not just that circled green one 
 >
 > **Advanced Diagnosis Notes:** These instructions may not cover all fuse issues, such as those that might fail only if temperature is elevated or under load. Please look at dazoe's case in the Examples section below for some details. Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced and more dangerous techniques. While this diagnosis can be performed by anyone with basic multimeter skills, actual fuse replacement may require professional help, but can be done in a couple hours DIY with some electronics experience and the correct tools (see below).
 
-**Repair Procedure**:
+**Resolution**:
+
+To fix this issue, you will need to replace the blown self-resetting fuse with a new one. You can contact a repair service or attempt a DIY repair if you have the necessary skills and tools.
+
+**Repair Services**:
+
+* [Drago, $99](https://discord.com/channels/469524606043160576/871838269405556736/1411779945860038727)
+* Somebody local who can do board level repair can follow the instructions in **DIY Repair** below. YMMV on cost.
+
+**DIY Repair**:
+
+If you're comfortable with soldering, you can replace the fuse yourself.
+
+Look for replacement fuses at trustworthy electronic vendors such as Mouser, Digi-Key, or Newark. Buy a bunch of them as shipping is the real cost.
+
+*   S12: Bourns `MF-NSML350/12-2` - **Mouser:** https://www.mouser.com/ProductDetail/Bourns/MF-NSML350-12-2?qs=u16ybLDytRaRX65cJT5NUA%3D%3D
+*   S12: Bourns `MF-NSML350/12-2` - **Digi-Key:** https://www.digikey.com/en/products/detail/bourns-inc/MF-NSML350-12-2/9859203
+*   S12: Bourns `MF-NSML350/12-2` - **Newark:** https://www.newark.com/bourns/mf-nsml350-12-2/ptc-resettable-fuse-12v-1206/dp/72AC9028
+*   V12: Bourns `MF-NSML380/12-2` - **Mouser:** https://www.mouser.com/ProductDetail/Bourns/MF-NSML380-12-2?qs=u16ybLDytRZuQwI5f126Qg%3D%3D
+*   V12: Bourns `MF-NSML380/12-2` - **Digi-Key:** https://www.digikey.com/en/products/detail/bourns-inc/MF-NSML380-12-2/9859204
+*   V12: Bourns `MF-NSML380/12-2` - **Newark:** https://www.newark.com/bourns/mf-nsml380-12-2/pptc-resettable-fuse-3-8a-12v/dp/95AC1557
+*   CT: Littelfuse `1206L350/12SLWR` - **Mouser:** https://www.mouser.com/ProductDetail/Littelfuse/1206L350-12SLWR?qs=7MVldsJ5UawvCRT8CTYI7Q%3D%3D
+*   CT: Littelfuse `1206L350/12SLWR` - **Digi-Key:** https://www.digikey.com/en/products/detail/littelfuse-inc/1206L350-12SLWR/12807048
+
 
 **Required Tools:**
 - Multimeter to read resistance
@@ -563,14 +580,10 @@ There may also be other fuses like this nearby, not just that circled green one 
 <img src="https://github.com/user-attachments/assets/c0726345-812c-4585-89b4-aac84f3a9d93" width="500"/>
 <img src="https://github.com/user-attachments/assets/c1daa5ed-2a0c-436c-98f7-3b52971bc947" width="500"/>
 
+**Resources**:
 
-**Resolution**:
-
-To fix this issue, you will need to replace the blown self-resetting fuse with a new one following the detailed procedures above.
-
-**Repair Services**:
-
-* [Drago, $99](https://discord.com/channels/469524606043160576/871838269405556736/1411779945860038727)
+* USB-C/OBD-C port repair teardown part 1: https://www.youtube.com/live/TE757kH3EMM
+* USB-C/OBD-C port repair teardown part 2: https://www.youtube.com/live/gTw_Qq8scqo
 
 **Examples**:
 
@@ -646,24 +659,6 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 "](https://discord.com/channels/469524606043160576/871838269405556736/1411625935547007016)
   * [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case)
   * Asked if the resistances are still the same post-repair on the fuses.
-
-**Resources**:
-
-* USB-C/OBD-C port repair teardown part 1: https://www.youtube.com/live/TE757kH3EMM
-* USB-C/OBD-C port repair teardown part 2: https://www.youtube.com/live/gTw_Qq8scqo
-
-**Vendors**:
-
-Look for the fuses at trustworthy electronic vendors such as Mouser, Digi-Key, or Newark. Buy a bunch of them as shipping is the real cost.
-
-*   S12: Bourns `MF-NSML350/12-2` - **Mouser:** https://www.mouser.com/ProductDetail/Bourns/MF-NSML350-12-2?qs=u16ybLDytRaRX65cJT5NUA%3D%3D
-*   S12: Bourns `MF-NSML350/12-2` - **Digi-Key:** https://www.digikey.com/en/products/detail/bourns-inc/MF-NSML350-12-2/9859203
-*   S12: Bourns `MF-NSML350/12-2` - **Newark:** https://www.newark.com/bourns/mf-nsml350-12-2/ptc-resettable-fuse-12v-1206/dp/72AC9028
-*   V12: Bourns `MF-NSML380/12-2` - **Mouser:** https://www.mouser.com/ProductDetail/Bourns/MF-NSML380-12-2?qs=u16ybLDytRZuQwI5f126Qg%3D%3D
-*   V12: Bourns `MF-NSML380/12-2` - **Digi-Key:** https://www.digikey.com/en/products/detail/bourns-inc/MF-NSML380-12-2/9859204
-*   V12: Bourns `MF-NSML380/12-2` - **Newark:** https://www.newark.com/bourns/mf-nsml380-12-2/pptc-resettable-fuse-3-8a-12v/dp/95AC1557
-*   CT: Littelfuse `1206L350/12SLWR` - **Mouser:** https://www.mouser.com/ProductDetail/Littelfuse/1206L350-12SLWR?qs=7MVldsJ5UawvCRT8CTYI7Q%3D%3D
-*   CT: Littelfuse `1206L350/12SLWR` - **Digi-Key:** https://www.digikey.com/en/products/detail/littelfuse-inc/1206L350-12SLWR/12807048
 
 ### The Screen Doesn't Work or is Dying Case
 
