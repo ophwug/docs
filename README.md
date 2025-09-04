@@ -660,7 +660,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
 "](https://discord.com/channels/469524606043160576/871838269405556736/1411625935547007016)
   * [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case)
   * Asked if the resistances are still the same post-repair on the fuses.
-  * [Continued to use it afterwards with Always On Lateral from frogpilot still at ~60F ambient temperature.](https://discord.com/channels/469524606043160576/871838269405556736/1412187801650331670)
+  * [Continued to use it afterwards with Always On Lateral from frogpilot still at ~60F ambient temperature, but no usage of ACC.](https://discord.com/channels/469524606043160576/871838269405556736/1412187801650331670)
 
 ### The Screen Doesn't Work or is Dying Case
 
