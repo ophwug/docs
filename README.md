@@ -391,7 +391,7 @@ You must run an openpilot codebase that installs a compatible OS.
 The comma two family is the second generation of comma's hardware, and it is based upon a modified Leeco Le Pro 3 with the battery removed, thermal solution filled in, front camera replaced with IR-filter-less variants and an integrated comma panda PCB providing supporting CAN communication, fan support, and providing supporting hardware/software hacks to trick the phone hardware such as battery emulation and bootkick.
 
 > [!NOTE]
-> If you're starting out in this community, you should get a comma three or similar device as the communities around openpilot have moved on to the comma three family of devices for ongoing support and current development.
+> If you're starting out in this community, you should get a comma threex or similar device as the communities around openpilot have moved on to the comma threex family of devices for ongoing support and current development.
 
 > [!NOTE]
 > Unfortunately, this section needs to be written. If you have any cases that you would like to add, please do so in a pull request or issue. For now, you'll have to search the #hw-two-eon channel on [comma's Discord](https://discord.comma.ai)
