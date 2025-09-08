@@ -54,6 +54,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Burned MOSFET Case](#the-burned-mosfet-case)
     - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
     - [The NVMe drive not mounted Case](#the-nvme-drive-not-mounted-case)
+    - [The Stuck Registration Case](#the-stuck-registration-case)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -975,6 +976,32 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 **Resources**:
 
 * https://www.youtube.com/watch?v=Y3Z4j466CsE - Installing a SSD
+
+
+### The Stuck Registration Case
+
+&lt;!-- placeholder for image --&gt;
+
+It is suspected that comma's endpoint for C3 registration might be a bit unreliable. On newer C3s and C3Xs, the devices are preloaded with a dongle id, but older and earlier C3s may not have this.
+
+**Symptoms**:
+
+* Registration is stuck spinning
+
+**Resolution**:
+
+so, to avoid "registering device", replace your dongle id below and run this script:
+```bash
+DONGLE_ID="REPLACE_THIS_WITH_YOUR_DONGLE_ID"
+sudo mount -o remount,rw /persist
+echo "$DONGLE_ID" &gt; /persist/comma/dongle_id
+sudo mount -o remount,ro /persist
+sudo reboot
+```
+your dongle id can be found in https://connect.comma.ai or https://useradmin.comma.ai
+
+&gt; [!WARNING]
+&gt; be advised that comma advises against touching this - https://discord.com/channels/469524606043160576/819046761287909446/1335013586027942065
 
 ## comma threex (C3X)
 
