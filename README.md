@@ -315,6 +315,7 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
 * Harness V1:  After testing that the vehicle specific harness connector is good, the only current real way to test it is to purchase a [complete car harness](https://comma.ai/shop/car-harness) from comma and swap it out. You can [return](https://shop.comma.ai/a/returns) the new hardware if this is not the issue.
   * Unfortunately, comma does not sell V1 harness hardware anymore, so you will have to try/buy a complete Harness V3 car harness for this resolution.
 * Harness V3: After testing that the vehicle specific harness connector is good, the only current real way to test it is to purchase a [new harness relay box](https://comma.ai/shop/harness-box) from comma and swap it out. You can [return](https://shop.comma.ai/a/returns) the new hardware if it is not the issue.
+  * In some cases, like rattail98's, the issue may be a failed resistor inside the harness box itself, which can be replaced by those with electronics repair skills. See [the schematic for harness box v3](https://github.com/commaai/hardware/blob/master/harness/v3/Harness_Box.pdf) for more details.
 * Test the new harness with your vehicle.
 
 Hopefully that _is_ the issue and it is resolved.
@@ -329,6 +330,12 @@ Hopefully that _is_ the issue and it is resolved.
   - Throughly debugged and narrowed it down to just the V3 relay box.
   - [Replaced the V3 relay box, harness, and OBD-C cable from support and it worked.](https://discord.com/channels/469524606043160576/524592892627517450/1403142981489528993)
   - [eh, maybe not, still WIP. ](https://discord.com/channels/469524606043160576/524592892627517450/1403416357004906701)
+- [rattail98's C3X (V3 harness, hardcore option)](https://discord.com/channels/469524606043160576/524592892627517450/1415049990870405140)
+  - After debugging and replacing the OBD-C cable and Subaru A harness, the issue was narrowed down to the harness box.
+  - Upon inspection of the harness box, resistor R4 was found to have failed and was not showing continuity.
+  - The failed 1k ohm resistor was replaced with a 2.2k ohm resistor to prevent future failures. This resolved the issue.
+  - It is suspected that voltage spikes on the IGN line may have caused the resistor to fail, possibly due to prior front-end damage and repair on the vehicle.
+  - The harness box is secured by a single screw hidden under the adhesive.
 
 ### The Running Too Old Of An OS Case
 
