@@ -608,7 +608,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Also has GPS Issues
 * [chaheeto's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1400252232544551085)
   * Measured 1 ohms on the fuse, replaced it with a new one, and now it works.
-* [/u/AlekWishes's C3X ❓](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+* [/u/AlekWishes's C3X ✅](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
   * Related to [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case)
 * [/u/Crabs2336's C3X ✅](https://www.reddit.com/r/Comma_ai/comments/1mg0miu/comment/n7bqfrk/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
   * Went for shunting the fuse instead of replacing it.
