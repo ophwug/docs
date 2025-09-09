@@ -631,7 +631,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * [Had some issues flashing](https://discord.com/channels/469524606043160576/871838269405556736/1405659939602432170)
   * [Shunted with a solder blob](https://discord.com/channels/469524606043160576/871838269405556736/1405600064029720707)
   * "Mine with the part removed and a bridge put in, its working pretty well now"
-* [sidthebear's C3](https://discord.com/channels/469524606043160576/871838269405556736/1407510430305357946)
+* [sidthebear's C3 🛑](https://discord.com/channels/469524606043160576/871838269405556736/1407510430305357946)
   * "So after about 3 years, my c3 has started boot looping. When it's very hot, it will boot get to the traffic screen, then immediately reboot. And this will go on for about 10  to 30 minutes before it will stay turned on."
   * Measured 18.2 ohms
   * Could not put back together.
