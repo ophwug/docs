@@ -587,30 +587,30 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
 
 **Examples**:
 
-* [katsu's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1368055272488308797)
-* [idnot's C3](https://discord.com/channels/469524606043160576/871838269405556736/1372254806449848412)
-* [Le Potatos's C3 (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1374310506088628235) - Alternatively shunted it. Note that this C3 might also have other issues such as a broken fan, necessitating shunting the fuse.
-* [Nabeel's C3](https://discord.com/channels/469524606043160576/871838269405556736/1382502275460890755) - Also possibly caused by a broken OBD-C cable.
+* [katsu's C3 (OPC) ✅](https://discord.com/channels/771493367246094347/771493367779295304/1368055272488308797)
+* [idnot's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1372254806449848412)
+* [Le Potatos's C3 (OPC) ✅](https://discord.com/channels/771493367246094347/771493367779295304/1374310506088628235) - Alternatively shunted it. Note that this C3 might also have other issues such as a broken fan, necessitating shunting the fuse.
+* [Nabeel's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1382502275460890755) - Also possibly caused by a broken OBD-C cable.
   * See [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) for more details.
-* [wferr's C3](https://discord.com/channels/469524606043160576/871838269405556736/1383249237739049080)
+* [wferr's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1383249237739049080)
 * [dazoe's C3 ⚠️](https://discord.com/channels/469524606043160576/871838269405556736/1382566915465150464)
   * NOTE: C3's fuse read normally when powered off but otherwise showed a huge resistance when powered on. It only showed voltage drop when powered on.
   * ⚠️ Diagnosing dazoe's C3 was a bit more involved than just measuring the fuse resistance and required more advanced techniques. Seek more knowledgeable help if you are not comfortable with the following.
   * ["My C3 was acting un-stable, when checking the fuse (just above the OBD USB-C in your picture) it wasn't until after I let the fuse "warm up" that i got a reading of 0.8-1 ohm. I also carefully measured the voltage drop across the fuse while the board was running. It wouldn't fully boot up but just idle on a screen that said "press any key to shutdown". The voltage drop was all over, ranging from 0.5-up to 2.5v which means the resistance of the fuse was changing."](https://discord.com/channels/469524606043160576/871838269405556736/1383803066536431768)
   * ["Having it powered up with out heat sink alone risks over heating. the higher risk is with power going to it one slip and you could do serious damage. It's a tight place to get probes in and with it being right next to the usb port's shield you risk shorting out the power supply. If you did add it I would put a big bold warning on it. The basic concept is to have multi meter in voltage mode, probes on each side of the fuse, when powered the voltage should stay close to 0."](https://discord.com/channels/469524606043160576/871838269405556736/1383848416626479165)
-* [dimdom69's C3X (OPC)](https://discord.com/channels/771493367246094347/834826173795139584/1388357047522689045)
+* [dimdom69's C3X (OPC) ✅](https://discord.com/channels/771493367246094347/834826173795139584/1388357047522689045)
   * "I measured 2.0 ohms on the bad one, with the new one measuring 0.0 ohms."
   * [Also possibly caused by a broken OBD-C cable?](#the-bad-obd-c-cable-case)
-* [wabash's C3, though the diagnosis and resolution was pretty unclean](https://discord.com/channels/469524606043160576/871838269405556736/1395147642581024789)
+* [wabash's C3, though the diagnosis and resolution was pretty unclean ❓](https://discord.com/channels/469524606043160576/871838269405556736/1395147642581024789)
   * Err'd in removing the fuse for measuring, not knowing it is not necessary, and before measuring and instead accidentally melting the fuse.
   * Not sure if the fuse was actually blown or not.
   * Still has radar issues, so it is not clear if the fuse was the only issue.
   * Also has GPS Issues
-* [chaheeto's C3](https://discord.com/channels/469524606043160576/871838269405556736/1400252232544551085)
+* [chaheeto's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1400252232544551085)
   * Measured 1 ohms on the fuse, replaced it with a new one, and now it works.
-* [/u/AlekWishes's C3X](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+* [/u/AlekWishes's C3X ❓](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
   * Related to [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case)
-* [/u/Crabs2336's C3X](https://www.reddit.com/r/Comma_ai/comments/1mg0miu/comment/n7bqfrk/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+* [/u/Crabs2336's C3X ✅](https://www.reddit.com/r/Comma_ai/comments/1mg0miu/comment/n7bqfrk/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
   * Went for shunting the fuse instead of replacing it.
 * [Catloaf's C3 ❌](https://discord.com/channels/469524606043160576/871838269405556736/1403834860828622909)
   * Replaced 3 blown fuses and device worked fine with wall 5V power
@@ -619,12 +619,12 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * [Car was repaired by replacing fuses](https://discord.com/channels/469524606043160576/525718620517564446/1403833844762677360)
   * No longer using the C3.
   * **Warning**: This repair isn't for the faint of heart - even experienced users can encounter serious issues
-* [silverwing's C3 😩 (OPC)](https://discord.com/channels/771493367246094347/771501905507123200/1405664424693600346)
+* [silverwing's C3 🛑 (OPC)](https://discord.com/channels/771493367246094347/771501905507123200/1405664424693600346)
   * Had a huge amount of trouble locating the fuses.
   * Not much electrical knowledge.
   * Measured "`0`" resistance on the fuses. Kinda low amount of decimal places TBH.
   * Gave up and will be sending it to comma for "repair".
-* [balsa's C3](https://discord.com/channels/469524606043160576/871838269405556736/1407407484980953321)
+* [balsa's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1407407484980953321)
   * [Thought it was the capacitor](https://discord.com/channels/469524606043160576/871838269405556736/1402027821215387668)
   * [0.2 ohm, 0.8 ohm](https://discord.com/channels/469524606043160576/871838269405556736/1405600027644002407)
   * [Had some issues flashing](https://discord.com/channels/469524606043160576/871838269405556736/1405659939602432170)
@@ -641,7 +641,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Left in drawer for a year, did not boot again.
   * Went with comma's repair service, Chase Sapphired Preferred's Extended Warranty approved doing a warranty on the repair.
   * Was going to measure fuse, but two screws already stripped.
-* [bscholer's C3 (detailed instructions above)](https://discord.com/channels/469524606043160576/871838269405556736/1408908722193039521)
+* [bscholer's C3 (detailed instructions above) ✅](https://discord.com/channels/469524606043160576/871838269405556736/1408908722193039521)
   * Left mounted to windshield in a hot car for a week, and no longer booted after.
     * *Note: The device showed the boot logo briefly one time after this, for about a half-second. It still did not function though.*
   * Measured 30 ohms for the fuse.
@@ -661,7 +661,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case)
   * Asked if the resistances are still the same post-repair on the fuses.
   * [Continued to use it afterwards with Always On Lateral from frogpilot still at ~60F ambient temperature, but no usage of ACC.](https://discord.com/channels/469524606043160576/871838269405556736/1412187801650331670)
-* [xyrx's C3](https://discord.com/channels/469524606043160576/871838269405556736/1413628340681703455)
+* [xyrx's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1413628340681703455)
   * "I got it working with a burnt thumb and 2 hours of really bad soldering"
 
 ### The Screen Doesn't Work or is Dying Case
