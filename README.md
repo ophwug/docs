@@ -638,6 +638,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * [Had some issues flashing](https://discord.com/channels/469524606043160576/871838269405556736/1405659939602432170)
   * [Shunted with a solder blob](https://discord.com/channels/469524606043160576/871838269405556736/1405600064029720707)
   * "Mine with the part removed and a bridge put in, its working pretty well now"
+  * Same C3 in [Fan Death Case](#the-fan-death-case)
 * [sidthebear's C3 🛑](https://discord.com/channels/469524606043160576/871838269405556736/1407510430305357946)
   * "So after about 3 years, my c3 has started boot looping. When it's very hot, it will boot get to the traffic screen, then immediately reboot. And this will go on for about 10  to 30 minutes before it will stay turned on."
   * Measured 18.2 ohms
@@ -739,6 +740,9 @@ See also: [The Uncleaned Fan Flux Case](#the-uncleaned-fan-flux-case)
 
 * [redmapleleaf's C3, Noctua](https://discord.com/channels/469524606043160576/871838269405556736/1328667993047040010)
 * [Pandus's C3, Scavenged ZOTAC fan](https://discord.com/channels/469524606043160576/871838269405556736/1364305247723589734)
+* [Balsa's C3, Mr. One's C3 Fan Replacement Heatsink](https://discord.com/channels/469524606043160576/871838269405556736/1415378929899798569)
+  * Note that it has pictures of the replacement fan but it seems a standalone non-square shroud version can't be found
+  * Same Balsa as in [The Blown Fuse Case](#the-blown-fuse-case)
 
 **Vendors**:
 
