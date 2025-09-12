@@ -742,6 +742,7 @@ See also: [The Uncleaned Fan Flux Case](#the-uncleaned-fan-flux-case)
 * [Pandus's C3, Scavenged ZOTAC fan](https://discord.com/channels/469524606043160576/871838269405556736/1364305247723589734)
 * [Balsa's C3, Mr. One's C3 Fan Replacement Heatsink](https://discord.com/channels/469524606043160576/871838269405556736/1415378929899798569)
   * Note that it has pictures of the replacement fan but it seems a standalone non-square shroud version can't be found
+  * [He has also run the fan testing script](https://discord.com/channels/469524606043160576/871838269405556736/1415385666597945517)
   * Same Balsa as in [The Blown Fuse Case](#the-blown-fuse-case)
 
 **Vendors**:
