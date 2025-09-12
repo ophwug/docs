@@ -7,11 +7,10 @@ This is an attempt to document some of the common issues and fixes that were dis
 > [!TIP]
 > This document is a bit long, you may want to put the URL of this document into your 🤖 AI assistant of choice to ask it questions about the contents of this document. Deepwiki is a good choice for querying with citations and references.
 >
-> Visit this badge: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ophwug/docs) about openpilot hardware!
+> Visit this button: [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ophwug/docs) about openpilot hardware!
 >
-> Of course, other AI assistants such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) can also be used.
+> Of course, other AI assistants such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) can also be used once you pass them the URL of this repository: https://github.com/ophwug/docs
 >
-> <img width="919" height="611" alt="image" src="https://github.com/user-attachments/assets/d271abb5-52b6-4341-9dc3-738bdf973146" />
 
 This document may also include links to other non-comma.ai Discords as well.
 
