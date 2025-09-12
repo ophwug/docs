@@ -5,13 +5,13 @@ Discord's search is terrible, and the content inside of it isn't accessible to s
 This is an attempt to document some of the common issues and fixes that were discussed in the Discord onto the public internet so that they can be found by search engines.
 
 > [!TIP]
-> This document is a bit long, you may want to put the URL of this document into your 🤖 AI assistant of choice to ask it questions about the contents of this document.
+> This document is a bit long, you may want to put the URL of this document into your 🤖 AI assistant of choice to ask it questions about the contents of this document. Deepwiki is a good choice for querying with citations and references.
 >
-> [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/commaai/openpilot)
+> [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ophwug/docs) about openpilot hardware!
 >
 > Of course, other AI assistants such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) can also be used.
-
-<img width="919" height="611" alt="image" src="https://github.com/user-attachments/assets/d271abb5-52b6-4341-9dc3-738bdf973146" />
+>
+> <img width="919" height="611" alt="image" src="https://github.com/user-attachments/assets/d271abb5-52b6-4341-9dc3-738bdf973146" />
 
 This document may also include links to other non-comma.ai Discords as well.
 
