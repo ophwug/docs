@@ -52,6 +52,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Poor GPS Signal Case](#the-poor-gps-signal-case)
     - [The Bad or Dead SOM Case](#the-bad-or-dead-som-case)
     - [The Damaged Ribbon Cable Case](#the-damaged-ribbon-cable-case)
+    - [The SIM Card Is Stuck Case](#the-sim-card-is-stuck-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -869,6 +870,27 @@ Replace the damaged ribbon cable.
   * "I just had to count the pins and measure the length"
   * Found https://www.digikey.com/en/products/detail/molex/0151660271/3281152
   * A straight cable like this was probably easy to find.
+
+### The SIM Card Is Stuck Case
+
+Maybe it's a bit of a design flaw on comma's part but the plastic on the comma three family device doesn't always have the best or precise opening needed for the tiny SIM card to be removed easily after pushing in on it.
+
+**Symptoms**:
+
+* The SIM card is stuck in the device after pushing on it.
+
+**Resolution**:
+
+* Use a plier to get the card out.
+* In more serious cases, take apart the device with a screwdriver to get more access.
+
+**Examples**:
+
+* [Vrabetz's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1416214544304443473)
+* [h3lix213412's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1416073425675358279)
+  * "the sim slot was stuck, so I had to unscrew two screws to get to the point to remove the sim with a little force"
+* [cookiemonster's C3X](https://discord.com/channels/469524606043160576/524592892627517450/1414868691643924512)
+  * "disassembled it and noticed my sim card tray gets quite tight with more resistance as it gets closer to fully seat. when it is fully seated, the spring is barely strong enough to push it out. I hope i dont need to change my sim card any time soon 🫠"
 
 ## comma three (C3)
 
