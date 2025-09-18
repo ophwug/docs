@@ -120,7 +120,7 @@ On a long enough timeline, all devices will fail.
     * There is also a specific thread under the #hw-unofficial channel for [magnetic mounts](https://discord.com/channels/469524606043160576/1130905705784803510)
 * When removing the device, be careful with the OBD-C cable. In addition to being physically careful with it, hiding it, including the tip from the sun's damaging rays will also help prolong its life.
 * When removing the device, be careful with the OBD-C port. It is a weak point in the design and can be damaged if you are not careful. This far harder to fix than the OBD-C cable. Look into magnetic mounts to minimize the wear on the OBD-C port.
-* SSH in and backup the contents of `/persist/comma/id_rsa`.
+* SSH in and backup the contents of `/persist/comma/id_rsa` on a genuine comma device.
   * https://spektor56.github.io/OpenpilotToolkit/ is an easy tool to do this.
   * More manual steps can be found at https://github.com/commaai/openpilot/wiki/SSH but the UI seems to shift around a lot. The broad strokes are the same.
   * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers and [comma connect](https://connect.comma.ai). comma will never replace the license file for you if it is lost.**
