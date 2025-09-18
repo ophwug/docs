@@ -673,13 +673,14 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * "It lives!"
   * [Unfortunately, it seems to have fried the fuse again overnight.](https://discord.com/channels/469524606043160576/871838269405556736/1410972090341003274)
   * ["It appears my C3 is officially dead. All fuses are showing fine, but the C3 shows no signs of life when plugged in 🙁"](https://discord.com/channels/469524606043160576/871838269405556736/1413005716146622617)
-* [thinkpad4by3's C3 ❓](https://discord.com/channels/469524606043160576/871838269405556736/1411598315656839169)
+* [thinkpad4by3's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1411598315656839169)
   * "Ive just replaced all 4 of the PTC fuses with brand new ones and the fault still exists. c3 gives up total control, screen black, alarm on, ACC disengages, etc. the odd part to if I unplug it and replug it back in, the relay automatically opens but the c3 does NOT boot. It won't boot for a while after."
   * [Mr One: "It seems that there is a problem with your CPU
 "](https://discord.com/channels/469524606043160576/871838269405556736/1411625935547007016)
   * [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case)
   * Asked if the resistances are still the same post-repair on the fuses.
   * [Continued to use it afterwards with Always On Lateral from frogpilot still at ~60F ambient temperature, but no usage of ACC.](https://discord.com/channels/469524606043160576/871838269405556736/1412187801650331670)
+  * ["i think it ended up being a combo of both, but after swapping out all my fuses and replacing my OBD-C cable, i have had 0 failures in the last like 4-5 weeks"](https://discord.com/channels/469524606043160576/871838269405556736/1418306528108089475)
 * [xyrx's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1413628340681703455)
   * "I got it working with a burnt thumb and 2 hours of really bad soldering"
 
