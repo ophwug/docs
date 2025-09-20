@@ -67,6 +67,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
     - [The Wide Camera Malfunction Case (C3X)](#the-wide-camera-malfunction-case-c3x)
+- [See Also](#see-also)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -194,9 +195,10 @@ OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/h
 
 **Symptoms**:
 
-* The device does not go into "on-road" mode. It is stuck at the home screen.
-  * According to the [standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf), the IGN line comes out as a combination of SBU1 and SBU2 and one or both isn't making its way through the OBD-C cable properly.
-* You substituted a random USB-C cable from your cable collection (e.g., because the original cable was missing or broken) and the device shows "Vehicle Online" but never transitions to "on-road" mode.
+* The device does not go into "[on-road]" mode. It is stuck at the home screen.
+
+   * According to the [standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf), the IGN line comes out as a combination of SBU1 and SBU2 and one or both isn't making its way through the OBD-C cable properly.
+* You substituted a random USB-C cable from your cable collection (e.g., because the original cable was missing or broken) and the device shows "Vehicle Online" but never transitions to "[on-road]" mode.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
   * "CAN Bus Error"
@@ -272,7 +274,7 @@ The symptoms are in general very similar to the [Bad OBD-C Cable Case](#the-bad-
 
 * The OBD-C port is physically damaged.
 * You've ruled out the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) and [The Bad Car Harness Case](#the-bad-car-harness-case).
-* The device does not go into "on-road" mode. It is stuck at the home screen.
+* The device does not go into "[on-road]" mode. It is stuck at the home screen.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
   * "CAN Bus Error"
@@ -795,10 +797,11 @@ See also: [The Fan Death Case](#the-fan-death-case)
 **Symptoms**:
 
 * The device has an alert about poor GPS signal
-* The device seems to not be able to locate itself well on [comma connect](https://connect.comma.ai)
+* The device seems to not be able to locate itself well on [comma connect]
 * Environmental Conditions:
   * A magnetic mount is used.
-  * The car's windshield is heated.
+
+   * The car's windshield is heated.
 
 **Resolution**:
 
@@ -806,7 +809,7 @@ There are multiple solutions to this problem.
 
 * Newer openpilot does not care about GPS being an alertable requirement. https://github.com/commaai/openpilot/pull/35585
   * Update to a codebase that has this change.
-  * This will still result in wonky map behavior recorded in [comma connect](https://connect.comma.ai) but it will not cause an ongoing alert.
+  * This will still result in wonky map behavior recorded in [comma connect] but it will not cause an ongoing alert.
 * Hardware issues:
   * Check the GPS antenna connections internally.
   * Make sure the GPS module has power connections.
@@ -919,8 +922,9 @@ The only OEM SSD supported is the [Samsung 980 Non-Pro SSD](https://www.amazon.c
 
 * Early C3 had dedicated u-blox GPS module
 * 32GB of onboard eMMC storage with no SSDs were introduced later
-* Panda was changed from an internal USB connection to a SPI connection
+* [Panda] was changed from an internal USB connection to a SPI connection
 * Cameras were changed from AR0231 to OS04C10 near the end of the C3's life cycle.
+
 
 The dates and times of these changes are not well documented, but they are known to exist.
 
@@ -935,7 +939,7 @@ The dates and times of these changes are not well documented, but they are known
 
 **Symptoms**:
 
-* No Panda
+* No [Panda]
 
 Device was in extremely humid conditions and corrosion formed on the Panda's MCU.
 
@@ -1051,7 +1055,7 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
 
 **Symptoms**:
 
-* No Panda
+* No [Panda]
 
 **Resolution**:
 
@@ -1067,7 +1071,7 @@ Note: Use the `nightly` branch of openpilot. `master-ci` is not available anymor
 
 **Symptoms**:
 
-* No Panda
+* No [Panda]
 * The software solution at https://github.com/commaai/openpilot/issues/33016 did not work after 10+ attempts.
 
 **Resolution**:
@@ -1111,9 +1115,16 @@ Your choices are limited and one of them is not great either.
     * "Yeah, I'm not gonna lie. It's the same on the highway. Right turns in roads are worse, but they were never any good anyway. We always use Pause Lateral on turns, so it's all good"
 
 
+# See Also
+
+* https://docs.comma.ai/concepts/glossary/ - An official glossary of terms
+
 # References
 
 * https://mr-one.cn/?post=24
 * https://mr-one.cn/?post=25
 
 [cdiscord]: https://discord.comma.ai/
+[on-road]: https://docs.comma.ai/concepts/glossary/#onroad
+[comma connect]: https://docs.comma.ai/concepts/glossary/#comma-connect
+[Panda]: https://docs.comma.ai/concepts/glossary/#panda
