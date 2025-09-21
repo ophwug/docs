@@ -321,6 +321,7 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
 
 * _The below steps are a bit on the economical in hardware side, and you are welcome to just skip forward and just simply get a [complete car harness](https://comma.ai/shop/car-harness) from comma and swap it out for testing if time is of the essence. At worst, you're out the cost of shipping back the hardware (~$10 in US) if it is not the issue._
 * Rule out the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case). It is easy and cheap to do.
+* Check the car's own fuses. A blown fuse in the car can prevent the comma device from powering up.
 * Identify what harness revision you have: V1 or V3.
 * Using a multimeter's continuity test, check your vehicle-specific harness connector's pinout with https://github.com/commaai/hardware/tree/master/harness
   * If this is bad, repair or replace the [vehicle specific harness connector](https://comma.ai/shop/harness-connector).
