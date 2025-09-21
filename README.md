@@ -310,6 +310,7 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
 
 **Symptoms**:
 
+* The device does not power on.
 * The OBD-C cable is known to be good and/or has been recently replaced. In other words, [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) has been ruled out. Please do this first.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
