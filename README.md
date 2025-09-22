@@ -119,6 +119,8 @@ On a long enough timeline, all devices will fail.
     * These will help preserve the integrity of the cables and connectors.
     * [Look to comma's #hw-unofficial channel for some suggestions.](https://discord.com/channels/469524606043160576/534139378772082749)
     * There is also a specific thread under the #hw-unofficial channel for [magnetic mounts](https://discord.com/channels/469524606043160576/1130905705784803510)
+    * Use a silicone case to protect the device from bumps and scratches.
+      * [Soft Silicone Case (Only for Openpilot Comma3X) – Janka's Workshop](https://janquick.com/products/soft-silicone-case-only-for-c3x)
 * When removing the device, be careful with the OBD-C cable. In addition to being physically careful with it, hiding it, including the tip from the sun's damaging rays will also help prolong its life.
 * When removing the device, be careful with the OBD-C port. It is a weak point in the design and can be damaged if you are not careful. This far harder to fix than the OBD-C cable. Look into magnetic mounts to minimize the wear on the OBD-C port.
 * SSH in and backup the contents of `/persist/comma/id_rsa` on a genuine comma device.
