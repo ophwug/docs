@@ -261,6 +261,8 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 * [Nabeel's C3](https://discord.com/channels/469524606043160576/871838269405556736/1383173273466179727)
   * https://www.youtube.com/watch?v=2NPTUW2f6Os
 * [0pointjd's C3](https://discord.com/channels/469524606043160576/524592892627517450/1330161284049535036)
+* [thinkpad4by3's C3](https://discord.com/channels/469524606043160576/871838269405556736/1419877307807699017)
+  * Ground pin/wire was disconnected. Wiggling the cable would make it work temporarily. See related entry in [The Blown Fuse Case](#the-blown-fuse-case).
 
 ### The Bad OBD-C Port Case
 
@@ -687,6 +689,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Asked if the resistances are still the same post-repair on the fuses.
   * [Continued to use it afterwards with Always On Lateral from frogpilot still at ~60F ambient temperature, but no usage of ACC.](https://discord.com/channels/469524606043160576/871838269405556736/1412187801650331670)
   * ["i think it ended up being a combo of both, but after swapping out all my fuses and replacing my OBD-C cable, i have had 0 failures in the last like 4-5 weeks"](https://discord.com/channels/469524606043160576/871838269405556736/1418306528108089475)
+  * See also: [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) as a contributor to this case.
 * [xyrx's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1413628340681703455)
   * "I got it working with a burnt thumb and 2 hours of really bad soldering"
 
