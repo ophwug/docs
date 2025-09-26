@@ -345,11 +345,9 @@ Hopefully that _is_ the issue and it is resolved.
 - [Yan's C3](https://github.com/commaai/openpilot/issues/32179#issuecomment-2053766029)
   - Met up in person to replace and swap hardware. It took a lot of convincing for comma support to replace his relay box under warranty. This was a V1 harness to V1 harness replacement.
 - [rattail98's C3X](https://discord.com/channels/469524606043160576/524592892627517450/1399544048879927418)
-  - Throughly debugged and narrowed it down to just the V3 relay box.
-  - [Replaced the V3 relay box, harness, and OBD-C cable from support and it worked.](https://discord.com/channels/469524606043160576/524592892627517450/1403142981489528993)
-  - [eh, maybe not, still WIP. ](https://discord.com/channels/469524606043160576/524592892627517450/1403416357004906701)
-- [rattail98's C3X (V3 harness, hardcore option)](https://discord.com/channels/469524606043160576/524592892627517450/1415049990870405140)
-  - After debugging and replacing the OBD-C cable and Subaru A harness, the issue was narrowed down to the harness box.
+  - Thoroughly debugged and narrowed it down to just the V3 relay box.
+  - [Initially replaced the V3 relay box, harness, and OBD-C cable from support](https://discord.com/channels/469524606043160576/524592892627517450/1403142981489528993), but [the issue persisted](https://discord.com/channels/469524606043160576/524592892627517450/1403416357004906701).
+  - [After further debugging and replacing the OBD-C cable and Subaru A harness](https://discord.com/channels/469524606043160576/524592892627517450/1415049990870405140), the issue was narrowed down to the harness box.
   - Upon inspection of the harness box, resistor R4 was found to have failed and was not showing continuity.
   - The failed 1k ohm resistor was replaced with a 2.2k ohm resistor to prevent future failures. This resolved the issue.
   - It is suspected that voltage spikes on the IGN line may have caused the resistor to fail, possibly due to prior front-end damage and repair on the vehicle.
