@@ -1122,14 +1122,15 @@ Your choices are limited and one of them is not great either.
 
 ### The Bad Step Down DC/DC Regulator Case
 
-![Image](https://github.com/user-attachments/assets/64bd8641-683f-46f7-a4bb-a11397a97ef9)
-
 **Symptoms**:
 
 * Behavior is similar to [The Blown Fuse Case](#the-blown-fuse-case)
 * Fuse reading short to ground
 * [Fuses themselves are good](#the-blown-fuse-case)
 * With a thermal camera, a specific chip is identified as the source of the short.
+
+![Image](https://github.com/user-attachments/assets/be2e76e0-cf4f-4b3e-ab10-6687a16dae46)
+
 
 **Diagnosis**:
 
