@@ -63,6 +63,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Burned MOSFET Case](#the-burned-mosfet-case)
     - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
     - [The NVMe drive not mounted Case](#the-nvme-drive-not-mounted-case)
+    - [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -1119,6 +1120,37 @@ Your choices are limited and one of them is not great either.
   * Opted for and produced the hack to disable the wide camera on sunnypilot to resolve issue. Still works.
     * "Yeah, I'm not gonna lie. It's the same on the highway. Right turns in roads are worse, but they were never any good anyway. We always use Pause Lateral on turns, so it's all good"
 
+### The Bad Step Down DC/DC Regulator Case
+
+![Image](https://github.com/user-attachments/assets/64bd8641-683f-46f7-a4bb-a11397a97ef9)
+
+**Symptoms**:
+
+* Behavior is similar to [The Blown Fuse Case](#the-blown-fuse-case)
+* Fuse reading short to ground
+* [Fuses themselves are good](#the-blown-fuse-case)
+* With a thermal camera, a specific chip is identified as the source of the short.
+
+**Diagnosis**:
+
+A short to ground was detected on the fuse. After removing the fuse, the short was traced to a step-down buck regulator chip. By injecting 1V to the VN side of the diode side, a thermal camera was used to trace the short back to this chip. With the buck regulator removed, the short was no longer present.
+
+**Resolution**:
+
+Replace the faulty SY8368AQQC chip. It's a tight 3x3mm QFN3x3-12 package though.
+
+**Vendors**:
+
+* Just search for SY8368AQQC on your favorite electronics part vendor. The last 3 letters are just a date code and will vary.
+
+**Additional Notes**:
+
+It is recommended to also check the integrity of the "L" inductor to avoid burning the MOSFET of the new MCU.
+
+**Examples**:
+
+* [ZUM(zum114)'s C3X (WIP)](https://discord.com/channels/469524606043160576/871838269405556736/1423032049136173056)
+  * [Initial Post](https://discord.com/channels/469524606043160576/871838269405556736/1422027156829241386)
 
 # See Also
 
