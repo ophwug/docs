@@ -498,7 +498,7 @@ Known variants of the fuse to exist:
 
 There may also be other fuses like this nearby, not just that circled green one such as the blue and red ones. You can replace those too if you'll like but that really only the green one probably needs to be replaced. The rest should probably left as-is though one is welcome to measure those too.
 
-If the fuses test good, but you have a short, see [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case).
+If the fuses test good, but you have a short and a C3X, see [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case).
 
 
 > [!WARNING]
