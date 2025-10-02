@@ -1129,7 +1129,7 @@ Your choices are limited and one of them is not great either.
 * [Fuses themselves are good](#the-blown-fuse-case)
 * With a thermal camera, a specific chip is identified as the source of the short.
 
-![Image](https://github.com/user-attachments/assets/be2e76e0-cf4f-4b3e-ab10-6687a16dae46)
+![Regulator and Thermal Camera View](https://github.com/user-attachments/assets/be2e76e0-cf4f-4b3e-ab10-6687a16dae46)
 
 
 **Diagnosis**:
