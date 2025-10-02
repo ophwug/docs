@@ -63,11 +63,11 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Burned MOSFET Case](#the-burned-mosfet-case)
     - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
     - [The NVMe drive not mounted Case](#the-nvme-drive-not-mounted-case)
-    - [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
     - [The Wide Camera Malfunction Case (C3X)](#the-wide-camera-malfunction-case-c3x)
+    - [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case)
 - [See Also](#see-also)
 - [References](#references)
 
