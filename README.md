@@ -1140,6 +1140,8 @@ A short to ground was detected on the fuse. After removing the fuse, the short w
 
 Replace the faulty SY8368AQQC chip. It's a tight 3x3mm QFN3x3-12 package though.
 
+Datasheet: https://www.lcsc.com/datasheet/C207642.pdf
+
 **Vendors**:
 
 * Just search for SY8368AQQC on your favorite electronics part vendor. The last 3 letters are just a date code and will vary.
