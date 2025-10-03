@@ -1015,6 +1015,8 @@ Note: This is not possible or very hard to do on a C3X as the cameras are solder
 * Mr. One: https://oneclone.net/product/c3-cameras/
 * Konik.ai: https://konik.ai/shop/c3-cameras/
 
+Note that both vendors only sell the OX03C10 variant.
+
 ### The NVMe drive not mounted Case
 
 **Symptoms**:
