@@ -16,7 +16,7 @@ This is an attempt to document some of the common issues and fixes that were dis
 > Of course, other AI assistants such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) can also be used once you pass them the URL of this repository: https://github.com/ophwug/docs
 >
 
-This document may also include links to other non-comma.ai Discords as well.
+[This document may also include links to other non-comma.ai Discords as well.](#discords-and-discussions-of-note)
 
 The format of this document is of a case-by-case basis. Please feel free to add your own cases, pull requests, and solutions.
 
