@@ -530,7 +530,12 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 
 **Repair Services**:
 
-* [Drago, $99](https://discord.com/channels/469524606043160576/871838269405556736/1411779945860038727)
+* Drago
+  * Services:
+    * $99 for fuse replacement
+    * $30 diagnostic fee + shipping, if unsure if fuse is blown
+  * * Contact via Direct message link on Discord (Preferred): https://discord.com/channels/@me/1412275471479209984
+  * Contact via Discord DM: `awuf`
 * Somebody local who can do board level repair can follow the instructions in **DIY Repair** below. YMMV on cost.
 
 **DIY Repair**:
