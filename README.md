@@ -93,7 +93,7 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
   * If you can't install stock or comma openpilot (like for vehicle support reasons), talk in #custom-forks or visit your fork's Discord and discuss the issue.
 * If your device is under return or warranty period, [you should contact comma.ai support first.](https://comma.ai/support)
   * [⏱️ "for anyone worried about slipping out of warranty, you’re good if the ticket was opened before the return/warranty period." - adeeb, comma staff lead](https://www.reddit.com/r/Comma_ai/comments/1nhs5ho/comment/nedq5kl/?context=3)
-* If your C3X is out of warranty, the rough cost to repair from comma [is $500](https://comma.ai/shop/comma-3x-out-of-warranty-repair).
+* If your C3X is out of warranty, the rough cost to repair from comma [is $500 for their C3X Out Of Warranty Repair service](https://comma.ai/shop/comma-3x-out-of-warranty-repair).
   * Unfortunately there is no warranty for the repair.
   * However, search rifkers in this doc under [The Blown Fuse Case](#the-blown-fuse-case) and apparently they were able to get an extended warranty from their Chase Sapphired Preferred card. YMMV.
 * [They do not repair the C3 anymore. They only offer a trade-in program for C3 to get a C3X for $750.](https://comma.ai/shop/comma-3x-trade-in)
