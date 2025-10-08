@@ -358,11 +358,11 @@ Hopefully that _is_ the issue and it is resolved.
 
 comma.ai will only support the latest "release", "nightly", and specific WIP branches of comma openpilot on their hardware. And those branches will cause a recent or newest OS to be installed on the device.
 
-From time to time, comma.ai will "evolve" the hardware for reliability, supply chain, cost reduction, and other reasons. This means that the hardware may not be compatible with older versions of openpilot and the OS. In advance of this, they will update their OS and their openpilot branches to support the new hardware.
+From time to in time, comma.ai will "evolve" the hardware for reliability, supply chain, cost reduction, and other reasons. This means that the hardware may not be compatible with older versions of openpilot and the OS. In advance of this, they will update their OS and their openpilot branches to support the new hardware. See the "Evolutions" sections under [comma three (C3)](#comma-three-c3) and [comma threex (C3X)](#comma-threex-c3x) for more details on hardware changes that may require a newer OS.
 
 By their nature, forks, old branches, and even YouTube instructions for installing openpilot or its various forks may lag behind the latest OS and openpilot version for their base.
 
-Unfortunately, comma does not provide a way for installation to detect and block installation of an incompatible OS or openpilot version. Their view is that you are an advanced user and should know what you are doing. Also unfortunate is the amount of documentation and instructions that are out there that are not up to date, or can't be up to date, or how accessible YouTube videos are but are still out of date. Oh well, the world is not perfect.
+Unfortunately, comma does not provide a way for installation to detect and block installation of an incompatible OS or openpilot version. Their view is that you are an advanced user and should know what you are doing if you stray away from their release and nightly branches. Also unfortunate is the amount of documentation and instructions that are out there that are not up to date, or can't be up to date, or how accessible YouTube videos are but are still out of date. Oh well, the world is not perfect.
 
 **Symptoms**:
 
