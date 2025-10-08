@@ -1057,6 +1057,7 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
 * It uses a mount that's smaller than the comma three's mount.
 * A Red Panda is now included with the device, which now includes built-in CAN-FD support.
 * Camera changed to OX03C10
+* The power architecture was upgraded to use a boost regulator with the supercapacitors for more stable voltage and reliability.
 
 **Evolutions**:
 
