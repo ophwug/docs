@@ -700,6 +700,10 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * See also: [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) as a contributor to this case.
 * [xyrx's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1413628340681703455)
   * "I got it working with a burnt thumb and 2 hours of really bad soldering"
+* [nisparks's device ❓]()
+  * Measured ~2.6+ ohms on the top fuse (other fuses measured 0.6-1.0 ohms)
+  * Ordered 10 V12 (Bourns MF-NSML380/12-2) fuses from Digikey for ~$15.50 shipped
+  * Outcome unknown at this time
 
 ### The Screen Doesn't Work or is Dying Case
 
