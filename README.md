@@ -702,7 +702,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * "I got it working with a burnt thumb and 2 hours of really bad soldering"
 * [nisparks's device ❓]()
   * Measured ~2.6+ ohms on the top fuse (other fuses measured 0.6-1.0 ohms)
-  * Ordered 10 CT (Littelfuse 1206L350/12SLWR) fuses from Digikey for ~$15.50 shipped
+  * Ordered 10 V12 (Bourns MF-NSML380/12-2) fuses from Digikey for ~$15.50 shipped
   * Outcome unknown at this time
 
 ### The Screen Doesn't Work or is Dying Case
