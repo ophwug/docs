@@ -514,12 +514,13 @@ If the fuses test good, but you have a short and a C3X, see [The Bad Step Down D
 >
 > 1.  **Set your multimeter:** Turn the dial to the resistance setting (often marked with the Omega symbol: Ω). **It is critical to select the lowest possible resistance range (e.g., 200 Ω) to measure the small decimal values of a good fuse.** If your multimeter is not auto-ranging and the range is set too high, you may see a reading of "0" even on a good fuse.
 > 2.  **Measure lead resistance:** Before testing the fuse, touch the tips of your multimeter probes firmly together. The multimeter should display a very low resistance value (e.g., 0.1-0.5 Ω). This is the internal resistance of your multimeter and leads. Note this value down.  Most multimeters will beep when you do this.
-> 3.  **Power off the device:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage.
-> 4.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
-> 5.  **Interpret the reading:**
+> 3.  **Warm up the device first:** Before testing, plug the device in and let it run for a minute or two to "warm up" the fuse. **This is important because some fuses can read as "normal" when cold but will show their true faulty state after warming up.** After warming up, proceed to the next step.
+> 4.  **Power off the device:** Ensure that the device is completely powered off and disconnected to avoid inaccurate readings or damage.
+> 5.  **Measure the fuse:** Touch one probe to each end of the fuse while it is still mounted on the board (in-circuit measurement).
+> 6.  **Interpret the reading:**
 >     *   **Good Fuse:** The multimeter will show a very low resistance, ideally very close to the lead resistance you measured in step 2. If your multimeter beeped in step 2, it should also beep now.
 >     *   **Blown Fuse:** The multimeter will show a high resistance (e.g., 0.3-43 Ω) or an open circuit (OL or ∞), indicating the fuse is blown.
-> 6.  **Measure the new fuse:** Before disassembling the device and replacing the fuse, measure the new one to make sure it works.
+> 7.  **Measure the new fuse:** Before disassembling the device and replacing the fuse, measure the new one to make sure it works.
 >
 > Remember to subtract the lead resistance (from step 2) from the fuse reading for the most accurate measurement of the fuse itself.
 >
