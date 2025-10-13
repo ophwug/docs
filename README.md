@@ -92,7 +92,7 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
   * The comma Discord (outside of #custom-forks) will only support comma openpilot.
   * If you can't install stock or comma openpilot (like for vehicle support reasons), talk in #custom-forks or visit your fork's Discord and discuss the issue.
 * If your device is under return or warranty period, [you should contact comma.ai support first.](https://comma.ai/support)
-  * The warranty period for new comma devices are 1 year from the date of package arrival. ([Source](https://comma.ai/shop/comma-3x))
+  * The warranty period for new comma devices is 1 year from the date of package arrival. ([Source](https://comma.ai/shop/comma-3x))
   * [⏱️ "for anyone worried about slipping out of warranty, you’re good if the ticket was opened before the return/warranty period." - adeeb, comma staff lead](https://www.reddit.com/r/Comma_ai/comments/1nhs5ho/comment/nedq5kl/?context=3)
 * If your C3X is out of warranty, the rough cost to repair from comma [is $500 for their C3X Out Of Warranty Repair service](https://comma.ai/shop/comma-3x-out-of-warranty-repair).
   * Unfortunately there is no warranty for the repair.
