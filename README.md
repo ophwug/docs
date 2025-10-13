@@ -478,6 +478,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 * (V1 harness) relay box sounds like a maraca when shaken on failed boot.
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 * Blue light in the back may still blink.
+* In may be hard to tell if this is [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case) compared to a power issue like this. Please check out that section for more details.
 
 **Diagnosis**:
 
@@ -711,9 +712,13 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
 **Symptoms**:
 
 * `openpilot` still engages
+* You still hear sounds from the speaker
 * The screen does not turn on
 * purple splotches on the screen
 * Screen burn-in
+* Device still appears on home network
+* Any other sign that the Linux OS AGNOS has booted and working.
+* If it is not a power issue (see [The Blown Fuse Case](#the-blown-fuse-case))
 
 **Non-Symptoms**:
 
