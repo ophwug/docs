@@ -14,6 +14,10 @@ This is an attempt to document some of the common issues and fixes that were dis
 > You are encouraged to share deepwiki conversations links in Discord if you aren't sure it is interpreting this document correctly.
 >
 > Of course, other AI assistants such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) can also be used once you pass them the URL of this repository: https://github.com/ophwug/docs
+
+
+> [!WARNING]
+> **Always verify with original sources**: When using deepwiki or any AI assistant, remember to check the original cited text and images in this document. AI assistants may not be able to properly interpret images or diagrams, and their understanding of visual content may be incomplete or inaccurate. Always cross-reference important information with the original source material.
 >
 
 [This document may also include links to other non-comma.ai Discords as well.](#discords-and-discussions-of-note)
