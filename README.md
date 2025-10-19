@@ -489,13 +489,13 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
-It is located near the OBD-C port and next to the SOM. In the image below, it is circled in green.
+It is located near the OBD-C port and under to the SOM board. It may not be immediately visible until you remove the heatsink which you will need to do.
 
-It may be underneath a heatsink which you will need to remove.
+In the image below, it is circled in green. There are other colored circled components nearby which may be other fuses which may or may not be present in the revision of the hardware you have.
 
-![Blown Fuse circled](https://github.com/user-attachments/assets/af59106f-57d4-4c3f-b993-2731b1ee6e0d)
+![Blown Fuse circled in green near OBD-C port and SOM, underneath the heatsink that is to be removed.](https://github.com/user-attachments/assets/af59106f-57d4-4c3f-b993-2731b1ee6e0d)
 
-[Image courtesy of posterduck.](https://discord.com/channels/469524606043160576/871838269405556736/1408484686044598505)
+[Image is courtesy of posterduck on Discord.](https://discord.com/channels/469524606043160576/871838269405556736/1408484686044598505)
 
 Known variants of the fuse to exist:
 
