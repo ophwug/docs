@@ -134,7 +134,7 @@ On a long enough timeline, all devices will fail.
 * SSH in and backup the contents of `/persist/comma/id_rsa` on a genuine comma device.
   * https://spektor56.github.io/OpenpilotToolkit/ is an easy tool to do this.
   * More manual steps can be found at https://github.com/commaai/openpilot/wiki/SSH but the UI seems to shift around a lot. The broad strokes are the same.
-  * In case you ever need to replace the System-On-Module (SOM), you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers and [comma connect](https://connect.comma.ai). comma will never replace the license file for you if it is lost.**
+  * In case you ever need to replace the System-On-Module (SOM) — the main processing unit containing the CPU, memory, and other essential components — you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers and [comma connect](https://connect.comma.ai). comma will never replace the license file for you if it is lost.**
   * [Newer versions of comma openpilot require this file for activation to be present in order to activate the self-driving features.](https://github.com/commaai/openpilot/commit/f4b017a75b0ba59bb1540347b101293c3db7364d) Forks can choose to not require this file though.
 * Do not use magnetic cable adapters. Use purpose-built magnetic or quick release mounts as OBD-C is far more sensitive to pins connecting to the wrong thing than USB-C.
 
@@ -490,7 +490,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
 
-It is located near the OBD-C port and under to the SOM board. It may not be immediately visible until you remove the heatsink which you will need to do.
+It is located near the OBD-C port and under the SOM (System-On-Module) board — the main processing unit of the device. It may not be immediately visible until you remove the heatsink which you will need to do.
 
 In the image below, it is circled in green. There are other colored circled components nearby which may be other fuses which may or may not be present in the revision of the hardware you have.
 
@@ -853,6 +853,8 @@ There are multiple solutions to this problem.
   * "I discovered why GPS wasn't working in my C3 after my repair… This… was sitting on my desk... That's the cable that connects the GPS module to the main board."
 
 ### The Bad or Dead SOM Case
+
+The System-On-Module (SOM) is the main processing unit of your comma device, containing the CPU, memory, and other essential computing components. If the SOM fails or becomes corrupted, the device will not function.
 
 > [!WARNING]
 > This section is a WIP and in construction
