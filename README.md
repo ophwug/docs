@@ -109,6 +109,7 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
   * You don't need a fancy one. A simple ~$30 one from Amazon or a big box store is sufficient. Example: https://amzn.to/3IBI4LF
 * Make sure the issue is not with your vehicle. Disconnect and reconnect all vehicle connectors back to stock to make sure your vehicle is still operating properly.
 * If you're disassembling something yourself, make sure to have a good clean workspace to keep track of all parts you take apart and to be able to put everything back together without missing pieces. This may mean screw mats and small containers.
+* It is important to diagnose the issue properly before attempting any repairs. Attempting to repair the wrong component may lead to further damage.
 
 ## Preventative and Recommended Measures
 
