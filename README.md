@@ -189,6 +189,13 @@ The comma two is only compatible with the Harness V1. Both Harness V1 and Harnes
 
 If you're switching vehicles or replacing parts of your car harness portion and if you're a Harness V1 user, you will need to replace the entire Harness V1 with a Harness V3 if you're buying from comma.ai's shop. This is because comma.ai does not sell Harness V1 hardware anymore. Unfortunately, they do not make this explicitly clear on their shop, so you will have to trust this document on this. If you have a more common brand, you may be able to find a Harness V1-compatible car harness from third-party vendors such as [Mr. One](https://oneclone.net/product/harness/) or [Konik.ai](https://konik.ai/shop/?v=0b3b97fa6688).
 
+> [!WARNING]
+> **Mr. One harnesses may differ from stock comma.ai V1 harnesses in their wiring:**
+>
+> Some Mr. One harnesses, particularly the Mazda variant, use the IGN line for 12V power instead of following the stock V1 wiring scheme. This causes the harness box to continuously send power to the LKAS camera regardless of the vehicle's ignition state, which can drain your car's battery when parked.
+>
+> If you're using a Mr. One harness and experience this issue, you'll need to rewire the harness to match the stock V1 wiring. While this is a relatively straightforward fix for those with electrical experience, it may not be immediately obvious to users unfamiliar with harness wiring differences.
+
 Note that the vehicle harnesses part after the relay box may look very different for certain vehicles from the pretty shots above, particularly those that intercept at a location other than the camera. They are much longer or can even look like a comma power.
 
 Please see https://github.com/commaai/hardware/ for more details on the harnesses.
