@@ -1197,9 +1197,10 @@ It is recommended to also check the integrity of the "L" inductor to avoid burni
 
 **Examples**:
 
-* [ZUM(zum114)'s C3X (WIP)](https://discord.com/channels/469524606043160576/871838269405556736/1423032049136173056)
+* [ZUM(zum114)'s C3X 🛑](https://discord.com/channels/469524606043160576/871838269405556736/1423032049136173056)
   * [Initial Post](https://discord.com/channels/469524606043160576/871838269405556736/1422027156829241386)
   * ["Little short video from the thermal cam on the buck chip"](https://discord.com/channels/469524606043160576/871838269405556736/1423040186769608857)
+  * ["Welp, same chip popped again so I give up "](https://discord.com/channels/469524606043160576/871838269405556736/1426776980443107328)
 
 # See Also
 
