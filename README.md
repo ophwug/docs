@@ -501,9 +501,17 @@ It is located near the OBD-C port and under the SOM (System-On-Module) board —
 
 In the image below, it is circled in green. There are other colored circled components nearby which may be other fuses which may or may not be present in the revision of the hardware you have.
 
-![Blown Fuse circled in green near OBD-C port and SOM, underneath the heatsink that is to be removed.](https://github.com/user-attachments/assets/af59106f-57d4-4c3f-b993-2731b1ee6e0d)
+C3:
+
+![Blown Fuse circled in green near OBD-C port and SOM, underneath the heatsink that is to be removed. (C3)](https://github.com/user-attachments/assets/af59106f-57d4-4c3f-b993-2731b1ee6e0d)
 
 [Image is courtesy of posterduck on Discord.](https://discord.com/channels/469524606043160576/871838269405556736/1408484686044598505)
+
+C3X:
+
+![Blown Fuse circled in green near OBD-C port and SOM, underneath the heatsink that is to be removed. (C3X)](https://github.com/user-attachments/assets/20ae0654-c34f-4268-a953-cf72975209f4)
+
+[Image is courtesy of zum114 on Discord.](https://discord.com/channels/469524606043160576/871838269405556736/1426460252383215658)
 
 Known variants of the fuse to exist:
 
