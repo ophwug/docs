@@ -530,7 +530,7 @@ If the fuses test good, but you have a short and a C3X, see [The Bad Step Down D
 > [!TIP]
 > **Measuring Fuse Resistance with a Multimeter**
 >
-> **You do NOT need to desolder the fuse for testing.** This diagnosis can be performed by anyone with basic multimeter skills.
+> **You do NOT need to desolder the fuse for testing.** This diagnosis can be performed by anyone with basic multimeter skills. You do need to open up and disassemble the device to access the fuse, though.
 >
 > For those new to using a multimeter, here's how to check a fuse:
 >
