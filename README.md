@@ -167,6 +167,8 @@ Just a small incomplete bit of small local documentation on the taxonomy of comm
 
 Please refer to their respective documentation for more details.
 
+Note that on the comma two and newer devices, the panda is integrated into the device itself. The exception is the external red panda, which is used with the comma three on CAN-FD vehicles. Sometimes people mistake the comma harness for the panda, but they are different things. panda is the CAN interface that a computer can use to talk to the car, the harness is the vehicle interface.
+
 #### comma.ai Harness
 
 **Harness V3 with relay box, harness cable, and comma power (Shipping since ~June 2024)**:
