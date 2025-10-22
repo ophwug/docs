@@ -54,6 +54,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Build Error On Boot Case](#the-build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
     - [The Blown Fuse Case](#the-blown-fuse-case)
+    - [The Bad Capacitor Case](#the-bad-capacitor-case)
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
     - [The Fan Death Case](#the-fan-death-case)
     - [The Uncleaned Fan Flux Case](#the-uncleaned-fan-flux-case)
@@ -496,7 +497,6 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 * Blue light in the back may still blink.
 * In may be hard to tell if this is [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case) compared to a power issue like this. Please check out that section for more details.
-* **Note**: These symptoms are often initially misdiagnosed as a "bad capacitor" or "bad cap" issue. See the diagnosis section below for clarification.
 
 **Diagnosis**:
 
@@ -531,15 +531,6 @@ If the fuses test good, but you have a short and a C3X, see [The Bad Step Down D
 
 > [!WARNING]
 > A visual inspection of the fuse is not sufficient for diagnosis. You must use a multimeter to measure the resistance of the fuse to determine if it is blown.
-
-> [!NOTE]
-> **Common Misdiagnosis: "Bad Capacitor" vs Blown Fuse**
->
-> Users often initially suspect a bad capacitor when experiencing power issues, as capacitors are a common failure point in electronics. However, in comma three devices, these symptoms are much more commonly caused by the blown self-resetting fuse described in this section rather than an actual capacitor failure.
->
-> If you suspect a "bad capacitor" or "bad cap," **always check the fuse first** following the instructions in this section before investigating other components. The fuse is easier to diagnose and replace than a capacitor, and is the far more common culprit.
->
-> For reference, see balsa's case in the Examples section below where the issue was initially thought to be a capacitor but turned out to be the fuse.
 
 > [!TIP]
 > **Measuring Fuse Resistance with a Multimeter**
@@ -741,6 +732,58 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Measured ~2.6+ ohms on the top fuse (other fuses measured 0.6-1.0 ohms)
   * Ordered 10 V12 (Bourns MF-NSML380/12-2) fuses from Digikey for ~$15.50 shipped
   * [Working much more than before post-repair](https://discord.com/channels/469524606043160576/871838269405556736/1430332221696380968)
+
+### The Bad Capacitor Case
+
+**Symptoms**:
+
+* Device does not power on when connected
+* Device does not stay on
+* Similar symptoms to [The Blown Fuse Case](#the-blown-fuse-case), but the fuse tests good
+* The device may show signs of a short circuit or power issues
+
+**Diagnosis**:
+
+While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are rare instances where an actual capacitor failure occurs, particularly PMIC (Power Management IC) capacitors.
+
+> [!WARNING]
+> Before suspecting a bad capacitor, **always check the fuse first** following the instructions in [The Blown Fuse Case](#the-blown-fuse-case). The fuse is much more commonly the culprit and is easier to diagnose and replace.
+
+> [!IMPORTANT]
+> Diagnosing and replacing capacitors requires advanced electronics repair skills and equipment, including:
+> - Ability to identify and measure small surface-mount components
+> - Hot air rework station or soldering iron with appropriate tips
+> - Multimeter with capacitance measurement capability
+> - Knowledge of power circuit analysis
+>
+> If you are not experienced with board-level component repair, consider:
+> - Seeking help from a professional electronics repair service
+> - Replacing the entire SOM (see [The Bad or Dead SOM Case](#the-bad-or-dead-som-case))
+> - Using comma's out-of-warranty repair service
+
+**Resolution**:
+
+If the fuse has been verified to be good and you have ruled out other causes, a failed capacitor may be the issue. This typically requires:
+
+1. **Identification**: Locate the failed capacitor through visual inspection (bulging, discoloration) or electrical testing (short circuit, out-of-spec capacitance).
+2. **Replacement**: Remove the failed capacitor and replace it with an appropriate replacement part.
+3. **Verification**: Test the board to ensure the short or power issue is resolved.
+
+In many cases, capacitor failures can lead to secondary damage to other components like the PMIC or even the entire SOM, making component-level repair impractical.
+
+**Examples**:
+
+* [/u/AlekWishes's C3X](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+  * "In my initial repair attempt I did find a PMIC cap had gone short, replacing it resulted in no current draw, tried replacing the PMIC no change, so I gave up and replaced the whole SOM. Shortly after I found my 12v resettable fuse for the USB port was failing due to the previous excessive current draw, replaced it and now everything has been working great for a few months."
+  * This case demonstrates that capacitor failure can lead to cascading failures including fuse damage.
+  * Related to [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case) and [The Blown Fuse Case](#the-blown-fuse-case)
+* [ereish64's device](https://github.com/commaai/openpilot/issues/36279)
+  * Reported symptoms consistent with power issues
+  * While initial diagnosis suggested possible blown fuse, investigation indicated capacitor involvement
+  * Planned capacitor replacement
+
+> [!NOTE]
+> If you have successfully diagnosed and repaired a bad capacitor issue, please consider contributing your case details to this documentation to help others in the community.
 
 ### The Screen Doesn't Work or is Dying Case
 
