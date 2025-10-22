@@ -496,6 +496,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 * Blue light in the back may still blink.
 * In may be hard to tell if this is [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case) compared to a power issue like this. Please check out that section for more details.
+* **Note**: These symptoms are often initially misdiagnosed as a "bad capacitor" or "bad cap" issue. See the diagnosis section below for clarification.
 
 **Diagnosis**:
 
@@ -530,6 +531,15 @@ If the fuses test good, but you have a short and a C3X, see [The Bad Step Down D
 
 > [!WARNING]
 > A visual inspection of the fuse is not sufficient for diagnosis. You must use a multimeter to measure the resistance of the fuse to determine if it is blown.
+
+> [!NOTE]
+> **Common Misdiagnosis: "Bad Capacitor" vs Blown Fuse**
+>
+> Users often initially suspect a bad capacitor when experiencing power issues, as capacitors are a common failure point in electronics. However, in comma three devices, these symptoms are much more commonly caused by the blown self-resetting fuse described in this section rather than an actual capacitor failure.
+>
+> If you suspect a "bad capacitor" or "bad cap," **always check the fuse first** following the instructions in this section before investigating other components. The fuse is easier to diagnose and replace than a capacitor, and is the far more common culprit.
+>
+> For reference, see [balsa's case below](#examples-26) where the issue was initially thought to be a capacitor but turned out to be the fuse.
 
 > [!TIP]
 > **Measuring Fuse Resistance with a Multimeter**
