@@ -539,7 +539,7 @@ If the fuses test good, but you have a short and a C3X, see [The Bad Step Down D
 >
 > If you suspect a "bad capacitor" or "bad cap," **always check the fuse first** following the instructions in this section before investigating other components. The fuse is easier to diagnose and replace than a capacitor, and is the far more common culprit.
 >
-> For reference, see [balsa's case below](#examples-26) where the issue was initially thought to be a capacitor but turned out to be the fuse.
+> For reference, see balsa's case in the Examples section below where the issue was initially thought to be a capacitor but turned out to be the fuse.
 
 > [!TIP]
 > **Measuring Fuse Resistance with a Multimeter**
