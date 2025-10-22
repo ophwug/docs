@@ -744,28 +744,30 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
 
 **Diagnosis**:
 
-While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are rare instances where an actual capacitor failure occurs, particularly PMIC (Power Management IC) capacitors.
+While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are rare instances where an actual capacitor failure occurs. This can include:
+- **Supercapacitors** (C3X): Used in the power architecture for voltage stability
+- **PMIC capacitors**: Small surface-mount capacitors associated with power management ICs
 
 > [!WARNING]
 > Before suspecting a bad capacitor, **always check the fuse first** following the instructions in [The Blown Fuse Case](#the-blown-fuse-case). The fuse is much more commonly the culprit and is easier to diagnose and replace.
 
 > [!IMPORTANT]
 > Diagnosing and replacing capacitors requires advanced electronics repair skills and equipment, including:
-> - Ability to identify and measure small surface-mount components
+> - Ability to identify and measure components (size varies from large supercapacitors to tiny surface-mount capacitors)
 > - Hot air rework station or soldering iron with appropriate tips
 > - Multimeter with capacitance measurement capability
 > - Knowledge of power circuit analysis
 >
 > If you are not experienced with board-level component repair, consider:
 > - Seeking help from a professional electronics repair service
-> - Replacing the entire SOM (see [The Bad or Dead SOM Case](#the-bad-or-dead-som-case))
+> - Replacing the entire SOM (see [The Bad or Dead SOM Case](#the-bad-or-dead-som-case)) for PMIC cap issues
 > - Using comma's out-of-warranty repair service
 
 **Resolution**:
 
 If the fuse has been verified to be good and you have ruled out other causes, a failed capacitor may be the issue. This typically requires:
 
-1. **Identification**: Locate the failed capacitor through visual inspection (bulging, discoloration) or electrical testing (short circuit, out-of-spec capacitance).
+1. **Identification**: Locate the failed capacitor through visual inspection (bulging, discoloration, leakage) or electrical testing (short circuit, out-of-spec capacitance).
 2. **Replacement**: Remove the failed capacitor and replace it with an appropriate replacement part.
 3. **Verification**: Test the board to ensure the short or power issue is resolved.
 
@@ -775,12 +777,15 @@ In many cases, capacitor failures can lead to secondary damage to other componen
 
 * [/u/AlekWishes's C3X](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
   * "In my initial repair attempt I did find a PMIC cap had gone short, replacing it resulted in no current draw, tried replacing the PMIC no change, so I gave up and replaced the whole SOM. Shortly after I found my 12v resettable fuse for the USB port was failing due to the previous excessive current draw, replaced it and now everything has been working great for a few months."
-  * This case demonstrates that capacitor failure can lead to cascading failures including fuse damage.
+  * PMIC capacitor failure that led to cascading failures including fuse damage.
   * Related to [The Bad Or Dead SOM Case](#the-bad-or-dead-som-case) and [The Blown Fuse Case](#the-blown-fuse-case)
-* [ereish64's device](https://github.com/commaai/openpilot/issues/36279)
+* [ereish64's C3X](https://github.com/commaai/openpilot/issues/36279)
   * Reported symptoms consistent with power issues
-  * While initial diagnosis suggested possible blown fuse, investigation indicated capacitor involvement
-  * Planned capacitor replacement
+  * Investigation indicated supercapacitor involvement
+  * Planned supercapacitor replacement
+
+> [!NOTE]
+> **C3X Supercapacitors**: The comma 3X uses supercapacitors as part of its power architecture with a boost regulator for voltage stability. These are larger components compared to typical surface-mount capacitors and may be more accessible for diagnosis and replacement.
 
 > [!NOTE]
 > If you have successfully diagnosed and repaired a bad capacitor issue, please consider contributing your case details to this documentation to help others in the community.
