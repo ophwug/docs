@@ -774,9 +774,10 @@ Supercapacitors are larger components compared to typical surface-mount capacito
 
 * [ereish64's C3X](https://github.com/commaai/openpilot/issues/36279) ✅
   * Reported symptoms consistent with power issues
-  * Investigation indicated supercapacitor involvement
-  * Successfully replaced supercapacitor and device is working
-  * Replacement part: 5.5V 1F supercapacitor ([vendor link](https://www.aliexpress.us/item/3256807274720983.html))
+  * Investigation indicated supercapacitor involvement (1.5F capacitors)
+  * Successfully replaced supercapacitors and device is working
+  * Replacement part: Knowles DGH155M2R7 (1.5F 2.7V) from [Mouser](https://www.mouser.com/ProductDetail/Knowles-Illinois-Capacitor/DGH155M2R7?qs=iLbezkQI%252BshcZvBCu9GXdg%3D%3D)
+  * Note: Replacement parts don't quite fit the original footprint but can work with careful installation
 
 ### The Screen Doesn't Work or is Dying Case
 
