@@ -741,11 +741,10 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
 * Device does not stay on
 * Similar symptoms to [The Blown Fuse Case](#the-blown-fuse-case), but the fuse tests good
 * The device may show signs of a short circuit or power issues
-* C3X specific issue
 
 **Diagnosis**:
 
-While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are rare instances where a supercapacitor failure occurs on C3X devices. The comma 3X uses supercapacitors as part of its power architecture with a boost regulator for voltage stability.
+While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are rare instances where a supercapacitor failure occurs on comma three family devices. The comma 3X uses supercapacitors as part of its power architecture with a boost regulator for voltage stability. The comma 3 may also have supercapacitors depending on the hardware revision.
 
 > [!WARNING]
 > Before suspecting a bad supercapacitor, **always check the fuse first** following the instructions in [The Blown Fuse Case](#the-blown-fuse-case). The fuse is much more commonly the culprit and is easier to diagnose and replace.
