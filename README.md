@@ -756,6 +756,8 @@ While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are
 > - Multimeter with capacitance measurement capability
 > - Knowledge of power circuit analysis
 >
+> **Unlike fuses, supercapacitors typically need to be removed from the board for accurate testing.** This makes diagnosis more complex than fuse testing, which can be done in-circuit.
+>
 > If you are not experienced with component repair, consider:
 > - Seeking help from a professional electronics repair service
 > - Using comma's out-of-warranty repair service
