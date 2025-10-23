@@ -744,7 +744,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
 
 **Diagnosis**:
 
-While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are rare instances where a supercapacitor failure occurs on comma three family devices. The comma 3X uses supercapacitors as part of its power architecture with a boost regulator for voltage stability. The comma 3 may also have supercapacitors depending on the hardware revision.
+While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are rare instances where a supercapacitor failure occurs on comma three family devices. Both the comma 3 and comma 3X use supercapacitors as part of their power architecture. The comma 3X specifically uses them with a boost regulator for voltage stability.
 
 > [!WARNING]
 > Before suspecting a bad supercapacitor, **always check the fuse first** following the instructions in [The Blown Fuse Case](#the-blown-fuse-case). The fuse is much more commonly the culprit and is easier to diagnose and replace.
@@ -772,13 +772,11 @@ Supercapacitors are larger components compared to typical surface-mount capacito
 
 **Examples**:
 
-* [ereish64's C3X](https://github.com/commaai/openpilot/issues/36279)
+* [ereish64's C3X](https://github.com/commaai/openpilot/issues/36279) ✅
   * Reported symptoms consistent with power issues
   * Investigation indicated supercapacitor involvement
-  * Planned supercapacitor replacement
-
-> [!NOTE]
-> If you have successfully diagnosed and repaired a bad supercapacitor issue, please consider contributing your case details to this documentation to help others in the community.
+  * Successfully replaced supercapacitor and device is working
+  * Replacement part: 5.5V 1F supercapacitor ([vendor link](https://www.aliexpress.us/item/3256807274720983.html))
 
 ### The Screen Doesn't Work or is Dying Case
 
