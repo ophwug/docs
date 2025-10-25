@@ -386,7 +386,7 @@ Hopefully that _is_ the issue and it is resolved.
 This is a workaround, not a fix. A proper fix would be to repair the IR LEDs which is a TODO with regards to details for this section.
 
 * Buy a security camera IR blaster and mount it on your steering column.
- * Example: https://www.amazon.com/dp/B097Y8V44Y
+ * Example: https://amzn.to/3WomsWm
 * Power it with a 12-volt adapter plugged into your car's 12-volt system.
 
 **Examples**:
