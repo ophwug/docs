@@ -47,6 +47,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
     - [The Bad OBD-C Port Case](#the-bad-obd-c-port-case)
     - [The Bad Car Harness Case](#the-bad-car-harness-case)
+    - [The Bad IR Blaster Case](#the-bad-ir-blaster-case)
     - [The Running Too Old Of An OS Case](#the-running-too-old-of-an-os-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
     - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two-case)
@@ -372,6 +373,25 @@ Hopefully that _is_ the issue and it is resolved.
   - The failed 1k ohm resistor was replaced with a 2.2k ohm resistor to prevent future failures. This resolved the issue.
   - It is suspected that voltage spikes on the IGN line may have caused the resistor to fail, possibly due to prior front-end damage and repair on the vehicle.
   - The harness box is secured by a single screw hidden under the adhesive.
+
+### The Bad IR Blaster Case
+
+**Symptoms**:
+
+* The device yells at you to pay attention after dusk.
+* An under or unfiltered phone camera shows the IR blasters are not working.
+
+**Resolution**:
+
+This is a workaround, not a fix. A proper fix would be to repair the IR LEDs which is a TODO with regards to details for this section.
+
+* Buy a security camera IR blaster and mount it on your steering column.
+ * Example: https://www.amazon.com/dp/B097Y8V44Y
+* Power it with a 12-volt adapter plugged into your car's 12-volt system.
+
+**Examples**:
+
+* [Ry's C3X](https://discord.com/channels/469524606043160576/905950538816978974/1431553007555711101)
 
 ### The Running Too Old Of An OS Case
 
