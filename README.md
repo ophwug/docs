@@ -519,6 +519,13 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 * Flashing with https://flash.comma.ai sometimes fails with connection lost screen.
 * In may be hard to tell if this is [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case) compared to a power issue like this. Please check out that section for more details.
 
+**Causes**:
+
+* We're not exactly sure why this happens.
+* We do know that the hardware in enviroments like a car, can run at temperatures much higher than the specified operating temperature of the fuse from the datasheet(s). This may cause the fuse to degrade over time and eventually fail.
+* We also know that vehicles typically run at 14+ volts on their 12-volt systems, which is higher than the 12V rating of the fuse from the datasheet(s). This may also cause the fuse to degrade over time and eventually fail.
+  * [converstation with Le_Potato, someone who is involved with OEM automotive electronics design. (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1425279455609360487)
+
 **Diagnosis**:
 
 The component we're looking at should be able to self-reset but for whatever reason, it doesn't.
