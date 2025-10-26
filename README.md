@@ -525,7 +525,7 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 * We do know that the hardware in enviroments like a car, can run at temperatures much higher than the specified operating temperature of the fuse from the datasheet(s). 85C vs 125C in a vehicle exposed to the sun directly. This may cause the fuse to degrade over time and eventually fail.
 * We also know that vehicles typically run at 14+ volts on their 12-volt systems, which is higher than the 12V max rating of the fuse from the datasheet(s). This may also cause the fuse to degrade over time and eventually fail.
   * [converstation with Le_Potato, someone who is involved with OEM automotive electronics design. (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1425279455609360487)
-* In the resolution section below, we specify the OEM fuses to replace blown fuses. It is an unknown mystery if you can use automotive-grade fuses instead of the OEM ones. A solder blob does not count 😂.  If you do try this, please report back your findings to the community.
+* In the resolution section below, we specify the OEM fuses to replace blown fuses. It is an unknown mystery if you can use automotive-grade fuses instead of the OEM ones. A solder blob does not count 😂. If you do try this, please report back your findings to the community.
 
 **Diagnosis**:
 
