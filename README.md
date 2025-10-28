@@ -803,12 +803,23 @@ Supercapacitors are larger components compared to typical surface-mount capacito
 
 **Examples**:
 
-* [ereish64's C3X](https://github.com/commaai/openpilot/issues/36279) ✅
+* [ereish64's C3X](https://github.com/ophwug/docs/issues/25) ✅
   * Reported symptoms consistent with power issues
   * Investigation indicated supercapacitor involvement (1.5F capacitors)
   * Successfully replaced supercapacitors and device is working
   * Replacement part: Knowles DGH155M2R7 (1.5F 2.7V) from [Mouser](https://www.mouser.com/ProductDetail/Knowles-Illinois-Capacitor/DGH155M2R7?qs=iLbezkQI%252BshcZvBCu9GXdg%3D%3D)
-  * Note: Replacement parts don't quite fit the original footprint but can work with careful installation
+    * Note: Replacement parts don't quite fit the original footprint but can work with careful installation
+    * Replacement part has higher temperature rating (105C vs original 85C) "The capacitors I used as a replacement have a max temperature of +85C. The original capacitor appears to have a max of +65C..."
+  * See [issue](https://github.com/ophwug/docs/issues/25) for detailed discussion and photos
+
+**Vendors**:
+
+* comma OEM: TPLH-2R7/1.5WR6X15
+  * Datasheet: https://www.tecategroup.com/products/data_sheet.php?i=TPLH-2R7/1.5WR6X15
+  * Digikey: https://www.digikey.com/en/products/detail/tecate-group/TPLH-2R7-1-5WR6X15/9930255
+* ereish64 higher temperature rating alternative: DGH155M2R7
+  * https://www.mouser.com/ProductDetail/Knowles-Illinois-Capacitor/DGH155M2R7?qs=iLbezkQI%252BshcZvBCu9GXdg%3D%3D
+  * Please consult his image in the [issue](https://github.com/ophwug/docs/issues/25)
 
 ### The Screen Doesn't Work or is Dying Case
 
