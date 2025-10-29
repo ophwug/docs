@@ -341,6 +341,8 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
   * "Car Unrecognized"
   * "CAN Bus Error"
   * "CAN Bus Disconnected"
+  * "Harness Relay Malfunction"
+  * "Check Hardware"
 * You hear unusual noises from the relay box or harness area. Of course, what is "unusual" can vary. Working V1 harnesses will click when the device is powered on and off, but if you hear a constant clicking or buzzing, that is not normal.
 
 **Resolution**:
