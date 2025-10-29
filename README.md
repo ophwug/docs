@@ -224,7 +224,7 @@ OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/h
 * The device does not go into "[on-road]" mode. It is stuck at the home screen.
 
    * According to the [standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf), the IGN line comes out as a combination of SBU1 and SBU2 and one or both isn't making its way through the OBD-C cable properly.
-* You substituted a random USB-C cable from your cable collection instead of using comma's cable (e.g., because the original cable was missing or broken) and the device shows "Vehicle Online" but never transitions to "[on-road]" mode.
+* You substituted a random USB-C cable from your cable collection that isn't USB 3.1 Gen 2 instead of using comma's cable (e.g., because the original cable was missing or broken) and the device shows "Vehicle Online" but never transitions to "[on-road]" mode.
 * You get random errors in openpilot such as, but not limited to:
   * "Harness Relay Malfunction"
   * "Check Hardware"
