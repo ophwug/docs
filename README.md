@@ -42,6 +42,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [Official Hardware Documentation](#official-hardware-documentation)
     - [Reverse Engineered Community Clones and Alternative Hardware Documentation](#reverse-engineered-community-clones-and-alternative-hardware-documentation)
     - [Taxonomy](#taxonomy)
+      - [Panda](#panda)
       - [comma.ai Harness](#commaai-harness)
   - [Common to all comma devices](#common-to-all-comma-devices)
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
@@ -171,7 +172,9 @@ Just a small incomplete bit of small local documentation on the taxonomy of comm
 
 Please refer to their respective documentation for more details.
 
-Note that on the comma two and newer devices, the panda is integrated into the device itself. The exception is the external red panda, which is used with the comma three on CAN-FD vehicles. Sometimes people mistake the comma harness for the panda, but they are different things. panda is the CAN interface that a computer can use to talk to the car, the harness is the vehicle interface.
+#### Panda
+
+The panda is the CAN interface that a computer can use to talk to the car, while the harness is the vehicle interface. Sometimes people mistake the comma harness for the panda, but they are different things. On the comma two and newer devices, the panda is integrated into the device itself. The exception is the external [red panda](https://comma.ai/shop/panda), which is used with the comma three on CAN-FD vehicles.
 
 #### comma.ai Harness
 
