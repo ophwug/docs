@@ -223,6 +223,8 @@ OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/h
    * According to the [standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf), the IGN line comes out as a combination of SBU1 and SBU2 and one or both isn't making its way through the OBD-C cable properly.
 * You substituted a random USB-C cable from your cable collection (e.g., because the original cable was missing or broken) and the device shows "Vehicle Online" but never transitions to "[on-road]" mode.
 * You get random errors in openpilot such as, but not limited to:
+  * "Harness Relay Malfunction"
+  * "Check Hardware"
   * "Car Unrecognized"
   * "CAN Bus Error"
   * "CAN Bus Disconnected"
@@ -284,6 +286,8 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
 * [0pointjd's C3](https://discord.com/channels/469524606043160576/524592892627517450/1330161284049535036)
 * [thinkpad4by3's C3](https://discord.com/channels/469524606043160576/871838269405556736/1419877307807699017)
   * Ground pin/wire was disconnected. Wiggling the cable would make it work temporarily. See related entry in [The Blown Fuse Case](#the-blown-fuse-case).
+* [johntthesmith's C3](https://discord.com/channels/469524606043160576/871838269405556736/1433136778721628261)
+  * Went all the way to replacing the harness but should have tested the cable first.
 
 ### The Bad OBD-C Port Case
 
