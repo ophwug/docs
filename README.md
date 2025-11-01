@@ -810,6 +810,8 @@ If the fuse has been verified to be good and you have ruled out other causes, a 
 
 1. **Identification**: Locate the failed supercapacitor through visual inspection (bulging, discoloration, leakage) or electrical testing (short circuit, out-of-spec capacitance).
 2. **Replacement**: Remove the failed supercapacitor and replace it with an appropriate replacement part.
+   * Original: [Tecate Group, 2.7V, 1.5F , blue exterior](https://www.tecategroup.com/products/data_sheet.php?i=TPLH-2R7/1.5WR6X15)
+   * Alternative (with higher temperature rating): Knowles DGH155M2R7 (1.5F 2.7V), see ereish64's example below for details.
 3. **Verification**: Test the board to ensure the short or power issue is resolved.
 
 Supercapacitors are larger components compared to typical surface-mount capacitors and may be more accessible for diagnosis and replacement.
@@ -820,9 +822,9 @@ Supercapacitors are larger components compared to typical surface-mount capacito
   * Reported symptoms consistent with power issues
   * Investigation indicated supercapacitor involvement (1.5F capacitors)
   * Successfully replaced supercapacitors and device is working
-  * Replacement part: Knowles DGH155M2R7 (1.5F 2.7V) from [Mouser](https://www.mouser.com/ProductDetail/Knowles-Illinois-Capacitor/DGH155M2R7?qs=iLbezkQI%252BshcZvBCu9GXdg%3D%3D)
+  * Alternative Replacement part: Knowles DGH155M2R7 (1.5F 2.7V) from [Mouser](https://www.mouser.com/ProductDetail/Knowles-Illinois-Capacitor/DGH155M2R7?qs=iLbezkQI%252BshcZvBCu9GXdg%3D%3D)
     * Note: Replacement parts don't quite fit the original footprint but can work with careful installation
-    * Replacement part has higher temperature rating (105C vs original 85C) "The capacitors I used as a replacement have a max temperature of +85C. The original capacitor appears to have a max of +65C..."
+    * Replacement part has higher temperature rating (85C vs original 65C) "The capacitors I used as a replacement have a max temperature of +85C. The original capacitor appears to have a max of +65C..."
   * See [issue](https://github.com/ophwug/docs/issues/25) for detailed discussion and photos
 
 **Vendors**:
