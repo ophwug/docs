@@ -774,7 +774,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Measured ~2.6+ ohms on the top fuse (other fuses measured 0.6-1.0 ohms)
   * Ordered 10 V12 (Bourns MF-NSML380/12-2) fuses from Digikey for ~$15.50 shipped
   * [Working much more than before post-repair](https://discord.com/channels/469524606043160576/871838269405556736/1430332221696380968)
-  * "Now the device works with random freezes, a very audible alarm, then reboots and all is well for sometimes 40 mins, sometimes longer. "
+  * ["Now the device works with random freezes, a very audible alarm, then reboots and all is well for sometimes 40 mins, sometimes longer. "](https://discord.com/channels/469524606043160576/871838269405556736/1434652515730849883)
 
 ### The Bad Supercapacitor Case
 
