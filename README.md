@@ -775,6 +775,8 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Ordered 10 V12 (Bourns MF-NSML380/12-2) fuses from Digikey for ~$15.50 shipped
   * [Working much more than before post-repair](https://discord.com/channels/469524606043160576/871838269405556736/1430332221696380968)
   * ["Now the device works with random freezes, a very audible alarm, then reboots and all is well for sometimes 40 mins, sometimes longer. "](https://discord.com/channels/469524606043160576/871838269405556736/1434652515730849883)
+* [FrogsGoMoo's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1434992550153814096)
+  * Repaired by Drago, with high praise for the quick and effective fix after other shops were unable to help.
 
 ### The Bad Supercapacitor Case
 
