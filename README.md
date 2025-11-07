@@ -9,12 +9,11 @@ This is an attempt to document some of the common issues and fixes that were dis
 >
 > https://deepwiki.com/ophwug/docs
 >
->[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ophwug/docs) about openpilot hardware!
+> [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ophwug/docs) about openpilot hardware!
 >
 > You are encouraged to share deepwiki conversations links in Discord if you aren't sure it is interpreting this document correctly.
 >
 > Of course, other AI assistants such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) can also be used once you pass them the URL of this repository: https://github.com/ophwug/docs
-
 
 > [!WARNING]
 > **Always verify with original sources**: When using deepwiki or any AI assistant, remember to check the original cited text and images in this document. AI assistants may not be able to properly interpret images or diagrams, and their understanding of visual content may be incomplete or inaccurate. Always cross-reference important information with the original source material.
@@ -70,6 +69,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Burned MOSFET Case](#the-burned-mosfet-case)
     - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
     - [The NVMe drive not mounted Case](#the-nvme-drive-not-mounted-case)
+    - [The Stuck Registration Case](#the-stuck-registration-case)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -1187,6 +1187,31 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 **Resources**:
 
 * https://www.youtube.com/watch?v=Y3Z4j466CsE - Installing a SSD
+
+
+### The Stuck Registration Case
+
+<!-- placeholder for image -->
+
+It is suspected that comma's endpoint for C3 registration might be a bit unreliable. On newer C3s and C3Xs, the devices are preloaded with a dongle id, but older and earlier C3s may not have this.
+
+**Symptoms**:
+
+* Registration is stuck spinning
+
+**Resolution**:
+
+so, to avoid "registering device", replace your dongle id below and run this script:```bash
+DONGLE_ID="REPLACE_THIS_WITH_YOUR_DONGLE_ID"
+sudo mount -o remount,rw /persist
+echo "$DONGLE_ID" > /persist/comma/dongle_id
+sudo mount -o remount,ro /persist
+sudo reboot
+```
+your dongle id can be found in https://connect.comma.ai or https://useradmin.comma.ai
+
+> [!WARNING]
+> be advised that comma advises against touching this - https://discord.com/channels/469524606043160576/819046761287909446/1335013586027942065
 
 ## comma threex (C3X)
 
