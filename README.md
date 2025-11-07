@@ -427,6 +427,7 @@ These can be very varied since by its nature, it's very undefined and this is in
   * e.g. Sensor driver out of date
 * The device overheats.
   * e.g. Fan control driver out of date
+* Most distributions of openpilot or openpilot forks usually auto-update. That said, old openpilot with an old OS on older hardware revisions that are the result of auto-update not working somehow or disabled usually do not falter but you may still want to update for a fix.
 
 **Resolution**:
 
