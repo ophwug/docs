@@ -63,13 +63,13 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Bad or Dead SOM Case](#the-bad-or-dead-som-case)
     - [The Damaged Ribbon Cable Case](#the-damaged-ribbon-cable-case)
     - [The SIM Card Is Stuck Case](#the-sim-card-is-stuck-case)
+    - [The Stuck On Registration Case](#the-stuck-on-registration-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
     - [The Burned MOSFET Case](#the-burned-mosfet-case)
     - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
     - [The NVMe drive not mounted Case](#the-nvme-drive-not-mounted-case)
-    - [The Stuck Registration Case](#the-stuck-registration-case)
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
@@ -1061,6 +1061,32 @@ Maybe it's a bit of a design flaw on comma's part but the plastic on the comma t
 * [cookiemonster's C3X](https://discord.com/channels/469524606043160576/524592892627517450/1414868691643924512)
   * "disassembled it and noticed my sim card tray gets quite tight with more resistance as it gets closer to fully seat. when it is fully seated, the spring is barely strong enough to push it out. I hope i dont need to change my sim card any time soon 🫠"
 
+### The Stuck On Registration Case
+
+It is suspected that comma's endpoint for C3 registration might be a bit unreliable. On newer C3s and C3Xs, the devices are preloaded with a dongle id, but older and earlier C3s may not have this. Some devices may also be missing the dongle id in /persist for other reasons.
+
+**Symptoms**:
+
+* Registration is stuck spinning
+
+**Resolution**:
+
+If you're using a C3X, try updating to the latest comma openpilot or openpilot fork. Newer versions have fixed some registration issues.
+
+If not, there is a more surgical, but [non-recommended from comma solution.](https://discord.com/channels/469524606043160576/819046761287909446/1335013586027942065)
+
+Find your dongle id in https://connect.comma.ai or https://useradmin.comma.ai .
+
+Replace your dongle id below and run this script:
+
+```bash
+DONGLE_ID="REPLACE_THIS_WITH_YOUR_DONGLE_ID"
+sudo mount -o remount,rw /persist
+echo "$DONGLE_ID" > /persist/comma/dongle_id
+sudo mount -o remount,ro /persist
+sudo reboot
+```
+
 ## comma three (C3)
 
 Released: 2021-07-31
@@ -1188,30 +1214,6 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 
 * https://www.youtube.com/watch?v=Y3Z4j466CsE - Installing a SSD
 
-
-### The Stuck Registration Case
-
-<!-- placeholder for image -->
-
-It is suspected that comma's endpoint for C3 registration might be a bit unreliable. On newer C3s and C3Xs, the devices are preloaded with a dongle id, but older and earlier C3s may not have this.
-
-**Symptoms**:
-
-* Registration is stuck spinning
-
-**Resolution**:
-
-so, to avoid "registering device", replace your dongle id below and run this script:```bash
-DONGLE_ID="REPLACE_THIS_WITH_YOUR_DONGLE_ID"
-sudo mount -o remount,rw /persist
-echo "$DONGLE_ID" > /persist/comma/dongle_id
-sudo mount -o remount,ro /persist
-sudo reboot
-```
-your dongle id can be found in https://connect.comma.ai or https://useradmin.comma.ai
-
-> [!WARNING]
-> be advised that comma advises against touching this - https://discord.com/channels/469524606043160576/819046761287909446/1335013586027942065
 
 ## comma threex (C3X)
 
