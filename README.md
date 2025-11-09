@@ -75,6 +75,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
     - [The Wide Camera Malfunction Case (C3X)](#the-wide-camera-malfunction-case-c3x)
     - [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case)
+  - [comma four (C4)](#comma-four-c4)
 - [See Also](#see-also)
 - [References](#references)
 
@@ -1093,6 +1094,8 @@ Released: 2021-07-31
 
 Discontinued: 2023-10-12
 
+Codename: tici
+
 comma openpilot support dropped: 2025-08-26
 
 https://blog.comma.ai/comma-three-press-release/
@@ -1219,6 +1222,8 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 
 Released: 2023-10-12
 
+Codename: tizi
+
 https://blog.comma.ai/comma3X/
 
 The comma 3X is comma's first major hardware revision of the comma three. It has gone through a major cost reduction and is now cheaper to manufacture.
@@ -1340,6 +1345,19 @@ It is recommended to also check the integrity of the "L" inductor to avoid burni
   * [Initial Post](https://discord.com/channels/469524606043160576/871838269405556736/1422027156829241386)
   * ["Little short video from the thermal cam on the buck chip"](https://discord.com/channels/469524606043160576/871838269405556736/1423040186769608857)
   * ["Welp, same chip popped again so I give up "](https://discord.com/channels/469524606043160576/871838269405556736/1426776980443107328)
+
+## comma four (C4)
+
+Released: 2025-11-08
+
+Codename: mici
+
+TODO: put blog link here
+
+The comma four was announced at COMMA_CON 2025.
+
+It is comma's first major form factor redesign. Instead of a large landscape phone on windshield form factor, it is now shaped like a small windshield dashcam with a much smaller display like a radar detector's display.
+
 
 # See Also
 
