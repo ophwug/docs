@@ -5,15 +5,21 @@ Discord's search is terrible, and the content inside of it isn't accessible to s
 This is an attempt to document some of the common issues and fixes that were discussed in the Discord onto the public internet so that they can be found by search engines.
 
 > [!TIP]
-> This document is a bit long, you may want to put the URL of this document into your 🤖 AI assistant of choice to ask it questions about the contents of this document. DeepWiki is a good choice for querying with citations and references. Note that DeepWiki may lag behind the latest copy of the document by a week. You should also consult the original sections of the document it references as they have visual aids such as photos.
+> This document is very long, clocking in at **50+** pages if printed out. You are not expected to read it all with full attention in one sitting. **Use 🤖 AI assistants to help you find the relevant sections faster.**
+>
+> We recommend [DeepWiki](https://deepwiki.com/ophwug/docs) as it is a good choice for querying with citations and references. Note that DeepWiki may lag behind the latest copy of the document by a week. You should also consult the original sections of the document it references as they have visual aids such as photos which DeepWiki may not be able to interpret fully or show.
+>
+> To use DeepWiki, just go to the link below and enter your question in the chat interface:
 >
 > https://deepwiki.com/ophwug/docs
+>
+> ![demo animation of deepwiki](https://github.com/user-attachments/assets/f14e8dda-f7ca-457c-a358-3a2fc1a666ae)
 >
 > [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ophwug/docs) about openpilot hardware!
 >
 > You are encouraged to share deepwiki conversations links in Discord if you aren't sure it is interpreting this document correctly.
 >
-> Of course, other AI assistants such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) can also be used once you pass them the URL of this repository: https://github.com/ophwug/docs
+> Of course, other 🤖 AI assistants such as [ChatGPT](https://chat.openai.com/chat), [Claude](https://claude.ai/), or [Gemini](https://gemini.google.com) can also be used once you pass them the URL of this repository: https://github.com/ophwug/docs
 
 > [!WARNING]
 > **Always verify with original sources**: When using DeepWiki or any AI assistant, remember to check the original cited text and images in this document. AI assistants may not be able to properly interpret images or diagrams, and their understanding of visual content may be incomplete or inaccurate. They may also have biases that are incorrect within the openpilot community. Always cross-reference important information with the original source material.
