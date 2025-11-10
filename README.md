@@ -522,6 +522,8 @@ Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
 
 ### The Blown Fuse Case
 
+_Blown Fuse Case may be a bit of a misnomer as the fuse should be self-resetting, but it may fail to reset properly or behaves unexpectedly. The name is kept this for historical, linking, and archival reasons._
+
 **Symptoms**:
 
 * Device does not power on when connected
