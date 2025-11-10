@@ -1371,6 +1371,25 @@ The comma four was announced at COMMA_CON 2025.
 
 It is comma's first major form factor redesign. Instead of a large landscape phone on windshield form factor, it is now shaped like a small windshield dashcam with a much smaller but touch GUI display about the size of a radar detector's display.
 
+Some specifications include:
+
+* Tiny form factor.
+* OLED touchscreen (536x240).
+* Upgraded speaker.
+* Snapdragon 845 with enhanced cooling system such as a Noctua fan and better thermal design.
+* SOM and Panda are on the same board now.
+* Cameras are on separate boards.
+* No supercapacitors, for improved power stability.
+* Re-introduced u-blox GPS module, which was deleted on later C3s and the C3X.
+* Onboard eSIM, replacing the physical SIM slot though a physical SIM slot is still present.
+* 3x OS04C10 cameras with improved night performance.
+* New mount with instant cure adhesive.
+  * It has more surface area contact with the windshield for better adhesion.
+  * It is lighter
+* 128GB storage still, but the camera records with smaller file sizes for longer recording times.
+* New flexible OBD-C cable.
+* Reduced number of parts for higher reliability.
+
 
 # See Also
 
