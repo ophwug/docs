@@ -186,6 +186,8 @@ Please refer to their respective documentation for more details.
 
 The panda is the CAN interface that a computer can use to talk to the car, while the harness is the vehicle interface. Sometimes people mistake the comma harness for the panda, but they are different things. On the comma two and newer devices, the panda is integrated into the device itself. The exception is the external [red panda](https://comma.ai/shop/panda), which is used with the comma three on CAN-FD vehicles.
 
+It's called that because the [original panda dongle or adapter was black and white.](https://techcrunch.com/2017/07/07/comma-ai-launches-an-88-universal-car-interface-called-panda/)
+
 #### comma.ai Harness
 
 **Harness V3 with relay box, harness cable, and comma power (Shipping since ~June 2024)**:
