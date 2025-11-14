@@ -915,6 +915,7 @@ The high level instruction is still the same for any device, not even just the C
   * The issue was ultimately a bad screen. The user determined this because the device was plugged into the car, and the car started driving itself when openpilot was enabled with the steering wheel, indicating the device was fully functional except for the display.
   * This case highlights the importance of checking for signs of life (blinking lights, fan noise, and openpilot engagement) before assuming a power issue like a blown fuse.
   * Their screen was cracked from the first day due to a drop, which may have contributed to the failure years later.
+  * They are not replacing the screen and will likely trade in the device for a comma four.
 
 ### The Fan Death Case
 
