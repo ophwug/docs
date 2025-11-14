@@ -537,6 +537,9 @@ _Blown Fuse Case may be a bit of a misnomer as the fuse should be self-resetting
 
 **Symptoms**:
 
+> [!IMPORTANT]
+> Before assuming a blown fuse, it is crucial to check for other **signs of life**. A device with a dead screen can often be mistaken for a device that won't power on. See [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case) for symptoms to check for, such as fan noise, blinking lights, or the device engaging.
+
 * Device does not power on when connected
 * Device does not stay on
 * The self-resetting fuse's resistance is stuck high. (e.g. 0.3-43 ohms, when it should be about 0.02 ohms at most from the datasheet(s)). Note that 0.3 ohms is just a value seen in some problematic devices; technically, anything above 0.02 ohms is out of spec.
@@ -545,7 +548,6 @@ _Blown Fuse Case may be a bit of a misnomer as the fuse should be self-resetting
 * There is a large voltage drop across the fuse when powered on. (See dazoe's case below for more details.)
 * Blue light in the back may still blink.
 * Flashing with https://flash.comma.ai sometimes fails with connection lost screen.
-* In may be hard to tell if this is [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case) compared to a power issue like this. Please check out that section for more details.
 
 **Causes**:
 
@@ -860,6 +862,8 @@ Supercapacitors are larger components compared to typical surface-mount capacito
 
 * `openpilot` still engages
 * You still hear sounds from the speaker
+* Fans are moving/audible
+* LEDs on the device are blinking (e.g., red then blue on boot)
 * The screen does not turn on
 * purple splotches on the screen
 * Screen burn-in
@@ -904,6 +908,13 @@ The high level instruction is still the same for any device, not even just the C
   * "The screen replacement was a breeze. Good job to the HW team who made the sticky tape easily removable and the mark where to bend the ribbon cable was a nice touch 🥰"
   * "c3 bought November 2022. Screen died due to user error (slid down the dashboard and hit the car's infotainment screen). After a few days the screen completely died. Worked flawlessly prior to being smacked."
   * ["DIY. Heated it with a hair dryer slowly for 2minutes and the  glue let the original screen go quite easily. Re-used the original glue as it was still tacky. Upon inspecting the broken screen I haven't found any cracks, guess it hit the *right* spot and released the organic matter in the OLED behind it. Interestingly the touch panel also had ghost touches but not as frequently to cause reset on boot (running OBD disconnected to save the 12V), in the picture above I managed to reset calibration upon repositioning it."](https://discord.com/channels/469524606043160576/871838269405556736/1407944207108145245)
+* [chichum's C3](https://discord.com/channels/469524606043160576/871838269405556736/1438958679968972851)
+  * Device was unplugged for about five days and would not turn back on.
+  * When plugged in, the unit blinked red quickly and then blinked blue. The screen never turned on, but the fans were moving.
+  * After trying different cables and plugs, the user suspected a blown fuse and ordered replacements.
+  * The issue was ultimately a bad screen. The user determined this because the device was plugged into the car, and the car started driving itself when openpilot was enabled with the steering wheel, indicating the device was fully functional except for the display.
+  * This case highlights the importance of checking for signs of life (blinking lights, fan noise, and openpilot engagement) before assuming a power issue like a blown fuse.
+  * Their screen was cracked from the first day due to a drop, which may have contributed to the failure years later.
 
 ### The Fan Death Case
 
