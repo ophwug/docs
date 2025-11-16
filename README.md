@@ -73,6 +73,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Damaged Ribbon Cable Case](#the-damaged-ribbon-cable-case)
     - [The SIM Card Is Stuck Case](#the-sim-card-is-stuck-case)
     - [The Stuck On Registration Case](#the-stuck-on-registration-case)
+    - [The Bad EMI Filters Case](#the-bad-emi-filters-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -1113,6 +1114,35 @@ echo "$DONGLE_ID" > /persist/comma/dongle_id
 sudo mount -o remount,ro /persist
 sudo reboot
 ```
+
+### The Bad EMI Filters Case
+
+![EMI Filter](https://github.com/user-attachments/assets/a6f31f61-0725-4b43-a9ea-613c55c6a797)
+
+**Symptoms**:
+
+* Screen does not turn on
+* A working screen replacement does not fix the issue
+* Device does boot otherwise (fans spin, LEDs light up, openpilot engages, etc)
+* EMI filters look burnt or damaged
+
+**Resolution**:
+
+* Extremely hard to replace, requires advanced soldering skills and equipment.
+* Needs hot air rework station, solder wick, flux, magnifying glass or microscope, steady hands, and patience.
+
+Replace the EMI filters (PCMF3USB3S) next to the screen connector with a new one.
+
+**Vendors**:
+
+Numerous, search for "PCMF3USB3S" on your favorite electronics component website.
+
+**Examples**:
+
+* [Drago's customer's C3](https://discord.com/channels/469524606043160576/871838269405556736/1439435620304031764)
+  * [Extremely hard to replace](https://discord.com/channels/469524606043160576/871838269405556736/1439063062744404110)
+  * Currently not comfortable but if you want to try, reach out to Drago for an attempt.
+
 
 ## comma three (C3)
 
