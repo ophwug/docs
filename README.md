@@ -950,6 +950,7 @@ See also: [The Uncleaned Fan Flux Case](#the-uncleaned-fan-flux-case)
 
 **Reference**:
 
+* Fan Test: https://www.youtube.com/watch?v=4BmkMEpBcLY
 * https://discord.com/channels/469524606043160576/871838269405556736/1350189845758218417
 * comma: https://discord.com/channels/469524606043160576/871838269405556736/1374440250486554644
 
