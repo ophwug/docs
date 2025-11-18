@@ -1423,6 +1423,7 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
 * Upgraded speaker.
 * Snapdragon 845 with enhanced cooling system such as a Noctua fan and better thermal design.
 * SOM and Panda are on the same board now.
+* A Red Panda is included with the device for built-in CAN-FD support.
 * Cameras are on separate boards.
 * No supercapacitors, for improved power stability.
 * Re-introduced u-blox GPS module, which was deleted on later C3s and the C3X.
