@@ -1416,7 +1416,7 @@ The comma four was announced at COMMA_CON 2025.
 
 It is comma's first major form factor redesign. Instead of a large landscape phone on windshield form factor, it is now shaped like a small windshield dashcam with a much smaller but touch GUI display about the size of a radar detector's display.
 
-Some specifications include:
+[Some specifications include](https://discord.com/channels/469524606043160576/1436852432503046294/1437501443253866558):
 
 * Tiny form factor.
 * OLED touchscreen (536x240).
