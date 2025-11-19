@@ -198,7 +198,7 @@ It's called that because the [original panda dongle or adapter was black and whi
   * Integrated in comma three devices
   * [_Was_ sold as external adapter that takes OBD-C from a vehicle harness](https://comma.ai/shop/panda)
   * comma stopped and droped software support from their [panda GitHub repository](https://github.com/commaai/panda) when C3 support was dropped (2025-08-26)
-* Red Panda: CAN-FD capable
+* Red Panda: CAN and CAN-FD capable
   * Integrated in comma threex devices
   * Integrated in comma four devices
   * [Sold as external adapter that takes OBD-C from a vehicle harness](https://comma.ai/shop/panda)
