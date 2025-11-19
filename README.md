@@ -189,19 +189,19 @@ The panda is the CAN interface that a computer can use to talk to the car, while
 
 It's called that because the [original panda dongle or adapter was black and white.](https://techcrunch.com/2017/07/07/comma-ai-launches-an-88-universal-car-interface-called-panda/)
 
-* White Panda: CAN-only and connected to an ODB-II or ODB-II-like port from old comma setups
+* White Panda: CAN-only and connected to an OBD-II or OBD-II-like port from old comma setups
   * External in EON device setups
   * [_Was_ sold as external adapter](https://comma.ai/shop/panda)
   * Support dropped a long time ago.
 * Black Panda: CAN only
   * Integrated in comma two devices
   * Integrated in comma three devices
-  * [_Was_ sold as external adapter that takes ODB-C from a vehicle harness](https://comma.ai/shop/panda)
+  * [_Was_ sold as external adapter that takes OBD-C from a vehicle harness](https://comma.ai/shop/panda)
   * comma stopped and droped software support from their [panda GitHub repository](https://github.com/commaai/panda) when C3 support was dropped (2025-08-26)
 * Red Panda: CAN-FD capable
   * Integrated in comma threex devices
   * Integrated in comma four devices
-  * [Sold as external adapter that takes ODB-C from a vehicle harness](https://comma.ai/shop/panda)
+  * [Sold as external adapter that takes OBD-C from a vehicle harness](https://comma.ai/shop/panda)
 
 #### comma.ai Harness
 
