@@ -557,6 +557,7 @@ _Blown Fuse Case may be a bit of a misnomer as the fuse should be self-resetting
 
 * Device does not power on when connected
 * Device does not stay on
+* Device powers on but turns off/black screens when loading.
 * The self-resetting fuse's resistance is stuck high. (e.g. 0.3-43 ohms, when it should be about 0.02 ohms at most from the datasheet(s)). Note that 0.3 ohms is just a value seen in some problematic devices; technically, anything above 0.02 ohms is out of spec.
 * With a heat gun applied to the fuses, the resistance gets elevated to bad levels.
 * (V1 harness) relay box sounds like a maraca when shaken on failed boot.
@@ -809,6 +810,10 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * ["Now the device works with random freezes, a very audible alarm, then reboots and all is well for sometimes 40 mins, sometimes longer. "](https://discord.com/channels/469524606043160576/871838269405556736/1434652515730849883)
 * [FrogsGoMoo's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1434992550153814096)
   * Repaired by Drago, with high praise for the quick and effective fix after other shops were unable to help.
+* [kyle's C3X ✅](https://discord.com/channels/469524606043160576/871838269405556736/1440864351061020733)
+  * Repaired by Drago.
+  * "Was getting black screen/turn off loading into the traffic screen."
+  * Fuse was replaced and now it works again.
 
 ### The Bad Supercapacitor Case
 
