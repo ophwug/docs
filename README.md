@@ -74,6 +74,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The SIM Card Is Stuck Case](#the-sim-card-is-stuck-case)
     - [The Stuck On Registration Case](#the-stuck-on-registration-case)
     - [The Bad EMI Filters Case](#the-bad-emi-filters-case)
+    - [The Bad EMI Case in common to comma three family](#the-bad-emi-case-in-common-to-comma-three-family)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -1162,6 +1163,26 @@ Numerous, search for "PCMF3USB3S" on your favorite electronics component website
   * [Extremely hard to replace](https://discord.com/channels/469524606043160576/871838269405556736/1439063062744404110)
   * Currently not comfortable but if you want to try, reach out to Drago for an attempt.
 
+### The Bad Screen EMI Case
+
+![Bad EMI](https://github.com/user-attachments/assets/b8f25044-f685-46ec-8639-eabb71709f00)
+
+**Symptoms**:
+
+* Screen connector EMI filter (PCMF3USB3S) is bad
+* EMI chip next to the screen ribbon looks a bit damaged
+
+**Resolution**:
+
+Replacing it seems hard. You'll need a hot air rework station and soldering skills.
+
+**Vendors**:
+
+* PCMF3USB3S from numerous electronics component websites.
+
+**Examples**:
+
+* [Drago's work for a customer](https://discord.com/channels/469524606043160576/871838269405556736/1439080929548177490)
 
 ## comma three (C3)
 
