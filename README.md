@@ -73,8 +73,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Damaged Ribbon Cable Case](#the-damaged-ribbon-cable-case)
     - [The SIM Card Is Stuck Case](#the-sim-card-is-stuck-case)
     - [The Stuck On Registration Case](#the-stuck-on-registration-case)
-    - [The Bad EMI Filters Case](#the-bad-emi-filters-case)
-    - [The Bad Screen EMI Case](#the-bad-screen-emi-case)
+    - [The Bad Screen Connector EMI Filters Case](#the-bad-screen-connector-emi-filters-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)
@@ -902,6 +901,11 @@ Supercapacitors are larger components compared to typical surface-mount capacito
 
 First, make sure to try to reseat the connection for the screen. If that does not work, you will need to replace the screen.
 
+> [!WARNING]
+> **Be careful reattaching the screen ribbon.** The two ICs next to it are very fragile and if the connector slips when trying to insert it, it can catch and chip one of those ICs and you end up with a pixelated mess on your screen, or zero picture at all.
+>
+> A black screen can usually mean a [Blown Fuse Case](#the-blown-fuse-case) or a [Bad or Dead SOM Case](#the-bad-or-dead-som-case), but if you were to take off the back, plug in the device, and the fan starts to spin and the panda light flashes, your fuses and SOM might be okay. That's when you should take a close up picture of the IC's next to the screen connector and make sure they don't have any chunks taken out of them. They chip like glass. This could indicate a [Bad EMI Filters Case](#the-bad-emi-filters-case) or a [Bad Screen EMI Case](#the-bad-screen-emi-case).
+
 Inspect the MOSFETs around for any signs of failure. See [The Burned MOSFET Case](#the-burned-mosfet-case).
 
 Konik.ai has a screen replacement guide for their devices which should be similar for the C3X: https://www.youtube.com/watch?v=ieyz4pxaHxU
@@ -1135,54 +1139,38 @@ sudo mount -o remount,ro /persist
 sudo reboot
 ```
 
-### The Bad EMI Filters Case
+### The Bad Screen Connector EMI Filters Case
 
 ![EMI Filter](https://github.com/user-attachments/assets/a6f31f61-0725-4b43-a9ea-613c55c6a797)
 
 **Symptoms**:
 
-* Screen does not turn on
-* A working screen replacement does not fix the issue
-* Device does boot otherwise (fans spin, LEDs light up, openpilot engages, etc)
-* EMI filters look burnt or damaged
+* Screen does not turn on, but the device otherwise boots (fans spin, LEDs light up, openpilot engages, etc.).
+* A known-good replacement screen does not fix the issue.
+* The screen connector EMI filter (part `PCMF3USB3S`) is bad.
+* The EMI filters/chips next to the screen ribbon connector look burnt, chipped, or otherwise damaged.
+
+> [!NOTE]
+> This can be a symptom of a damaged screen connector area, sometimes caused by a slip when re-attaching the screen ribbon cable. See the warning in [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case) for more details on diagnosis.
 
 **Resolution**:
 
-* Extremely hard to replace, requires advanced soldering skills and equipment.
-* Needs hot air rework station, solder wick, flux, magnifying glass or microscope, steady hands, and patience.
+This is an extremely difficult repair that requires advanced micro-soldering skills and equipment.
 
-Replace the EMI filters (PCMF3USB3S) next to the screen connector with a new one.
+* **Required Tools**: Hot air rework station, solder wick, flux, a microscope or high-magnification lens, very steady hands, and a lot of patience.
+
+The resolution is to replace the damaged EMI filter (`PCMF3USB3S`) next to the screen connector.
 
 **Vendors**:
 
-Numerous, search for "PCMF3USB3S" on your favorite electronics component website.
+* You can find the `PCMF3USB3S` filter on most major electronics component websites (e.g., Digi-Key, Mouser, etc.).
 
 **Examples**:
 
 * [Drago's customer's C3](https://discord.com/channels/469524606043160576/871838269405556736/1439435620304031764)
-  * [Extremely hard to replace](https://discord.com/channels/469524606043160576/871838269405556736/1439063062744404110)
-  * Currently not comfortable but if you want to try, reach out to Drago for an attempt.
-
-### The Bad Screen EMI Case
-
-![Bad EMI](https://github.com/user-attachments/assets/b8f25044-f685-46ec-8639-eabb71709f00)
-
-**Symptoms**:
-
-* Screen connector EMI filter (PCMF3USB3S) is bad
-* EMI chip next to the screen ribbon looks a bit damaged
-
-**Resolution**:
-
-Replacing it seems hard. You'll need a hot air rework station and soldering skills.
-
-**Vendors**:
-
-* PCMF3USB3S from numerous electronics component websites.
-
-**Examples**:
-
-* [Drago's work for a customer](https://discord.com/channels/469524606043160576/871838269405556736/1439080929548177490)
+  * [Example of the difficult replacement process](https://discord.com/channels/469524606043160576/871838269405556736/1439063062744404110)
+  * [Another example from Drago](https://discord.com/channels/469524606043160576/871838269405556736/1439080929548177490)
+  * Drago is a community member who may be available for repair services; reach out to him for an attempt if you are not comfortable performing the repair yourself.
 
 ## comma three (C3)
 
