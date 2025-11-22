@@ -74,7 +74,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The SIM Card Is Stuck Case](#the-sim-card-is-stuck-case)
     - [The Stuck On Registration Case](#the-stuck-on-registration-case)
     - [The Bad EMI Filters Case](#the-bad-emi-filters-case)
-    - [The Bad EMI Case in common to comma three family](#the-bad-emi-case-in-common-to-comma-three-family)
+    - [The Bad Screen EMI Case](#the-bad-screen-emi-case)
   - [comma three (C3)](#comma-three-c3)
     - [The Swampy No Panda Case](#the-swampy-no-panda-case)
     - [The Screen Colors Are Really Off Case](#the-screen-colors-are-really-off-case)

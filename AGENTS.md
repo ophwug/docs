@@ -1,0 +1,1 @@
+* Read README.md throughly and follow the existing format for new content.
