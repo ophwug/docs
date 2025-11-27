@@ -437,7 +437,7 @@ This is a workaround, not a fix. A proper fix would be to repair the IR LEDs whi
 
 ### The Running Too Old Of An OS Case
 
-comma.ai will only support the latest "release", "nightly", and specific WIP branches of comma openpilot on their hardware. And those branches will cause a recent or newest OS to be installed on the device.
+comma.ai will only support the latest "release-*", "nightly", and specific WIP branches of comma openpilot on their hardware. And those branches will cause a recent or newest OS to be installed on the device. Forks might install other OS versions.
 
 From time to in time, comma.ai will "evolve" the hardware for reliability, supply chain, cost reduction, and other reasons. This means that the hardware may not be compatible with older versions of openpilot and the OS. In advance of this, they will update their OS and their openpilot branches to support the new hardware. See the "Evolutions" sections under [comma three (C3)](#comma-three-c3) and [comma threex (C3X)](#comma-threex-c3x) for more details on hardware changes that may require a newer OS.
 
