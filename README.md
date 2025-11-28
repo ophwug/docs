@@ -1461,7 +1461,7 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
 * New mount with instant cure adhesive.
   * It has more surface area contact with the windshield for better adhesion.
   * It is lighter
-* 128GB storage still, but the camera records with smaller file sizes for longer recording times.
+* 128GB storage still, but the camera records with [smaller file sizes](https://github.com/commaai/openpilot/blob/master/system/loggerd/loggerd.h#L37-L42) for longer recording times.
 * New flexible OBD-C cable.
 * Reduced number of parts for higher reliability.
 
