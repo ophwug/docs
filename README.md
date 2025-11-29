@@ -1457,6 +1457,8 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
 * No supercapacitors, for improved power stability.
 * Re-introduced u-blox GPS module, which was deleted on later C3s and the C3X.
 * Onboard eSIM, replacing the physical SIM slot though a physical SIM slot on the board is still present but you'll need to take off the top of the device to access it.
+  * Only one can be used at a time. Circuitry will switch and favor the removable SIM if both are present.
+  * The embedded eSIM replaces the removable eSIM or UICC that was used on previous comma devices.
 * 3x OS04C10 cameras with improved night performance.
 * New mount with instant cure adhesive.
   * It has more surface area contact with the windshield for better adhesion.
