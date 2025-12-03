@@ -43,8 +43,6 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Unofficial documentation of unofficial fixes and tweaks to comma and unofficial openpilot hardware](#unofficial-documentation-of-unofficial-fixes-and-tweaks-to-comma-and-unofficial-openpilot-hardware)
-  - [Table of Contents](#table-of-contents)
   - [Discords and Discussions of Note](#discords-and-discussions-of-note)
   - [General Notes](#general-notes)
   - [Preventative and Recommended Measures](#preventative-and-recommended-measures)
@@ -926,6 +924,7 @@ The high level instruction is still the same for any device, not even just the C
   * They sell with a front case for the C3X. C3 with front case has long been out of stock.
 * Mr. One: https://oneclone.net/product/kidney-beans-organic/
 * Konik.ai: https://konik.ai/shop/a1-amoled-screen/
+* Amazon: https://amzn.to/3KvnDRe
 * Find/use any panel that is for the "Huawei Mate 10 Pro". Quality will vary. Not all screens will work. AMOLED version are the ones that are known to work. TFT and cheap models may not.
   * You can fill in the unused camera cutout with nail polish 💅.
 
