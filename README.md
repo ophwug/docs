@@ -105,6 +105,9 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
 
 ## General Notes
 
+> [!CAUTION]
+> **OBD-C outputs 12V, NOT 5V!** The harness box outputs 12V over the OBD-C port and is **NOT a valid or compliant 5V USB-C port**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
+
 * **Always install stock or comma openpilot first to make sure the issue is not software related as a starting point.**
   * comma.ai support will not help you if you are not running stock or comma openpilot.
   * The comma Discord (outside of #custom-forks) will only support comma openpilot.
@@ -153,6 +156,7 @@ On a long enough timeline, all devices will fail.
   * In case you ever need to replace the System-On-Module (SOM) — the main processing unit containing the CPU, memory, and other essential components — you can use this file to restore access to comma's servers. It is otherwise impossible to get access to the servers again without this file. **It is your license to comma's servers and [comma connect](https://connect.comma.ai). comma will never replace the license file for you if it is lost.**
   * [Newer versions of comma openpilot require this file for activation to be present in order to activate the self-driving features.](https://github.com/commaai/openpilot/commit/f4b017a75b0ba59bb1540347b101293c3db7364d) Forks can choose to not require this file though.
 * Do not use magnetic cable adapters. Use purpose-built magnetic or quick release mounts as OBD-C is far more sensitive to pins connecting to the wrong thing than USB-C.
+* **NEVER connect standard USB-C devices to the OBD-C port on the harness box** - the harness box outputs 12V, not 5V, and will damage or destroy devices expecting 5V (phones, tablets, laptops, etc.).
 
 ## Hardware Documentation
 
@@ -205,6 +209,11 @@ It's called that because the [original panda dongle or adapter was black and whi
 
 #### comma.ai Harness
 
+The comma.ai harness connects your vehicle to the comma device through a relay box (also called a harness box). The relay box outputs power and data signals through an OBD-C port.
+
+> [!CAUTION]
+> **The harness box outputs 12V over OBD-C, NOT 5V!** The OBD-C port is **NOT a valid or compliant 5V USB-C port**. Despite using a USB-C physical connector, **DO NOT plug standard USB-C devices** (phones, tablets, laptops, etc.) into the harness box's OBD-C port as they will be damaged or destroyed. Only connect comma devices or other devices specifically designed to accept 12V input.
+
 **Harness V3 with relay box, harness cable, and comma power (Shipping since ~June 2024)**:
 
 ![Image](https://github.com/user-attachments/assets/e7fc1e9f-071b-46f7-a5db-6964a0fb4522)
@@ -243,6 +252,9 @@ Please see https://github.com/commaai/hardware/ for more details on the harnesse
 ### The Bad OBD-C Cable Case
 
 OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf) that uses a OBD-C cable between the comma harness box and the comma device. comma produces, ships, and sells a OBD-C cable but select and many USB-C cables are electrically and physically compatible and can be used in its place.
+
+> [!CAUTION]
+> **OBD-C outputs 12V, NOT 5V!** The harness box outputs 12V over the OBD-C port and is **NOT a valid or compliant 5V USB-C port**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device as they expect 5V, not 12V. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
 
 **Preventative Measures**:
 
