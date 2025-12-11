@@ -209,10 +209,10 @@ It's called that because the [original panda dongle or adapter was black and whi
 
 #### comma.ai Harness
 
-The comma.ai harness connects your vehicle to the comma device through a relay box (also called a harness box). The relay box outputs power and data signals through an OBD-C port.
-
 > [!CAUTION]
 > **The harness box outputs 12V over OBD-C, NOT 5V!** The OBD-C port is **NOT a valid or compliant 5V USB-C port**. Despite using a USB-C physical connector, **DO NOT plug standard USB-C devices** (phones, tablets, laptops, etc.) into the harness box's OBD-C port as they will be damaged or destroyed. Only connect comma devices or other devices specifically designed to accept 12V input.
+
+The comma.ai harness connects your vehicle to the comma device through a relay box (also called a harness box). The relay box outputs power and data signals through an OBD-C port.
 
 **Harness V3 with relay box, harness cable, and comma power (Shipping since ~June 2024)**:
 
