@@ -1481,7 +1481,6 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
 
 ### The Cable Not Plugged In All The Way Case (C4)
 
-
 **Symptoms**:
 
 * Car is unidentifiable.
