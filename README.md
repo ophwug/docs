@@ -86,6 +86,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Wide Camera Malfunction Case (C3X)](#the-wide-camera-malfunction-case-c3x)
     - [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case)
   - [comma four (C4)](#comma-four-c4)
+    - [The Cable Not Plugged In All The Way Case (C4)](#the-cable-not-plugged-in-all-the-way-case-c4)
 - [See Also](#see-also)
 - [References](#references)
 
@@ -1477,6 +1478,35 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
 * 128GB storage still, but the camera records with [smaller file sizes](https://github.com/commaai/openpilot/blob/master/system/loggerd/loggerd.h#L37-L42) for longer recording times.
 * New flexible OBD-C cable.
 * Reduced number of parts for higher reliability.
+
+### The Cable Not Plugged In All The Way Case (C4)
+
+
+**Symptoms**:
+
+* Car is unidentifiable.
+* You get CAN BUS errors.
+* "Check Hardware" or similar errors.
+* You used an angled C3 or C3X cable.
+
+**Resolution**:
+
+**Push the cable in harder.**
+
+The new OBD-C cable for the comma four is straight and it's not immediately obvious if it's seated properly. Pushing it in harder will seat it properly.
+
+It should look like this:
+
+![Cable inserted](https://github.com/user-attachments/assets/e3da361e-626c-4b25-ab96-ac3f6ac96b66)
+
+You should not use the 90 degree cable that was used on the C3 or C3X. The angled end is not designed for this purpose and will not fit.
+
+**Examples**:
+
+* [mau.maumau's C4](https://discord.com/channels/469524606043160576/524592892627517450/1448050351243657348)
+  * Wasn't in all the way
+* [livinginkaos's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1450975123157815477)
+  * "upgraded from the 3x - if you utilized the 90 deg short cable"
 
 
 # See Also
