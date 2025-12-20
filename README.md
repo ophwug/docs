@@ -59,7 +59,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Bad IR Blaster Case](#the-bad-ir-blaster-case)
     - [The Running Too Old Of An OS Case](#the-running-too-old-of-an-os-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
-    - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two-case)
+    - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [The Build Error On Boot Case](#the-build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
@@ -519,7 +519,7 @@ The comma two family is the second generation of comma's hardware, and it is bas
 > [!NOTE]
 > Unfortunately, this section needs to be written. If you have any cases that you would like to add, please do so in a pull request or issue. For now, you'll have to search the #hw-two-eon channel on [comma's Discord](https://discord.comma.ai)
 
-### The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two Case
+### The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two
 
 ![Image](https://github.com/user-attachments/assets/8f1e1e07-e359-421f-b399-5c0a46b61538)
 
@@ -1344,7 +1344,7 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
 **Evolutions**:
 
 * Real-Time-Clock removed and not populated, to be filled in by GPS soon after boots.
-* comma switched from [off-the-shelf Thundercomm D845 SOM](https://www.thundercomm.com/product/d845-som/) to their [in-house custom LightningHard SOM.](https://fcc.report/FCC-ID/2BFC6-LIGHTNINGH)
+* comma switched from [off-the-shelf Thundercomm D845 SOM](https://www.thundercomm.com/product/d845-som/) to their [in-house custom LightningHard SOM](https://blog.comma.ai/096release/#agnos-9) ([FCC ID](https://fcc.report/FCC-ID/2BFC6-LIGHTNINGH)).
   * [Modified PMIC to better handle thermals](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56rj4i/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 * ["No chiplet" Red Panda](https://discord.com/channels/469524606043160576/871838269405556736/1374440250486554644)
 * ~ April 2025: [Different Panels that need more commands to start up in high heat](https://github.com/commaai/openpilot/issues/34971#issuecomment-2778764248)
