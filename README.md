@@ -1489,7 +1489,7 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
 * Car is unidentifiable.
 * You get CAN BUS errors.
 * "Check Hardware" or similar errors.
-* You used an angled C3 or C3X cable.
+* You used an/the angled C3 or C3X cable and not the new straight cable comma has bundled.
 
 **Resolution**:
 
