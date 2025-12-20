@@ -1492,11 +1492,11 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
 * Car is unidentifiable.
 * You get CAN BUS errors.
 * "Check Hardware" or similar errors.
-* You used an/the angled C3 or C3X cable and not the new straight cable comma has bundled.
+* You used an old angled C3 or C3X cable and not the new straight cable comma has bundled.
 
 **Resolution**:
 
-**Push the cable in harder.**
+**Use comma's new cable and push it in harder.**
 
 The new OBD-C cable for the comma four is straight and it's not immediately obvious if it's seated properly. Pushing it in harder will seat it properly.
 
