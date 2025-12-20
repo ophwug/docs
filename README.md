@@ -1512,6 +1512,8 @@ You should not use the 90 degree cable that was used on the C3 or C3X. The angle
   * Wasn't in all the way
 * [livinginkaos's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1450975123157815477)
   * "upgraded from the 3x - if you utilized the 90 deg short cable"
+* [caliber224's C4](https://discord.com/channels/469524606043160576/524327905937850394/1451785137195843747)
+  * Radar state error / airbag warning light 
 
 
 # See Also
