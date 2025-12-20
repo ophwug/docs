@@ -30,7 +30,7 @@ This is an attempt to document some of the common issues and fixes that were dis
 
 [This document may also include links to other non-comma.ai Discords as well.](#discords-and-discussions-of-note)
 
-The format of this document is of a case-by-case basis. Please feel free to add your own cases, pull requests, and solutions.
+The format of this document is organized by cases. Please feel free to add your own cases, pull requests, and solutions.
 
 This is not an official document and is not endorsed by comma.ai. However, it is supported by users and readers like you so please do feel free to make suggestions and submit pull requests!
 
@@ -120,7 +120,7 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
     * If you don't see anything in comma connect or cannot generate a route, just select the negative about "happens while driving" and explain instead it actually does happen while driving.
 * If your C3X is out of warranty, the rough cost to repair from comma [is $500 for their C3X Out Of Warranty Repair service](https://comma.ai/shop/comma-3x-out-of-warranty-repair).
   * Unfortunately there is no warranty for the repair.
-  * However, search rifkers in this doc under [The Blown Fuse Case](#the-blown-fuse-case) and apparently they were able to get an extended warranty from their Chase Sapphired Preferred card. YMMV.
+  * However, search rifkers in this doc under [The Blown Fuse Case](#the-blown-fuse-case) and apparently they were able to get an extended warranty from their Chase Sapphire Preferred card. YMMV.
 * [They do not repair the C3 anymore. They only offer a trade-in program for C3 to get a C3X for $750.](https://comma.ai/shop/comma-3x-trade-in)
 * A lot of the information in this document is based on user experience and may not be accurate.
 * Mobile Repair, Video Game hardware repair shops, PCB electronics repair places, and other similar operations may be able to help with hardware repairs. Your mileage may vary and to be honest, these devices aren't common but with specific instructions, they might be amenable to helping you out.
@@ -150,7 +150,7 @@ On a long enough timeline, all devices will fail.
     * Use a silicone case to protect the device from bumps and scratches.
       * [Soft Silicone Case (Only for Openpilot Comma3X) – Janka's Workshop](https://janquick.com/products/soft-silicone-case-only-for-c3x)
 * When removing the device, be careful with the OBD-C cable. In addition to being physically careful with it, hiding it, including the tip from the sun's damaging rays will also help prolong its life.
-* When removing the device, be careful with the OBD-C port. It is a weak point in the design and can be damaged if you are not careful. This far harder to fix than the OBD-C cable. Look into magnetic mounts to minimize the wear on the OBD-C port.
+* When removing the device, be careful with the OBD-C port. It is a weak point in the design and can be damaged if you are not careful. This is far harder to fix than the OBD-C cable. Look into magnetic mounts to minimize the wear on the OBD-C port.
 * SSH in and backup the contents of `/persist/comma/id_rsa` on a genuine comma device.
   * https://spektor56.github.io/OpenpilotToolkit/ is an easy tool to do this.
   * More manual steps can be found at https://github.com/commaai/openpilot/wiki/SSH but the UI seems to shift around a lot. The broad strokes are the same.
@@ -202,7 +202,7 @@ It's called that because the [original panda dongle or adapter was black and whi
   * Integrated in comma two devices
   * Integrated in comma three devices
   * [_Was_ sold as external adapter that takes OBD-C from a vehicle harness](https://comma.ai/shop/panda)
-  * comma stopped and droped software support from their [panda GitHub repository](https://github.com/commaai/panda) when C3 support was dropped (2025-08-26)
+  * comma stopped and dropped software support from their [panda GitHub repository](https://github.com/commaai/panda) when C3 support was dropped (2025-08-26)
 * Red Panda: CAN and CAN-FD capable
   * Integrated in comma threex devices
   * Integrated in comma four devices
@@ -466,7 +466,7 @@ Unfortunately, comma does not provide a way for installation to detect and block
 
 These can be very varied since by its nature, it's very undefined and this is incomplete.
 
-* You just got your device ["repaired" by comma.ai](https://comma.ai/shop/comma-3x-out-of-warranty-repair). They actualy really just ship you a newly constructed device.
+* You just got your device ["repaired" by comma.ai](https://comma.ai/shop/comma-3x-out-of-warranty-repair). They actually really just ship you a newly constructed device.
 * Run a few minutes, and then the screen will freeze and then the device will reset.
   * e.g. Wi-Fi driver out of date
 * The screen is completely visible and a good brightness and other times the brightness is super dark and the screen is barely visible.
@@ -587,7 +587,7 @@ _Blown Fuse Case may be a bit of a misnomer as the fuse should be self-resetting
 **Causes**:
 
 * We're not exactly sure why this happens, but the hardware generally has components that aren't exactly within spec for automotive use cases.
-* We do know that the hardware in enviroments like a car, can run at temperatures much higher than the specified operating temperature of the fuse from the datasheet(s). 85C vs 125C in a vehicle exposed to the sun directly. This may cause the fuse to degrade over time and eventually fail.
+* We do know that the hardware in environments like a car, can run at temperatures much higher than the specified operating temperature of the fuse from the datasheet(s). 85C vs 125C in a vehicle exposed to the sun directly. This may cause the fuse to degrade over time and eventually fail.
 * We also know that vehicles typically run at 14+ volts on their 12-volt systems, which is higher than the 12V max rating of the fuse from the datasheet(s). This may also cause the fuse to degrade over time and eventually fail.
   * [converstation with Le_Potato, someone who is involved with OEM automotive electronics design. (OPC)](https://discord.com/channels/771493367246094347/771493367779295304/1425279455609360487)
 * In the resolution section below, we specify the OEM fuses to replace blown fuses. It is an unknown mystery if you can use automotive-grade fuses instead of the OEM ones. A solder blob does not count 😂. If you do try this, please report back your findings to the community.
@@ -796,7 +796,7 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * ["Doing a private for sale rather than a trade-in? Just easier. I didn't feel like dealing with the hassle of trying to put it back together again, trying to reload the software to base op, or anything else. Especially not for whatever paltry discount would be offered for it as a trade-in device."](https://discord.com/channels/469524606043160576/1407749221242900604/1407750473544499231)
 * [rifker's C3 (unknown if really was case) ❓](https://discord.com/channels/469524606043160576/871838269405556736/1408153264641413245)
   * Left in drawer for a year, did not boot again.
-  * Went with comma's repair service, Chase Sapphired Preferred's Extended Warranty approved doing a warranty on the repair.
+  * Went with comma's repair service, Chase Sapphire Preferred's Extended Warranty approved doing a warranty on the repair.
   * Was going to measure fuse, but two screws already stripped.
 * [bscholer's C3 (detailed instructions above) ✅](https://discord.com/channels/469524606043160576/871838269405556736/1408908722193039521)
   * Left mounted to windshield in a hot car for a week, and no longer booted after.
@@ -1435,7 +1435,7 @@ Replace the faulty SY8368AQQC chip. It's a tight 3x3mm QFN3x3-12 package though.
 
 Datasheet: https://www.lcsc.com/datasheet/C207642.pdf
 
-Unfortunately, it does not seem there has been a sucessful repair with this case yet. If you have success, please report it here.
+Unfortunately, it does not seem there has been a successful repair with this case yet. If you have success, please report it here.
 
 **Vendors**:
 
