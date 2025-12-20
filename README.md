@@ -107,7 +107,7 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
 ## General Notes
 
 > [!CAUTION]
-> **OBD-C outputs 12V, NOT 5V!** The harness box outputs 12V over the OBD-C port and is **NOT a valid or compliant 5V USB-C port**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
+> **OBD-C outputs 12V, NOT 5V!** The harness box outputs 12V over the OBD-C port and is **NOT a valid or compliant USB-PD port**. It does not perform any power negotiation and **supplies 12V directly immediately upon connection**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
 
 * **Always install stock or comma openpilot first to make sure the issue is not software related as a starting point.**
   * comma.ai support will not help you if you are not running stock or comma openpilot.
@@ -211,7 +211,7 @@ It's called that because the [original panda dongle or adapter was black and whi
 #### comma.ai Harness
 
 > [!CAUTION]
-> **The harness box outputs 12V over OBD-C, NOT 5V!** The OBD-C port is **NOT a valid or compliant 5V USB-C port**. Despite using a USB-C physical connector, **DO NOT plug standard USB-C devices** (phones, tablets, laptops, etc.) into the harness box's OBD-C port as they will be damaged or destroyed. Only connect comma devices or other devices specifically designed to accept 12V input.
+> **The harness box outputs 12V over OBD-C, NOT 5V!** The OBD-C port is **NOT a valid or compliant USB-PD port**. It does not perform any power negotiation and **supplies 12V directly immediately upon connection**. Despite using a USB-C physical connector, **DO NOT plug standard USB-C devices** (phones, tablets, laptops, etc.) into the harness box's OBD-C port as they will be damaged or destroyed. Only connect comma devices or other devices specifically designed to accept 12V input.
 
 The comma.ai harness connects your vehicle to the comma device through a relay box (also called a harness box). The relay box outputs power and data signals through an OBD-C port.
 
@@ -255,7 +255,7 @@ Please see https://github.com/commaai/hardware/ for more details on the harnesse
 OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf) that uses a OBD-C cable between the comma harness box and the comma device. comma produces, ships, and sells a OBD-C cable but select and many USB-C cables are electrically and physically compatible and can be used in its place.
 
 > [!CAUTION]
-> **OBD-C outputs 12V, NOT 5V!** The harness box outputs 12V over the OBD-C port and is **NOT a valid or compliant 5V USB-C port**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device as they expect 5V, not 12V. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
+> **OBD-C outputs 12V, NOT 5V!** The harness box outputs 12V over the OBD-C port and is **NOT a valid or compliant USB-PD port**. It does not perform any power negotiation and **supplies 12V directly immediately upon connection**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device as they expect 5V, not 12V. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
 
 **Preventative Measures**:
 
