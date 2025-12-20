@@ -313,7 +313,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * It is possible to get use a set of angled adapters with existing cables: https://amzn.to/3TcV389
   * **For comma four (C4) users**:
     > [!TIP]
-    > **Erich's Recommendation**: Since the stock C4 cable is straight-straight, you may want an angled connection. Erich confirmed that [this specific angled USB-C extension](https://amzn.to/4oYG6DS) works well when used with the stock cable. Note that the connector 3-pack from the same listing did *not* work.
+    > **Erich's Recommendation**: Since the stock C4 cable is straight-straight, you may want an angled connection. Erich confirmed that [this specific angled USB-C extension](https://amzn.to/4oYG6DS) works well when used with the stock cable.
 * If your installation of the OBD-C cable is pinched, use a USB 3.1 Gen 2 extension cable so it can be routed in a way that is not pinched under the cover.
   * https://amzn.to/4n7BZ8V
     * This one has variants
@@ -1507,7 +1507,7 @@ It should look like this:
 You should not use the 90 degree cable that was used on the C3 or C3X. The angled end is not designed for this purpose and will not fit.
 
 > [!TIP]
-> **Erich's Recommendation**: Since the stock C4 cable is straight-straight, you may want an angled connection. Erich confirmed that [this specific angled USB-C extension](https://amzn.to/4oYG6DS) works well when used with the stock cable. Note that the connector 3-pack from the same listing did *not* work.
+> **Erich's Recommendation**: Since the stock C4 cable is straight-straight, you may want an angled connection. Erich confirmed that [this specific angled USB-C extension](https://amzn.to/4oYG6DS) works well when used with the stock cable.
 
 **Examples**:
 
