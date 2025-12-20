@@ -439,7 +439,9 @@ Hopefully that _is_ the issue and it is resolved.
 
 **Resolution**:
 
-This is a workaround, not a fix. A proper fix would be to repair the IR LEDs which is a TODO with regards to details for this section.
+This is a workaround, not a fix. A proper fix would be to repair the IR LEDs which is a _TODO_ with regards to details for this section. If you have a more proper fix, please let me know.
+
+INSTRUCTIONS ARE WORKAROUNDS:
 
 * Buy a security camera IR blaster and mount it on your steering column.
  * Example: https://amzn.to/3WomsWm
@@ -448,6 +450,7 @@ This is a workaround, not a fix. A proper fix would be to repair the IR LEDs whi
 **Examples**:
 
 * [Ry's C3X](https://discord.com/channels/469524606043160576/905950538816978974/1431553007555711101)
+  * Workaround.
 
 ### The Running Too Old Of An OS Case
 
