@@ -1483,6 +1483,7 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
   * It is lighter
 * 128GB storage still, but the camera records with [smaller file sizes](https://github.com/commaai/openpilot/blob/master/system/loggerd/loggerd.h#L37-L42) for longer recording times.
 * New flexible OBD-C cable.
+* [Different modem](https://discord.com/channels/469524606043160576/1436852432503046294/1456178902224474142)
 * Reduced number of parts for higher reliability.
 
 ### The Cable Not Plugged In All The Way Case (C4)
