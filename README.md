@@ -1070,13 +1070,14 @@ The System-On-Module (SOM) is the main processing unit of your comma device, con
 * Over serial, the device TODO: fill in with examples of bad boot messages
 * Touch screen issues (dead touch).
   * This can be confirmed if swapping the SOM with a known good one fixes it.
+* Replacing the SOM with a known good one (borrowed, likely) fixes the issue.
 
 **Resolution**:
 
 > [!NOTE]
 > Fill in with instructions on how to extract keys from the old SOM. https://discord.com/channels/469524606043160576/1346999805624320084/1355086750724128929
 
-* **Reflow the SOM**: This may fix the issue temporarily or permanently, especially for touch issues.
+* **Reflow the SOM**: This may fix the issue temporarily or permanently, especially for touch issues. This is very hard to do and you should seek expert help or favor outright replacing the SOM. Check Vendor section.
 * **Replace the SOM**: Replace the System-On-Module (SOM) with a new one. Then flash it.
 
 **Examples**:
@@ -1091,6 +1092,12 @@ The System-On-Module (SOM) is the main processing unit of your comma device, con
   * LightningHard SOM (C3X).
 
 **Vendor**:
+
+Reflowing the SOM:
+
+* [awuf/Drago on Discord - might be interested in doing this.](https://discord.com/channels/469524606043160576/871838269405556736/1459001876744765633)
+
+Replacement SOMs:
 
 * comma.ai: They do not sell their SOMs.
 * Mr. One: https://oneclone.net/product/thundercomm-d845-som-4gb64/
