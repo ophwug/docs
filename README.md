@@ -961,6 +961,10 @@ The high level instruction is still the same for any device, not even just the C
   * This case highlights the importance of checking for signs of life (blinking lights, fan noise, and openpilot engagement) before assuming a power issue like a blown fuse.
   * Their screen was cracked from the first day due to a drop, which may have contributed to the failure years later.
   * They are not replacing the screen and will likely trade in the device for a comma four.
+* [Drago's customer's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1458989097472495768)
+  * Good screen but...
+  * Note: This case had a bad SOM that caused dead touch issues on a known good screen.
+  * See [The Bad or Dead SOM Case](#the-bad-or-dead-som-case) for more details.
 
 ### The Fan Death Case
 
@@ -1064,21 +1068,27 @@ The System-On-Module (SOM) is the main processing unit of your comma device, con
 * The device does not power on.
 * The fuses are good. (See [The Blown Fuse Case](#the-blown-fuse-case) for more details.)
 * Over serial, the device TODO: fill in with examples of bad boot messages
+* Touch screen issues (dead touch).
+  * This can be confirmed if swapping the SOM with a known good one fixes it.
 
 **Resolution**:
 
 > [!NOTE]
 > Fill in with instructions on how to extract keys from the old SOM. https://discord.com/channels/469524606043160576/1346999805624320084/1355086750724128929
 
-Replace the System-On-Module (SOM) with a new one.
-
-Flash it.
+* **Reflow the SOM**: This may fix the issue temporarily or permanently, especially for touch issues.
+* **Replace the SOM**: Replace the System-On-Module (SOM) with a new one. Then flash it.
 
 **Examples**:
 
 * [/u/AlekWishes](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56u9tn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
   * "I purchased a konik AI replacement SOM, and I used the supplied blue paste and grey paste. The original paste was applied to the side, not giving proper coverage, in particular the wifi RF cage had almost no paste on it. I have a 3X. I wouldn't be surprised if more people are seeing similar overheating issues due to poor QC on the thermal paste application. Like you said, the thermals are good, just needs proper thermal paste application. In my initial repair attempt I did find a PMIC cap had gone short, replacing it resulted in no current draw, tried replacing the PMIC no change, so I gave up and replaced the whole SOM. Shortly after I found my 12v resettable fuse for the USB port was failing due to the previous excessive current draw, replaced it and now everything has been working great for a few months."
   * Related to [The Blown Fuse Case](#the-blown-fuse-case)
+* [Drago's customer's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1458989097472495768)
+  * "failing SOM cause touch issues before?"
+  * Confirmed by swapping SOMs.
+  * "Touch is working again after a reflow"
+  * LightningHard SOM (C3X).
 
 **Vendor**:
 
