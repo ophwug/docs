@@ -303,6 +303,14 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * If you have access to Amazon, a simple USB-C cable tester will ship and arrive quicker than comma support will answer. Get it now if you don't have one.
 * https://caberqu.com/home/20-42-c2c-caberqu-746052578813.html#/26-with_or_without_case-without_case - As seen in Nabeel's video above.
 
+For the comma four, comma produced a new cable that is straight and thinner. Some people don't like the straight cable and prefer a angled cable to lower the stress so look below at "Erich's Recommendation" for a solution for that. Additionally, the new cable produced by comma got a little thinner as it does not have `D+` and `D-` lines, which are not used in the OBD-C standard. 
+
+When using a USB-C cable tester, the `D+` and `D-` lines are not expected to be connected for the comma four ODB-C cable:
+
+![comma four cable in usb tester, showing no D+ and D- lines](https://github.com/user-attachments/assets/440de012-f9e0-4ab7-bdee-f520ad45fc24)
+
+Above image from Erich's "Comma 4 unleashed" video: https://youtu.be/_dNvrqM1688?t=1905
+
 **Resolution**:
 
 * A quick and dirty solution is to flip the OBD-C cable. This might not be permanent, but it may help you get the device working again. Of course, depending on what is and how it is broken, this may not be sufficient.
