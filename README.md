@@ -1343,6 +1343,8 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 
 Released: 2023-10-12
 
+Discontinued: 2025-10-08 (Approximately a month before the C4 release)
+
 Codename: tizi
 
 https://blog.comma.ai/comma3X/
