@@ -329,6 +329,7 @@ Above image from Erich's "Comma 4 unleashed" video: https://youtu.be/_dNvrqM1688
     * This one has an on-off switch!
 * If you are removing the device often, consider using a purpose-built magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cabling. See #hw-unofficial on the [comma.ai Discord](https://discord.comma.ai)
 * If the cable is good from testing with a USB-C cable tester, check out [The Bad Car Harness Case](#the-bad-car-harness-case) and [The Bad OBD-C Port Case](#the-bad-obd-c-port-case) as the issue may be with the car harness.
+* comma four and comma four cable? Check [The Cable Not Plugged In All The Way Case (C4)](#the-cable-not-plugged-in-all-the-way-case-c4) too.
 
 **Vendors**:
 
