@@ -1230,7 +1230,7 @@ Discontinued: 2023-10-12
 
 Codename: tici
 
-comma openpilot support dropped: 2025-08-26
+comma openpilot development/support dropped: 2025-08-26, [Discord Announcement](https://discord.com/channels/469524606043160576/954493346250887168/1410079554529398947), [Some Community Reddit Discussion](https://www.reddit.com/r/Comma_ai/comments/1n14uv8/the_c3_will_become_unsupported_starting_with_the/), Development/Support dropped in `master` wholly immediately and in upcoming `0.10.1` release
 
 https://blog.comma.ai/comma-three-press-release/
 
