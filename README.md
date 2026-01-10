@@ -1356,7 +1356,7 @@ Reseat the NVMe drive and clean the connectors with appropriate electronic conta
 
 Released: 2023-10-12
 
-Discontinued: 2025-10-08 (Approximately a month before the C4 release)
+Discontinued: 2025-11-08, though it started to go out of stock about a month before that.
 
 Codename: tizi
 
