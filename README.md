@@ -83,6 +83,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
   - [comma threex (C3X)](#comma-threex-c3x)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
+    - [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x)
     - [The Wide Camera Malfunction Case (C3X)](#the-wide-camera-malfunction-case-c3x)
     - [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case)
   - [comma four (C4)](#comma-four-c4)
@@ -257,6 +258,9 @@ OBD-C is a [comma.ai standard](https://github.com/commaai/hardware/blob/master/h
 > [!CAUTION]
 > **OBD-C outputs 12V, NOT 5V!** The harness box outputs 12V over the OBD-C port and is **NOT a valid or compliant USB-PD port**. It does not perform any power negotiation and **supplies 12V directly immediately upon connection**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device as they expect 5V, not 12V. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
 
+> [!CAUTION]
+> **C3X Users: Bad Cables Can Kill Your Device!** On C3X units, a damaged or out-of-spec USB-C cable can short 12V to data lines, permanently frying the internal Panda. See [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x) for more details.
+
 **Preventative Measures**:
 
 * Use a magnetic or quick-release mount to minimize the mechanical wear of the OBD-C cable.
@@ -303,7 +307,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * If you have access to Amazon, a simple USB-C cable tester will ship and arrive quicker than comma support will answer. Get it now if you don't have one.
 * https://caberqu.com/home/20-42-c2c-caberqu-746052578813.html#/26-with_or_without_case-without_case - As seen in Nabeel's video above.
 
-For the comma four, comma produced a new cable that is straight and thinner. Some people don't like the straight cable and prefer a angled cable to lower the stress so look below at "Erich's Recommendation" for a solution for that. Additionally, the new cable produced by comma got a little thinner as it does not have `D+` and `D-` lines, which are not used in the OBD-C standard. 
+For the comma four, comma produced a new cable that is straight and thinner. Some people don't like the straight cable and prefer a angled cable to lower the stress so look below at "Erich's Recommendation" for a solution for that. Additionally, the new cable produced by comma got a little thinner as it does not have `D+` and `D-` lines, which are not used in the OBD-C standard. Since these lines do not exist, they cannot be shorted to 12V, preventing issues like [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x). 
 
 When using a USB-C cable tester, the `D+` and `D-` lines are not expected to be connected for the comma four OBD-C cable:
 
