@@ -1415,6 +1415,31 @@ Was it possible that the SOM might not be seated properly?
 
 * [ceem0money's C3X](https://discord.com/channels/469524606043160576/1263672324973138033/1370771997188952116)
 
+### The Fried Panda Case (C3X)
+
+**Symptoms**:
+
+* No [Panda]
+* Reseating the SOM (See [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)) does not resolve the issue.
+
+**Cause**:
+
+comma staffer Adeeb [explained on Discord](https://discord.com/channels/469524606043160576/1436852432503046294/1448044893304782879):
+
+> not through the OBD C. there’s a debug connector if you open up the device where serial and a bunch of other stuff is exposed
+> we removed it since the panda was getting fried on 3Xs with bad USB cables shorting VIN to the data lines
+
+On some C3X units, an internal debug connector configuration made the Panda chip vulnerable to bad USB/OBD-C cables. Specifically, if a bad cable shorted VIN (12V) to the data lines, the high voltage would fry the Panda.
+
+**Resolution**:
+
+* There is no remediation. The Panda is fried.
+* You will likely need to replace the device, panda chip, and/or board.
+
+**Examples**:
+
+* This issue does not have widespread public examples yet, but has been confirmed by comma staff.
+
 ### The Wide Camera Malfunction Case (C3X)
 
 **Symptoms**:
