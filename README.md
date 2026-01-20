@@ -991,7 +991,7 @@ Not the Korean kind of fan death!
 
 **Resolution**:
 
-Comma unfortunately does not sell replacement fans by themselves. Users have been replacing them with various fans to differing success. OEM part may be from ADDA, not sure if off the shelf. Mr. One sells a replacement fan with heatsink for the C3.
+Comma unfortunately does not sell replacement fans by themselves. Users have been replacing them with various fans to differing success. [comma says OEM part may be from ADDA, not sure if off the shelf](https://discord.com/channels/469524606043160576/871838269405556736/1374440250486554644). Mr. One sells a replacement fan with heatsink for the C3.
 
 See also: [The Uncleaned Fan Flux Case](#the-uncleaned-fan-flux-case)
 
