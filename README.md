@@ -89,7 +89,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
   - [comma four (C4)](#comma-four-c4)
     - [The Cable Not Plugged In All The Way Case (C4)](#the-cable-not-plugged-in-all-the-way-case-c4)
 - [See Also](#see-also)
-- [References](#references)
+
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -1581,11 +1581,6 @@ You should not use the 90 degree cable that was used on the C3 or C3X. The angle
 # See Also
 
 * https://docs.comma.ai/concepts/glossary/ - An official glossary of terms
-
-# References
-
-* https://mr-one.cn/?post=24
-* https://mr-one.cn/?post=25
 
 [cdiscord]: https://discord.comma.ai/
 [on-road]: https://docs.comma.ai/concepts/glossary/#onroad
