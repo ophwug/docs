@@ -230,6 +230,9 @@ The comma.ai harness connects your vehicle to the comma device through a relay b
 
 Plus a flat CAT6 7ft cable. https://www.monoprice.com/product?p_id=43077
 
+> [!CAUTION]
+> **The RJ45 port on the harness box is NOT an Ethernet port!** Connecting this port to a router, switch, computer, or any other Ethernet device **WILL damage or destroy** the connected equipment. The port carries 12V power and proprietary signals for the car harness, which are incompatible with standard networking equipment. **ABSOLUTELY DO NOT** plug an Ethernet cable from a network source into this port.
+
 Visually and physically, the Harness V1 and V3 are very different. The Harness V3 relay box has a molded non-3D printed enclosure, the relay box itself is much smaller, the harness connector port connecting to the relay/harness box is smaller and thinner, and the comma power portion does not use a CAT6 or Ethernet cable to connect to OBD-2 port. V3 is generally smaller overall. V3 relay box is also solid state and does not have physical relays which helps resist [The Bad Car Harness Case](#the-bad-car-harness-case).
 
 Harness V1 car harnesses are not compatible with Harness V3 and vice versa. They share the same OBD-C cable and port as an output though.
