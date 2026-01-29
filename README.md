@@ -389,6 +389,8 @@ Cases seem to be rare and follow ups haven't been said publiclly. If you have a 
   * [defy's c2](https://discord.com/channels/469524606043160576/954493346250887168/1302031683284893840)
 * C3
   * [minty's c3](https://discord.com/channels/469524606043160576/1121848816870641775/1124891817566023680)
+* C4
+  * [bigboy382938's C4 (hasn't failed... yet, but loose)](https://discord.com/channels/469524606043160576/1436852432503046294/1466453620458262528)
 
 **Resources**:
 
