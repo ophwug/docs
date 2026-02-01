@@ -354,7 +354,7 @@ Above image from Erich's "Comma 4 unleashed" video: https://youtu.be/_dNvrqM1688
 * [johntthesmith's C3](https://discord.com/channels/469524606043160576/871838269405556736/1433136778721628261)
   * Went all the way to replacing the harness but should have tested the cable first.
 * [jimmyjam_50066's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1465545774162251836)
-  * Ran a tester, missing or weak CC2/CC1 (USB-speak equivalent), SBU1 or SBU2 (ODB-C), or pins next to the D+/D- lines
+  * Ran a tester, missing or weak CC2/CC1 (USB-speak equivalent), SBU1 or SBU2 (OBD-C), or pins next to the D+/D- lines
   * First known bad C4 cable
 
 ### The Bad OBD-C Port Case
