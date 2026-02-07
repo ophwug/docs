@@ -1517,6 +1517,22 @@ It is recommended to also check the integrity of the "L" inductor to avoid burni
   * ["Little short video from the thermal cam on the buck chip"](https://discord.com/channels/469524606043160576/871838269405556736/1423040186769608857)
   * ["Welp, same chip popped again so I give up "](https://discord.com/channels/469524606043160576/871838269405556736/1426776980443107328)
 
+### The Bad Power IC (MP1701) Case
+
+**Symptoms**:
+
+* Does not boot
+
+**Resolution**:
+
+_Work in progress_
+
+* Replace the faulty MP1701 chip.
+
+**Examples**:
+
+* [Drago's customer's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1469159211446304912)
+
 ## comma four (C4)
 
 Released: 2025-11-08
