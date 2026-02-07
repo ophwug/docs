@@ -237,7 +237,7 @@ Visually and physically, the Harness V1 and V3 are very different. The Harness V
 
 Harness V1 car harnesses are not compatible with Harness V3 and vice versa. They share the same OBD-C cable and port as an output though.
 
-The comma two is only compatible with the Harness V1. Both Harness V1 and Harness V3 are compatible with the older comma three and newer comma threex devices. Be aware that old versions of openpilot on a comma three device may not work with the Harness V3 as they require Harness V1's comma power, so you should always use the latest openpilot version.
+The comma two is only compatible with the Harness V1. Both Harness V1 and Harness V3 are compatible with the older comma three, comma threex, and comma four devices. Be aware that old versions of openpilot or openpilot-based forks on a comma three device may not work with the Harness V3 as they require Harness V1's comma power.
 
 If you're switching vehicles or replacing parts of your car harness portion and if you're a Harness V1 user, you will need to replace the entire Harness V1 with a Harness V3 if you're buying from comma.ai's shop. This is because comma.ai does not sell Harness V1 hardware anymore. Unfortunately, they do not make this explicitly clear on their shop, so you will have to trust this document on this. If you have a more common brand, you may be able to find a Harness V1-compatible car harness from third-party vendors such as [Mr. One](https://oneclone.net/product/harness/) or [Konik.ai](https://konik.ai/shop/?v=0b3b97fa6688).
 
