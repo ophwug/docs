@@ -1575,6 +1575,7 @@ It is comma's first major form factor redesign. Instead of a large landscape pho
 **Symptoms**:
 
 * Car is unidentifiable.
+  * E.g. "Please submit a pull request to add the firmware versions to the proper vehicle", but it was working on some older comma device without hacks or forcing.
 * You get CAN BUS errors.
 * "Check Hardware" or similar errors.
 * You used an old angled C3 or C3X cable and not the new straight cable comma has bundled.
