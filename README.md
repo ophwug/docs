@@ -310,7 +310,7 @@ Simple and cheap USB-C Cable Testers (no smarts, just pin testing, and heed the 
   * If you have access to Amazon, a simple USB-C cable tester will ship and arrive quicker than comma support will answer. Get it now if you don't have one.
 * https://caberqu.com/home/20-42-c2c-caberqu-746052578813.html#/26-with_or_without_case-without_case - As seen in Nabeel's video above.
 
-For the comma four, comma produced a new cable that is straight and thinner. Some people don't like the straight cable and prefer a angled cable to lower the stress so look below at "Erich's Recommendation" for a solution for that. Additionally, the new cable produced by comma got a little thinner as it does not have `D+` and `D-` lines, which are not used in the OBD-C standard. Since these lines do not exist, they cannot be shorted to 12V, preventing issues like [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x). 
+For the comma four, comma produced a new cable that is straight and thinner. Some people don't like the straight cable and prefer a angled cable to lower the stress so look below at "Erich's Recommendation" for a solution for that. Additionally, the new cable produced by comma got a little thinner as it does not have `D+` and `D-` lines, which are not used in the OBD-C standard. Since these lines do not exist, they cannot be shorted to 12V, preventing issues like [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x).
 
 When using a USB-C cable tester, the `D+` and `D-` lines are not expected to be connected for the comma four OBD-C cable:
 
@@ -1595,6 +1595,8 @@ You should not use the 90 degree OBD-C cable that was used on the C3 or C3X. The
 > [!TIP]
 > Since the stock C4 cable is straight-straight, you may want an angled connection. Erich confirmed that [this specific angled USB-C extension](https://amzn.to/4oYG6DS) works well when used with the stock cable.
 
+If you still have issues, look at [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case).
+
 **Examples**:
 
 * [mau.maumau's C4](https://discord.com/channels/469524606043160576/524592892627517450/1448050351243657348)
@@ -1603,7 +1605,7 @@ You should not use the 90 degree OBD-C cable that was used on the C3 or C3X. The
 * [livinginkaos's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1450975123157815477)
   * "upgraded from the 3x - if you utilized the 90 deg short cable"
 * [caliber224's C4](https://discord.com/channels/469524606043160576/524327905937850394/1451785137195843747)
-  * Radar state error / airbag warning light 
+  * Radar state error / airbag warning light
 * [daanigator_75882's C4](https://discord.com/channels/469524606043160576/524327905937850394/1468465889614631028)
   * "The screen is black. "
   * "Thank you - it turned out I was too gentle when plugging it in. This time I pushed that through really hard and it works!!"
