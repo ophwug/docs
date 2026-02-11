@@ -1113,6 +1113,7 @@ The System-On-Module (SOM) is the main processing unit of your comma device, con
   * LightningHard SOM (C3X).
 * [Fortissimo/ez2hero's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1469584236620021803)
   * "WIP"
+  * [Reflowed theirs.](https://discord.com/channels/469524606043160576/871838269405556736/1470737484370415636)
 
 **Vendor**:
 
