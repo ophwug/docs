@@ -1590,7 +1590,7 @@ It should look like this:
 
 ![Cable inserted](https://github.com/user-attachments/assets/e3da361e-626c-4b25-ab96-ac3f6ac96b66)
 
-You should not use the 90 degree cable that was used on the C3 or C3X. The angled end is not designed for this purpose and will not fit.
+You should not use the 90 degree OBD-C cable that was used on the C3 or C3X. The angled end is not designed for this purpose and will not fit.
 
 > [!TIP]
 > Since the stock C4 cable is straight-straight, you may want an angled connection. Erich confirmed that [this specific angled USB-C extension](https://amzn.to/4oYG6DS) works well when used with the stock cable.
