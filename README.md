@@ -854,6 +854,11 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Repaired by Drago.
   * "Was getting black screen/turn off loading into the traffic screen."
   * Fuse was replaced and now it works again.
+* [stwij's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1471948641920094218)
+  * Replaced fuse and reflowed SOM (by Drago), which temporarily brought it back to life.
+  * After a few drives, started crashing/rebooting again.
+  * Sending to comma for official repair.
+  * See also [The Bad or Dead SOM Case](#the-bad-or-dead-som-case).
 
 ### The Bad Supercapacitor Case
 
@@ -1114,6 +1119,11 @@ The System-On-Module (SOM) is the main processing unit of your comma device, con
 * [Fortissimo/ez2hero's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1469584236620021803)
   * "WIP"
   * [Reflowed theirs.](https://discord.com/channels/469524606043160576/871838269405556736/1470737484370415636)
+* [stwij's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1471948641920094218)
+  * Replaced fuse and reflowed SOM (by Drago), acting as a temporary fix.
+  * Problems returned (freezing on 5V, rebooting on 12V).
+  * Sending to comma for official repair/replacement.
+  * See also [The Blown Fuse Case](#the-blown-fuse-case).
 
 **Vendor**:
 
