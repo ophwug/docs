@@ -108,7 +108,7 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
 ## General Notes
 
 > [!CAUTION]
-> **OBD-C outputs 12V, NOT 5V!** The harness box outputs 12V over the OBD-C port and is **NOT a valid or compliant USB-PD port**. It does not perform any power negotiation and **supplies 12V directly immediately upon connection**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
+> **OBD-C outputs 12V without negotiation, NOT 5V!** The harness box outputs 12V over the OBD-C port immediately and is **NOT a valid or compliant USB-PD port**. It does not perform any power negotiation and **supplies 12V directly immediately upon connection**. Despite the physical similarity to USB-C connectors, **DO NOT connect standard USB-C devices** (phones, tablets, laptops, etc.) to the OBD-C port on the harness box. Doing so **WILL damage or destroy** the connected device. OBD-C is only compatible with comma devices and other devices specifically designed to accept 12V input over this port.
 
 * **Always install stock or comma openpilot first to make sure the issue is not software related as a starting point.**
   * comma.ai support will not help you if you are not running stock or comma openpilot.
