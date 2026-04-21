@@ -391,6 +391,9 @@ Sometimes the OBD-C cable itself is fine, but it is simply not fully seated into
 
 * [Saberion's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1484518779374272512)
   * Asked whether the stock comma four cable only seating about halfway into the Bosch C harness was normal.
+* [janxman.'s C4](https://discord.com/channels/469524606043160576/524592892627517450/1496206614313697380)
+  * Confirmed the fix was pushing the cord into the harness all the way with a little more force.
+  * Once fully seated, the device started showing the calibration percentage.
 
 ### The Bad OBD-C Port Case
 
@@ -1655,6 +1658,9 @@ If you still have issues, look at [The Not Fully Inserted OBD-C Cable Into Harne
 * [daanigator_75882's C4](https://discord.com/channels/469524606043160576/524327905937850394/1468465889614631028)
   * "The screen is black. "
   * "Thank you - it turned out I was too gentle when plugging it in. This time I pushed that through really hard and it works!!"
+* [janxman.'s C4](https://discord.com/channels/469524606043160576/524592892627517450/1496206614313697380)
+  * Needed just a little more force to fully seat the cable.
+  * Once it was in all the way, the device started showing the calibration percentage.
 
 # See Also
 
