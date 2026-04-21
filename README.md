@@ -54,6 +54,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
       - [comma.ai Harness](#commaai-harness)
   - [Common to all comma devices](#common-to-all-comma-devices)
     - [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case)
+    - [The Not Fully Inserted OBD-C Cable Into Harness Box Case](#the-not-fully-inserted-obd-c-cable-into-harness-box-case)
     - [The Bad OBD-C Port Case](#the-bad-obd-c-port-case)
     - [The Bad Car Harness Case](#the-bad-car-harness-case)
     - [The Bad IR Blaster Case](#the-bad-ir-blaster-case)
@@ -86,10 +87,10 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x)
     - [The Wide Camera Malfunction Case (C3X)](#the-wide-camera-malfunction-case-c3x)
     - [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case)
+    - [The Bad Power IC (MP1701) Case](#the-bad-power-ic-mp1701-case)
   - [comma four (C4)](#comma-four-c4)
     - [The Cable Not Plugged In All The Way Case (C4)](#the-cable-not-plugged-in-all-the-way-case-c4)
 - [See Also](#see-also)
-
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -320,6 +321,7 @@ Above image from Erich's "Comma 4 unleashed" video: https://youtu.be/_dNvrqM1688
 
 **Resolution**:
 
+* Before assuming the cable itself is damaged, check [The Not Fully Inserted OBD-C Cable Into Harness Box Case](#the-not-fully-inserted-obd-c-cable-into-harness-box-case). A good cable that is just not seated all the way into the harness box can look like a much worse problem.
 * A quick and dirty solution is to flip the OBD-C cable. This might not be permanent, but it may help you get the device working again. Of course, depending on what is and how it is broken, this may not be sufficient.
 * If the OBD-C cable is damaged, replace it with a new one. The OBD-C cable used for comma three devices is unique with a long angled neck so that the cable is able to plugged into the recessed port of the comma three devices. For best fit and to not obstruct the cameras, you should use a cable that is specifically designed for the comma three devices.
   * If you can't find a replacement OBD-C cable, but need one in a pinch very quickly you can use a USB 3.1 Gen 2 cable or higher (Thunderbolt 3 or 4) as a substitute. These can be found at big box stores or online. They do not have an angled neck so order one from comma or Mr. One in the meantime.
@@ -356,6 +358,39 @@ Above image from Erich's "Comma 4 unleashed" video: https://youtu.be/_dNvrqM1688
 * [jimmyjam_50066's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1465545774162251836)
   * Ran a tester, missing or weak CC2/CC1 (USB-speak equivalent), SBU1 or SBU2 (OBD-C), or pins next to the D+/D- lines
   * First known bad C4 cable
+
+### The Not Fully Inserted OBD-C Cable Into Harness Box Case
+
+Sometimes the OBD-C cable itself is fine, but it is simply not fully seated into the harness box. This can happen even if it looks like the cable is plugged in enough to work and can mimic a [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case), [Bad Car Harness Case](#the-bad-car-harness-case), or even [Bad OBD-C Port Case](#the-bad-obd-c-port-case).
+
+**Symptoms**:
+
+* The device does not go into "[on-road]" mode. It is stuck at the home screen.
+* You get random errors in openpilot such as, but not limited to:
+  * "Harness Relay Malfunction"
+  * "Check Hardware"
+  * "Car Unrecognized"
+  * "CAN Bus Error"
+  * "CAN Bus Disconnected"
+* The cable only seems to seat about halfway into the harness box.
+* The cable feels loose or insecure at the harness-box side.
+* The behavior is intermittent and seems worse than the eventual fix.
+
+**Resolution**:
+
+* Firmly re-seat the OBD-C cable into the harness box and verify that it is actually fully inserted.
+* Do not assume that "mostly in" is good enough. The cable may look connected while still not being seated far enough to make proper contact.
+* If you are working on a comma four, also check [The Cable Not Plugged In All The Way Case (C4)](#the-cable-not-plugged-in-all-the-way-case-c4) as that documents a device-side fitment issue.
+* If the cable is fully seated and the issue persists, continue on to [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) and test it with a simple USB-C cable tester before escalating to harness or port diagnosis.
+
+<img width="648" height="800" alt="Image" src="https://github.com/user-attachments/assets/4e55e1fb-fc48-428a-aad6-e0a8476baa51" />
+
+[Image is courtesy of subzeroalphaq on Discord.](https://discord.com/channels/469524606043160576/1436852432503046294/1484461433289838736)
+
+**Examples**:
+
+* [Saberion's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1484518779374272512)
+  * Asked whether the stock comma four cable only seating about halfway into the Bosch C harness was normal.
 
 ### The Bad OBD-C Port Case
 
@@ -411,7 +446,7 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
 **Symptoms**:
 
 * The device does not power on.
-* The OBD-C cable is known to be good and/or has been recently replaced. In other words, [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) has been ruled out. Please do this first.
+* The OBD-C cable is known to be good and/or has been recently replaced. In other words, [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) and [The Not Fully Inserted OBD-C Cable Into Harness Box Case](#the-not-fully-inserted-obd-c-cable-into-harness-box-case) have been ruled out. Please do this first.
 * You get random errors in openpilot such as, but not limited to:
   * "Car Unrecognized"
   * "CAN Bus Error"
@@ -423,7 +458,7 @@ Please see [the local taxonomy section on the comma.ai harness](#commaai-harness
 **Resolution**:
 
 * _The below steps are a bit on the economical in hardware side, and you are welcome to just skip forward and just simply get a [complete car harness](https://comma.ai/shop/car-harness) from comma and swap it out for testing if time is of the essence. At worst, you're out the cost of shipping back the hardware (~$10 in US) if it is not the issue._
-* Rule out the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case). It is easy and cheap to do.
+* Rule out the [Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) and [The Not Fully Inserted OBD-C Cable Into Harness Box Case](#the-not-fully-inserted-obd-c-cable-into-harness-box-case). They are easy and cheap to check first.
 * Check the car's own fuses. A blown fuse in the car can prevent the comma device from powering up.
 * Identify what harness revision you have: V1 or V3.
 * Using a multimeter's continuity test, check your vehicle-specific harness connector's pinout with https://github.com/commaai/hardware/tree/master/harness
@@ -1606,7 +1641,7 @@ You should not use the 90 degree OBD-C cable that was used on the C3 or C3X. The
 > [!TIP]
 > Since the stock C4 cable is straight-straight, you may want an angled connection. Erich confirmed that [this specific angled USB-C extension](https://amzn.to/4oYG6DS) works well when used with the stock cable.
 
-If you still have issues, look at [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case).
+If you still have issues, look at [The Not Fully Inserted OBD-C Cable Into Harness Box Case](#the-not-fully-inserted-obd-c-cable-into-harness-box-case) for the harness-box side and [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case) for actual cable faults.
 
 **Examples**:
 
