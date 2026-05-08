@@ -394,6 +394,8 @@ Sometimes the OBD-C cable itself is fine, but it is simply not fully seated into
 * [janxman.'s C4](https://discord.com/channels/469524606043160576/524592892627517450/1496206614313697380)
   * Confirmed the fix was pushing the cord into the harness all the way with a little more force.
   * Once fully seated, the device started showing the calibration percentage.
+* [.johnglass's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1502115243818614875)
+  * Harness-box side was not plugged in all the way.
 
 ### The Bad OBD-C Port Case
 
