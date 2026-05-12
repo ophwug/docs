@@ -1439,6 +1439,7 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
   * [Modified PMIC to better handle thermals](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comment/n56rj4i/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 * ["No chiplet" Red Panda](https://discord.com/channels/469524606043160576/871838269405556736/1374440250486554644)
 * ~ April 2025: [Different Panels that need more commands to start up in high heat](https://github.com/commaai/openpilot/issues/34971#issuecomment-2778764248)
+* comma started preloading a `dongle_id` into `/persist/comma/` to speed up device setup and make registration more reliable.
 
 
 ### The No Panda on C3X Case (Software)
