@@ -59,6 +59,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Bad Car Harness Case](#the-bad-car-harness-case)
     - [The Bad IR Blaster Case](#the-bad-ir-blaster-case)
     - [The Running Too Old Of An OS Case](#the-running-too-old-of-an-os-case)
+    - [The Press Any Key To Shutdown Case](#the-press-any-key-to-shutdown-case)
   - [Common to all comma two family devices](#common-to-all-comma-two-family-devices)
     - [The Can't Proceed To Installation Because Wi-Fi Can't Connect To Internet Case On My comma two](#the-cant-proceed-to-installation-because-wi-fi-cant-connect-to-internet-case-on-my-comma-two)
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
@@ -567,6 +568,53 @@ You must run an openpilot codebase that installs a compatible OS.
    * "I've already tried to factory reset and reinstalling and everything. It'll work fine for sometimes a few seconds up to about 5 minutes. Then the screen will freeze for a few seconds and I'll get the reboot with the comma symbol "
  * [/u/Unable-Grape2361's C3X](https://www.reddit.com/r/Comma_ai/comments/1m93ddx/comma_3x_recovery_mechanism_after_overheating/)
    * "Unfortunately, the replacement unit has been plagued by overheating problems that never occurred with the original."
+
+### The Press Any Key To Shutdown Case
+
+This is the case where a device appears to flash successfully with https://flash.comma.ai/ but then boots to a console-style `press any key to shutdown` message instead of the normal setup flow.
+
+<img alt="comma four screen showing press any key to shutdown after flashing" src="https://github.com/user-attachments/assets/d6e7a361-62ea-4437-8cf8-9f77bc8a24c0" />
+
+This has been seen on comma four devices, but the root pattern is probably not C4-specific: the OS image or boot slot did not land cleanly even though the flash process looked like it reached the end. In the known cases, the device was not permanently dead. It was a bad flash, an underpowered device during flashing, a marginal USB-C cable, or some combination of those.
+
+**Symptoms**:
+
+* After flashing with https://flash.comma.ai/, the browser says the flash completed successfully, but the comma device immediately boots to `press any key to shutdown` or similar.
+* Reflashing with the same setup gives the same message again.
+* The device does not reach the normal setup screen after the flash.
+* On a comma four, this may happen when both USB-C ports are powered from the same computer, especially a laptop port that cannot supply enough power for the device to survive the reboot after flashing.
+
+**Resolution**:
+
+* Reflash the device again with https://flash.comma.ai/.
+* Use a known-good USB-C data cable between the computer and the device. If the problem repeats, change the data cable even if it looks fine.
+* Make sure the device has enough power during the entire flash and reboot process.
+  * On a comma four, plug the top USB-C port into a wall charger or other sufficient USB-C power source, and plug the side USB-C port into the computer for data.
+  * In the reported C4 cases, using a higher-wattage USB-C charger for the top port fixed the issue after reflashing.
+* Avoid hubs, docks, questionable adapters, and low-power laptop-only setups while recovering from this. Keep the flashing setup boring and direct.
+* If the device still does not recover after changing both power and data cabling, try flashing from another computer/browser combination and report the case to https://github.com/commaai/flash/issues with the cable, charger, browser, computer, and device details.
+
+**Examples**:
+
+* [Trey's C4](https://github.com/commaai/flash/issues/185)
+  * Flashed an EPHOT `mici` and ended up with `press any key to shutdown`.
+  * Changed the cable, flashed again, and it was fine.
+* [Apolloyaya's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1454163202882670615)
+  * Also documented in [commaai/flash#185](https://github.com/commaai/flash/issues/185).
+  * Flashed a known-good comma four and immediately ended up with `press any key to shutdown`.
+  * Reflashed two more times with the same version and kept getting the same result.
+  * A debug dump showed the slot marked as `unbootable`.
+  * Fixed it after changing cables, using a 30W charger for power, and reflashing.
+* [/u/hokrux_'s C4](https://www.reddit.com/r/Comma_ai/comments/1tf6wmr/c4_bricked_after_flashing_through_official/)
+  * Used https://flash.comma.ai/ after getting stuck uninstalling `nightly-dev`.
+  * Reflashed three times and kept landing on the same `press any key to shutdown` screen immediately on power-up.
+* [/u/KhaosVFX's C4](https://www.reddit.com/r/Comma_ai/comments/1tf6wmr/c4_bricked_after_flashing_through_official/om7fist/)
+  * Hit the issue when both C4 USB-C ports were plugged into a MacBook.
+  * Fixed it by plugging the top port into the highest-wattage wall charger available and the side port into the computer for data, then flashing again.
+  * Described it as a soft brick with a corrupted image.
+* [/u/spaceynyc's C4](https://www.reddit.com/r/Comma_ai/comments/1tf6wmr/c4_bricked_after_flashing_through_official/om7zjwq/)
+  * Reported the same issue when the top port was plugged directly into a Mac.
+  * Fixed it immediately by plugging the top port into an external power brick.
 
 ## Common to all comma two family devices
 
