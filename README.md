@@ -586,11 +586,11 @@ This has been seen on comma four devices, but the root pattern is probably not C
 
 **Resolution**:
 
-* Reflash the device again with https://flash.comma.ai/.
-* Use a known-good USB-C data cable between the computer and the device. If the problem repeats, change the data cable even if it looks fine.
 * Make sure the device has enough power during the entire flash and reboot process.
   * On a comma four, plug the top USB-C port into a wall charger or other sufficient USB-C power source, and plug the side USB-C port into the computer for data.
   * In the reported C4 cases, using a higher-wattage USB-C charger for the top port fixed the issue after reflashing.
+* Reflash the device again with https://flash.comma.ai/.
+* Use a known-good USB-C data cable between the computer and the device. If the problem repeats, change the data cable even if it looks fine.
 * Avoid hubs, docks, questionable adapters, and low-power laptop-only setups while recovering from this. Keep the flashing setup boring and direct.
 * If the device still does not recover after changing both power and data cabling, try flashing from another computer/browser combination and report the case to https://github.com/commaai/flash/issues with the cable, charger, browser, computer, and device details.
 
@@ -611,6 +611,7 @@ This has been seen on comma four devices, but the root pattern is probably not C
 * [/u/KhaosVFX's C4](https://www.reddit.com/r/Comma_ai/comments/1tf6wmr/c4_bricked_after_flashing_through_official/om7fist/)
   * Hit the issue when both C4 USB-C ports were plugged into a MacBook.
   * Fixed it by plugging the top port into the highest-wattage wall charger available and the side port into the computer for data, then flashing again.
+  * Later identified the charger as a [Best Buy Insignia 30W USB-C wall charger](https://www.bestbuy.com/product/insignia-30w-usb-c-wall-charger-for-iphone-15-14-13-12-series-samsung-smartphones-ipad-macbook-air-tablets-and-more-white/J2FPJKSQ8C) in [a follow-up comment](https://www.reddit.com/r/Comma_ai/comments/1tf6wmr/comment/om8qz8e/).
   * Described it as a soft brick with a corrupted image.
 * [/u/spaceynyc's C4](https://www.reddit.com/r/Comma_ai/comments/1tf6wmr/c4_bricked_after_flashing_through_official/om7zjwq/)
   * Reported the same issue when the top port was plugged directly into a Mac.
