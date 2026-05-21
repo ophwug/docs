@@ -1564,11 +1564,14 @@ On some C3X units, an internal debug connector configuration made the Panda chip
 
 Unlike the [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3), this is a very hard to fix issue on the C3X as the cameras are soldered onto the main board.
 
-Your choices are limited and one of them is not great either.
+Your choices are limited and the software workaround is still a compromise, but it is much less clunky than the old hand-applied hack.
 
 * Reseat the SOM (20% chance of fixing it)
-* [Hack: Disable the use of the wide camera](https://discord.com/channels/469524606043160576/871838269405556736/1399198229861634098)
-  * This definitely cripples something, but it is better than nothing.
+* Use a fork/build with a **Disable Wide Road Camera** toggle.
+  * StarPilot has this as a UI toggle via [firestar5683/StarPilot@8846b90](https://github.com/firestar5683/StarPilot/commit/8846b907d7a08ec93eca7f4d3b6d494e57b1ef92), which adds a persistent `DisableWideRoad` param, exposes it in settings, and disables `wideRoadCamera` in `camerad` after reboot.
+  * If you need this workaround and are not comfortable maintaining your own patch, using StarPilot may be easier than applying the old hack by hand.
+  * If you want to port the toggle to another fork, ask the StarPilot/custom-forks folks or prabh123 for help instead of starting from the older sunnypilot patch.
+  * Daily driving performance has been reported as pretty similar with current models, but red light/sign detection and sharp turns may be slightly worse. Treat this as a workaround for broken hardware, not a real repair.
 
 **Examples**:
 
@@ -1576,7 +1579,7 @@ Your choices are limited and one of them is not great either.
   * [jyoung8607's log analysis](https://discord.com/channels/469524606043160576/871838269405556736/1398377902051164170)
     * "Took a look at your route. We do get an image from your ecamera, but only intermittently. **If and only if you can replicate this on current upstream openpilot** I would guess the actual image sensor is okay, but I suspect one of the four CSI data transfer lanes is dropping out. Your best option is probably comma's out-of-warranty flat rate repair service. There have been extremely large changes in camera support code recently, and this hypothesis is **not applicable** while running potentially outdated forks."
   * Reseating the SOM didn't work.
-  * Opted for and produced the hack to disable the wide camera on sunnypilot to resolve issue. Still works.
+  * Originally opted for and produced the hack to disable the wide camera on sunnypilot to resolve issue. Still works, but the StarPilot toggle above is now the cleaner version of the workaround.
     * "Yeah, I'm not gonna lie. It's the same on the highway. Right turns in roads are worse, but they were never any good anyway. We always use Pause Lateral on turns, so it's all good"
 
 ### The Bad Step Down DC/DC Regulator Case
