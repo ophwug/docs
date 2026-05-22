@@ -83,6 +83,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3)
     - [The NVMe drive not mounted Case](#the-nvme-drive-not-mounted-case)
   - [comma threex (C3X)](#comma-threex-c3x)
+    - [The Bad Sounding C3X Speaker Case](#the-bad-sounding-c3x-speaker-case)
     - [The No Panda on C3X Case (Software)](#the-no-panda-on-c3x-case-software)
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
     - [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x)
@@ -1490,6 +1491,31 @@ The comma 3X is comma's first major hardware revision of the comma three. It has
 * ~ April 2025: [Different Panels that need more commands to start up in high heat](https://github.com/commaai/openpilot/issues/34971#issuecomment-2778764248)
 * comma started preloading a `dongle_id` into `/persist/comma/` to speed up device setup and make registration more reliable.
 
+### The Bad Sounding C3X Speaker Case
+
+**Symptoms**:
+
+* Notification sounds are distorted, weak, warbly, or "like a toy running low on batteries."
+* The speakers still make sound, but alerts do not sound normal.
+
+**Diagnosis**:
+
+Open the device and inspect the spring contacts for the speakers. If the contacts are bent out of shape, they may not be making proper contact with the speaker pads.
+
+If the spring contacts look fine or the issue persists after reseating them, consider software corruption as another possible cause. Reinstalling or reflashing the device may be worth trying before assuming both speakers are bad.
+
+There is also a related public [commaai/openpilot issue about persistent and silent C3X speaker malfunction](https://github.com/commaai/openpilot/issues/36088), but this bent-contact case was resolved as a physical contact issue.
+
+**Resolution**:
+
+Carefully bend the speaker spring contacts back into position so they make solid contact again, then reassemble and test a notification sound.
+
+**Examples**:
+
+* [TangentDelta (parity_zero)'s C3X ✅](https://discord.com/channels/469524606043160576/954493346250887168/1507052419039756492)
+  * The notification sound was distorted and weak.
+  * The speaker spring contacts were bent way out of shape.
+  * After bending the contacts back into position, the speakers sounded normal again.
 
 ### The No Panda on C3X Case (Software)
 
