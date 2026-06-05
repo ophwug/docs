@@ -360,6 +360,10 @@ Above image from Erich's "Comma 4 unleashed" video: https://youtu.be/_dNvrqM1688
 * [jimmyjam_50066's C4](https://discord.com/channels/469524606043160576/1436852432503046294/1465545774162251836)
   * Ran a tester, missing or weak CC2/CC1 (USB-speak equivalent), SBU1 or SBU2 (OBD-C), or pins next to the D+/D- lines
   * First known bad C4 cable
+* [halfstop0_42115's C4](https://discord.com/channels/469524606043160576/524592892627517450/1512531753992982768)
+  * comma four on a 2018 Lexus RX 350 AWD stayed in dashcam mode with "vehicle unrecognized" and later reported a "faulty diagnostic cable" message.
+  * Swapping the original comma four OBD-C cable with a spare fixed vehicle recognition and normal operation.
+  * Original cable was included with a new unit and suspected to have a manufacturing defect despite basic multimeter continuity checks.
 
 ### The Not Fully Inserted OBD-C Cable Into Harness Box Case
 
