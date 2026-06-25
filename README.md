@@ -951,6 +951,12 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * After a few drives, started crashing/rebooting again.
   * Sending to comma for official repair.
   * See also [The Bad or Dead SOM Case](#the-bad-or-dead-som-case).
+* [/u/Avetyandav's C3X ❓](https://www.reddit.com/r/Comma_ai/comments/1ubfne0/comment/osze91r/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+  * Initially rebooted every time the car started, then eventually only showed the comma logo, rebooted, made a clicking noise, and blinked red and green.
+  * The original post has a good video showing the rear LEDs cycling colors.
+  * First measured the fuse at `0.4 Ω` and thought it was good.
+  * After the device worked for a couple hours and then had the same issue, rechecked the fuse and measured `5 Ω`, concluding the fuse was blown and needed replacement.
+  * Mentioned the issue started after traveling to Florida in excessive heat.
 
 ### The Bad Supercapacitor Case
 
