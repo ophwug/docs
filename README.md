@@ -772,6 +772,12 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
     * $30 diagnostic fee + shipping, if unsure if fuse is blown
   * * Contact via Direct message link on Discord (Preferred): https://discord.com/channels/@me/1412275471479209984
   * Contact via Discord DM: `awuf`
+* Mr. One
+  * Service area: Mainland China, Taiwan, and Korea only.
+  * Service:
+    * 100 RMB (~$13) for fuse replacement
+  * Contact via Discord DM: `mr.one.`
+  * Discord server: https://discord.gg/dZWc9pESW6
 * Somebody local who can do board level repair can follow the instructions in **DIY Repair** below. YMMV on cost.
 
 **DIY Repair**:
