@@ -580,7 +580,9 @@ This is the case where a device appears to flash successfully with https://flash
 
 <img alt="comma four screen showing press any key to shutdown after flashing" src="https://github.com/user-attachments/assets/d6e7a361-62ea-4437-8cf8-9f77bc8a24c0" />
 
-This has been seen on comma four devices, but the root pattern is probably not C4-specific: the OS image or boot slot did not land cleanly even though the flash process looked like it reached the end. In the known cases, the device was not permanently dead. It was a bad flash, an underpowered device during flashing, a marginal USB-C cable, or some combination of those.
+This has been seen on comma four devices, but the root pattern is probably not C4-specific: the OS image or boot slot did not land cleanly even though the flash process looked like it reached the end. In the known C4 cases, the device was not permanently dead. It was a bad flash, an underpowered device during flashing, a marginal USB-C cable, or some combination of those.
+
+On comma three family devices, a similar `press any key to shutdown` symptom can also be caused by power hardware trouble, especially [The Blown Fuse Case](#the-blown-fuse-case). If this screen happens outside of a fresh flash attempt, or keeps happening after ruling out the charger, data cable, computer, and flashing browser, check the fuse section before assuming it is only a software or flash issue.
 
 **Symptoms**:
 
@@ -593,10 +595,13 @@ This has been seen on comma four devices, but the root pattern is probably not C
 
 * Make sure the device has enough power during the entire flash and reboot process.
   * On a comma four, plug the top USB-C port into a wall charger or other sufficient USB-C power source, and plug the side USB-C port into the computer for data.
-  * In the reported C4 cases, using a higher-wattage USB-C charger for the top port fixed the issue after reflashing.
+  * In the reported C4 cases, using a higher-wattage USB-C charger for the top port fixed the issue after reflashing. 30W worked in at least one reported case, so use a known-good 30W or higher USB-C charger if you have one.
+  * If you need to rule out USB charger or power-source weirdness, this [12V USB-C power adapter](https://amzn.to/4f1rbGc) may be useful for this specific comma recovery/testing use case.
+    * ⚠️ This is **not** a USB-PD adapter. It outputs 12V without negotiation, unlike a normal USB-PD charger, and is not useful as a normal USB-C charger. It can damage or destroy other USB-C devices, so do not plug it into phones, tablets, laptops, or anything else that is not specifically meant to accept 12V over USB-C.
 * Reflash the device again with https://flash.comma.ai/.
 * Use a known-good USB-C data cable between the computer and the device. If the problem repeats, change the data cable even if it looks fine.
 * Avoid hubs, docks, questionable adapters, and low-power laptop-only setups while recovering from this. Keep the flashing setup boring and direct.
+* If this is a comma three family device and the same screen persists after the flashing setup is ruled out, see [The Blown Fuse Case](#the-blown-fuse-case), especially the voltage-drop-under-load notes in dazoe's example.
 * If the device still does not recover after changing both power and data cabling, try flashing from another computer/browser combination and report the case to https://github.com/commaai/flash/issues with the cable, charger, browser, computer, and device details.
 
 **Examples**:
