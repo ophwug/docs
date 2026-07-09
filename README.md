@@ -598,6 +598,7 @@ On comma three family devices, a similar `press any key to shutdown` symptom can
   * In the reported C4 cases, using a higher-wattage USB-C charger for the top port fixed the issue after reflashing. 30W worked in at least one reported case, so use a known-good 30W or higher USB-C charger if you have one.
   * If you need to rule out USB charger or power-source weirdness, this [12V USB-C power adapter](https://amzn.to/4f1rbGc) may be useful for this specific comma recovery/testing use case.
     * ⚠️ This is **not** a USB-PD adapter. It outputs 12V without negotiation, unlike a normal USB-PD charger, and is not useful as a normal USB-C charger. It can damage or destroy other USB-C devices, so do not plug it into phones, tablets, laptops, or anything else that is not specifically meant to accept 12V over USB-C.
+    * Put tape or another obvious marker on the cable used with this 12V adapter so it is not accidentally mistaken for a normal USB-C cable later.
 * Reflash the device again with https://flash.comma.ai/.
 * Use a known-good USB-C data cable between the computer and the device. If the problem repeats, change the data cable even if it looks fine.
 * Avoid hubs, docks, questionable adapters, and low-power laptop-only setups while recovering from this. Keep the flashing setup boring and direct.
