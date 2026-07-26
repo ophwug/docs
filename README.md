@@ -969,6 +969,8 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * First measured the fuse at `0.4 Ω` and thought it was good.
   * After the device worked for a couple hours and then had the same issue, rechecked the fuse and measured `5 Ω`, concluding the fuse was blown and needed replacement.
   * Mentioned the issue started after traveling to Florida in excessive heat.
+* [ThomasNC's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1530647097714409542)
+  * `3.5 Ω`
 
 ### The Bad Supercapacitor Case
 
