@@ -971,6 +971,10 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Mentioned the issue started after traveling to Florida in excessive heat.
 * [ThomasNC's C3X ✅](https://discord.com/channels/469524606043160576/871838269405556736/1530647097714409542)
   * `3.5 Ω`
+* [Mica Husky's device ⚠️](https://discord.com/channels/469524606043160576/871838269405556736/1532069123687714837)
+  * Never measured more than `0.02 Ω` across the fuse on the bench.
+  * Temporarily shunting the fuse pads with solder nevertheless restored reliable operation for the rest of the day.
+  * Mica did not recommend leaving the fuse shunted and planned to install a proper replacement fuse when it arrived.
 
 ### The Bad Supercapacitor Case
 
