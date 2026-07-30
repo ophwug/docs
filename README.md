@@ -975,6 +975,13 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Never measured more than `0.02 Ω` across the fuse on the bench.
   * Temporarily shunting the fuse pads with solder nevertheless restored reliable operation for the rest of the day.
   * Mica did not recommend leaving the fuse shunted and planned to install a proper replacement fuse when it arrived.
+* [cybertronicify's C3 ✅](https://discord.com/channels/469524606043160576/871838269405556736/1532459056269103285)
+  * Failed after being parked in the Southern California sun for two days.
+  * The bad fuse measured `10.3 Ω`.
+  * Replaced all four fuses. The new fuses measured as a dead short, while the other old fuses measured only slightly higher than a dead short.
+  * Also replaced the thermal putty on the SOM and reported temperatures dropping by about `2 °C`.
+  * Used MX-4 thermal paste on the EMI shields and cautioned against getting thermal paste on the GPS connectors or inside the board-to-board high-speed interconnects.
+  * The repaired device works well.
 
 ### The Bad Supercapacitor Case
 
