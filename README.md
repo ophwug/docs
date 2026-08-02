@@ -982,6 +982,12 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Also replaced the thermal putty on the SOM and reported temperatures dropping by about `2 °C`.
   * Used MX-4 thermal paste on the EMI shields and cautioned against getting thermal paste on the GPS connectors or inside the board-to-board high-speed interconnects.
   * The repaired device works well.
+* [hodler1765's C3X ✅](https://discord.com/channels/469524606043160576/871838269405556736/1533332299440193646)
+  * Showed the comma logo followed by `press any key to shutdown` after flashing.
+  * Measured `2.7–3 Ω` across the fuse.
+  * Melted the fuse during a DIY desoldering attempt, then took the opened device and a replacement fuse to a phone repair shop.
+  * The technician completed the replacement in about 10 minutes and charged $40. The repaired device works again.
+  * Bought 14 replacement fuses online for about $20 shipped and spent about another $30 replacing the thermal paste.
 
 ### The Bad Supercapacitor Case
 
