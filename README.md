@@ -92,6 +92,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Bad Power IC (MP1701) Case](#the-bad-power-ic-mp1701-case)
   - [comma four (C4)](#comma-four-c4)
     - [The Cable Not Plugged In All The Way Case (C4)](#the-cable-not-plugged-in-all-the-way-case-c4)
+    - [The Can't Flash With comma's Cable Case (C4)](#the-cant-flash-with-commas-cable-case-c4)
 - [See Also](#see-also)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -1781,6 +1782,36 @@ If you still have issues, look at [The Not Fully Inserted OBD-C Cable Into Harne
 * [janxman.'s C4](https://discord.com/channels/469524606043160576/524592892627517450/1496206614313697380)
   * Needed just a little more force to fully seat the cable.
   * Once it was in all the way, the device started showing the calibration percentage.
+
+### The Can't Flash With comma's Cable Case (C4)
+
+comma.ai omitted the `D+` and `D-` lines from the included comma four OBD-C cable to make it thinner and more flexible for easier installation, and to make the cable safer. [comma staff explained](https://discord.com/channels/469524606043160576/871838269405556736/1461885187687317644) that they had seen dead Pandas caused by bad cables shorting 12V onto the USB data lines. Those lines were only used for debugging and are not part of the [OBD-C standard](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf), so removing them also prevents that failure mode; see [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x). As a result, the cable can carry power and CAN data between the harness box and the comma four, but it cannot provide the USB data connection needed to flash the device from a computer with https://flash.comma.ai/.
+
+When tested with a simple USB-C cable tester, the missing `D+` and `D-` lines look like this:
+
+![comma four cable in usb tester, showing no D+ and D- lines](https://github.com/user-attachments/assets/440de012-f9e0-4ab7-bdee-f520ad45fc24)
+
+**Symptoms**:
+
+* The computer does not detect the comma four when using the included comma.ai OBD-C cable for flashing.
+* https://flash.comma.ai/ does not show or connect to the comma four.
+* The same cable still works normally between the harness box and the comma four in the vehicle.
+* A simple USB-C cable tester shows that `D+` and `D-` are not connected. This is expected for the included comma four OBD-C cable and does not by itself mean that the cable is defective.
+
+**Resolution**:
+
+* **If you experience any issue while flashing, first switch to [this USB 3.1 Gen 2 cable on Amazon](https://amzn.to/450U8xw), which is known to work and was recommended by Erich, a community moderator.** Using this specific, readily available cable removes one major variable from the flashing setup, even if your current cable appears to support data or has worked for something else.
+* Use a known-good USB 3.1 Gen 2 or better USB-C cable that supports data between the computer and the comma four. Do not use the included comma.ai OBD-C cable as the computer data cable when flashing.
+* Connect the comma four's top USB-C port to an adequate power source and its side USB-C port to the computer with the known-good data cable. See [The Press Any Key To Shutdown Case](#the-press-any-key-to-shutdown-case) for more flashing power guidance.
+* If the computer still cannot detect the device, remove hubs, docks, and adapters from the data path, then try another known-good data cable, browser, or computer.
+
+**Examples**:
+
+* [pfn0's C4](https://discord.com/channels/469524606043160576/954493346250887168/1532103466493673572)
+
+**References**:
+
+* [Erich's cable recommendation](https://discord.com/channels/469524606043160576/1436852432503046294/1534011423049383956)
 
 # See Also
 
