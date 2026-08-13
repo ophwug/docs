@@ -123,9 +123,10 @@ This document is generally discussed here and there in [#hw-three-3x](https://di
   * [⏱️ "for anyone worried about slipping out of warranty, you’re good if the ticket was opened before the return/warranty period." - adeeb, comma staff lead](https://www.reddit.com/r/Comma_ai/comments/1nhs5ho/comment/nedq5kl/?context=3)
   * If you select the option "happens while driving" (paraphrased) when submitting a support ticket, there will be a question about providing a "route" in order to proceed with the ticket. If you follow up to step 5 of this the quick usage guide for the op-replay-clipper tool (https://github.com/nelsonjchen/op-replay-clipper), you will end up with a URL. You may skip step 4 about uploading. You can provide that URL to comma support as the "route" they are requesting. Unfortunately, comma has not fixed a long standing issue about describing what a route is or how to get one, so that tool's instructions are the best available documentation for now.
     * If you don't see anything in comma connect or cannot generate a route, just select the negative about "happens while driving" and explain instead it actually does happen while driving.
-* If your C3X is out of warranty, the rough cost to repair from comma [is $500 for their C3X Out Of Warranty Repair service](https://comma.ai/shop/comma-3x-out-of-warranty-repair).
-  * Unfortunately there is no warranty for the repair.
-  * However, search rifkers in this doc under [The Blown Fuse Case](#the-blown-fuse-case) and apparently they were able to get an extended warranty from their Chase Sapphire Preferred card. YMMV.
+* comma.ai no longer offers repairs for out-of-warranty C3X devices because it has run out of parts for those repairs. ([Source](https://discord.com/channels/469524606043160576/871838269405556736/1537515014976700516))
+  * In-warranty C3X devices remain covered; [contact comma.ai support](https://comma.ai/support).
+  * For an out-of-warranty device, check [comma.ai support](https://comma.ai/support) for eligible trade-ins.
+  * If you purchased the device with a credit card that offers extended-warranty protection, check whether it may cover the failure. For example, search rifkers in this doc under [The Blown Fuse Case](#the-blown-fuse-case). YMMV.
 * [They do not repair the C3 anymore. They only offer a trade-in program for C3 to get a new device for $250 off.](https://comma.ai/shop/comma-3x-trade-in)
 * A lot of the information in this document is based on user experience and may not be accurate.
 * Mobile Repair, Video Game hardware repair shops, PCB electronics repair places, and other similar operations may be able to help with hardware repairs. Your mileage may vary and to be honest, these devices aren't common but with specific instructions, they might be amenable to helping you out.
@@ -532,7 +533,7 @@ Unfortunately, comma does not provide a way for installation to detect and block
 
 These can be very varied since by its nature, it's very undefined and this is incomplete.
 
-* You just got your device ["repaired" by comma.ai](https://comma.ai/shop/comma-3x-out-of-warranty-repair). They actually really just ship you a newly constructed device.
+* You just received a replacement device from comma.ai. It may be a newly constructed device with a newer OS.
 * Run a few minutes, and then the screen will freeze and then the device will reset.
   * e.g. Wi-Fi driver out of date
 * The screen is completely visible and a good brightness and other times the brightness is super dark and the screen is barely visible.
@@ -1017,7 +1018,7 @@ While [The Blown Fuse Case](#the-blown-fuse-case) is much more common, there are
 >
 > If you are not experienced with component repair, consider:
 > - Seeking help from a professional electronics repair service
-> - Using comma's out-of-warranty repair service
+> - Checking [comma support](https://comma.ai/support) for trade-in eligibility
 
 **Resolution**:
 
@@ -1646,6 +1647,7 @@ Your choices are limited and the software workaround is still a compromise, but 
 * [prabh123's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1399198229861634098)
   * [jyoung8607's log analysis](https://discord.com/channels/469524606043160576/871838269405556736/1398377902051164170)
     * "Took a look at your route. We do get an image from your ecamera, but only intermittently. **If and only if you can replicate this on current upstream openpilot** I would guess the actual image sensor is okay, but I suspect one of the four CSI data transfer lanes is dropping out. Your best option is probably comma's out-of-warranty flat rate repair service. There have been extremely large changes in camera support code recently, and this hypothesis is **not applicable** while running potentially outdated forks."
+    * This advice referred to comma's former flat-rate service, which is no longer available for out-of-warranty C3X devices.
   * Reseating the SOM didn't work.
   * Originally opted for and produced the hack to disable the wide camera on sunnypilot to resolve issue. Still works, but the StarPilot toggle above is now the cleaner version of the workaround.
     * "Yeah, I'm not gonna lie. It's the same on the highway. Right turns in roads are worse, but they were never any good anyway. We always use Pause Lateral on turns, so it's all good"
