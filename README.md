@@ -698,6 +698,7 @@ _Blown Fuse Case may be a bit of a misnomer as the fuse should be self-resetting
 * Device does not power on when connected
 * Device does not stay on
 * Device powers on but turns off/black screens when loading.
+* The failure may be intermittent: after sitting unplugged for a while (such as overnight), the device may boot, reboot, and work normally for a few minutes before the screen goes black again.
 * The self-resetting fuse's resistance is stuck high. (e.g. 0.3-43 ohms, when it should be about 0.02 ohms at most from the datasheet(s)). Note that 0.3 ohms is just a value seen in some problematic devices; technically, anything above 0.02 ohms is out of spec.
 * With a heat gun applied to the fuses, the resistance gets elevated to bad levels.
 * (V1 harness) relay box sounds like a maraca when shaken on failed boot.
