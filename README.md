@@ -57,6 +57,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The Not Fully Inserted OBD-C Cable Into Harness Box Case](#the-not-fully-inserted-obd-c-cable-into-harness-box-case)
     - [The Bad OBD-C Port Case](#the-bad-obd-c-port-case)
     - [The Bad Car Harness Case](#the-bad-car-harness-case)
+    - [The Bad comma Power Case](#the-bad-comma-power-case)
     - [The Bad IR Blaster Case](#the-bad-ir-blaster-case)
     - [The Running Too Old Of An OS Case](#the-running-too-old-of-an-os-case)
     - [The Press Any Key To Shutdown Case](#the-press-any-key-to-shutdown-case)
@@ -496,6 +497,56 @@ Hopefully that _is_ the issue and it is resolved.
   - The failed 1k ohm resistor was replaced with a 2.2k ohm resistor to prevent future failures. This resolved the issue.
   - It is suspected that voltage spikes on the IGN line may have caused the resistor to fail, possibly due to prior front-end damage and repair on the vehicle.
   - The harness box is secured by a single screw hidden under the adhesive.
+
+### The Bad comma Power Case
+
+[comma power](https://github.com/commaai/hardware/blob/master/harness/README.md#comma-power) connects the harness to the vehicle's OBD-II port. It supplies power and OBD CAN connectivity. A working comma power allows the comma device to remain powered while the car is off; without it, the device may only receive power while the car is on.
+
+This is separate from [The Blown Fuse Case](#the-blown-fuse-case), which covers a fuse inside the comma device itself. In this case, the failure is in the comma power assembly between OBD-II pin 16 and the red power wire, possibly including a fuse inside the OBD-II connector.
+
+**Symptoms**:
+
+* The comma device loses power immediately when the car is turned off, but works while the car is on.
+* The device does not power from the car at all, but works from a suitable USB power source.
+* Swapping in a known-good comma device does not fix the problem; the failure follows the car, harness, or comma power.
+* The vehicle's OBD-II port and fuses test good.
+* Resistance between OBD-II pin 16 and the comma power's red wire is more than a few ohms. A failed example measured about `109 Ω`.
+
+**Diagnosis**:
+
+> [!WARNING]
+> Disconnect comma power from the vehicle and all other hardware before measuring resistance. Never use a multimeter's resistance or continuity mode on a powered circuit.
+
+1. Rule out the vehicle's fuse and verify that OBD-II pin 16 supplies power.
+2. Disconnect comma power from the vehicle and harness.
+3. Measure and note the multimeter's lead resistance by touching the probes together.
+4. Measure the resistance between OBD-II pin 16 and the red wire at the other end of comma power.
+5. A good power path should measure close to the lead resistance. More than a few ohms indicates a bad cable, connection, or internal fuse. In amiman99's failed example, the meter showed `108.9 Ω`.
+
+<img width="800" height="450" alt="Multimeter showing 108.9 ohms between OBD-II pin 16 and the red comma power wire" src="images/bad-comma-power.webp" />
+
+[Image is courtesy of amiman99 on Discord.](https://discord.com/channels/469524606043160576/871838269405556736/1538766608489779292)
+
+**Resolution**:
+
+* The simplest and safest fix is to replace [comma power](https://comma.ai/shop/comma-power).
+* On newer harness revisions, the cable is integrated into comma power, so replacement may require rerouting the cable.
+* An experienced automotive-electronics repairer may rebuild the assembly. amiman99 reused the original cable with a replacement OBD-II connector and an inline `3 A` ATM fuse and reported that it worked.
+  * This is a community repair, not an official comma.ai procedure. Do not bypass the fuse or substitute a higher-current fuse based on this single example.
+* If comma power tests good, continue with [The Bad Car Harness Case](#the-bad-car-harness-case) and [The Bad OBD-C Cable Case](#the-bad-obd-c-cable-case).
+
+**Examples**:
+
+* [DorkSaber's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1538604649576140932)
+  * Lost power immediately when the car was shut off.
+  * The problem followed the car after swapping comma devices, and the vehicle's OBD-II port tested good.
+* [amiman99's comma power](https://discord.com/channels/469524606043160576/871838269405556736/1538623838747631776)
+  * Had two failed comma power assemblies.
+  * A Mazda that required comma power would not power the comma device, while the device worked from a USB charger.
+  * Recommended measuring between OBD-II pin 16 and the red wire; [one failed assembly measured about `109 Ω`](https://discord.com/channels/469524606043160576/871838269405556736/1538766608489779292).
+  * Reused the cable with a replacement OBD-II connector and an inline `3 A` ATM fuse and reported that it worked.
+* [Jai's comma power](https://discord.com/channels/469524606043160576/871838269405556736/1538634173122875462)
+  * A second comma power assembly failed in less than six months.
 
 ### The Bad IR Blaster Case
 
