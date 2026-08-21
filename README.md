@@ -150,6 +150,7 @@ On a long enough timeline, all devices will fail.
 
 * Have a way to remove the device from the car when not in use or in high heat.
   * Stock comma hardware is not designed to be removed often as it is meant to be a permanent installation. Removing the device may cause wear to the OBD-C (USB-like) cable in particular.
+  * If you need to remove an adhesive mount from the windshield, see [Removing the Mount Without Hating Yourself](https://community.sunnypilot.ai/t/removing-the-mount-without-hating-yourself/1363).
   * Use a magnetic or quick-remove mount if you want to remove the device often.
     * These will help preserve the integrity of the cables and connectors.
     * [Look to comma's #hw-unofficial channel for some suggestions.](https://discord.com/channels/469524606043160576/534139378772082749)
