@@ -548,6 +548,12 @@ This is separate from [The Blown Fuse Case](#the-blown-fuse-case), which covers 
   * Reused the cable with a replacement OBD-II connector and an inline `3 A` ATM fuse and reported that it worked.
 * [Jai's comma power](https://discord.com/channels/469524606043160576/871838269405556736/1538634173122875462)
   * A second comma power assembly failed in less than six months.
+* [KennyG's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1541645955978235975)
+  * Comma power had worked since installation, then stopped working even though the C3X itself still worked with an older C2 comma power. The OBD-C cable showed continuity on a multimeter.
+  * The connector-side fuse in the comma power assembly was found to be dead.
+  * KennyG removed the failed connector and rewired a replacement connector through an inline `3 A` automotive fuse holder, then reported that the system was back in business.
+  * When opening the connector, lift the plastic cover carefully with a screwdriver. A thin wire is soldered to the green pin, and the other wires are soldered to the board.
+  * A `3 A` fuse tap was suggested as another possible repair, but it was not tested in this case. Keep an appropriate fuse in the circuit; do not bypass it or install a higher-current fuse.
 
 ### The Bad IR Blaster Case
 
@@ -649,6 +655,7 @@ On comma three family devices, a similar `press any key to shutdown` symptom can
 
 * Make sure the device has enough power during the entire flash and reboot process.
   * On a comma four, plug the top USB-C port into a wall charger or other sufficient USB-C power source, and plug the side USB-C port into the computer for data.
+  * The car can also provide the required 12V: plug the top port into the installed car harness with the OBD-C cable, and connect the side port to the computer for data. Make sure the car continues supplying power throughout the flash and reboot process.
   * In the reported C4 cases, using a higher-wattage USB-C charger for the top port fixed the issue after reflashing. 30W worked in at least one reported case, so use a known-good 30W or higher USB-C charger if you have one.
   * If you need to rule out USB charger or power-source weirdness, this [12V USB-C power adapter](https://amzn.to/4f1rbGc) may be useful for this specific comma recovery/testing use case.
     * ⚠️ This is **not** a USB-PD adapter. It outputs 12V without negotiation, unlike a normal USB-PD charger, and is not useful as a normal USB-C charger. It can damage or destroy other USB-C devices, so do not plug it into phones, tablets, laptops, or anything else that is not specifically meant to accept 12V over USB-C.
