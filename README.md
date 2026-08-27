@@ -840,6 +840,10 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
     * $30 diagnostic fee + shipping, if unsure if fuse is blown
   * * Contact via Direct message link on Discord (Preferred): https://discord.com/channels/@me/1412275471479209984
   * Contact via Discord DM: `awuf`
+* Martin (`martinbogo`) — secondary option to Drago
+  * Service area: US
+  * Contact via Discord DM: `martinbogo`
+  * [Repair-service discussion](https://discord.com/channels/469524606043160576/871838269405556736/1458545474842923009)
 * Mr. One
   * Service area: Mainland China, Taiwan, and Korea only.
   * Service:
