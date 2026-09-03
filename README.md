@@ -66,6 +66,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [The Build Error On Boot Case](#the-build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
+    - [The Fastboot-Only Flashing Case](#the-fastboot-only-flashing-case)
     - [The Blown Fuse Case](#the-blown-fuse-case)
     - [The Bad Supercapacitor Case](#the-bad-supercapacitor-case)
     - [The Screen Doesn't Work or is Dying Case](#the-screen-doesnt-work-or-is-dying-case)
@@ -744,6 +745,46 @@ https://flash.comma.ai may not work sometimes. In that case, try using this Wind
 https://mr-one.cn/?post=24
 
 Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
+
+### The Fastboot-Only Flashing Case
+
+This is a last-resort recovery path for a comma three or comma threex that can enter **fastboot**, but cannot enter **EDL** and therefore cannot use the current https://flash.comma.ai/ flasher. It is not a general alternative to the official flasher and does not apply to the comma four.
+
+Older C3/C3X recovery flows and older versions of https://flash.comma.ai/ used fastboot. The current official flasher uses EDL instead. These are different recovery modes: a device being visible in fastboot does not mean that an EDL-based flasher can communicate with it.
+
+**Symptoms**:
+
+* The C3/C3X visibly displays the fastboot screen.
+* A connected computer detects an Android or fastboot USB device.
+* The device does not boot openpilot and may remain stuck at the comma logo.
+* Attempts to enter EDL or flash with https://flash.comma.ai/ do not work.
+
+**Resolution**:
+
+> [!CAUTION]
+> The flasher below is an unofficial, community-maintained restoration of an old fastboot flasher. Use it only when a C3/C3X is actually in fastboot, cannot be placed in EDL, and the current official flasher cannot recover it. The process erases userdata and installs the historical AGNOS 11.4 release.
+
+1. Try the current official https://flash.comma.ai/ recovery process first. See the [official C3/C3X flashing addendum](https://github.com/commaai/openpilot/wiki/Addendums-to-C3-C3X-Flashing) for additional troubleshooting.
+2. Use an up-to-date version of Chrome or Edge on a computer. The restored flasher requires WebUSB and will not work in browsers such as Safari or Firefox.
+3. Use stable power and a known-good USB data cable. For the historical fastboot connection sequence:
+   1. Unplug both cables from the comma device.
+   2. Wait until the rear light is completely off.
+   3. Connect power to port 1.
+   4. Connect port 2 to the computer with the data cable after port 1 is powered.
+4. Open https://comma-fastboot-flash.mindflakes.com/, press the green button, and select the Android/fastboot device when the browser asks which USB device to connect.
+5. Leave the device, computer, browser, network connection, power, and USB cables undisturbed while the images are downloaded, unpacked, flashed, and userdata is erased. **Do not disconnect the device until the flasher reports that it is done.**
+6. Follow the instructions shown by the device after it reboots. Install stock comma openpilot first to verify the recovery before attempting to install another fork.
+
+The restored flasher is preserved in the [legacy fastboot flasher source branch](https://github.com/nelsonjchen/comma-flash/tree/codex/legacy-fastboot-flasher). The exact AGNOS 11.4 image archives and their checksums are also preserved in a [GitHub release](https://github.com/nelsonjchen/comma-flash/releases/tag/legacy-fastboot-agnos-11.4). The hosted flasher currently reads the immutable historical manifest and its original image URLs; the GitHub release is a preservation copy rather than the hosted flasher's active download source.
+
+**Examples**:
+
+* [Chris/spacesuitdiver's C3X](https://discord.com/channels/469524606043160576/871838269405556736/1544874909745029281) ✅
+  * Became stuck after an attempted transition from FrogPilot to sunnypilot and would hang at the comma logo instead of booting openpilot.
+  * The device still entered fastboot and appeared to the computer as an Android USB device, but it could not be placed in EDL and could not use the current official flasher.
+  * An initial restoration of the old fastboot flasher failed because it was reading a modern, incompatible AGNOS manifest. The flasher was then pinned to the contemporary AGNOS 11.4 manifest and images.
+  * The pinned historical fastboot flash completed successfully, and Chris confirmed that the C3X worked afterward.
+  * It remains unknown why this device could not enter EDL. The fork transition happened immediately before the failure, but there is not enough evidence to identify it as the cause.
 
 ### The Blown Fuse Case
 
