@@ -1095,6 +1095,9 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
   * Melted the fuse during a DIY desoldering attempt, then took the opened device and a replacement fuse to a phone repair shop.
   * The technician completed the replacement in about 10 minutes and charged $40. The repaired device works again.
   * Bought 14 replacement fuses online for about $20 shipped and spent about another $30 replacing the thermal paste.
+* [Jeff (jeff9399)'s C3 ❌](https://discord.com/channels/469524606043160576/871838269405556736/1546282199874146474)
+  * Replaced the fuse, but plugging the C3 into the car immediately produced smoke; he disconnected it right away.
+  * Later considered a Labor Day trade-in deal, but reported that the discount had changed from the original $250 to $150 and decided to wait.
 
 ### The Bad Supercapacitor Case
 
