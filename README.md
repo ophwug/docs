@@ -834,7 +834,7 @@ C3X:
 
 [Image is courtesy of zum114 on Discord.](https://discord.com/channels/469524606043160576/871838269405556736/1426460252383215658)
 
-Known variants of the fuse to exist:
+Known variants of the fuse (all three are interchangeable replacements for this fuse on the C3 and C3X):
 
 * [S12: MF-NSML350/12](https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12)
 * [V12: MF-NSML380/12](https://bourns.com/docs/product-datasheets/mf-nsml-x.pdf?sfvrsn=31b87ef6_12)
@@ -896,6 +896,8 @@ To fix this issue, you will need to replace the blown self-resetting fuse with a
 **DIY Repair**:
 
 If you're comfortable with soldering, you can replace the fuse yourself.
+
+**Which fuse should I buy?** Any of the three listed options (S12, V12, or CT) can replace the original fuse on a C3 or C3X. The listed 3.5A and 3.8A variants are interchangeable for this repair; you do not need to match the marking or current rating of the original. Pick whichever listed option is cheapest or easiest to get.
 
 Look for replacement fuses at trustworthy electronic vendors such as Mouser, Digi-Key, or Newark. Buy a bunch of them as shipping is the real cost.
 
