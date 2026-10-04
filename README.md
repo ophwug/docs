@@ -66,6 +66,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
   - [Common to all comma three family devices](#common-to-all-comma-three-family-devices)
     - [The Build Error On Boot Case](#the-build-error-on-boot-case)
     - [The OS is Messed Up Case](#the-os-is-messed-up-case)
+    - [The Can't Enter EDL Case](#the-cant-enter-edl-case)
     - [The Fastboot-Only Flashing Case](#the-fastboot-only-flashing-case)
     - [The Blown Fuse Case](#the-blown-fuse-case)
     - [The Bad Supercapacitor Case](#the-bad-supercapacitor-case)
@@ -740,11 +741,56 @@ This can happen on comma's branches or forks. Try resetting by tapping the scree
 
 Reflash with https://flash.comma.ai/.
 
+If your C3X will not enter EDL, see [The Can't Enter EDL Case](#the-cant-enter-edl-case).
+
 https://flash.comma.ai may not work sometimes. In that case, try using this Windows-specific and Qualcomm software alternative from Mr. One, a C3 clone maker:
 
 https://mr-one.cn/?post=24
 
 Archive: https://web.archive.org/web/20250520040523/https://mr-one.cn/?post=24
+
+### The Can't Enter EDL Case
+
+A comma threex may boot normally, or show `failed to boot`, instead of entering Qualcomm Emergency Download Mode (EDL) for flashing. A button-equipped Qualcomm 9008 / EDL / deep-flash cable has helped a C3X enter EDL when ordinary USB data cables did not.
+
+> [!NOTE]
+> These recovery instructions are for C3X and do not apply to C4. C4 users should first ensure they are using a USB data cable for the computer connection, rather than comma's included OBD-C cable; see [The Can't Flash With comma's Cable Case (C4)](#the-cant-flash-with-commas-cable-case-c4) and try the known-good cable recommended there. [Teal suggested that a Qualcomm EDL cable might also work on C4](https://discord.com/channels/469524606043160576/524592892627517450/1552772794356600835), but this remains unconfirmed in the reports linked here.
+
+**Symptoms**:
+
+* The browser's USB device chooser shows `No compatible devices found`.
+* Connecting data and power makes the device boot instead of entering EDL.
+* The issue persists after following the flashing instructions with known-good data cables and adequate power.
+* The device may show `failed to boot` or `press any key to reboot`.
+
+**Resolution**:
+
+First try the instructions at [flash.comma.ai](https://flash.comma.ai/). If a C3X still cannot enter EDL, a button-equipped Qualcomm EDL cable may help. Teal recommended [this cable (affiliate link)](https://link.amazon/B0i953sAc), which Gilbert subsequently used successfully.
+
+Use the EDL cable for the computer connection, with a separate power supply connected to the device's upper USB-C port.
+
+> [!CAUTION]
+> Reflashing erases installed software and userdata.
+
+The following sequence was tested by Gilbert on a C3X using Chrome, an Intel Mac with a USB-A port, a separate 12V 2A power adapter, and the [community EDL flasher](https://comma-flash.mindflakes.com/):
+
+1. Unplug both cables from the comma and wait until the blue light on its back stops blinking.
+2. Connect the EDL cable's USB-A end to the computer. Open the community flasher, select C3X, and advance to the USB device chooser while leaving the comma disconnected.
+3. Hold the cable's button, connect its USB-C end to the comma's lower USB-C port, and continue holding the button for 10 seconds.
+4. While still holding the button, connect power to the upper USB-C port. **Release the button 2 seconds after connecting power, and leave it released while selecting the device and flashing.**
+5. The comma's screen should remain black, and a device named `QUSB_BULK...` should appear in the chooser. Select it and click Connect. If the comma boots instead, unplug both cables, wait for the blue light to stop blinking, and repeat.
+6. Leave data and power connected until the flasher reports success. [Gilbert's flash](https://discord.com/channels/469524606043160576/524592892627517450/1555491236868001812) took approximately 20 minutes. After completion, disconnect the EDL cable and finish the initial setup.
+
+**Examples**:
+
+* [Teal (C3X)](https://discord.com/channels/469524606043160576/871838269405556736/1549656917545066597): Recovered EDL access using a manually modified cable, custom Panda firmware, and manual recovery. His original recovery did not test the subsequently recommended commercial cable. His EDL-entry problem may have stemmed from USB port damage: [he suspected damaged data pins](https://discord.com/channels/469524606043160576/871838269405556736/1549657134709350411) and reported that USB 3 no longer worked while USB 2 still did. The underlying cause was not confirmed.
+* [Gilbert (C3X)](https://discord.com/channels/469524606043160576/524592892627517450/1555491236868001812) ✅: Successfully flashed with the linked commercial cable. Following Nelson's questions and request to retest, Gilbert confirmed the button timing above on October 2, 2026.
+
+**References**:
+
+* [Teal's commercial cable recommendation](https://discord.com/channels/469524606043160576/871838269405556736/1549658078096531476).
+* [Nelson's recommendation in installation-help](https://discord.com/channels/469524606043160576/524592892627517450/1552768604586377330).
+* [Nelson's follow-up, cc'ing Teal](https://discord.com/channels/469524606043160576/524592892627517450/1555331819640193085).
 
 ### The Fastboot-Only Flashing Case
 
@@ -764,7 +810,7 @@ Older C3/C3X recovery flows and older versions of https://flash.comma.ai/ used f
 > [!CAUTION]
 > The flasher below is an unofficial, community-maintained restoration of an old fastboot flasher. Use it only when a C3/C3X is actually in fastboot, cannot be placed in EDL, and the current official flasher cannot recover it. The process erases userdata and installs the historical AGNOS 11.4 release.
 
-1. Try the current official https://flash.comma.ai/ recovery process first. See the [official C3/C3X flashing addendum](https://github.com/commaai/openpilot/wiki/Addendums-to-C3-C3X-Flashing) for additional troubleshooting.
+1. Try the current official https://flash.comma.ai/ recovery process first. See the [official C3/C3X flashing addendum](https://github.com/commaai/openpilot/wiki/Addendums-to-C3-C3X-Flashing) for additional troubleshooting. For a C3X that will not enter EDL, also try [The Can't Enter EDL Case](#the-cant-enter-edl-case) before using this legacy fastboot flasher.
 2. Use an up-to-date version of Chrome or Edge on a computer. The restored flasher requires WebUSB and will not work in browsers such as Safari or Firefox.
 3. Use stable power and a known-good USB data cable. For the historical fastboot connection sequence:
    1. Unplug both cables from the comma device.
