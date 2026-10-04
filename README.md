@@ -1152,6 +1152,14 @@ Look for replacement fuses at trustworthy electronic vendors such as Mouser, Dig
 * [Jeff (jeff9399)'s C3 ❌](https://discord.com/channels/469524606043160576/871838269405556736/1546282199874146474)
   * Replaced the fuse, but plugging the C3 into the car immediately produced smoke; he disconnected it right away.
   * Later considered a Labor Day trade-in deal, but reported that the discount had changed from the original $250 to $150 and decided to wait.
+* [whoisdomi ('23 Ioniq 6 SEL)'s 2023 C3X ✅](repairs/whoisdomi-c3x-fuse-repair.md)
+  * Shared this photographed repair walkthrough via Discord DM on September 24, 2026. The linked Markdown version preserves all seven photos from his original PDF.
+  * After being left on the windshield during a reported `104°F` day, the device shut down shortly after driving resumed. It later failed to boot, sometimes briefly showing the comma logo or flashing blue/red rear LEDs.
+  * Measured `3.2–4.6 Ω` across the original fuse and ordered the already-listed Bourns `MF-NSML350-12-2` replacement.
+  * His C3X teardown used four Phillips case screws and four Phillips heatsink screws, disconnecting the fan and carefully peeling back foil tape at three locations. The walkthrough illustrates these points and the thermal paste and putty.
+  * Could not remove the fuse with a soldering iron, so a local phone repair shop replaced it the same day for $20. An amplifier shop had quoted $10 but lacked a microscope.
+  * Suggests sending prospective repair shops a close-up of the fuse with a size reference before visiting.
+  * Measured `0.2 Ω` after replacement. These are his reported meter readings; probe-resistance compensation was not documented. Follow the measurement guidance above.
 
 ### The Bad Supercapacitor Case
 
