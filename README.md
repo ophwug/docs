@@ -91,6 +91,7 @@ Be aware Amazon links are Amazon Affiliate links. If you buy something through t
     - [The No Panda on C3X Case (Hardware)](#the-no-panda-on-c3x-case-hardware)
     - [The Fried Panda Case (C3X)](#the-fried-panda-case-c3x)
     - [The Wide Camera Malfunction Case (C3X)](#the-wide-camera-malfunction-case-c3x)
+    - [The Driver Monitoring Camera Malfunction Case (C3X)](#the-driver-monitoring-camera-malfunction-case-c3x)
     - [The Bad Step Down DC/DC Regulator Case](#the-bad-step-down-dcdc-regulator-case)
     - [The Bad Power IC (MP1701) Case](#the-bad-power-ic-mp1701-case)
   - [comma four (C4)](#comma-four-c4)
@@ -114,6 +115,8 @@ You must join the server with an invite linked for links to channels to work.
   * [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736)
   * [#chestnut](https://discord.com/channels/469524606043160576/1185723603191337001)
 * [openpilot enthusiasts Discord (OPC), a degenerate community offshoot Discord](https://discord.gg/rRB7eDKccy)
+* [StarPilot Discord](https://firestar.link/discord)
+  * [#view-feedback-and-reports](https://discord.com/channels/1387432184121393333/1492670876146204722)
 
 This document is generally discussed here and there in [#hw-three-3x](https://discord.com/channels/469524606043160576/871838269405556736). However, you're welcome to just make issues and discuss in the [GitHub issues](https://github.com/ophwug/docs/issues) of this repository too.
 
@@ -1630,7 +1633,7 @@ Replace the malfunctioning camera with a new one. Make sure it matches the other
 
 Some vendors sell replacement cameras for the C3. Make sure to get the right type of camera for your C3. They may only have one type of camera available, so you may need to replace all cameras with the same type.
 
-Note: This is not possible or very hard to do on a C3X as the cameras are soldered onto the main board. Hence, why this case is only in the C3 section.
+Note: Replacing the road cameras on a C3X is much harder because they are soldered onto the main board. The C3X driver-monitoring camera is on a removable board with a ribbon connection; see [The Driver Monitoring Camera Malfunction Case (C3X)](#the-driver-monitoring-camera-malfunction-case-c3x).
 
 **Examples**:
 
@@ -1676,7 +1679,7 @@ https://blog.comma.ai/comma3X/
 
 The comma 3X is comma's first major hardware revision of the comma three. It has gone through a major cost reduction and is now cheaper to manufacture.
 
-* Cameras are no longer on separate boards but are now soldered onto the main board.
+* Road cameras are no longer on separate boards but are now soldered onto the main board. The driver-monitoring camera is on a removable board with a ribbon connection; see [The Driver Monitoring Camera Malfunction Case (C3X)](#the-driver-monitoring-camera-malfunction-case-c3x).
 * The NVMe SSD has been removed in favor of 128GB of onboard eMMC storage.
 * Speakers have been overhauled to be two speakers.
 * It is significantly lighter.
@@ -1791,7 +1794,7 @@ On some C3X units, an internal debug connector configuration made the Panda chip
 
 **Resolution**:
 
-Unlike the [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3), this is a very hard to fix issue on the C3X as the cameras are soldered onto the main board.
+Unlike the [The Camera Malfunction Case (C3)](#the-camera-malfunction-case-c3), this is a very hard to fix issue on the C3X as the wide road camera is soldered onto the main board.
 
 Your choices are limited and the software workaround is still a compromise, but it is much less clunky than the old hand-applied hack.
 
@@ -1811,6 +1814,37 @@ Your choices are limited and the software workaround is still a compromise, but 
   * Reseating the SOM didn't work.
   * Originally opted for and produced the hack to disable the wide camera on sunnypilot to resolve issue. Still works, but the StarPilot toggle above is now the cleaner version of the workaround.
     * "Yeah, I'm not gonna lie. It's the same on the highway. Right turns in roads are worse, but they were never any good anyway. We always use Pause Lateral on turns, so it's all good"
+
+### The Driver Monitoring Camera Malfunction Case (C3X)
+
+The C3X driver-monitoring (DM) camera is on a removable board with a ribbon connection, as shown in [Pizzapilot's photo and report (StarPilot Discord)](https://discord.com/channels/1387432184121393333/1552722035216748598/1553085836357279806).
+
+**Symptoms**:
+
+* Driver-camera preview is unavailable or intermittent. The preview button may be greyed out, or it may show "camera starting" without producing an image.
+* Cleaning the connection or board may appear to help, but the camera can fail again shortly afterward.
+
+**Diagnosis**:
+
+* Follow the software troubleshooting in [General Notes](#general-notes), starting with current stock openpilot where supported. If the fork offers a raw driver-camera view, compare it with the normal driver preview. Working raw output only confirms that frames were produced at that moment.
+* Power off and disconnect the device before opening it. Take reference photos and inspect the DM ribbon connection and board for residue or visible damage. An experienced owner or repairer may reseat the connection and clean accessible contacts with appropriate electronic-contact cleaner. Allow complete drying before reconnecting power.
+* Reassemble and test while parked with normal in-car power. Record how long the camera works, whether failure returns, and any differences from wall-power operation. Those differences alone do not establish a vehicle-power fault.
+
+**Resolution**:
+
+No lasting repair or root cause was confirmed in the report below. Cleaning briefly restored driver preview, but the failure returned. Treat cleaning and reseating as diagnostic attempts; if failure recurs, further diagnosis is needed.
+
+**Examples**:
+
+* [Pizzapilot ('18 Volt ACC)'s C3X — StarPilot Discord](https://discord.com/channels/1387432184121393333/1552722035216748598) ❌ **Unresolved as of September 30, 2026.**
+  * September 24: [Driver preview was mostly greyed out; when available, it stayed at "camera starting" without starting.](https://discord.com/channels/1387432184121393333/1552722035216748598/1552865194441449514)
+  * September 25: [Completed a full AGNOS reflash](https://discord.com/channels/1387432184121393333/1552722035216748598/1553026433088225401), but [the driver camera still failed, including on wall power at home](https://discord.com/channels/1387432184121393333/1552722035216748598/1553029625909612627).
+  * [Confirmed the camera board was removable and photographed the connector](https://discord.com/channels/1387432184121393333/1552722035216748598/1553085836357279806), then [cleaned it with alcohol and waited for it to dry](https://discord.com/channels/1387432184121393333/1552722035216748598/1553086007237287937). The alcohol concentration was not specified.
+  * [Reported residue on the board and continued driver-preview failure](https://discord.com/channels/1387432184121393333/1552722035216748598/1553093918793408653), although [the raw driver-camera feed worked when selected as StarPilot's onroad camera view](https://discord.com/channels/1387432184121393333/1552722035216748598/1553096064104403111).
+  * [Cleaned more board residue](https://discord.com/channels/1387432184121393333/1552722035216748598/1553096235584594013), after which [normal driver preview also started working](https://discord.com/channels/1387432184121393333/1552722035216748598/1553097235200344076).
+  * [The camera worked for about five seconds in the car, then failed before leaving Park](https://discord.com/channels/1387432184121393333/1552722035216748598/1553102225386115075). In contrast, [it had worked for about ten minutes on wall power at home](https://discord.com/channels/1387432184121393333/1552722035216748598/1553102470698508390).
+  * [Nik summarized that cleaning seemed to help but intermittent failure remained](https://discord.com/channels/1387432184121393333/1552722035216748598/1553117054314352793).
+  * September 30: [Still seeking a replacement camera; the owner reported that comma support declined to provide replacement parts.](https://discord.com/channels/1387432184121393333/1552722035216748598/1554843997980065904) No successful replacement or lasting repair was reported in this follow-up.
 
 ### The Bad Step Down DC/DC Regulator Case
 
