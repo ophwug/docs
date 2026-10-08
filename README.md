@@ -414,6 +414,9 @@ Sometimes the OBD-C cable itself is fine, but it is simply not fully seated into
 * [janxman.'s C4](https://discord.com/channels/469524606043160576/524592892627517450/1496206614313697380)
   * Confirmed the fix was pushing the cord into the harness all the way with a little more force.
   * Once fully seated, the device started showing the calibration percentage.
+* [creikey's C4 ✅](https://discord.com/channels/469524606043160576/524592892627517450/1557845140998062091)
+  * Upgrading from a C3X in a 2020 Corolla, the new comma four cable felt loose and would not stay securely seated in the harness.
+  * Pushing the cable fully into the harness resolved the issue; creikey confirmed that it worked.
 
 ### The Bad OBD-C Port Case
 
